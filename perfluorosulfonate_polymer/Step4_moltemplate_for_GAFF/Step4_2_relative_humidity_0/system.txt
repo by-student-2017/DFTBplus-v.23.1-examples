@@ -1,0 +1,10 @@
+import "polymer.lt"  # <- defines the "Benzene" molecule type.
+
+# Periodic boundary cond0itions:
+#write_once("Data Boundary") {
+#   0.0  99.88  xlo xhi
+#   0.0  93.86  ylo yhi
+#   0.0  95.31  zlo zhi
+#} # see polymer-6.pdb
+
+polymer  = new polymer [6]

@@ -1,0 +1,11 @@
+    # Optional: Constrain the angles and distances.
+    #           (Most implementations use this, but it is optional.)
+    # First, define a group for the tip3p water molecules:
+    group tip3p type  @/atom:TIP3P_2004/O  @/atom:TIP3P_2004/H
+
+    # Then use "fix rattle" (See https://lammps.sandia.gov/doc/fix_shake.html)
+    fix fRattleTIP3P tip3p rattle 0.0001 10 100 b @/bond:TIP3P_2004/OH a @/angle:TIP3P_2004/HOH
+
+    # Remember to put this command in your LAMMPS input script:
+    #  include system.in.constraints
+    # ...AFTER minimization and after all integration fixes.

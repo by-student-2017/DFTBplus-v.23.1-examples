@@ -1,0 +1,10 @@
+------------------------------------------------------------------------------------------------------------------
+Usage (convert *.mol to *.pdb) (e.g., convert polymer.mol to polymer.pdb)
+
+1. antechamber -fi mdl -i polymer.mol -fo pdb -o polymer.pdb -dr no
+2. antechamber -fi mdl -i polymer.mol -fo mol2 -o polymer.mol2 -at gaff -c gas -rn polymer -dr no
+------------------------------------------------------------------------------------------------------------------
+Help
+
+1. antechamber -h
+------------------------------------------------------------------------------------------------------------------

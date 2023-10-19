@@ -1,0 +1,20 @@
+------------------------------------------------------------------------------------------------------------------
+python3 version
+1. cd /mnt/d
+2. wget http://moltemplate.org/downloads/moltemplate_2023-2-06.tar.gz
+3. tar zxvf moltemplate_2023-2-06.tar.gz
+4. cd moltemplate_2023-2-06
+5. sudo python3 setup.py install
+------------------------------------------------------------------------------------------------------------------
+Note
+1. cd /mnt/d/moltemplate_2023-2-06/moltemplate/force_fields
+2. ls
+(you can see gaff.lt, gaff2.lt, or tip3p_2004_hybrid.lt, etc.)
+------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------
+moltemplate (old version)
+1. cd ~
+2. wget https://github.com/makoto-yoneya/makoto-yoneya.github.io/raw/master/LAMMPS-organics/install_moltemplate.sh
+3. sh install_moltemplate.sh
+------------------------------------------------------------------------------------------------------------------

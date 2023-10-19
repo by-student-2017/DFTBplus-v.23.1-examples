@@ -1,0 +1,16 @@
+tolerance 2.0
+add_box_sides 2.0
+
+filetype pdb
+
+structure polymer.pdb
+  number 6
+  inside box 0. 0. 0. 100.0 100.0 100.0
+end structure
+
+structure water.pdb
+  number 336
+  inside box 0. 0. 0. 100.0 100.0 100.0
+end structure
+
+output polymer-6_water-336.pdb

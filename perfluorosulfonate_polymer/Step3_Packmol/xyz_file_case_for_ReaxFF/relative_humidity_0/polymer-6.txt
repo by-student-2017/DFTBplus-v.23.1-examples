@@ -1,0 +1,10 @@
+tolerance 2.0
+add_box_sides 2.0
+
+filetype xyz
+structure polymer.xyz
+  number 6
+  inside box 0. 0. 0. 100.0 100.0 100.0
+end structure
+
+output polymer-6.xyz

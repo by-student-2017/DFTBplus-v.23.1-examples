@@ -1,0 +1,17 @@
+----------------------------------------------------------------------------------------------
+Usage (from python3 version)
+
+----------
+Note: rewrite polymer.lt and system.txt same as
+  moltemplate_2023-2-06/examples/all_atom/force_field_AMBER/benzene/moltemplate_files
+Please, use polymer.lt in this file.
+----------
+
+/mnt/d/moltemplate_2023-2-06/moltemplate/scripts/moltemplate.sh -atomstyle full -pdb polymer-6_water-336.pdb system.txt
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+Usage (old version)
+
+moltemplate.sh -atomstyle full -pdb polymer-6_water-6.pdb system.txt
+----------------------------------------------------------------------------------------------

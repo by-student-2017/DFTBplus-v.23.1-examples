@@ -1,0 +1,12 @@
+--------------------------------------------------------------------------------------------------------------
+Step 1. ChemSketch Freeware
+(https://www.acdlabs.com/resources/free-chemistry-software-apps/chemsketch-freeware/)
+1. (Edit molecular)
+2. ACD/Labs -> 3D Viewer -> 1-ChemSketch -> 2-Copy to 3D -> 4-3D Optimization -> 2-Copy to ChemSk (structure)
+3. File -> Export... -> MDL Molfiles (*.mol)
+--------------------------------------------------------------------------------------------------------------
+Step 2. VESTA case
+1. (drag &  drop *.mol)
+2. File -> Export Data... -> XYZ file (*.xyz)
+(e.g., polymer.xyz)
+--------------------------------------------------------------------------------------------------------------

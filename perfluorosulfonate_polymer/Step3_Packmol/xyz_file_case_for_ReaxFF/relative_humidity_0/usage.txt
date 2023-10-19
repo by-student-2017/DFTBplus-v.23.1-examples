@@ -1,0 +1,17 @@
+--------------------------------------------------------------------------------------------------------------
+Usage
+
+1. packmol < polymer-6.txt
+(you can get polymer-6.xyz file.)
+
+2. open polymer-6.xyz on Ovito
+  Column 1: Particle Type
+  Column 2: Postion X
+  Column 3: Postion Y
+  Column 4: Postion Z
+  > OK
+3. File -> Export File -> LAMMPS DATA File (*)
+4. Go to Step4_Lammps
+  You can now proceed to step 5. However, 
+  I recommend using the structure calculated with GAFF as an initial structure such as ReaxFF or DFTB+.
+--------------------------------------------------------------------------------------------------------------

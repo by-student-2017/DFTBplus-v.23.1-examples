@@ -1,0 +1,560 @@
+import "gaff.lt"
+
+# The "gaff.lt" file is usually located in the "force_fields"
+# subdirectory distributed with moltemplate.
+# Excerpt:
+#
+# @atom:ca    # Sp2 C in pure aromatic systems
+# @atom:ha    # H bonded to aromatic carbon
+#
+# WARNING: CHARGES ARE INCORRECT
+# For this example, I manually looked up the charge of each atom using the
+# OPLSAA parameters from the "oplsaa.prm" file distributed with TINKER:
+# http://dasher.wustl.edu/tinker/distribution/params/oplsaa.prm
+# DO NOT DO THIS!
+# Normally simulations in AMBER are assigned charges using the
+# "HF/6-31G* RESP2" or "AM1-BCC3" methods using AmberTools.
+# Using the OPLSAA charges instead will NOT reproduce the behavior of AMBER.
+# For more details how to calculate charges correctly, see:
+# https://github.com/jewettaij/moltemplate/blob/master/examples/all_atom/force_field_AMBER/README.md
+
+polymer inherits GAFF {
+
+  #  atomId molId atomType charge X Y Z
+  write("Data Atoms"){
+    $atom:C1 $mol:m @atom:c3 0.459642 1.186 -5.065 0.432
+    $atom:C2 $mol:m @atom:c3 0.409096 2.638 -4.726 0.566
+    $atom:F1 $mol:m @atom:f -0.164723 0.526 -4.655 1.51
+    $atom:F2 $mol:m @atom:f -0.164723 1.048 -6.38 0.304
+    $atom:F3 $mol:m @atom:f -0.164723 0.677 -4.462 -0.636
+    $atom:F4 $mol:m @atom:f -0.188955 2.763 -3.409 0.7
+    $atom:F5 $mol:m @atom:f -0.188955 3.131 -5.33 1.641
+    $atom:C3 $mol:m @atom:c3 0.387411 3.393 -5.174 -0.647
+    $atom:C4 $mol:m @atom:c3 0.384646 4.771 -4.569 -0.68
+    $atom:F6 $mol:m @atom:f -0.192108 3.488 -6.5 -0.642
+    $atom:F7 $mol:m @atom:f -0.192108 2.726 -4.786 -1.727
+    $atom:F8 $mol:m @atom:f -0.192251 4.796 -3.521 0.135
+    $atom:F9 $mol:m @atom:f -0.192251 5.031 -4.171 -1.921
+    $atom:C5 $mol:m @atom:c3 0.384511 5.834 -5.55 -0.261
+    $atom:C6 $mol:m @atom:c3 0.384508 7.185 -4.874 -0.211
+    $atom:F10 $mol:m @atom:f -0.192254 5.872 -6.545 -1.141
+    $atom:F11 $mol:m @atom:f -0.192254 5.54 -6.032 0.944
+    $atom:F12 $mol:m @atom:f -0.192254 7.306 -4.275 0.967
+    $atom:F13 $mol:m @atom:f -0.192254 7.243 -3.963 -1.177
+    $atom:C7 $mol:m @atom:c3 0.384508 8.325 -5.855 -0.396
+    $atom:C8 $mol:m @atom:c3 0.384508 9.636 -5.287 0.112
+    $atom:F14 $mol:m @atom:f -0.192254 8.052 -6.969 0.276
+    $atom:F15 $mol:m @atom:f -0.192254 8.441 -6.135 -1.691
+    $atom:F16 $mol:m @atom:f -0.192254 9.725 -4.021 -0.281
+    $atom:F17 $mol:m @atom:f -0.192254 9.618 -5.335 1.44
+    $atom:C9 $mol:m @atom:c3 0.384507 10.848 -6.051 -0.403
+    $atom:C10 $mol:m @atom:c3 0.384496 12.13 -5.595 0.271
+    $atom:F18 $mol:m @atom:f -0.192254 10.671 -7.348 -0.169
+    $atom:F19 $mol:m @atom:f -0.192254 10.957 -5.851 -1.712
+    $atom:F20 $mol:m @atom:f -0.192254 12.261 -4.29 0.061
+    $atom:F21 $mol:m @atom:f -0.192254 12.018 -5.819 1.577
+    $atom:C11 $mol:m @atom:c3 0.384184 13.376 -6.309 -0.249
+    $atom:C12 $mol:m @atom:c3 0.380123 14.653 -5.729 0.346
+    $atom:F22 $mol:m @atom:f -0.192267 13.301 -7.598 0.066
+    $atom:F23 $mol:m @atom:f -0.192267 13.435 -6.179 -1.571
+    $atom:F24 $mol:m @atom:f -0.192612 14.935 -4.602 -0.298
+    $atom:F25 $mol:m @atom:f -0.192612 14.425 -5.459 1.626
+    $atom:C13 $mol:m @atom:c3 0.354487 15.862 -6.671 0.267
+    $atom:C14 $mol:m @atom:c3 0.380123 17.114 -6.037 -0.375
+    $atom:O1 $mol:m @atom:os -0.266773 15.495 -7.82 -0.425
+    $atom:F26 $mol:m @atom:f -0.197588 16.173 -7.019 1.51
+    $atom:F27 $mol:m @atom:f -0.192612 16.963 -4.718 -0.364
+    $atom:F28 $mol:m @atom:f -0.192612 17.199 -6.457 -1.635
+    $atom:C15 $mol:m @atom:c3 0.384184 18.434 -6.371 0.354
+    $atom:C16 $mol:m @atom:c3 0.426964 15.52 -8.884 0.467
+    $atom:F29 $mol:m @atom:f -0.168587 14.719 -8.609 1.489
+    $atom:F30 $mol:m @atom:f -0.168587 16.76 -9.043 0.911
+    $atom:C17 $mol:m @atom:c3 0.401351 15.072 -10.166 -0.168
+    $atom:C18 $mol:m @atom:c3 0.457691 13.575 -10.248 -0.157
+    $atom:F31 $mol:m @atom:f -0.164877 13.129 -10.215 1.095
+    $atom:F32 $mol:m @atom:f -0.164877 13.072 -9.221 -0.835
+    $atom:F33 $mol:m @atom:f -0.164877 13.189 -11.386 -0.724
+    $atom:O2 $mol:m @atom:os -0.251081 15.666 -11.202 0.557
+    $atom:C19 $mol:m @atom:c3 0.551974 14.954 -12.388 0.742
+    $atom:F34 $mol:m @atom:f -0.157269 13.687 -12.097 1.022
+    $atom:F35 $mol:m @atom:f -0.157269 15.494 -13.055 1.756
+    $atom:C20 $mol:m @atom:c3 0.667787 15.007 -13.25 -0.477
+    $atom:F36 $mol:m @atom:f -0.085106 16.24 -13.236 -0.97
+    $atom:F37 $mol:m @atom:f -0.085106 14.16 -12.776 -1.387
+    $atom:S1 $mol:m @atom:s6 -0.00053 14.546 -14.906 -0.058
+    $atom:O3 $mol:m @atom:o -0.46492 15.467 -15.423 0.872
+    $atom:O4 $mol:m @atom:o -0.46492 13.263 -14.893 0.513
+    $atom:O5 $mol:m @atom:oh -0.051299 14.532 -15.849 -1.378
+    $atom:F38 $mol:m @atom:f -0.191296 15.498 -10.208 -1.425
+    $atom:C21 $mol:m @atom:c3 0.384496 19.718 -5.925 -0.392
+    $atom:F39 $mol:m @atom:f -0.192267 18.486 -7.685 0.549
+    $atom:F40 $mol:m @atom:f -0.192267 18.402 -5.755 1.532
+    $atom:F41 $mol:m @atom:f -0.192254 19.624 -4.623 -0.623
+    $atom:F42 $mol:m @atom:f -0.192254 19.775 -6.571 -1.553
+    $atom:C22 $mol:m @atom:c3 0.384507 21.027 -6.186 0.392
+    $atom:C23 $mol:m @atom:c3 0.384508 22.325 -5.762 -0.345
+    $atom:F43 $mol:m @atom:f -0.192254 21.097 -7.481 0.672
+    $atom:F44 $mol:m @atom:f -0.192254 20.957 -5.493 1.525
+    $atom:F45 $mol:m @atom:f -0.192254 22.301 -4.444 -0.483
+    $atom:F46 $mol:m @atom:f -0.192254 22.331 -6.324 -1.552
+    $atom:C24 $mol:m @atom:c3 0.384508 23.638 -6.153 0.389
+    $atom:C25 $mol:m @atom:c3 0.384508 24.944 -5.606 -0.253
+    $atom:F47 $mol:m @atom:f -0.192254 23.715 -7.477 0.434
+    $atom:F48 $mol:m @atom:f -0.192254 23.567 -5.672 1.626
+    $atom:F49 $mol:m @atom:f -0.192254 24.926 -4.283 -0.14
+    $atom:F50 $mol:m @atom:f -0.192254 24.95 -5.93 -1.545
+    $atom:C26 $mol:m @atom:c3 0.384508 26.267 -6.126 0.389
+    $atom:C27 $mol:m @atom:c3 0.384508 27.578 -5.553 -0.231
+    $atom:F51 $mol:m @atom:f -0.192254 26.247 -5.827 1.685
+    $atom:F52 $mol:m @atom:f -0.192254 26.3 -7.446 0.247
+    $atom:F53 $mol:m @atom:f -0.192254 27.677 -6.024 -1.467
+    $atom:F54 $mol:m @atom:f -0.192254 27.465 -4.229 -0.275
+    $atom:C28 $mol:m @atom:c3 0.384507 28.905 -5.895 0.525
+    $atom:C29 $mol:m @atom:c3 0.384496 30.095 -6.328 -0.383
+    $atom:F55 $mol:m @atom:f -0.192254 28.653 -6.881 1.383
+    $atom:F56 $mol:m @atom:f -0.192254 29.274 -4.813 1.203
+    $atom:F57 $mol:m @atom:f -0.192254 29.685 -6.138 -1.631
+    $atom:F58 $mol:m @atom:f -0.192254 30.305 -7.628 -0.198
+    $atom:C30 $mol:m @atom:c3 0.384184 31.461 -5.58 -0.238
+    $atom:C31 $mol:m @atom:c3 0.380123 32.56 -6.221 0.657
+    $atom:F59 $mol:m @atom:f -0.192267 31.967 -5.439 -1.456
+    $atom:F60 $mol:m @atom:f -0.192267 31.188 -4.379 0.261
+    $atom:F61 $mol:m @atom:f -0.192612 32.87 -5.337 1.594
+    $atom:F62 $mol:m @atom:f -0.192612 32.041 -7.3 1.233
+    $atom:C32 $mol:m @atom:c3 0.354487 33.895 -6.637 -0.052
+    $atom:C33 $mol:m @atom:c3 0.380123 35.2 -5.96 0.488
+    $atom:O6 $mol:m @atom:os -0.266773 34.034 -8.008 0.13
+    $atom:F63 $mol:m @atom:f -0.197588 33.782 -6.352 -1.344
+    $atom:F64 $mol:m @atom:f -0.192612 35.082 -4.649 0.32
+    $atom:F65 $mol:m @atom:f -0.192612 35.302 -6.232 1.783
+    $atom:C34 $mol:m @atom:c3 0.384184 36.53 -6.412 -0.21
+    $atom:C35 $mol:m @atom:c3 0.426964 34.154 -8.685 -1.073
+    $atom:F66 $mol:m @atom:f -0.168587 33.452 -8.052 -2.004
+    $atom:F67 $mol:m @atom:f -0.168587 35.43 -8.73 -1.435
+    $atom:C36 $mol:m @atom:c3 0.401351 33.636 -10.082 -0.912
+    $atom:C37 $mol:m @atom:c3 0.457691 32.223 -10.049 -0.421
+    $atom:F68 $mol:m @atom:f -0.164877 32.161 -9.435 0.755
+    $atom:F69 $mol:m @atom:f -0.164877 31.472 -9.397 -1.301
+    $atom:F70 $mol:m @atom:f -0.164877 31.77 -11.291 -0.289
+    $atom:O7 $mol:m @atom:os -0.251081 34.43 -10.781 -0.007
+    $atom:C38 $mol:m @atom:c3 0.551974 34.501 -12.117 -0.391
+    $atom:F71 $mol:m @atom:f -0.157269 33.705 -12.3 -1.435
+    $atom:F72 $mol:m @atom:f -0.157269 35.753 -12.415 -0.728
+    $atom:C39 $mol:m @atom:c3 0.667787 34.072 -13.014 0.725
+    $atom:F73 $mol:m @atom:f -0.085106 34.861 -12.818 1.778
+    $atom:F74 $mol:m @atom:f -0.085106 32.816 -12.728 1.057
+    $atom:S2 $mol:m @atom:s6 -0.00053 34.163 -14.704 0.22
+    $atom:O8 $mol:m @atom:o -0.46492 35.487 -15.03 -0.112
+    $atom:O9 $mol:m @atom:o -0.46492 33.733 -15.524 1.285
+    $atom:O10 $mol:m @atom:oh -0.051299 33.207 -14.967 -1.062
+    $atom:F75 $mol:m @atom:f -0.191296 33.677 -10.699 -2.092
+    $atom:C40 $mol:m @atom:c3 0.384496 37.86 -5.848 0.404
+    $atom:F76 $mol:m @atom:f -0.192267 36.59 -7.74 -0.181
+    $atom:F77 $mol:m @atom:f -0.192267 36.477 -6.008 -1.474
+    $atom:F78 $mol:m @atom:f -0.192254 37.814 -4.523 0.32
+    $atom:F79 $mol:m @atom:f -0.192254 37.916 -6.203 1.684
+    $atom:C41 $mol:m @atom:c3 0.384507 39.183 -6.322 -0.291
+    $atom:C42 $mol:m @atom:c3 0.384508 40.512 -5.678 0.236
+    $atom:F80 $mol:m @atom:f -0.192254 39.272 -7.642 -0.159
+    $atom:F81 $mol:m @atom:f -0.192254 39.08 -6.023 -1.581
+    $atom:F82 $mol:m @atom:f -0.192254 40.528 -4.414 -0.173
+    $atom:F83 $mol:m @atom:f -0.192254 40.492 -5.706 1.565
+    $atom:C43 $mol:m @atom:c3 0.384508 41.833 -6.364 -0.247
+    $atom:C44 $mol:m @atom:c3 0.384508 43.148 -5.535 -0.081
+    $atom:F84 $mol:m @atom:f -0.192254 41.969 -7.504 0.423
+    $atom:F85 $mol:m @atom:f -0.192254 41.694 -6.633 -1.539
+    $atom:F86 $mol:m @atom:f -0.192254 43.068 -4.848 1.052
+    $atom:F87 $mol:m @atom:f -0.192254 43.23 -4.685 -1.1
+    $atom:C45 $mol:m @atom:c3 0.384508 44.465 -6.375 -0.028
+    $atom:C46 $mol:m @atom:c3 0.384508 45.793 -5.589 -0.27
+    $atom:F88 $mol:m @atom:f -0.192254 44.388 -7.344 -0.933
+    $atom:F89 $mol:m @atom:f -0.192254 44.542 -6.914 1.182
+    $atom:F90 $mol:m @atom:f -0.192254 45.801 -4.53 0.531
+    $atom:F91 $mol:m @atom:f -0.192254 45.817 -5.181 -1.534
+    $atom:C47 $mol:m @atom:c3 0.384507 47.099 -6.403 0.009
+    $atom:C48 $mol:m @atom:c3 0.384496 48.44 -5.655 -0.265
+    $atom:F92 $mol:m @atom:f -0.192254 47.081 -7.504 -0.736
+    $atom:F93 $mol:m @atom:f -0.192254 47.096 -6.744 1.291
+    $atom:F94 $mol:m @atom:f -0.192254 48.485 -4.597 0.539
+    $atom:F95 $mol:m @atom:f -0.192254 48.444 -5.242 -1.529
+    $atom:C49 $mol:m @atom:c3 0.384184 49.727 -6.504 -0.016
+    $atom:C50 $mol:m @atom:c3 0.380123 51.076 -5.767 -0.247
+    $atom:F96 $mol:m @atom:f -0.192267 49.698 -6.946 1.235
+    $atom:F97 $mol:m @atom:f -0.192267 49.693 -7.542 -0.845
+    $atom:F98 $mol:m @atom:f -0.192612 51.131 -5.407 -1.524
+    $atom:F99 $mol:m @atom:f -0.192612 51.098 -4.679 0.517
+    $atom:C51 $mol:m @atom:c3 0.354487 52.334 -6.617 0.075
+    $atom:C52 $mol:m @atom:c3 0.380123 53.625 -6.164 -0.651
+    $atom:O11 $mol:m @atom:os -0.266773 52.076 -7.931 -0.301
+    $atom:F100 $mol:m @atom:f -0.197588 52.55 -6.567 1.385
+    $atom:F101 $mol:m @atom:f -0.192612 53.27 -5.311 -1.601
+    $atom:F102 $mol:m @atom:f -0.192612 54.185 -7.233 -1.212
+    $atom:C53 $mol:m @atom:c3 0.384184 54.699 -5.477 0.209
+    $atom:C54 $mol:m @atom:c3 0.426964 52.943 -8.799 0.357
+    $atom:F103 $mol:m @atom:f -0.168587 52.707 -8.741 1.662
+    $atom:F104 $mol:m @atom:f -0.168587 54.2 -8.433 0.123
+    $atom:C55 $mol:m @atom:c3 0.401351 52.745 -10.202 -0.118
+    $atom:C56 $mol:m @atom:c3 0.457691 51.29 -10.544 -0.042
+    $atom:F105 $mol:m @atom:f -0.164877 50.877 -10.46 1.217
+    $atom:F106 $mol:m @atom:f -0.164877 50.601 -9.695 -0.796
+    $atom:F107 $mol:m @atom:f -0.164877 51.104 -11.784 -0.484
+    $atom:O12 $mol:m @atom:os -0.251081 53.518 -11.044 0.689
+    $atom:C57 $mol:m @atom:c3 0.551974 53.088 -12.362 0.825
+    $atom:F108 $mol:m @atom:f -0.157269 51.774 -12.371 1.023
+    $atom:F109 $mol:m @atom:f -0.157269 53.698 -12.905 1.872
+    $atom:C58 $mol:m @atom:c3 0.667787 53.407 -13.171 -0.388
+    $atom:F110 $mol:m @atom:f -0.085106 54.698 -13.041 -0.672
+    $atom:F111 $mol:m @atom:f -0.085106 52.682 -12.733 -1.413
+    $atom:S3 $mol:m @atom:s6 -0.00053 53.024 -14.87 -0.091
+    $atom:O13 $mol:m @atom:o -0.46492 53.81 -15.346 0.972
+    $atom:O14 $mol:m @atom:o -0.46492 51.663 -14.98 0.251
+    $atom:O15 $mol:m @atom:oh -0.051299 53.311 -15.769 -1.408
+    $atom:F112 $mol:m @atom:f -0.191296 53.15 -10.303 -1.383
+    $atom:C59 $mol:m @atom:c3 0.384496 56.013 -6.271 0.37
+    $atom:F113 $mol:m @atom:f -0.192267 54.199 -5.252 1.418
+    $atom:F114 $mol:m @atom:f -0.192267 55.002 -4.318 -0.36
+    $atom:F115 $mol:m @atom:f -0.192254 56.203 -6.495 1.666
+    $atom:F116 $mol:m @atom:f -0.192254 55.9 -7.439 -0.258
+    $atom:C60 $mol:m @atom:c3 0.384507 57.273 -5.556 -0.154
+    $atom:C61 $mol:m @atom:c3 0.384508 58.575 -6.117 0.45
+    $atom:F117 $mol:m @atom:f -0.192254 57.321 -5.685 -1.478
+    $atom:F118 $mol:m @atom:f -0.192254 57.193 -4.267 0.16
+    $atom:F119 $mol:m @atom:f -0.192254 58.554 -5.888 1.754
+    $atom:F120 $mol:m @atom:f -0.192254 58.619 -7.428 0.237
+    $atom:C62 $mol:m @atom:c3 0.384508 59.863 -5.497 -0.107
+    $atom:C63 $mol:m @atom:c3 0.384508 61.11 -6.082 0.562
+    $atom:F121 $mol:m @atom:f -0.192254 59.926 -5.726 -1.416
+    $atom:F122 $mol:m @atom:f -0.192254 59.829 -4.185 0.108
+    $atom:F123 $mol:m @atom:f -0.192254 60.894 -6.098 1.873
+    $atom:F124 $mol:m @atom:f -0.192254 61.283 -7.331 0.136
+    $atom:C64 $mol:m @atom:c3 0.384508 62.4 -5.301 0.327
+    $atom:C65 $mol:m @atom:c3 0.384508 63.438 -6.09 -0.451
+    $atom:F125 $mol:m @atom:f -0.192254 62.912 -4.989 1.51
+    $atom:F126 $mol:m @atom:f -0.192254 62.115 -4.189 -0.338
+    $atom:F127 $mol:m @atom:f -0.192254 63.299 -5.804 -1.74
+    $atom:F128 $mol:m @atom:f -0.192254 63.231 -7.39 -0.26
+    $atom:C66 $mol:m @atom:c3 0.384507 64.865 -5.766 -0.03
+    $atom:C67 $mol:m @atom:c3 0.384498 65.855 -6.273 -1.055
+    $atom:F129 $mol:m @atom:f -0.192254 65.122 -6.345 1.141
+    $atom:F130 $mol:m @atom:f -0.192254 65.011 -4.452 0.089
+    $atom:F131 $mol:m @atom:f -0.192254 65.658 -5.593 -2.177
+    $atom:F132 $mol:m @atom:f -0.192254 65.635 -7.564 -1.279
+    $atom:C68 $mol:m @atom:c3 0.384321 67.311 -6.102 -0.662
+    $atom:C69 $mol:m @atom:c3 0.383045 67.804 -7.269 0.156
+    $atom:F133 $mol:m @atom:f -0.192264 68.045 -6.04 -1.771
+    $atom:F134 $mol:m @atom:f -0.192264 67.465 -4.979 0.034
+    $atom:F135 $mol:m @atom:f -0.192467 67.746 -6.966 1.448
+    $atom:F136 $mol:m @atom:f -0.192467 67.028 -8.317 -0.091
+    $atom:C70 $mol:m @atom:c3 0.380034 69.227 -7.65 -0.191
+    $atom:C71 $mol:m @atom:c3 0.454944 70.195 -6.584 0.22
+    $atom:O16 $mol:m @atom:os -0.264588 69.545 -8.831 0.479
+    $atom:F137 $mol:m @atom:f -0.194272 69.315 -7.836 -1.506
+    $atom:F138 $mol:m @atom:f -0.164964 69.902 -5.434 -0.379
+    $atom:F139 $mol:m @atom:f -0.164964 70.134 -6.429 1.539
+    $atom:F140 $mol:m @atom:f -0.164964 71.425 -6.951 -0.124
+    $atom:C72 $mol:m @atom:c3 0.427038 70.716 -9.455 0.053
+    $atom:F141 $mol:m @atom:f -0.168586 71.778 -8.807 0.523
+    $atom:F142 $mol:m @atom:f -0.168586 70.762 -9.469 -1.274
+    $atom:C73 $mol:m @atom:c3 0.401352 70.714 -10.858 0.56
+    $atom:C74 $mol:m @atom:c3 0.457691 69.587 -11.61 -0.068
+    $atom:F143 $mol:m @atom:f -0.164877 69.739 -11.614 -1.388
+    $atom:F144 $mol:m @atom:f -0.164877 68.436 -11.025 0.247
+    $atom:F145 $mol:m @atom:f -0.164877 69.584 -12.861 0.377
+    $atom:O17 $mol:m @atom:os -0.251081 71.912 -11.496 0.247
+    $atom:C75 $mol:m @atom:c3 0.551974 72.035 -12.605 1.076
+    $atom:F146 $mol:m @atom:f -0.157269 70.812 -12.998 1.404
+    $atom:F147 $mol:m @atom:f -0.157269 72.699 -12.263 2.177
+    $atom:C76 $mol:m @atom:c3 0.667787 72.746 -13.744 0.405
+    $atom:F148 $mol:m @atom:f -0.085106 74.05 -13.485 0.338
+    $atom:F149 $mol:m @atom:f -0.085106 72.549 -14.848 1.122
+    $atom:S4 $mol:m @atom:s6 -0.00053 72.111 -13.998 -1.225
+    $atom:O18 $mol:m @atom:o -0.46492 72.525 -12.934 -2.047
+    $atom:O19 $mol:m @atom:o -0.46492 70.706 -14.04 -1.17
+    $atom:O20 $mol:m @atom:oh -0.051299 72.653 -15.386 -1.864
+    $atom:F150 $mol:m @atom:f -0.191296 70.559 -10.838 1.881
+    $atom:H1 $mol:m @atom:ho 0.355634 13.698 -16.301 -1.655
+    $atom:H2 $mol:m @atom:ho 0.355634 32.468 -15.62 -1.002
+    $atom:H3 $mol:m @atom:ho 0.355634 52.575 -16.277 -1.829
+    $atom:H4 $mol:m @atom:ho 0.355634 72.012 -16.086 -2.139
+  } # Atoms section
+
+  #  bondId  atomId1 atomId2
+
+  write("Data Bond List") {
+    $bond:b1  $atom:C1  $atom:C2
+    $bond:b2  $atom:C1  $atom:F1
+    $bond:b3  $atom:C1  $atom:F2
+    $bond:b4  $atom:C1  $atom:F3
+    $bond:b5  $atom:C2  $atom:F4
+    $bond:b6  $atom:C2  $atom:F5
+    $bond:b7  $atom:C2  $atom:C3
+    $bond:b8  $atom:C3  $atom:C4
+    $bond:b9  $atom:C3  $atom:F6
+    $bond:b10  $atom:C3  $atom:F7
+    $bond:b11  $atom:C4  $atom:F8
+    $bond:b12  $atom:C4  $atom:F9
+    $bond:b13  $atom:C4  $atom:C5
+    $bond:b14  $atom:C5  $atom:C6
+    $bond:b15  $atom:C5  $atom:F10
+    $bond:b16  $atom:C5  $atom:F11
+    $bond:b17  $atom:C6  $atom:F12
+    $bond:b18  $atom:C6  $atom:F13
+    $bond:b19  $atom:C6  $atom:C7
+    $bond:b20  $atom:C7  $atom:C8
+    $bond:b21  $atom:C7  $atom:F14
+    $bond:b22  $atom:C7  $atom:F15
+    $bond:b23  $atom:C8  $atom:F16
+    $bond:b24  $atom:C8  $atom:F17
+    $bond:b25  $atom:C8  $atom:C9
+    $bond:b26  $atom:C9  $atom:C10
+    $bond:b27  $atom:C9  $atom:F18
+    $bond:b28  $atom:C9  $atom:F19
+    $bond:b29  $atom:C10  $atom:F20
+    $bond:b30  $atom:C10  $atom:F21
+    $bond:b31  $atom:C10  $atom:C11
+    $bond:b32  $atom:C11  $atom:C12
+    $bond:b33  $atom:C11  $atom:F22
+    $bond:b34  $atom:C11  $atom:F23
+    $bond:b35  $atom:C12  $atom:F24
+    $bond:b36  $atom:C12  $atom:F25
+    $bond:b37  $atom:C12  $atom:C13
+    $bond:b38  $atom:C13  $atom:C14
+    $bond:b39  $atom:C13  $atom:O1
+    $bond:b40  $atom:C13  $atom:F26
+    $bond:b41  $atom:C14  $atom:F27
+    $bond:b42  $atom:C14  $atom:F28
+    $bond:b43  $atom:C14  $atom:C15
+    $bond:b44  $atom:O1  $atom:C16
+    $bond:b45  $atom:C15  $atom:C21
+    $bond:b46  $atom:C15  $atom:F39
+    $bond:b47  $atom:C15  $atom:F40
+    $bond:b48  $atom:C16  $atom:F29
+    $bond:b49  $atom:C16  $atom:F30
+    $bond:b50  $atom:C16  $atom:C17
+    $bond:b51  $atom:C17  $atom:C18
+    $bond:b52  $atom:C17  $atom:O2
+    $bond:b53  $atom:C17  $atom:F38
+    $bond:b54  $atom:C18  $atom:F31
+    $bond:b55  $atom:C18  $atom:F32
+    $bond:b56  $atom:C18  $atom:F33
+    $bond:b57  $atom:O2  $atom:C19
+    $bond:b58  $atom:C19  $atom:F34
+    $bond:b59  $atom:C19  $atom:F35
+    $bond:b60  $atom:C19  $atom:C20
+    $bond:b61  $atom:C20  $atom:F36
+    $bond:b62  $atom:C20  $atom:F37
+    $bond:b63  $atom:C20  $atom:S1
+    $bond:b64  $atom:S1  $atom:O3
+    $bond:b65  $atom:S1  $atom:O4
+    $bond:b66  $atom:S1  $atom:O5
+    $bond:b67  $atom:O5  $atom:H1
+    $bond:b68  $atom:C21  $atom:F41
+    $bond:b69  $atom:C21  $atom:F42
+    $bond:b70  $atom:C21  $atom:C22
+    $bond:b71  $atom:C22  $atom:C23
+    $bond:b72  $atom:C22  $atom:F43
+    $bond:b73  $atom:C22  $atom:F44
+    $bond:b74  $atom:C23  $atom:F45
+    $bond:b75  $atom:C23  $atom:F46
+    $bond:b76  $atom:C23  $atom:C24
+    $bond:b77  $atom:C24  $atom:C25
+    $bond:b78  $atom:C24  $atom:F47
+    $bond:b79  $atom:C24  $atom:F48
+    $bond:b80  $atom:C25  $atom:F49
+    $bond:b81  $atom:C25  $atom:F50
+    $bond:b82  $atom:C25  $atom:C26
+    $bond:b83  $atom:C26  $atom:C27
+    $bond:b84  $atom:C26  $atom:F51
+    $bond:b85  $atom:C26  $atom:F52
+    $bond:b86  $atom:C27  $atom:F53
+    $bond:b87  $atom:C27  $atom:F54
+    $bond:b88  $atom:C27  $atom:C28
+    $bond:b89  $atom:C28  $atom:C29
+    $bond:b90  $atom:C28  $atom:F55
+    $bond:b91  $atom:C28  $atom:F56
+    $bond:b92  $atom:C29  $atom:F57
+    $bond:b93  $atom:C29  $atom:F58
+    $bond:b94  $atom:C29  $atom:C30
+    $bond:b95  $atom:C30  $atom:C31
+    $bond:b96  $atom:C30  $atom:F59
+    $bond:b97  $atom:C30  $atom:F60
+    $bond:b98  $atom:C31  $atom:F61
+    $bond:b99  $atom:C31  $atom:F62
+    $bond:b100  $atom:C31  $atom:C32
+    $bond:b101  $atom:C32  $atom:C33
+    $bond:b102  $atom:C32  $atom:O6
+    $bond:b103  $atom:C32  $atom:F63
+    $bond:b104  $atom:C33  $atom:F64
+    $bond:b105  $atom:C33  $atom:F65
+    $bond:b106  $atom:C33  $atom:C34
+    $bond:b107  $atom:O6  $atom:C35
+    $bond:b108  $atom:C34  $atom:C40
+    $bond:b109  $atom:C34  $atom:F76
+    $bond:b110  $atom:C34  $atom:F77
+    $bond:b111  $atom:C35  $atom:F66
+    $bond:b112  $atom:C35  $atom:F67
+    $bond:b113  $atom:C35  $atom:C36
+    $bond:b114  $atom:C36  $atom:C37
+    $bond:b115  $atom:C36  $atom:O7
+    $bond:b116  $atom:C36  $atom:F75
+    $bond:b117  $atom:C37  $atom:F68
+    $bond:b118  $atom:C37  $atom:F69
+    $bond:b119  $atom:C37  $atom:F70
+    $bond:b120  $atom:O7  $atom:C38
+    $bond:b121  $atom:C38  $atom:F71
+    $bond:b122  $atom:C38  $atom:F72
+    $bond:b123  $atom:C38  $atom:C39
+    $bond:b124  $atom:C39  $atom:F73
+    $bond:b125  $atom:C39  $atom:F74
+    $bond:b126  $atom:C39  $atom:S2
+    $bond:b127  $atom:S2  $atom:O8
+    $bond:b128  $atom:S2  $atom:O9
+    $bond:b129  $atom:S2  $atom:O10
+    $bond:b130  $atom:O10  $atom:H2
+    $bond:b131  $atom:C40  $atom:F78
+    $bond:b132  $atom:C40  $atom:F79
+    $bond:b133  $atom:C40  $atom:C41
+    $bond:b134  $atom:C41  $atom:C42
+    $bond:b135  $atom:C41  $atom:F80
+    $bond:b136  $atom:C41  $atom:F81
+    $bond:b137  $atom:C42  $atom:F82
+    $bond:b138  $atom:C42  $atom:F83
+    $bond:b139  $atom:C42  $atom:C43
+    $bond:b140  $atom:C43  $atom:C44
+    $bond:b141  $atom:C43  $atom:F84
+    $bond:b142  $atom:C43  $atom:F85
+    $bond:b143  $atom:C44  $atom:F86
+    $bond:b144  $atom:C44  $atom:F87
+    $bond:b145  $atom:C44  $atom:C45
+    $bond:b146  $atom:C45  $atom:C46
+    $bond:b147  $atom:C45  $atom:F88
+    $bond:b148  $atom:C45  $atom:F89
+    $bond:b149  $atom:C46  $atom:F90
+    $bond:b150  $atom:C46  $atom:F91
+    $bond:b151  $atom:C46  $atom:C47
+    $bond:b152  $atom:C47  $atom:C48
+    $bond:b153  $atom:C47  $atom:F92
+    $bond:b154  $atom:C47  $atom:F93
+    $bond:b155  $atom:C48  $atom:F94
+    $bond:b156  $atom:C48  $atom:F95
+    $bond:b157  $atom:C48  $atom:C49
+    $bond:b158  $atom:C49  $atom:C50
+    $bond:b159  $atom:C49  $atom:F96
+    $bond:b160  $atom:C49  $atom:F97
+    $bond:b161  $atom:C50  $atom:F98
+    $bond:b162  $atom:C50  $atom:F99
+    $bond:b163  $atom:C50  $atom:C51
+    $bond:b164  $atom:C51  $atom:C52
+    $bond:b165  $atom:C51  $atom:O11
+    $bond:b166  $atom:C51  $atom:F100
+    $bond:b167  $atom:C52  $atom:F101
+    $bond:b168  $atom:C52  $atom:F102
+    $bond:b169  $atom:C52  $atom:C53
+    $bond:b170  $atom:O11  $atom:C54
+    $bond:b171  $atom:C53  $atom:C59
+    $bond:b172  $atom:C53  $atom:F113
+    $bond:b173  $atom:C53  $atom:F114
+    $bond:b174  $atom:C54  $atom:F103
+    $bond:b175  $atom:C54  $atom:F104
+    $bond:b176  $atom:C54  $atom:C55
+    $bond:b177  $atom:C55  $atom:C56
+    $bond:b178  $atom:C55  $atom:O12
+    $bond:b179  $atom:C55  $atom:F112
+    $bond:b180  $atom:C56  $atom:F105
+    $bond:b181  $atom:C56  $atom:F106
+    $bond:b182  $atom:C56  $atom:F107
+    $bond:b183  $atom:O12  $atom:C57
+    $bond:b184  $atom:C57  $atom:F108
+    $bond:b185  $atom:C57  $atom:F109
+    $bond:b186  $atom:C57  $atom:C58
+    $bond:b187  $atom:C58  $atom:F110
+    $bond:b188  $atom:C58  $atom:F111
+    $bond:b189  $atom:C58  $atom:S3
+    $bond:b190  $atom:S3  $atom:O13
+    $bond:b191  $atom:S3  $atom:O14
+    $bond:b192  $atom:S3  $atom:O15
+    $bond:b193  $atom:O15  $atom:H3
+    $bond:b194  $atom:C59  $atom:F115
+    $bond:b195  $atom:C59  $atom:F116
+    $bond:b196  $atom:C59  $atom:C60
+    $bond:b197  $atom:C60  $atom:C61
+    $bond:b198  $atom:C60  $atom:F117
+    $bond:b199  $atom:C60  $atom:F118
+    $bond:b200  $atom:C61  $atom:F119
+    $bond:b201  $atom:C61  $atom:F120
+    $bond:b202  $atom:C61  $atom:C62
+    $bond:b203  $atom:C62  $atom:C63
+    $bond:b204  $atom:C62  $atom:F121
+    $bond:b205  $atom:C62  $atom:F122
+    $bond:b206  $atom:C63  $atom:F123
+    $bond:b207  $atom:C63  $atom:F124
+    $bond:b208  $atom:C63  $atom:C64
+    $bond:b209  $atom:C64  $atom:C65
+    $bond:b210  $atom:C64  $atom:F125
+    $bond:b211  $atom:C64  $atom:F126
+    $bond:b212  $atom:C65  $atom:F127
+    $bond:b213  $atom:C65  $atom:F128
+    $bond:b214  $atom:C65  $atom:C66
+    $bond:b215  $atom:C66  $atom:C67
+    $bond:b216  $atom:C66  $atom:F129
+    $bond:b217  $atom:C66  $atom:F130
+    $bond:b218  $atom:C67  $atom:F131
+    $bond:b219  $atom:C67  $atom:F132
+    $bond:b220  $atom:C67  $atom:C68
+    $bond:b221  $atom:C68  $atom:C69
+    $bond:b222  $atom:C68  $atom:F133
+    $bond:b223  $atom:C68  $atom:F134
+    $bond:b224  $atom:C69  $atom:F135
+    $bond:b225  $atom:C69  $atom:F136
+    $bond:b226  $atom:C69  $atom:C70
+    $bond:b227  $atom:C70  $atom:C71
+    $bond:b228  $atom:C70  $atom:O16
+    $bond:b229  $atom:C70  $atom:F137
+    $bond:b230  $atom:C71  $atom:F138
+    $bond:b231  $atom:C71  $atom:F139
+    $bond:b232  $atom:C71  $atom:F140
+    $bond:b233  $atom:O16  $atom:C72
+    $bond:b234  $atom:C72  $atom:F141
+    $bond:b235  $atom:C72  $atom:F142
+    $bond:b236  $atom:C72  $atom:C73
+    $bond:b237  $atom:C73  $atom:C74
+    $bond:b238  $atom:C73  $atom:O17
+    $bond:b239  $atom:C73  $atom:F150
+    $bond:b240  $atom:C74  $atom:F143
+    $bond:b241  $atom:C74  $atom:F144
+    $bond:b242  $atom:C74  $atom:F145
+    $bond:b243  $atom:O17  $atom:C75
+    $bond:b244  $atom:C75  $atom:F146
+    $bond:b245  $atom:C75  $atom:F147
+    $bond:b246  $atom:C75  $atom:C76
+    $bond:b247  $atom:C76  $atom:F148
+    $bond:b248  $atom:C76  $atom:F149
+    $bond:b249  $atom:C76  $atom:S4
+    $bond:b250  $atom:S4  $atom:O18
+    $bond:b251  $atom:S4  $atom:O19
+    $bond:b252  $atom:S4  $atom:O20
+    $bond:b253  $atom:O20  $atom:H4
+  } # Bonds section
+
+}  # polymer
+
+
+
+
+
+
+# -------- INSTRUCTIONS FOR USING THIS FILE: --------
+# So far, we have just defined (one or more) molecular subunits.
+# If you want to use these molecule(s) in a simulation, you must instantiate
+# copies of them.  To do that you would the "new" command.  For example:
+#
+# poly_instance = new poly
+#
+# You could either put this command here, or in a separate file.
+# (...Such as "system.lt".  In that case remember to use moltemplate's
+#  "import" command to import this file beforehand because you must ensure
+#  that the molecules in this file are loaded before they are used.)
+#
+# Note: You can also modify the position and orientation of each copy
+# using the .move() and .rot() commands.  (See the moltemplate manual.)
+# ---------------------------------------------------

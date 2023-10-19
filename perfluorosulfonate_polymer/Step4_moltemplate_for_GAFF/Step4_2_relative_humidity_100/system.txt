@@ -1,0 +1,17 @@
+
+import "polymer.lt"  # <- defines the "Benzene" molecule type.
+
+import "tip3p_2004_hybrid.lt" # This defines the TIP3P water molecule.
+                              # This file is located in the "force_fields"
+                              # subdirectory of the moltemplate distribution.
+
+# Periodic boundary conditions:
+#write_once("Data Boundary") {
+#   0.0  102.00  xlo xhi
+#   0.0  102.07  ylo yhi
+#   0.0  102.00  zlo zhi
+#} # see polymer-6_water-336.pdb
+
+polymer = new polymer [6]
+
+wat  = new TIP3P_2004 [336]

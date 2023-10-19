@@ -1,0 +1,18 @@
+------------------------------------------------------------------------------------------------------
+Usage (python3 version)
+
+python3 /mnt/d/moltemplate_2023-2-06/moltemplate/mol22lt.py < polymer.mol2 > polymer.lt
+
+you must rewrite polymer.lt. (see /mnt/d/moltemplate_2023-2-06/examples/all_atom/force_field_AMBER)
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+Usage (old version)
+
+Note: mol22rtp.pl in pl_scripts folder
+
+./mol22rtp.pl < polymer.mol2 > polymer.lt
+
+./mol22rtp.pl < polymer-water.mol2 > polymer-water.lt
+
+------------------------------------------------------------------------------------------------------

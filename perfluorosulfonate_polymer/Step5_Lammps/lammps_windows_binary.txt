@@ -1,0 +1,27 @@
+--------------------------------------------------------------------------------------------------------------
+Installation (Lammps)
+
+LAMMPS Windows Installer Repository (http://packages.lammps.org/windows.html) > Latest stable versions > admin
+  > 64bit (https://rpm.lammps.org/windows/admin/64bit/index.html)
+LAMMPS-64bit-18Jun2019.exe (LAMMPS-64bit-22Dec2022-MSMPI-admin.exe)
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+Microsoft MPI
+
+Microsoft MPI v10.1.2 (https://www.microsoft.com/en-us/download/details.aspx?id=100593)
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+Gnuplot, Ovito and Python3
+
+Gnuplot (http://www.gnuplot.info/) http://www.yamamo10.jp/yamamoto/comp/gnuplot/inst_win/index.php
+Ovito (https://www.ovito.org/windows-downloads/)
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+Python3 (installation) on PowerShell
+
+python3
+python3 -m pip install numpy
+--------------------------------------------------------------------------------------------------------------

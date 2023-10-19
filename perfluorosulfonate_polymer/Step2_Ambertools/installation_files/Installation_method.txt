@@ -1,0 +1,7 @@
+--------------------------------------------------------------------------------------------------------------
+Ambertools (https://ambermd.org/AmberTools.php) installation
+1. cd ~
+2. wget https://github.com/makoto-yoneya/makoto-yoneya.github.io/raw/master/MDforPOLYMERS/install_WSLgmx.sh
+3. sh install_WSLgmx.sh
+4. bash
+--------------------------------------------------------------------------------------------------------------

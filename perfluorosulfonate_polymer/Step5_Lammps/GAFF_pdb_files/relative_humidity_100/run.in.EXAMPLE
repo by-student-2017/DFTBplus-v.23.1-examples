@@ -1,0 +1,60 @@
+
+
+# ----------------- Init Section -------------------------------------
+
+include "system.in.init"
+
+
+# ----------------- Atom Definition Section --------------------------
+
+read_data "system.data"
+
+# ----------------- Settings Section ---------------------------------
+
+include "system.in.settings"
+
+
+# ----------------- Constraints Section ------------------------------
+
+include "system.in.constraints"
+
+
+#---------------------------------------------------------------------
+
+#group polymer type 1:83
+#group water type 84:85
+
+# ------------------------ initialize system -------------------------
+
+variable         Td equal 300.0 # [K]
+
+# ------------------------- MINIMIZATION -----------------------------
+
+minimize 1.0e-5 1.0e-7 1000 10000
+
+# ------------------------- SETTINGS ---------------------------------
+reset_timestep  0
+
+timestep        1.0 # 1.0 [fs]
+
+velocity        all create ${Td} 4928459 rot yes mom yes dist gaussian
+
+#fix             1 all nve
+#fix             2 all temp/berendsen 298.15 298.15 50.0
+#fix             2 all press/berendsen iso 1.0 1.0 1500.0
+#fix             3 all nvt temp ${Td} ${Td} 500.0 tchain 1
+fix             3 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
+
+thermo          100
+thermo_style    custom step temp ke pe press lx ly lz
+
+dump            d1 all cfg 1000 cfg/run.equil.*.cfg mass type xs ys zs id type q
+dump_modify     d1 element &
+   C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  H  H &
+   H  H  H  H  H  H  H  H  H  H  H  F Cl Br  I  N  N  N  N  N &
+   N  N  N  N  N  N  N  N  N  N  N  N  N  N  N  N  O  O  O  O &
+   O  O  P  P  P  P  P  P  P  P  P  P  P  S  S  S  S  S  S  S &
+   S  S  S  O  H
+
+run             1000000 # 1 [ns]
+# ------------------------- Ende -------------------------------------

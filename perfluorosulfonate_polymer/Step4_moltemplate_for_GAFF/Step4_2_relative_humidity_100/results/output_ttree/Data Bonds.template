@@ -1,0 +1,2190 @@
+$/bond:polymer[0]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C1 $/atom:polymer[0]/C2
+$/bond:polymer[0]/b2 @/bond:GAFF/c3-f $/atom:polymer[0]/C1 $/atom:polymer[0]/F1
+$/bond:polymer[0]/b3 @/bond:GAFF/c3-f $/atom:polymer[0]/C1 $/atom:polymer[0]/F2
+$/bond:polymer[0]/b4 @/bond:GAFF/c3-f $/atom:polymer[0]/C1 $/atom:polymer[0]/F3
+$/bond:polymer[0]/b5 @/bond:GAFF/c3-f $/atom:polymer[0]/C2 $/atom:polymer[0]/F4
+$/bond:polymer[0]/b6 @/bond:GAFF/c3-f $/atom:polymer[0]/C2 $/atom:polymer[0]/F5
+$/bond:polymer[0]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C2 $/atom:polymer[0]/C3
+$/bond:polymer[0]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C3 $/atom:polymer[0]/C4
+$/bond:polymer[0]/b9 @/bond:GAFF/c3-f $/atom:polymer[0]/C3 $/atom:polymer[0]/F6
+$/bond:polymer[0]/b10 @/bond:GAFF/c3-f $/atom:polymer[0]/C3 $/atom:polymer[0]/F7
+$/bond:polymer[0]/b11 @/bond:GAFF/c3-f $/atom:polymer[0]/C4 $/atom:polymer[0]/F8
+$/bond:polymer[0]/b12 @/bond:GAFF/c3-f $/atom:polymer[0]/C4 $/atom:polymer[0]/F9
+$/bond:polymer[0]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C4 $/atom:polymer[0]/C5
+$/bond:polymer[0]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C5 $/atom:polymer[0]/C6
+$/bond:polymer[0]/b15 @/bond:GAFF/c3-f $/atom:polymer[0]/C5 $/atom:polymer[0]/F10
+$/bond:polymer[0]/b16 @/bond:GAFF/c3-f $/atom:polymer[0]/C5 $/atom:polymer[0]/F11
+$/bond:polymer[0]/b17 @/bond:GAFF/c3-f $/atom:polymer[0]/C6 $/atom:polymer[0]/F12
+$/bond:polymer[0]/b18 @/bond:GAFF/c3-f $/atom:polymer[0]/C6 $/atom:polymer[0]/F13
+$/bond:polymer[0]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C6 $/atom:polymer[0]/C7
+$/bond:polymer[0]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C7 $/atom:polymer[0]/C8
+$/bond:polymer[0]/b21 @/bond:GAFF/c3-f $/atom:polymer[0]/C7 $/atom:polymer[0]/F14
+$/bond:polymer[0]/b22 @/bond:GAFF/c3-f $/atom:polymer[0]/C7 $/atom:polymer[0]/F15
+$/bond:polymer[0]/b23 @/bond:GAFF/c3-f $/atom:polymer[0]/C8 $/atom:polymer[0]/F16
+$/bond:polymer[0]/b24 @/bond:GAFF/c3-f $/atom:polymer[0]/C8 $/atom:polymer[0]/F17
+$/bond:polymer[0]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C8 $/atom:polymer[0]/C9
+$/bond:polymer[0]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C9 $/atom:polymer[0]/C10
+$/bond:polymer[0]/b27 @/bond:GAFF/c3-f $/atom:polymer[0]/C9 $/atom:polymer[0]/F18
+$/bond:polymer[0]/b28 @/bond:GAFF/c3-f $/atom:polymer[0]/C9 $/atom:polymer[0]/F19
+$/bond:polymer[0]/b29 @/bond:GAFF/c3-f $/atom:polymer[0]/C10 $/atom:polymer[0]/F20
+$/bond:polymer[0]/b30 @/bond:GAFF/c3-f $/atom:polymer[0]/C10 $/atom:polymer[0]/F21
+$/bond:polymer[0]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C10 $/atom:polymer[0]/C11
+$/bond:polymer[0]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C11 $/atom:polymer[0]/C12
+$/bond:polymer[0]/b33 @/bond:GAFF/c3-f $/atom:polymer[0]/C11 $/atom:polymer[0]/F22
+$/bond:polymer[0]/b34 @/bond:GAFF/c3-f $/atom:polymer[0]/C11 $/atom:polymer[0]/F23
+$/bond:polymer[0]/b35 @/bond:GAFF/c3-f $/atom:polymer[0]/C12 $/atom:polymer[0]/F24
+$/bond:polymer[0]/b36 @/bond:GAFF/c3-f $/atom:polymer[0]/C12 $/atom:polymer[0]/F25
+$/bond:polymer[0]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C12 $/atom:polymer[0]/C13
+$/bond:polymer[0]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C13 $/atom:polymer[0]/C14
+$/bond:polymer[0]/b39 @/bond:GAFF/c3-os $/atom:polymer[0]/C13 $/atom:polymer[0]/O1
+$/bond:polymer[0]/b40 @/bond:GAFF/c3-f $/atom:polymer[0]/C13 $/atom:polymer[0]/F26
+$/bond:polymer[0]/b41 @/bond:GAFF/c3-f $/atom:polymer[0]/C14 $/atom:polymer[0]/F27
+$/bond:polymer[0]/b42 @/bond:GAFF/c3-f $/atom:polymer[0]/C14 $/atom:polymer[0]/F28
+$/bond:polymer[0]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C14 $/atom:polymer[0]/C15
+$/bond:polymer[0]/b44 @/bond:GAFF/c3-os $/atom:polymer[0]/O1 $/atom:polymer[0]/C16
+$/bond:polymer[0]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C15 $/atom:polymer[0]/C21
+$/bond:polymer[0]/b46 @/bond:GAFF/c3-f $/atom:polymer[0]/C15 $/atom:polymer[0]/F39
+$/bond:polymer[0]/b47 @/bond:GAFF/c3-f $/atom:polymer[0]/C15 $/atom:polymer[0]/F40
+$/bond:polymer[0]/b48 @/bond:GAFF/c3-f $/atom:polymer[0]/C16 $/atom:polymer[0]/F29
+$/bond:polymer[0]/b49 @/bond:GAFF/c3-f $/atom:polymer[0]/C16 $/atom:polymer[0]/F30
+$/bond:polymer[0]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C16 $/atom:polymer[0]/C17
+$/bond:polymer[0]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C17 $/atom:polymer[0]/C18
+$/bond:polymer[0]/b52 @/bond:GAFF/c3-os $/atom:polymer[0]/C17 $/atom:polymer[0]/O2
+$/bond:polymer[0]/b53 @/bond:GAFF/c3-f $/atom:polymer[0]/C17 $/atom:polymer[0]/F38
+$/bond:polymer[0]/b54 @/bond:GAFF/c3-f $/atom:polymer[0]/C18 $/atom:polymer[0]/F31
+$/bond:polymer[0]/b55 @/bond:GAFF/c3-f $/atom:polymer[0]/C18 $/atom:polymer[0]/F32
+$/bond:polymer[0]/b56 @/bond:GAFF/c3-f $/atom:polymer[0]/C18 $/atom:polymer[0]/F33
+$/bond:polymer[0]/b57 @/bond:GAFF/c3-os $/atom:polymer[0]/O2 $/atom:polymer[0]/C19
+$/bond:polymer[0]/b58 @/bond:GAFF/c3-f $/atom:polymer[0]/C19 $/atom:polymer[0]/F34
+$/bond:polymer[0]/b59 @/bond:GAFF/c3-f $/atom:polymer[0]/C19 $/atom:polymer[0]/F35
+$/bond:polymer[0]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C19 $/atom:polymer[0]/C20
+$/bond:polymer[0]/b61 @/bond:GAFF/c3-f $/atom:polymer[0]/C20 $/atom:polymer[0]/F36
+$/bond:polymer[0]/b62 @/bond:GAFF/c3-f $/atom:polymer[0]/C20 $/atom:polymer[0]/F37
+$/bond:polymer[0]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[0]/C20 $/atom:polymer[0]/S1
+$/bond:polymer[0]/b64 @/bond:GAFF/o-s6 $/atom:polymer[0]/S1 $/atom:polymer[0]/O3
+$/bond:polymer[0]/b65 @/bond:GAFF/o-s6 $/atom:polymer[0]/S1 $/atom:polymer[0]/O4
+$/bond:polymer[0]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[0]/S1 $/atom:polymer[0]/O5
+$/bond:polymer[0]/b67 @/bond:GAFF/ho-oh $/atom:polymer[0]/O5 $/atom:polymer[0]/H1
+$/bond:polymer[0]/b68 @/bond:GAFF/c3-f $/atom:polymer[0]/C21 $/atom:polymer[0]/F41
+$/bond:polymer[0]/b69 @/bond:GAFF/c3-f $/atom:polymer[0]/C21 $/atom:polymer[0]/F42
+$/bond:polymer[0]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C21 $/atom:polymer[0]/C22
+$/bond:polymer[0]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C22 $/atom:polymer[0]/C23
+$/bond:polymer[0]/b72 @/bond:GAFF/c3-f $/atom:polymer[0]/C22 $/atom:polymer[0]/F43
+$/bond:polymer[0]/b73 @/bond:GAFF/c3-f $/atom:polymer[0]/C22 $/atom:polymer[0]/F44
+$/bond:polymer[0]/b74 @/bond:GAFF/c3-f $/atom:polymer[0]/C23 $/atom:polymer[0]/F45
+$/bond:polymer[0]/b75 @/bond:GAFF/c3-f $/atom:polymer[0]/C23 $/atom:polymer[0]/F46
+$/bond:polymer[0]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C23 $/atom:polymer[0]/C24
+$/bond:polymer[0]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C24 $/atom:polymer[0]/C25
+$/bond:polymer[0]/b78 @/bond:GAFF/c3-f $/atom:polymer[0]/C24 $/atom:polymer[0]/F47
+$/bond:polymer[0]/b79 @/bond:GAFF/c3-f $/atom:polymer[0]/C24 $/atom:polymer[0]/F48
+$/bond:polymer[0]/b80 @/bond:GAFF/c3-f $/atom:polymer[0]/C25 $/atom:polymer[0]/F49
+$/bond:polymer[0]/b81 @/bond:GAFF/c3-f $/atom:polymer[0]/C25 $/atom:polymer[0]/F50
+$/bond:polymer[0]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C25 $/atom:polymer[0]/C26
+$/bond:polymer[0]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C26 $/atom:polymer[0]/C27
+$/bond:polymer[0]/b84 @/bond:GAFF/c3-f $/atom:polymer[0]/C26 $/atom:polymer[0]/F51
+$/bond:polymer[0]/b85 @/bond:GAFF/c3-f $/atom:polymer[0]/C26 $/atom:polymer[0]/F52
+$/bond:polymer[0]/b86 @/bond:GAFF/c3-f $/atom:polymer[0]/C27 $/atom:polymer[0]/F53
+$/bond:polymer[0]/b87 @/bond:GAFF/c3-f $/atom:polymer[0]/C27 $/atom:polymer[0]/F54
+$/bond:polymer[0]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C27 $/atom:polymer[0]/C28
+$/bond:polymer[0]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C28 $/atom:polymer[0]/C29
+$/bond:polymer[0]/b90 @/bond:GAFF/c3-f $/atom:polymer[0]/C28 $/atom:polymer[0]/F55
+$/bond:polymer[0]/b91 @/bond:GAFF/c3-f $/atom:polymer[0]/C28 $/atom:polymer[0]/F56
+$/bond:polymer[0]/b92 @/bond:GAFF/c3-f $/atom:polymer[0]/C29 $/atom:polymer[0]/F57
+$/bond:polymer[0]/b93 @/bond:GAFF/c3-f $/atom:polymer[0]/C29 $/atom:polymer[0]/F58
+$/bond:polymer[0]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C29 $/atom:polymer[0]/C30
+$/bond:polymer[0]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C30 $/atom:polymer[0]/C31
+$/bond:polymer[0]/b96 @/bond:GAFF/c3-f $/atom:polymer[0]/C30 $/atom:polymer[0]/F59
+$/bond:polymer[0]/b97 @/bond:GAFF/c3-f $/atom:polymer[0]/C30 $/atom:polymer[0]/F60
+$/bond:polymer[0]/b98 @/bond:GAFF/c3-f $/atom:polymer[0]/C31 $/atom:polymer[0]/F61
+$/bond:polymer[0]/b99 @/bond:GAFF/c3-f $/atom:polymer[0]/C31 $/atom:polymer[0]/F62
+$/bond:polymer[0]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C31 $/atom:polymer[0]/C32
+$/bond:polymer[0]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C32 $/atom:polymer[0]/C33
+$/bond:polymer[0]/b102 @/bond:GAFF/c3-os $/atom:polymer[0]/C32 $/atom:polymer[0]/O6
+$/bond:polymer[0]/b103 @/bond:GAFF/c3-f $/atom:polymer[0]/C32 $/atom:polymer[0]/F63
+$/bond:polymer[0]/b104 @/bond:GAFF/c3-f $/atom:polymer[0]/C33 $/atom:polymer[0]/F64
+$/bond:polymer[0]/b105 @/bond:GAFF/c3-f $/atom:polymer[0]/C33 $/atom:polymer[0]/F65
+$/bond:polymer[0]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C33 $/atom:polymer[0]/C34
+$/bond:polymer[0]/b107 @/bond:GAFF/c3-os $/atom:polymer[0]/O6 $/atom:polymer[0]/C35
+$/bond:polymer[0]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C34 $/atom:polymer[0]/C40
+$/bond:polymer[0]/b109 @/bond:GAFF/c3-f $/atom:polymer[0]/C34 $/atom:polymer[0]/F76
+$/bond:polymer[0]/b110 @/bond:GAFF/c3-f $/atom:polymer[0]/C34 $/atom:polymer[0]/F77
+$/bond:polymer[0]/b111 @/bond:GAFF/c3-f $/atom:polymer[0]/C35 $/atom:polymer[0]/F66
+$/bond:polymer[0]/b112 @/bond:GAFF/c3-f $/atom:polymer[0]/C35 $/atom:polymer[0]/F67
+$/bond:polymer[0]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C35 $/atom:polymer[0]/C36
+$/bond:polymer[0]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C36 $/atom:polymer[0]/C37
+$/bond:polymer[0]/b115 @/bond:GAFF/c3-os $/atom:polymer[0]/C36 $/atom:polymer[0]/O7
+$/bond:polymer[0]/b116 @/bond:GAFF/c3-f $/atom:polymer[0]/C36 $/atom:polymer[0]/F75
+$/bond:polymer[0]/b117 @/bond:GAFF/c3-f $/atom:polymer[0]/C37 $/atom:polymer[0]/F68
+$/bond:polymer[0]/b118 @/bond:GAFF/c3-f $/atom:polymer[0]/C37 $/atom:polymer[0]/F69
+$/bond:polymer[0]/b119 @/bond:GAFF/c3-f $/atom:polymer[0]/C37 $/atom:polymer[0]/F70
+$/bond:polymer[0]/b120 @/bond:GAFF/c3-os $/atom:polymer[0]/O7 $/atom:polymer[0]/C38
+$/bond:polymer[0]/b121 @/bond:GAFF/c3-f $/atom:polymer[0]/C38 $/atom:polymer[0]/F71
+$/bond:polymer[0]/b122 @/bond:GAFF/c3-f $/atom:polymer[0]/C38 $/atom:polymer[0]/F72
+$/bond:polymer[0]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C38 $/atom:polymer[0]/C39
+$/bond:polymer[0]/b124 @/bond:GAFF/c3-f $/atom:polymer[0]/C39 $/atom:polymer[0]/F73
+$/bond:polymer[0]/b125 @/bond:GAFF/c3-f $/atom:polymer[0]/C39 $/atom:polymer[0]/F74
+$/bond:polymer[0]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[0]/C39 $/atom:polymer[0]/S2
+$/bond:polymer[0]/b127 @/bond:GAFF/o-s6 $/atom:polymer[0]/S2 $/atom:polymer[0]/O8
+$/bond:polymer[0]/b128 @/bond:GAFF/o-s6 $/atom:polymer[0]/S2 $/atom:polymer[0]/O9
+$/bond:polymer[0]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[0]/S2 $/atom:polymer[0]/O10
+$/bond:polymer[0]/b130 @/bond:GAFF/ho-oh $/atom:polymer[0]/O10 $/atom:polymer[0]/H2
+$/bond:polymer[0]/b131 @/bond:GAFF/c3-f $/atom:polymer[0]/C40 $/atom:polymer[0]/F78
+$/bond:polymer[0]/b132 @/bond:GAFF/c3-f $/atom:polymer[0]/C40 $/atom:polymer[0]/F79
+$/bond:polymer[0]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C40 $/atom:polymer[0]/C41
+$/bond:polymer[0]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C41 $/atom:polymer[0]/C42
+$/bond:polymer[0]/b135 @/bond:GAFF/c3-f $/atom:polymer[0]/C41 $/atom:polymer[0]/F80
+$/bond:polymer[0]/b136 @/bond:GAFF/c3-f $/atom:polymer[0]/C41 $/atom:polymer[0]/F81
+$/bond:polymer[0]/b137 @/bond:GAFF/c3-f $/atom:polymer[0]/C42 $/atom:polymer[0]/F82
+$/bond:polymer[0]/b138 @/bond:GAFF/c3-f $/atom:polymer[0]/C42 $/atom:polymer[0]/F83
+$/bond:polymer[0]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C42 $/atom:polymer[0]/C43
+$/bond:polymer[0]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C43 $/atom:polymer[0]/C44
+$/bond:polymer[0]/b141 @/bond:GAFF/c3-f $/atom:polymer[0]/C43 $/atom:polymer[0]/F84
+$/bond:polymer[0]/b142 @/bond:GAFF/c3-f $/atom:polymer[0]/C43 $/atom:polymer[0]/F85
+$/bond:polymer[0]/b143 @/bond:GAFF/c3-f $/atom:polymer[0]/C44 $/atom:polymer[0]/F86
+$/bond:polymer[0]/b144 @/bond:GAFF/c3-f $/atom:polymer[0]/C44 $/atom:polymer[0]/F87
+$/bond:polymer[0]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C44 $/atom:polymer[0]/C45
+$/bond:polymer[0]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C45 $/atom:polymer[0]/C46
+$/bond:polymer[0]/b147 @/bond:GAFF/c3-f $/atom:polymer[0]/C45 $/atom:polymer[0]/F88
+$/bond:polymer[0]/b148 @/bond:GAFF/c3-f $/atom:polymer[0]/C45 $/atom:polymer[0]/F89
+$/bond:polymer[0]/b149 @/bond:GAFF/c3-f $/atom:polymer[0]/C46 $/atom:polymer[0]/F90
+$/bond:polymer[0]/b150 @/bond:GAFF/c3-f $/atom:polymer[0]/C46 $/atom:polymer[0]/F91
+$/bond:polymer[0]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C46 $/atom:polymer[0]/C47
+$/bond:polymer[0]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C47 $/atom:polymer[0]/C48
+$/bond:polymer[0]/b153 @/bond:GAFF/c3-f $/atom:polymer[0]/C47 $/atom:polymer[0]/F92
+$/bond:polymer[0]/b154 @/bond:GAFF/c3-f $/atom:polymer[0]/C47 $/atom:polymer[0]/F93
+$/bond:polymer[0]/b155 @/bond:GAFF/c3-f $/atom:polymer[0]/C48 $/atom:polymer[0]/F94
+$/bond:polymer[0]/b156 @/bond:GAFF/c3-f $/atom:polymer[0]/C48 $/atom:polymer[0]/F95
+$/bond:polymer[0]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C48 $/atom:polymer[0]/C49
+$/bond:polymer[0]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C49 $/atom:polymer[0]/C50
+$/bond:polymer[0]/b159 @/bond:GAFF/c3-f $/atom:polymer[0]/C49 $/atom:polymer[0]/F96
+$/bond:polymer[0]/b160 @/bond:GAFF/c3-f $/atom:polymer[0]/C49 $/atom:polymer[0]/F97
+$/bond:polymer[0]/b161 @/bond:GAFF/c3-f $/atom:polymer[0]/C50 $/atom:polymer[0]/F98
+$/bond:polymer[0]/b162 @/bond:GAFF/c3-f $/atom:polymer[0]/C50 $/atom:polymer[0]/F99
+$/bond:polymer[0]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C50 $/atom:polymer[0]/C51
+$/bond:polymer[0]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C51 $/atom:polymer[0]/C52
+$/bond:polymer[0]/b165 @/bond:GAFF/c3-os $/atom:polymer[0]/C51 $/atom:polymer[0]/O11
+$/bond:polymer[0]/b166 @/bond:GAFF/c3-f $/atom:polymer[0]/C51 $/atom:polymer[0]/F100
+$/bond:polymer[0]/b167 @/bond:GAFF/c3-f $/atom:polymer[0]/C52 $/atom:polymer[0]/F101
+$/bond:polymer[0]/b168 @/bond:GAFF/c3-f $/atom:polymer[0]/C52 $/atom:polymer[0]/F102
+$/bond:polymer[0]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C52 $/atom:polymer[0]/C53
+$/bond:polymer[0]/b170 @/bond:GAFF/c3-os $/atom:polymer[0]/O11 $/atom:polymer[0]/C54
+$/bond:polymer[0]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C53 $/atom:polymer[0]/C59
+$/bond:polymer[0]/b172 @/bond:GAFF/c3-f $/atom:polymer[0]/C53 $/atom:polymer[0]/F113
+$/bond:polymer[0]/b173 @/bond:GAFF/c3-f $/atom:polymer[0]/C53 $/atom:polymer[0]/F114
+$/bond:polymer[0]/b174 @/bond:GAFF/c3-f $/atom:polymer[0]/C54 $/atom:polymer[0]/F103
+$/bond:polymer[0]/b175 @/bond:GAFF/c3-f $/atom:polymer[0]/C54 $/atom:polymer[0]/F104
+$/bond:polymer[0]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C54 $/atom:polymer[0]/C55
+$/bond:polymer[0]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C55 $/atom:polymer[0]/C56
+$/bond:polymer[0]/b178 @/bond:GAFF/c3-os $/atom:polymer[0]/C55 $/atom:polymer[0]/O12
+$/bond:polymer[0]/b179 @/bond:GAFF/c3-f $/atom:polymer[0]/C55 $/atom:polymer[0]/F112
+$/bond:polymer[0]/b180 @/bond:GAFF/c3-f $/atom:polymer[0]/C56 $/atom:polymer[0]/F105
+$/bond:polymer[0]/b181 @/bond:GAFF/c3-f $/atom:polymer[0]/C56 $/atom:polymer[0]/F106
+$/bond:polymer[0]/b182 @/bond:GAFF/c3-f $/atom:polymer[0]/C56 $/atom:polymer[0]/F107
+$/bond:polymer[0]/b183 @/bond:GAFF/c3-os $/atom:polymer[0]/O12 $/atom:polymer[0]/C57
+$/bond:polymer[0]/b184 @/bond:GAFF/c3-f $/atom:polymer[0]/C57 $/atom:polymer[0]/F108
+$/bond:polymer[0]/b185 @/bond:GAFF/c3-f $/atom:polymer[0]/C57 $/atom:polymer[0]/F109
+$/bond:polymer[0]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C57 $/atom:polymer[0]/C58
+$/bond:polymer[0]/b187 @/bond:GAFF/c3-f $/atom:polymer[0]/C58 $/atom:polymer[0]/F110
+$/bond:polymer[0]/b188 @/bond:GAFF/c3-f $/atom:polymer[0]/C58 $/atom:polymer[0]/F111
+$/bond:polymer[0]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[0]/C58 $/atom:polymer[0]/S3
+$/bond:polymer[0]/b190 @/bond:GAFF/o-s6 $/atom:polymer[0]/S3 $/atom:polymer[0]/O13
+$/bond:polymer[0]/b191 @/bond:GAFF/o-s6 $/atom:polymer[0]/S3 $/atom:polymer[0]/O14
+$/bond:polymer[0]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[0]/S3 $/atom:polymer[0]/O15
+$/bond:polymer[0]/b193 @/bond:GAFF/ho-oh $/atom:polymer[0]/O15 $/atom:polymer[0]/H3
+$/bond:polymer[0]/b194 @/bond:GAFF/c3-f $/atom:polymer[0]/C59 $/atom:polymer[0]/F115
+$/bond:polymer[0]/b195 @/bond:GAFF/c3-f $/atom:polymer[0]/C59 $/atom:polymer[0]/F116
+$/bond:polymer[0]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C59 $/atom:polymer[0]/C60
+$/bond:polymer[0]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C60 $/atom:polymer[0]/C61
+$/bond:polymer[0]/b198 @/bond:GAFF/c3-f $/atom:polymer[0]/C60 $/atom:polymer[0]/F117
+$/bond:polymer[0]/b199 @/bond:GAFF/c3-f $/atom:polymer[0]/C60 $/atom:polymer[0]/F118
+$/bond:polymer[0]/b200 @/bond:GAFF/c3-f $/atom:polymer[0]/C61 $/atom:polymer[0]/F119
+$/bond:polymer[0]/b201 @/bond:GAFF/c3-f $/atom:polymer[0]/C61 $/atom:polymer[0]/F120
+$/bond:polymer[0]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C61 $/atom:polymer[0]/C62
+$/bond:polymer[0]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C62 $/atom:polymer[0]/C63
+$/bond:polymer[0]/b204 @/bond:GAFF/c3-f $/atom:polymer[0]/C62 $/atom:polymer[0]/F121
+$/bond:polymer[0]/b205 @/bond:GAFF/c3-f $/atom:polymer[0]/C62 $/atom:polymer[0]/F122
+$/bond:polymer[0]/b206 @/bond:GAFF/c3-f $/atom:polymer[0]/C63 $/atom:polymer[0]/F123
+$/bond:polymer[0]/b207 @/bond:GAFF/c3-f $/atom:polymer[0]/C63 $/atom:polymer[0]/F124
+$/bond:polymer[0]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C63 $/atom:polymer[0]/C64
+$/bond:polymer[0]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C64 $/atom:polymer[0]/C65
+$/bond:polymer[0]/b210 @/bond:GAFF/c3-f $/atom:polymer[0]/C64 $/atom:polymer[0]/F125
+$/bond:polymer[0]/b211 @/bond:GAFF/c3-f $/atom:polymer[0]/C64 $/atom:polymer[0]/F126
+$/bond:polymer[0]/b212 @/bond:GAFF/c3-f $/atom:polymer[0]/C65 $/atom:polymer[0]/F127
+$/bond:polymer[0]/b213 @/bond:GAFF/c3-f $/atom:polymer[0]/C65 $/atom:polymer[0]/F128
+$/bond:polymer[0]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C65 $/atom:polymer[0]/C66
+$/bond:polymer[0]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C66 $/atom:polymer[0]/C67
+$/bond:polymer[0]/b216 @/bond:GAFF/c3-f $/atom:polymer[0]/C66 $/atom:polymer[0]/F129
+$/bond:polymer[0]/b217 @/bond:GAFF/c3-f $/atom:polymer[0]/C66 $/atom:polymer[0]/F130
+$/bond:polymer[0]/b218 @/bond:GAFF/c3-f $/atom:polymer[0]/C67 $/atom:polymer[0]/F131
+$/bond:polymer[0]/b219 @/bond:GAFF/c3-f $/atom:polymer[0]/C67 $/atom:polymer[0]/F132
+$/bond:polymer[0]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C67 $/atom:polymer[0]/C68
+$/bond:polymer[0]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C68 $/atom:polymer[0]/C69
+$/bond:polymer[0]/b222 @/bond:GAFF/c3-f $/atom:polymer[0]/C68 $/atom:polymer[0]/F133
+$/bond:polymer[0]/b223 @/bond:GAFF/c3-f $/atom:polymer[0]/C68 $/atom:polymer[0]/F134
+$/bond:polymer[0]/b224 @/bond:GAFF/c3-f $/atom:polymer[0]/C69 $/atom:polymer[0]/F135
+$/bond:polymer[0]/b225 @/bond:GAFF/c3-f $/atom:polymer[0]/C69 $/atom:polymer[0]/F136
+$/bond:polymer[0]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C69 $/atom:polymer[0]/C70
+$/bond:polymer[0]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C70 $/atom:polymer[0]/C71
+$/bond:polymer[0]/b228 @/bond:GAFF/c3-os $/atom:polymer[0]/C70 $/atom:polymer[0]/O16
+$/bond:polymer[0]/b229 @/bond:GAFF/c3-f $/atom:polymer[0]/C70 $/atom:polymer[0]/F137
+$/bond:polymer[0]/b230 @/bond:GAFF/c3-f $/atom:polymer[0]/C71 $/atom:polymer[0]/F138
+$/bond:polymer[0]/b231 @/bond:GAFF/c3-f $/atom:polymer[0]/C71 $/atom:polymer[0]/F139
+$/bond:polymer[0]/b232 @/bond:GAFF/c3-f $/atom:polymer[0]/C71 $/atom:polymer[0]/F140
+$/bond:polymer[0]/b233 @/bond:GAFF/c3-os $/atom:polymer[0]/O16 $/atom:polymer[0]/C72
+$/bond:polymer[0]/b234 @/bond:GAFF/c3-f $/atom:polymer[0]/C72 $/atom:polymer[0]/F141
+$/bond:polymer[0]/b235 @/bond:GAFF/c3-f $/atom:polymer[0]/C72 $/atom:polymer[0]/F142
+$/bond:polymer[0]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C72 $/atom:polymer[0]/C73
+$/bond:polymer[0]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C73 $/atom:polymer[0]/C74
+$/bond:polymer[0]/b238 @/bond:GAFF/c3-os $/atom:polymer[0]/C73 $/atom:polymer[0]/O17
+$/bond:polymer[0]/b239 @/bond:GAFF/c3-f $/atom:polymer[0]/C73 $/atom:polymer[0]/F150
+$/bond:polymer[0]/b240 @/bond:GAFF/c3-f $/atom:polymer[0]/C74 $/atom:polymer[0]/F143
+$/bond:polymer[0]/b241 @/bond:GAFF/c3-f $/atom:polymer[0]/C74 $/atom:polymer[0]/F144
+$/bond:polymer[0]/b242 @/bond:GAFF/c3-f $/atom:polymer[0]/C74 $/atom:polymer[0]/F145
+$/bond:polymer[0]/b243 @/bond:GAFF/c3-os $/atom:polymer[0]/O17 $/atom:polymer[0]/C75
+$/bond:polymer[0]/b244 @/bond:GAFF/c3-f $/atom:polymer[0]/C75 $/atom:polymer[0]/F146
+$/bond:polymer[0]/b245 @/bond:GAFF/c3-f $/atom:polymer[0]/C75 $/atom:polymer[0]/F147
+$/bond:polymer[0]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[0]/C75 $/atom:polymer[0]/C76
+$/bond:polymer[0]/b247 @/bond:GAFF/c3-f $/atom:polymer[0]/C76 $/atom:polymer[0]/F148
+$/bond:polymer[0]/b248 @/bond:GAFF/c3-f $/atom:polymer[0]/C76 $/atom:polymer[0]/F149
+$/bond:polymer[0]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[0]/C76 $/atom:polymer[0]/S4
+$/bond:polymer[0]/b250 @/bond:GAFF/o-s6 $/atom:polymer[0]/S4 $/atom:polymer[0]/O18
+$/bond:polymer[0]/b251 @/bond:GAFF/o-s6 $/atom:polymer[0]/S4 $/atom:polymer[0]/O19
+$/bond:polymer[0]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[0]/S4 $/atom:polymer[0]/O20
+$/bond:polymer[0]/b253 @/bond:GAFF/ho-oh $/atom:polymer[0]/O20 $/atom:polymer[0]/H4
+$/bond:polymer[1]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C1 $/atom:polymer[1]/C2
+$/bond:polymer[1]/b2 @/bond:GAFF/c3-f $/atom:polymer[1]/C1 $/atom:polymer[1]/F1
+$/bond:polymer[1]/b3 @/bond:GAFF/c3-f $/atom:polymer[1]/C1 $/atom:polymer[1]/F2
+$/bond:polymer[1]/b4 @/bond:GAFF/c3-f $/atom:polymer[1]/C1 $/atom:polymer[1]/F3
+$/bond:polymer[1]/b5 @/bond:GAFF/c3-f $/atom:polymer[1]/C2 $/atom:polymer[1]/F4
+$/bond:polymer[1]/b6 @/bond:GAFF/c3-f $/atom:polymer[1]/C2 $/atom:polymer[1]/F5
+$/bond:polymer[1]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C2 $/atom:polymer[1]/C3
+$/bond:polymer[1]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C3 $/atom:polymer[1]/C4
+$/bond:polymer[1]/b9 @/bond:GAFF/c3-f $/atom:polymer[1]/C3 $/atom:polymer[1]/F6
+$/bond:polymer[1]/b10 @/bond:GAFF/c3-f $/atom:polymer[1]/C3 $/atom:polymer[1]/F7
+$/bond:polymer[1]/b11 @/bond:GAFF/c3-f $/atom:polymer[1]/C4 $/atom:polymer[1]/F8
+$/bond:polymer[1]/b12 @/bond:GAFF/c3-f $/atom:polymer[1]/C4 $/atom:polymer[1]/F9
+$/bond:polymer[1]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C4 $/atom:polymer[1]/C5
+$/bond:polymer[1]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C5 $/atom:polymer[1]/C6
+$/bond:polymer[1]/b15 @/bond:GAFF/c3-f $/atom:polymer[1]/C5 $/atom:polymer[1]/F10
+$/bond:polymer[1]/b16 @/bond:GAFF/c3-f $/atom:polymer[1]/C5 $/atom:polymer[1]/F11
+$/bond:polymer[1]/b17 @/bond:GAFF/c3-f $/atom:polymer[1]/C6 $/atom:polymer[1]/F12
+$/bond:polymer[1]/b18 @/bond:GAFF/c3-f $/atom:polymer[1]/C6 $/atom:polymer[1]/F13
+$/bond:polymer[1]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C6 $/atom:polymer[1]/C7
+$/bond:polymer[1]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C7 $/atom:polymer[1]/C8
+$/bond:polymer[1]/b21 @/bond:GAFF/c3-f $/atom:polymer[1]/C7 $/atom:polymer[1]/F14
+$/bond:polymer[1]/b22 @/bond:GAFF/c3-f $/atom:polymer[1]/C7 $/atom:polymer[1]/F15
+$/bond:polymer[1]/b23 @/bond:GAFF/c3-f $/atom:polymer[1]/C8 $/atom:polymer[1]/F16
+$/bond:polymer[1]/b24 @/bond:GAFF/c3-f $/atom:polymer[1]/C8 $/atom:polymer[1]/F17
+$/bond:polymer[1]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C8 $/atom:polymer[1]/C9
+$/bond:polymer[1]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C9 $/atom:polymer[1]/C10
+$/bond:polymer[1]/b27 @/bond:GAFF/c3-f $/atom:polymer[1]/C9 $/atom:polymer[1]/F18
+$/bond:polymer[1]/b28 @/bond:GAFF/c3-f $/atom:polymer[1]/C9 $/atom:polymer[1]/F19
+$/bond:polymer[1]/b29 @/bond:GAFF/c3-f $/atom:polymer[1]/C10 $/atom:polymer[1]/F20
+$/bond:polymer[1]/b30 @/bond:GAFF/c3-f $/atom:polymer[1]/C10 $/atom:polymer[1]/F21
+$/bond:polymer[1]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C10 $/atom:polymer[1]/C11
+$/bond:polymer[1]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C11 $/atom:polymer[1]/C12
+$/bond:polymer[1]/b33 @/bond:GAFF/c3-f $/atom:polymer[1]/C11 $/atom:polymer[1]/F22
+$/bond:polymer[1]/b34 @/bond:GAFF/c3-f $/atom:polymer[1]/C11 $/atom:polymer[1]/F23
+$/bond:polymer[1]/b35 @/bond:GAFF/c3-f $/atom:polymer[1]/C12 $/atom:polymer[1]/F24
+$/bond:polymer[1]/b36 @/bond:GAFF/c3-f $/atom:polymer[1]/C12 $/atom:polymer[1]/F25
+$/bond:polymer[1]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C12 $/atom:polymer[1]/C13
+$/bond:polymer[1]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C13 $/atom:polymer[1]/C14
+$/bond:polymer[1]/b39 @/bond:GAFF/c3-os $/atom:polymer[1]/C13 $/atom:polymer[1]/O1
+$/bond:polymer[1]/b40 @/bond:GAFF/c3-f $/atom:polymer[1]/C13 $/atom:polymer[1]/F26
+$/bond:polymer[1]/b41 @/bond:GAFF/c3-f $/atom:polymer[1]/C14 $/atom:polymer[1]/F27
+$/bond:polymer[1]/b42 @/bond:GAFF/c3-f $/atom:polymer[1]/C14 $/atom:polymer[1]/F28
+$/bond:polymer[1]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C14 $/atom:polymer[1]/C15
+$/bond:polymer[1]/b44 @/bond:GAFF/c3-os $/atom:polymer[1]/O1 $/atom:polymer[1]/C16
+$/bond:polymer[1]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C15 $/atom:polymer[1]/C21
+$/bond:polymer[1]/b46 @/bond:GAFF/c3-f $/atom:polymer[1]/C15 $/atom:polymer[1]/F39
+$/bond:polymer[1]/b47 @/bond:GAFF/c3-f $/atom:polymer[1]/C15 $/atom:polymer[1]/F40
+$/bond:polymer[1]/b48 @/bond:GAFF/c3-f $/atom:polymer[1]/C16 $/atom:polymer[1]/F29
+$/bond:polymer[1]/b49 @/bond:GAFF/c3-f $/atom:polymer[1]/C16 $/atom:polymer[1]/F30
+$/bond:polymer[1]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C16 $/atom:polymer[1]/C17
+$/bond:polymer[1]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C17 $/atom:polymer[1]/C18
+$/bond:polymer[1]/b52 @/bond:GAFF/c3-os $/atom:polymer[1]/C17 $/atom:polymer[1]/O2
+$/bond:polymer[1]/b53 @/bond:GAFF/c3-f $/atom:polymer[1]/C17 $/atom:polymer[1]/F38
+$/bond:polymer[1]/b54 @/bond:GAFF/c3-f $/atom:polymer[1]/C18 $/atom:polymer[1]/F31
+$/bond:polymer[1]/b55 @/bond:GAFF/c3-f $/atom:polymer[1]/C18 $/atom:polymer[1]/F32
+$/bond:polymer[1]/b56 @/bond:GAFF/c3-f $/atom:polymer[1]/C18 $/atom:polymer[1]/F33
+$/bond:polymer[1]/b57 @/bond:GAFF/c3-os $/atom:polymer[1]/O2 $/atom:polymer[1]/C19
+$/bond:polymer[1]/b58 @/bond:GAFF/c3-f $/atom:polymer[1]/C19 $/atom:polymer[1]/F34
+$/bond:polymer[1]/b59 @/bond:GAFF/c3-f $/atom:polymer[1]/C19 $/atom:polymer[1]/F35
+$/bond:polymer[1]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C19 $/atom:polymer[1]/C20
+$/bond:polymer[1]/b61 @/bond:GAFF/c3-f $/atom:polymer[1]/C20 $/atom:polymer[1]/F36
+$/bond:polymer[1]/b62 @/bond:GAFF/c3-f $/atom:polymer[1]/C20 $/atom:polymer[1]/F37
+$/bond:polymer[1]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[1]/C20 $/atom:polymer[1]/S1
+$/bond:polymer[1]/b64 @/bond:GAFF/o-s6 $/atom:polymer[1]/S1 $/atom:polymer[1]/O3
+$/bond:polymer[1]/b65 @/bond:GAFF/o-s6 $/atom:polymer[1]/S1 $/atom:polymer[1]/O4
+$/bond:polymer[1]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[1]/S1 $/atom:polymer[1]/O5
+$/bond:polymer[1]/b67 @/bond:GAFF/ho-oh $/atom:polymer[1]/O5 $/atom:polymer[1]/H1
+$/bond:polymer[1]/b68 @/bond:GAFF/c3-f $/atom:polymer[1]/C21 $/atom:polymer[1]/F41
+$/bond:polymer[1]/b69 @/bond:GAFF/c3-f $/atom:polymer[1]/C21 $/atom:polymer[1]/F42
+$/bond:polymer[1]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C21 $/atom:polymer[1]/C22
+$/bond:polymer[1]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C22 $/atom:polymer[1]/C23
+$/bond:polymer[1]/b72 @/bond:GAFF/c3-f $/atom:polymer[1]/C22 $/atom:polymer[1]/F43
+$/bond:polymer[1]/b73 @/bond:GAFF/c3-f $/atom:polymer[1]/C22 $/atom:polymer[1]/F44
+$/bond:polymer[1]/b74 @/bond:GAFF/c3-f $/atom:polymer[1]/C23 $/atom:polymer[1]/F45
+$/bond:polymer[1]/b75 @/bond:GAFF/c3-f $/atom:polymer[1]/C23 $/atom:polymer[1]/F46
+$/bond:polymer[1]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C23 $/atom:polymer[1]/C24
+$/bond:polymer[1]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C24 $/atom:polymer[1]/C25
+$/bond:polymer[1]/b78 @/bond:GAFF/c3-f $/atom:polymer[1]/C24 $/atom:polymer[1]/F47
+$/bond:polymer[1]/b79 @/bond:GAFF/c3-f $/atom:polymer[1]/C24 $/atom:polymer[1]/F48
+$/bond:polymer[1]/b80 @/bond:GAFF/c3-f $/atom:polymer[1]/C25 $/atom:polymer[1]/F49
+$/bond:polymer[1]/b81 @/bond:GAFF/c3-f $/atom:polymer[1]/C25 $/atom:polymer[1]/F50
+$/bond:polymer[1]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C25 $/atom:polymer[1]/C26
+$/bond:polymer[1]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C26 $/atom:polymer[1]/C27
+$/bond:polymer[1]/b84 @/bond:GAFF/c3-f $/atom:polymer[1]/C26 $/atom:polymer[1]/F51
+$/bond:polymer[1]/b85 @/bond:GAFF/c3-f $/atom:polymer[1]/C26 $/atom:polymer[1]/F52
+$/bond:polymer[1]/b86 @/bond:GAFF/c3-f $/atom:polymer[1]/C27 $/atom:polymer[1]/F53
+$/bond:polymer[1]/b87 @/bond:GAFF/c3-f $/atom:polymer[1]/C27 $/atom:polymer[1]/F54
+$/bond:polymer[1]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C27 $/atom:polymer[1]/C28
+$/bond:polymer[1]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C28 $/atom:polymer[1]/C29
+$/bond:polymer[1]/b90 @/bond:GAFF/c3-f $/atom:polymer[1]/C28 $/atom:polymer[1]/F55
+$/bond:polymer[1]/b91 @/bond:GAFF/c3-f $/atom:polymer[1]/C28 $/atom:polymer[1]/F56
+$/bond:polymer[1]/b92 @/bond:GAFF/c3-f $/atom:polymer[1]/C29 $/atom:polymer[1]/F57
+$/bond:polymer[1]/b93 @/bond:GAFF/c3-f $/atom:polymer[1]/C29 $/atom:polymer[1]/F58
+$/bond:polymer[1]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C29 $/atom:polymer[1]/C30
+$/bond:polymer[1]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C30 $/atom:polymer[1]/C31
+$/bond:polymer[1]/b96 @/bond:GAFF/c3-f $/atom:polymer[1]/C30 $/atom:polymer[1]/F59
+$/bond:polymer[1]/b97 @/bond:GAFF/c3-f $/atom:polymer[1]/C30 $/atom:polymer[1]/F60
+$/bond:polymer[1]/b98 @/bond:GAFF/c3-f $/atom:polymer[1]/C31 $/atom:polymer[1]/F61
+$/bond:polymer[1]/b99 @/bond:GAFF/c3-f $/atom:polymer[1]/C31 $/atom:polymer[1]/F62
+$/bond:polymer[1]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C31 $/atom:polymer[1]/C32
+$/bond:polymer[1]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C32 $/atom:polymer[1]/C33
+$/bond:polymer[1]/b102 @/bond:GAFF/c3-os $/atom:polymer[1]/C32 $/atom:polymer[1]/O6
+$/bond:polymer[1]/b103 @/bond:GAFF/c3-f $/atom:polymer[1]/C32 $/atom:polymer[1]/F63
+$/bond:polymer[1]/b104 @/bond:GAFF/c3-f $/atom:polymer[1]/C33 $/atom:polymer[1]/F64
+$/bond:polymer[1]/b105 @/bond:GAFF/c3-f $/atom:polymer[1]/C33 $/atom:polymer[1]/F65
+$/bond:polymer[1]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C33 $/atom:polymer[1]/C34
+$/bond:polymer[1]/b107 @/bond:GAFF/c3-os $/atom:polymer[1]/O6 $/atom:polymer[1]/C35
+$/bond:polymer[1]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C34 $/atom:polymer[1]/C40
+$/bond:polymer[1]/b109 @/bond:GAFF/c3-f $/atom:polymer[1]/C34 $/atom:polymer[1]/F76
+$/bond:polymer[1]/b110 @/bond:GAFF/c3-f $/atom:polymer[1]/C34 $/atom:polymer[1]/F77
+$/bond:polymer[1]/b111 @/bond:GAFF/c3-f $/atom:polymer[1]/C35 $/atom:polymer[1]/F66
+$/bond:polymer[1]/b112 @/bond:GAFF/c3-f $/atom:polymer[1]/C35 $/atom:polymer[1]/F67
+$/bond:polymer[1]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C35 $/atom:polymer[1]/C36
+$/bond:polymer[1]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C36 $/atom:polymer[1]/C37
+$/bond:polymer[1]/b115 @/bond:GAFF/c3-os $/atom:polymer[1]/C36 $/atom:polymer[1]/O7
+$/bond:polymer[1]/b116 @/bond:GAFF/c3-f $/atom:polymer[1]/C36 $/atom:polymer[1]/F75
+$/bond:polymer[1]/b117 @/bond:GAFF/c3-f $/atom:polymer[1]/C37 $/atom:polymer[1]/F68
+$/bond:polymer[1]/b118 @/bond:GAFF/c3-f $/atom:polymer[1]/C37 $/atom:polymer[1]/F69
+$/bond:polymer[1]/b119 @/bond:GAFF/c3-f $/atom:polymer[1]/C37 $/atom:polymer[1]/F70
+$/bond:polymer[1]/b120 @/bond:GAFF/c3-os $/atom:polymer[1]/O7 $/atom:polymer[1]/C38
+$/bond:polymer[1]/b121 @/bond:GAFF/c3-f $/atom:polymer[1]/C38 $/atom:polymer[1]/F71
+$/bond:polymer[1]/b122 @/bond:GAFF/c3-f $/atom:polymer[1]/C38 $/atom:polymer[1]/F72
+$/bond:polymer[1]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C38 $/atom:polymer[1]/C39
+$/bond:polymer[1]/b124 @/bond:GAFF/c3-f $/atom:polymer[1]/C39 $/atom:polymer[1]/F73
+$/bond:polymer[1]/b125 @/bond:GAFF/c3-f $/atom:polymer[1]/C39 $/atom:polymer[1]/F74
+$/bond:polymer[1]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[1]/C39 $/atom:polymer[1]/S2
+$/bond:polymer[1]/b127 @/bond:GAFF/o-s6 $/atom:polymer[1]/S2 $/atom:polymer[1]/O8
+$/bond:polymer[1]/b128 @/bond:GAFF/o-s6 $/atom:polymer[1]/S2 $/atom:polymer[1]/O9
+$/bond:polymer[1]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[1]/S2 $/atom:polymer[1]/O10
+$/bond:polymer[1]/b130 @/bond:GAFF/ho-oh $/atom:polymer[1]/O10 $/atom:polymer[1]/H2
+$/bond:polymer[1]/b131 @/bond:GAFF/c3-f $/atom:polymer[1]/C40 $/atom:polymer[1]/F78
+$/bond:polymer[1]/b132 @/bond:GAFF/c3-f $/atom:polymer[1]/C40 $/atom:polymer[1]/F79
+$/bond:polymer[1]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C40 $/atom:polymer[1]/C41
+$/bond:polymer[1]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C41 $/atom:polymer[1]/C42
+$/bond:polymer[1]/b135 @/bond:GAFF/c3-f $/atom:polymer[1]/C41 $/atom:polymer[1]/F80
+$/bond:polymer[1]/b136 @/bond:GAFF/c3-f $/atom:polymer[1]/C41 $/atom:polymer[1]/F81
+$/bond:polymer[1]/b137 @/bond:GAFF/c3-f $/atom:polymer[1]/C42 $/atom:polymer[1]/F82
+$/bond:polymer[1]/b138 @/bond:GAFF/c3-f $/atom:polymer[1]/C42 $/atom:polymer[1]/F83
+$/bond:polymer[1]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C42 $/atom:polymer[1]/C43
+$/bond:polymer[1]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C43 $/atom:polymer[1]/C44
+$/bond:polymer[1]/b141 @/bond:GAFF/c3-f $/atom:polymer[1]/C43 $/atom:polymer[1]/F84
+$/bond:polymer[1]/b142 @/bond:GAFF/c3-f $/atom:polymer[1]/C43 $/atom:polymer[1]/F85
+$/bond:polymer[1]/b143 @/bond:GAFF/c3-f $/atom:polymer[1]/C44 $/atom:polymer[1]/F86
+$/bond:polymer[1]/b144 @/bond:GAFF/c3-f $/atom:polymer[1]/C44 $/atom:polymer[1]/F87
+$/bond:polymer[1]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C44 $/atom:polymer[1]/C45
+$/bond:polymer[1]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C45 $/atom:polymer[1]/C46
+$/bond:polymer[1]/b147 @/bond:GAFF/c3-f $/atom:polymer[1]/C45 $/atom:polymer[1]/F88
+$/bond:polymer[1]/b148 @/bond:GAFF/c3-f $/atom:polymer[1]/C45 $/atom:polymer[1]/F89
+$/bond:polymer[1]/b149 @/bond:GAFF/c3-f $/atom:polymer[1]/C46 $/atom:polymer[1]/F90
+$/bond:polymer[1]/b150 @/bond:GAFF/c3-f $/atom:polymer[1]/C46 $/atom:polymer[1]/F91
+$/bond:polymer[1]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C46 $/atom:polymer[1]/C47
+$/bond:polymer[1]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C47 $/atom:polymer[1]/C48
+$/bond:polymer[1]/b153 @/bond:GAFF/c3-f $/atom:polymer[1]/C47 $/atom:polymer[1]/F92
+$/bond:polymer[1]/b154 @/bond:GAFF/c3-f $/atom:polymer[1]/C47 $/atom:polymer[1]/F93
+$/bond:polymer[1]/b155 @/bond:GAFF/c3-f $/atom:polymer[1]/C48 $/atom:polymer[1]/F94
+$/bond:polymer[1]/b156 @/bond:GAFF/c3-f $/atom:polymer[1]/C48 $/atom:polymer[1]/F95
+$/bond:polymer[1]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C48 $/atom:polymer[1]/C49
+$/bond:polymer[1]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C49 $/atom:polymer[1]/C50
+$/bond:polymer[1]/b159 @/bond:GAFF/c3-f $/atom:polymer[1]/C49 $/atom:polymer[1]/F96
+$/bond:polymer[1]/b160 @/bond:GAFF/c3-f $/atom:polymer[1]/C49 $/atom:polymer[1]/F97
+$/bond:polymer[1]/b161 @/bond:GAFF/c3-f $/atom:polymer[1]/C50 $/atom:polymer[1]/F98
+$/bond:polymer[1]/b162 @/bond:GAFF/c3-f $/atom:polymer[1]/C50 $/atom:polymer[1]/F99
+$/bond:polymer[1]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C50 $/atom:polymer[1]/C51
+$/bond:polymer[1]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C51 $/atom:polymer[1]/C52
+$/bond:polymer[1]/b165 @/bond:GAFF/c3-os $/atom:polymer[1]/C51 $/atom:polymer[1]/O11
+$/bond:polymer[1]/b166 @/bond:GAFF/c3-f $/atom:polymer[1]/C51 $/atom:polymer[1]/F100
+$/bond:polymer[1]/b167 @/bond:GAFF/c3-f $/atom:polymer[1]/C52 $/atom:polymer[1]/F101
+$/bond:polymer[1]/b168 @/bond:GAFF/c3-f $/atom:polymer[1]/C52 $/atom:polymer[1]/F102
+$/bond:polymer[1]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C52 $/atom:polymer[1]/C53
+$/bond:polymer[1]/b170 @/bond:GAFF/c3-os $/atom:polymer[1]/O11 $/atom:polymer[1]/C54
+$/bond:polymer[1]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C53 $/atom:polymer[1]/C59
+$/bond:polymer[1]/b172 @/bond:GAFF/c3-f $/atom:polymer[1]/C53 $/atom:polymer[1]/F113
+$/bond:polymer[1]/b173 @/bond:GAFF/c3-f $/atom:polymer[1]/C53 $/atom:polymer[1]/F114
+$/bond:polymer[1]/b174 @/bond:GAFF/c3-f $/atom:polymer[1]/C54 $/atom:polymer[1]/F103
+$/bond:polymer[1]/b175 @/bond:GAFF/c3-f $/atom:polymer[1]/C54 $/atom:polymer[1]/F104
+$/bond:polymer[1]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C54 $/atom:polymer[1]/C55
+$/bond:polymer[1]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C55 $/atom:polymer[1]/C56
+$/bond:polymer[1]/b178 @/bond:GAFF/c3-os $/atom:polymer[1]/C55 $/atom:polymer[1]/O12
+$/bond:polymer[1]/b179 @/bond:GAFF/c3-f $/atom:polymer[1]/C55 $/atom:polymer[1]/F112
+$/bond:polymer[1]/b180 @/bond:GAFF/c3-f $/atom:polymer[1]/C56 $/atom:polymer[1]/F105
+$/bond:polymer[1]/b181 @/bond:GAFF/c3-f $/atom:polymer[1]/C56 $/atom:polymer[1]/F106
+$/bond:polymer[1]/b182 @/bond:GAFF/c3-f $/atom:polymer[1]/C56 $/atom:polymer[1]/F107
+$/bond:polymer[1]/b183 @/bond:GAFF/c3-os $/atom:polymer[1]/O12 $/atom:polymer[1]/C57
+$/bond:polymer[1]/b184 @/bond:GAFF/c3-f $/atom:polymer[1]/C57 $/atom:polymer[1]/F108
+$/bond:polymer[1]/b185 @/bond:GAFF/c3-f $/atom:polymer[1]/C57 $/atom:polymer[1]/F109
+$/bond:polymer[1]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C57 $/atom:polymer[1]/C58
+$/bond:polymer[1]/b187 @/bond:GAFF/c3-f $/atom:polymer[1]/C58 $/atom:polymer[1]/F110
+$/bond:polymer[1]/b188 @/bond:GAFF/c3-f $/atom:polymer[1]/C58 $/atom:polymer[1]/F111
+$/bond:polymer[1]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[1]/C58 $/atom:polymer[1]/S3
+$/bond:polymer[1]/b190 @/bond:GAFF/o-s6 $/atom:polymer[1]/S3 $/atom:polymer[1]/O13
+$/bond:polymer[1]/b191 @/bond:GAFF/o-s6 $/atom:polymer[1]/S3 $/atom:polymer[1]/O14
+$/bond:polymer[1]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[1]/S3 $/atom:polymer[1]/O15
+$/bond:polymer[1]/b193 @/bond:GAFF/ho-oh $/atom:polymer[1]/O15 $/atom:polymer[1]/H3
+$/bond:polymer[1]/b194 @/bond:GAFF/c3-f $/atom:polymer[1]/C59 $/atom:polymer[1]/F115
+$/bond:polymer[1]/b195 @/bond:GAFF/c3-f $/atom:polymer[1]/C59 $/atom:polymer[1]/F116
+$/bond:polymer[1]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C59 $/atom:polymer[1]/C60
+$/bond:polymer[1]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C60 $/atom:polymer[1]/C61
+$/bond:polymer[1]/b198 @/bond:GAFF/c3-f $/atom:polymer[1]/C60 $/atom:polymer[1]/F117
+$/bond:polymer[1]/b199 @/bond:GAFF/c3-f $/atom:polymer[1]/C60 $/atom:polymer[1]/F118
+$/bond:polymer[1]/b200 @/bond:GAFF/c3-f $/atom:polymer[1]/C61 $/atom:polymer[1]/F119
+$/bond:polymer[1]/b201 @/bond:GAFF/c3-f $/atom:polymer[1]/C61 $/atom:polymer[1]/F120
+$/bond:polymer[1]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C61 $/atom:polymer[1]/C62
+$/bond:polymer[1]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C62 $/atom:polymer[1]/C63
+$/bond:polymer[1]/b204 @/bond:GAFF/c3-f $/atom:polymer[1]/C62 $/atom:polymer[1]/F121
+$/bond:polymer[1]/b205 @/bond:GAFF/c3-f $/atom:polymer[1]/C62 $/atom:polymer[1]/F122
+$/bond:polymer[1]/b206 @/bond:GAFF/c3-f $/atom:polymer[1]/C63 $/atom:polymer[1]/F123
+$/bond:polymer[1]/b207 @/bond:GAFF/c3-f $/atom:polymer[1]/C63 $/atom:polymer[1]/F124
+$/bond:polymer[1]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C63 $/atom:polymer[1]/C64
+$/bond:polymer[1]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C64 $/atom:polymer[1]/C65
+$/bond:polymer[1]/b210 @/bond:GAFF/c3-f $/atom:polymer[1]/C64 $/atom:polymer[1]/F125
+$/bond:polymer[1]/b211 @/bond:GAFF/c3-f $/atom:polymer[1]/C64 $/atom:polymer[1]/F126
+$/bond:polymer[1]/b212 @/bond:GAFF/c3-f $/atom:polymer[1]/C65 $/atom:polymer[1]/F127
+$/bond:polymer[1]/b213 @/bond:GAFF/c3-f $/atom:polymer[1]/C65 $/atom:polymer[1]/F128
+$/bond:polymer[1]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C65 $/atom:polymer[1]/C66
+$/bond:polymer[1]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C66 $/atom:polymer[1]/C67
+$/bond:polymer[1]/b216 @/bond:GAFF/c3-f $/atom:polymer[1]/C66 $/atom:polymer[1]/F129
+$/bond:polymer[1]/b217 @/bond:GAFF/c3-f $/atom:polymer[1]/C66 $/atom:polymer[1]/F130
+$/bond:polymer[1]/b218 @/bond:GAFF/c3-f $/atom:polymer[1]/C67 $/atom:polymer[1]/F131
+$/bond:polymer[1]/b219 @/bond:GAFF/c3-f $/atom:polymer[1]/C67 $/atom:polymer[1]/F132
+$/bond:polymer[1]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C67 $/atom:polymer[1]/C68
+$/bond:polymer[1]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C68 $/atom:polymer[1]/C69
+$/bond:polymer[1]/b222 @/bond:GAFF/c3-f $/atom:polymer[1]/C68 $/atom:polymer[1]/F133
+$/bond:polymer[1]/b223 @/bond:GAFF/c3-f $/atom:polymer[1]/C68 $/atom:polymer[1]/F134
+$/bond:polymer[1]/b224 @/bond:GAFF/c3-f $/atom:polymer[1]/C69 $/atom:polymer[1]/F135
+$/bond:polymer[1]/b225 @/bond:GAFF/c3-f $/atom:polymer[1]/C69 $/atom:polymer[1]/F136
+$/bond:polymer[1]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C69 $/atom:polymer[1]/C70
+$/bond:polymer[1]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C70 $/atom:polymer[1]/C71
+$/bond:polymer[1]/b228 @/bond:GAFF/c3-os $/atom:polymer[1]/C70 $/atom:polymer[1]/O16
+$/bond:polymer[1]/b229 @/bond:GAFF/c3-f $/atom:polymer[1]/C70 $/atom:polymer[1]/F137
+$/bond:polymer[1]/b230 @/bond:GAFF/c3-f $/atom:polymer[1]/C71 $/atom:polymer[1]/F138
+$/bond:polymer[1]/b231 @/bond:GAFF/c3-f $/atom:polymer[1]/C71 $/atom:polymer[1]/F139
+$/bond:polymer[1]/b232 @/bond:GAFF/c3-f $/atom:polymer[1]/C71 $/atom:polymer[1]/F140
+$/bond:polymer[1]/b233 @/bond:GAFF/c3-os $/atom:polymer[1]/O16 $/atom:polymer[1]/C72
+$/bond:polymer[1]/b234 @/bond:GAFF/c3-f $/atom:polymer[1]/C72 $/atom:polymer[1]/F141
+$/bond:polymer[1]/b235 @/bond:GAFF/c3-f $/atom:polymer[1]/C72 $/atom:polymer[1]/F142
+$/bond:polymer[1]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C72 $/atom:polymer[1]/C73
+$/bond:polymer[1]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C73 $/atom:polymer[1]/C74
+$/bond:polymer[1]/b238 @/bond:GAFF/c3-os $/atom:polymer[1]/C73 $/atom:polymer[1]/O17
+$/bond:polymer[1]/b239 @/bond:GAFF/c3-f $/atom:polymer[1]/C73 $/atom:polymer[1]/F150
+$/bond:polymer[1]/b240 @/bond:GAFF/c3-f $/atom:polymer[1]/C74 $/atom:polymer[1]/F143
+$/bond:polymer[1]/b241 @/bond:GAFF/c3-f $/atom:polymer[1]/C74 $/atom:polymer[1]/F144
+$/bond:polymer[1]/b242 @/bond:GAFF/c3-f $/atom:polymer[1]/C74 $/atom:polymer[1]/F145
+$/bond:polymer[1]/b243 @/bond:GAFF/c3-os $/atom:polymer[1]/O17 $/atom:polymer[1]/C75
+$/bond:polymer[1]/b244 @/bond:GAFF/c3-f $/atom:polymer[1]/C75 $/atom:polymer[1]/F146
+$/bond:polymer[1]/b245 @/bond:GAFF/c3-f $/atom:polymer[1]/C75 $/atom:polymer[1]/F147
+$/bond:polymer[1]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[1]/C75 $/atom:polymer[1]/C76
+$/bond:polymer[1]/b247 @/bond:GAFF/c3-f $/atom:polymer[1]/C76 $/atom:polymer[1]/F148
+$/bond:polymer[1]/b248 @/bond:GAFF/c3-f $/atom:polymer[1]/C76 $/atom:polymer[1]/F149
+$/bond:polymer[1]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[1]/C76 $/atom:polymer[1]/S4
+$/bond:polymer[1]/b250 @/bond:GAFF/o-s6 $/atom:polymer[1]/S4 $/atom:polymer[1]/O18
+$/bond:polymer[1]/b251 @/bond:GAFF/o-s6 $/atom:polymer[1]/S4 $/atom:polymer[1]/O19
+$/bond:polymer[1]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[1]/S4 $/atom:polymer[1]/O20
+$/bond:polymer[1]/b253 @/bond:GAFF/ho-oh $/atom:polymer[1]/O20 $/atom:polymer[1]/H4
+$/bond:polymer[2]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C1 $/atom:polymer[2]/C2
+$/bond:polymer[2]/b2 @/bond:GAFF/c3-f $/atom:polymer[2]/C1 $/atom:polymer[2]/F1
+$/bond:polymer[2]/b3 @/bond:GAFF/c3-f $/atom:polymer[2]/C1 $/atom:polymer[2]/F2
+$/bond:polymer[2]/b4 @/bond:GAFF/c3-f $/atom:polymer[2]/C1 $/atom:polymer[2]/F3
+$/bond:polymer[2]/b5 @/bond:GAFF/c3-f $/atom:polymer[2]/C2 $/atom:polymer[2]/F4
+$/bond:polymer[2]/b6 @/bond:GAFF/c3-f $/atom:polymer[2]/C2 $/atom:polymer[2]/F5
+$/bond:polymer[2]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C2 $/atom:polymer[2]/C3
+$/bond:polymer[2]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C3 $/atom:polymer[2]/C4
+$/bond:polymer[2]/b9 @/bond:GAFF/c3-f $/atom:polymer[2]/C3 $/atom:polymer[2]/F6
+$/bond:polymer[2]/b10 @/bond:GAFF/c3-f $/atom:polymer[2]/C3 $/atom:polymer[2]/F7
+$/bond:polymer[2]/b11 @/bond:GAFF/c3-f $/atom:polymer[2]/C4 $/atom:polymer[2]/F8
+$/bond:polymer[2]/b12 @/bond:GAFF/c3-f $/atom:polymer[2]/C4 $/atom:polymer[2]/F9
+$/bond:polymer[2]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C4 $/atom:polymer[2]/C5
+$/bond:polymer[2]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C5 $/atom:polymer[2]/C6
+$/bond:polymer[2]/b15 @/bond:GAFF/c3-f $/atom:polymer[2]/C5 $/atom:polymer[2]/F10
+$/bond:polymer[2]/b16 @/bond:GAFF/c3-f $/atom:polymer[2]/C5 $/atom:polymer[2]/F11
+$/bond:polymer[2]/b17 @/bond:GAFF/c3-f $/atom:polymer[2]/C6 $/atom:polymer[2]/F12
+$/bond:polymer[2]/b18 @/bond:GAFF/c3-f $/atom:polymer[2]/C6 $/atom:polymer[2]/F13
+$/bond:polymer[2]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C6 $/atom:polymer[2]/C7
+$/bond:polymer[2]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C7 $/atom:polymer[2]/C8
+$/bond:polymer[2]/b21 @/bond:GAFF/c3-f $/atom:polymer[2]/C7 $/atom:polymer[2]/F14
+$/bond:polymer[2]/b22 @/bond:GAFF/c3-f $/atom:polymer[2]/C7 $/atom:polymer[2]/F15
+$/bond:polymer[2]/b23 @/bond:GAFF/c3-f $/atom:polymer[2]/C8 $/atom:polymer[2]/F16
+$/bond:polymer[2]/b24 @/bond:GAFF/c3-f $/atom:polymer[2]/C8 $/atom:polymer[2]/F17
+$/bond:polymer[2]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C8 $/atom:polymer[2]/C9
+$/bond:polymer[2]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C9 $/atom:polymer[2]/C10
+$/bond:polymer[2]/b27 @/bond:GAFF/c3-f $/atom:polymer[2]/C9 $/atom:polymer[2]/F18
+$/bond:polymer[2]/b28 @/bond:GAFF/c3-f $/atom:polymer[2]/C9 $/atom:polymer[2]/F19
+$/bond:polymer[2]/b29 @/bond:GAFF/c3-f $/atom:polymer[2]/C10 $/atom:polymer[2]/F20
+$/bond:polymer[2]/b30 @/bond:GAFF/c3-f $/atom:polymer[2]/C10 $/atom:polymer[2]/F21
+$/bond:polymer[2]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C10 $/atom:polymer[2]/C11
+$/bond:polymer[2]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C11 $/atom:polymer[2]/C12
+$/bond:polymer[2]/b33 @/bond:GAFF/c3-f $/atom:polymer[2]/C11 $/atom:polymer[2]/F22
+$/bond:polymer[2]/b34 @/bond:GAFF/c3-f $/atom:polymer[2]/C11 $/atom:polymer[2]/F23
+$/bond:polymer[2]/b35 @/bond:GAFF/c3-f $/atom:polymer[2]/C12 $/atom:polymer[2]/F24
+$/bond:polymer[2]/b36 @/bond:GAFF/c3-f $/atom:polymer[2]/C12 $/atom:polymer[2]/F25
+$/bond:polymer[2]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C12 $/atom:polymer[2]/C13
+$/bond:polymer[2]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C13 $/atom:polymer[2]/C14
+$/bond:polymer[2]/b39 @/bond:GAFF/c3-os $/atom:polymer[2]/C13 $/atom:polymer[2]/O1
+$/bond:polymer[2]/b40 @/bond:GAFF/c3-f $/atom:polymer[2]/C13 $/atom:polymer[2]/F26
+$/bond:polymer[2]/b41 @/bond:GAFF/c3-f $/atom:polymer[2]/C14 $/atom:polymer[2]/F27
+$/bond:polymer[2]/b42 @/bond:GAFF/c3-f $/atom:polymer[2]/C14 $/atom:polymer[2]/F28
+$/bond:polymer[2]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C14 $/atom:polymer[2]/C15
+$/bond:polymer[2]/b44 @/bond:GAFF/c3-os $/atom:polymer[2]/O1 $/atom:polymer[2]/C16
+$/bond:polymer[2]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C15 $/atom:polymer[2]/C21
+$/bond:polymer[2]/b46 @/bond:GAFF/c3-f $/atom:polymer[2]/C15 $/atom:polymer[2]/F39
+$/bond:polymer[2]/b47 @/bond:GAFF/c3-f $/atom:polymer[2]/C15 $/atom:polymer[2]/F40
+$/bond:polymer[2]/b48 @/bond:GAFF/c3-f $/atom:polymer[2]/C16 $/atom:polymer[2]/F29
+$/bond:polymer[2]/b49 @/bond:GAFF/c3-f $/atom:polymer[2]/C16 $/atom:polymer[2]/F30
+$/bond:polymer[2]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C16 $/atom:polymer[2]/C17
+$/bond:polymer[2]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C17 $/atom:polymer[2]/C18
+$/bond:polymer[2]/b52 @/bond:GAFF/c3-os $/atom:polymer[2]/C17 $/atom:polymer[2]/O2
+$/bond:polymer[2]/b53 @/bond:GAFF/c3-f $/atom:polymer[2]/C17 $/atom:polymer[2]/F38
+$/bond:polymer[2]/b54 @/bond:GAFF/c3-f $/atom:polymer[2]/C18 $/atom:polymer[2]/F31
+$/bond:polymer[2]/b55 @/bond:GAFF/c3-f $/atom:polymer[2]/C18 $/atom:polymer[2]/F32
+$/bond:polymer[2]/b56 @/bond:GAFF/c3-f $/atom:polymer[2]/C18 $/atom:polymer[2]/F33
+$/bond:polymer[2]/b57 @/bond:GAFF/c3-os $/atom:polymer[2]/O2 $/atom:polymer[2]/C19
+$/bond:polymer[2]/b58 @/bond:GAFF/c3-f $/atom:polymer[2]/C19 $/atom:polymer[2]/F34
+$/bond:polymer[2]/b59 @/bond:GAFF/c3-f $/atom:polymer[2]/C19 $/atom:polymer[2]/F35
+$/bond:polymer[2]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C19 $/atom:polymer[2]/C20
+$/bond:polymer[2]/b61 @/bond:GAFF/c3-f $/atom:polymer[2]/C20 $/atom:polymer[2]/F36
+$/bond:polymer[2]/b62 @/bond:GAFF/c3-f $/atom:polymer[2]/C20 $/atom:polymer[2]/F37
+$/bond:polymer[2]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[2]/C20 $/atom:polymer[2]/S1
+$/bond:polymer[2]/b64 @/bond:GAFF/o-s6 $/atom:polymer[2]/S1 $/atom:polymer[2]/O3
+$/bond:polymer[2]/b65 @/bond:GAFF/o-s6 $/atom:polymer[2]/S1 $/atom:polymer[2]/O4
+$/bond:polymer[2]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[2]/S1 $/atom:polymer[2]/O5
+$/bond:polymer[2]/b67 @/bond:GAFF/ho-oh $/atom:polymer[2]/O5 $/atom:polymer[2]/H1
+$/bond:polymer[2]/b68 @/bond:GAFF/c3-f $/atom:polymer[2]/C21 $/atom:polymer[2]/F41
+$/bond:polymer[2]/b69 @/bond:GAFF/c3-f $/atom:polymer[2]/C21 $/atom:polymer[2]/F42
+$/bond:polymer[2]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C21 $/atom:polymer[2]/C22
+$/bond:polymer[2]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C22 $/atom:polymer[2]/C23
+$/bond:polymer[2]/b72 @/bond:GAFF/c3-f $/atom:polymer[2]/C22 $/atom:polymer[2]/F43
+$/bond:polymer[2]/b73 @/bond:GAFF/c3-f $/atom:polymer[2]/C22 $/atom:polymer[2]/F44
+$/bond:polymer[2]/b74 @/bond:GAFF/c3-f $/atom:polymer[2]/C23 $/atom:polymer[2]/F45
+$/bond:polymer[2]/b75 @/bond:GAFF/c3-f $/atom:polymer[2]/C23 $/atom:polymer[2]/F46
+$/bond:polymer[2]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C23 $/atom:polymer[2]/C24
+$/bond:polymer[2]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C24 $/atom:polymer[2]/C25
+$/bond:polymer[2]/b78 @/bond:GAFF/c3-f $/atom:polymer[2]/C24 $/atom:polymer[2]/F47
+$/bond:polymer[2]/b79 @/bond:GAFF/c3-f $/atom:polymer[2]/C24 $/atom:polymer[2]/F48
+$/bond:polymer[2]/b80 @/bond:GAFF/c3-f $/atom:polymer[2]/C25 $/atom:polymer[2]/F49
+$/bond:polymer[2]/b81 @/bond:GAFF/c3-f $/atom:polymer[2]/C25 $/atom:polymer[2]/F50
+$/bond:polymer[2]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C25 $/atom:polymer[2]/C26
+$/bond:polymer[2]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C26 $/atom:polymer[2]/C27
+$/bond:polymer[2]/b84 @/bond:GAFF/c3-f $/atom:polymer[2]/C26 $/atom:polymer[2]/F51
+$/bond:polymer[2]/b85 @/bond:GAFF/c3-f $/atom:polymer[2]/C26 $/atom:polymer[2]/F52
+$/bond:polymer[2]/b86 @/bond:GAFF/c3-f $/atom:polymer[2]/C27 $/atom:polymer[2]/F53
+$/bond:polymer[2]/b87 @/bond:GAFF/c3-f $/atom:polymer[2]/C27 $/atom:polymer[2]/F54
+$/bond:polymer[2]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C27 $/atom:polymer[2]/C28
+$/bond:polymer[2]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C28 $/atom:polymer[2]/C29
+$/bond:polymer[2]/b90 @/bond:GAFF/c3-f $/atom:polymer[2]/C28 $/atom:polymer[2]/F55
+$/bond:polymer[2]/b91 @/bond:GAFF/c3-f $/atom:polymer[2]/C28 $/atom:polymer[2]/F56
+$/bond:polymer[2]/b92 @/bond:GAFF/c3-f $/atom:polymer[2]/C29 $/atom:polymer[2]/F57
+$/bond:polymer[2]/b93 @/bond:GAFF/c3-f $/atom:polymer[2]/C29 $/atom:polymer[2]/F58
+$/bond:polymer[2]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C29 $/atom:polymer[2]/C30
+$/bond:polymer[2]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C30 $/atom:polymer[2]/C31
+$/bond:polymer[2]/b96 @/bond:GAFF/c3-f $/atom:polymer[2]/C30 $/atom:polymer[2]/F59
+$/bond:polymer[2]/b97 @/bond:GAFF/c3-f $/atom:polymer[2]/C30 $/atom:polymer[2]/F60
+$/bond:polymer[2]/b98 @/bond:GAFF/c3-f $/atom:polymer[2]/C31 $/atom:polymer[2]/F61
+$/bond:polymer[2]/b99 @/bond:GAFF/c3-f $/atom:polymer[2]/C31 $/atom:polymer[2]/F62
+$/bond:polymer[2]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C31 $/atom:polymer[2]/C32
+$/bond:polymer[2]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C32 $/atom:polymer[2]/C33
+$/bond:polymer[2]/b102 @/bond:GAFF/c3-os $/atom:polymer[2]/C32 $/atom:polymer[2]/O6
+$/bond:polymer[2]/b103 @/bond:GAFF/c3-f $/atom:polymer[2]/C32 $/atom:polymer[2]/F63
+$/bond:polymer[2]/b104 @/bond:GAFF/c3-f $/atom:polymer[2]/C33 $/atom:polymer[2]/F64
+$/bond:polymer[2]/b105 @/bond:GAFF/c3-f $/atom:polymer[2]/C33 $/atom:polymer[2]/F65
+$/bond:polymer[2]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C33 $/atom:polymer[2]/C34
+$/bond:polymer[2]/b107 @/bond:GAFF/c3-os $/atom:polymer[2]/O6 $/atom:polymer[2]/C35
+$/bond:polymer[2]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C34 $/atom:polymer[2]/C40
+$/bond:polymer[2]/b109 @/bond:GAFF/c3-f $/atom:polymer[2]/C34 $/atom:polymer[2]/F76
+$/bond:polymer[2]/b110 @/bond:GAFF/c3-f $/atom:polymer[2]/C34 $/atom:polymer[2]/F77
+$/bond:polymer[2]/b111 @/bond:GAFF/c3-f $/atom:polymer[2]/C35 $/atom:polymer[2]/F66
+$/bond:polymer[2]/b112 @/bond:GAFF/c3-f $/atom:polymer[2]/C35 $/atom:polymer[2]/F67
+$/bond:polymer[2]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C35 $/atom:polymer[2]/C36
+$/bond:polymer[2]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C36 $/atom:polymer[2]/C37
+$/bond:polymer[2]/b115 @/bond:GAFF/c3-os $/atom:polymer[2]/C36 $/atom:polymer[2]/O7
+$/bond:polymer[2]/b116 @/bond:GAFF/c3-f $/atom:polymer[2]/C36 $/atom:polymer[2]/F75
+$/bond:polymer[2]/b117 @/bond:GAFF/c3-f $/atom:polymer[2]/C37 $/atom:polymer[2]/F68
+$/bond:polymer[2]/b118 @/bond:GAFF/c3-f $/atom:polymer[2]/C37 $/atom:polymer[2]/F69
+$/bond:polymer[2]/b119 @/bond:GAFF/c3-f $/atom:polymer[2]/C37 $/atom:polymer[2]/F70
+$/bond:polymer[2]/b120 @/bond:GAFF/c3-os $/atom:polymer[2]/O7 $/atom:polymer[2]/C38
+$/bond:polymer[2]/b121 @/bond:GAFF/c3-f $/atom:polymer[2]/C38 $/atom:polymer[2]/F71
+$/bond:polymer[2]/b122 @/bond:GAFF/c3-f $/atom:polymer[2]/C38 $/atom:polymer[2]/F72
+$/bond:polymer[2]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C38 $/atom:polymer[2]/C39
+$/bond:polymer[2]/b124 @/bond:GAFF/c3-f $/atom:polymer[2]/C39 $/atom:polymer[2]/F73
+$/bond:polymer[2]/b125 @/bond:GAFF/c3-f $/atom:polymer[2]/C39 $/atom:polymer[2]/F74
+$/bond:polymer[2]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[2]/C39 $/atom:polymer[2]/S2
+$/bond:polymer[2]/b127 @/bond:GAFF/o-s6 $/atom:polymer[2]/S2 $/atom:polymer[2]/O8
+$/bond:polymer[2]/b128 @/bond:GAFF/o-s6 $/atom:polymer[2]/S2 $/atom:polymer[2]/O9
+$/bond:polymer[2]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[2]/S2 $/atom:polymer[2]/O10
+$/bond:polymer[2]/b130 @/bond:GAFF/ho-oh $/atom:polymer[2]/O10 $/atom:polymer[2]/H2
+$/bond:polymer[2]/b131 @/bond:GAFF/c3-f $/atom:polymer[2]/C40 $/atom:polymer[2]/F78
+$/bond:polymer[2]/b132 @/bond:GAFF/c3-f $/atom:polymer[2]/C40 $/atom:polymer[2]/F79
+$/bond:polymer[2]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C40 $/atom:polymer[2]/C41
+$/bond:polymer[2]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C41 $/atom:polymer[2]/C42
+$/bond:polymer[2]/b135 @/bond:GAFF/c3-f $/atom:polymer[2]/C41 $/atom:polymer[2]/F80
+$/bond:polymer[2]/b136 @/bond:GAFF/c3-f $/atom:polymer[2]/C41 $/atom:polymer[2]/F81
+$/bond:polymer[2]/b137 @/bond:GAFF/c3-f $/atom:polymer[2]/C42 $/atom:polymer[2]/F82
+$/bond:polymer[2]/b138 @/bond:GAFF/c3-f $/atom:polymer[2]/C42 $/atom:polymer[2]/F83
+$/bond:polymer[2]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C42 $/atom:polymer[2]/C43
+$/bond:polymer[2]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C43 $/atom:polymer[2]/C44
+$/bond:polymer[2]/b141 @/bond:GAFF/c3-f $/atom:polymer[2]/C43 $/atom:polymer[2]/F84
+$/bond:polymer[2]/b142 @/bond:GAFF/c3-f $/atom:polymer[2]/C43 $/atom:polymer[2]/F85
+$/bond:polymer[2]/b143 @/bond:GAFF/c3-f $/atom:polymer[2]/C44 $/atom:polymer[2]/F86
+$/bond:polymer[2]/b144 @/bond:GAFF/c3-f $/atom:polymer[2]/C44 $/atom:polymer[2]/F87
+$/bond:polymer[2]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C44 $/atom:polymer[2]/C45
+$/bond:polymer[2]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C45 $/atom:polymer[2]/C46
+$/bond:polymer[2]/b147 @/bond:GAFF/c3-f $/atom:polymer[2]/C45 $/atom:polymer[2]/F88
+$/bond:polymer[2]/b148 @/bond:GAFF/c3-f $/atom:polymer[2]/C45 $/atom:polymer[2]/F89
+$/bond:polymer[2]/b149 @/bond:GAFF/c3-f $/atom:polymer[2]/C46 $/atom:polymer[2]/F90
+$/bond:polymer[2]/b150 @/bond:GAFF/c3-f $/atom:polymer[2]/C46 $/atom:polymer[2]/F91
+$/bond:polymer[2]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C46 $/atom:polymer[2]/C47
+$/bond:polymer[2]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C47 $/atom:polymer[2]/C48
+$/bond:polymer[2]/b153 @/bond:GAFF/c3-f $/atom:polymer[2]/C47 $/atom:polymer[2]/F92
+$/bond:polymer[2]/b154 @/bond:GAFF/c3-f $/atom:polymer[2]/C47 $/atom:polymer[2]/F93
+$/bond:polymer[2]/b155 @/bond:GAFF/c3-f $/atom:polymer[2]/C48 $/atom:polymer[2]/F94
+$/bond:polymer[2]/b156 @/bond:GAFF/c3-f $/atom:polymer[2]/C48 $/atom:polymer[2]/F95
+$/bond:polymer[2]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C48 $/atom:polymer[2]/C49
+$/bond:polymer[2]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C49 $/atom:polymer[2]/C50
+$/bond:polymer[2]/b159 @/bond:GAFF/c3-f $/atom:polymer[2]/C49 $/atom:polymer[2]/F96
+$/bond:polymer[2]/b160 @/bond:GAFF/c3-f $/atom:polymer[2]/C49 $/atom:polymer[2]/F97
+$/bond:polymer[2]/b161 @/bond:GAFF/c3-f $/atom:polymer[2]/C50 $/atom:polymer[2]/F98
+$/bond:polymer[2]/b162 @/bond:GAFF/c3-f $/atom:polymer[2]/C50 $/atom:polymer[2]/F99
+$/bond:polymer[2]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C50 $/atom:polymer[2]/C51
+$/bond:polymer[2]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C51 $/atom:polymer[2]/C52
+$/bond:polymer[2]/b165 @/bond:GAFF/c3-os $/atom:polymer[2]/C51 $/atom:polymer[2]/O11
+$/bond:polymer[2]/b166 @/bond:GAFF/c3-f $/atom:polymer[2]/C51 $/atom:polymer[2]/F100
+$/bond:polymer[2]/b167 @/bond:GAFF/c3-f $/atom:polymer[2]/C52 $/atom:polymer[2]/F101
+$/bond:polymer[2]/b168 @/bond:GAFF/c3-f $/atom:polymer[2]/C52 $/atom:polymer[2]/F102
+$/bond:polymer[2]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C52 $/atom:polymer[2]/C53
+$/bond:polymer[2]/b170 @/bond:GAFF/c3-os $/atom:polymer[2]/O11 $/atom:polymer[2]/C54
+$/bond:polymer[2]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C53 $/atom:polymer[2]/C59
+$/bond:polymer[2]/b172 @/bond:GAFF/c3-f $/atom:polymer[2]/C53 $/atom:polymer[2]/F113
+$/bond:polymer[2]/b173 @/bond:GAFF/c3-f $/atom:polymer[2]/C53 $/atom:polymer[2]/F114
+$/bond:polymer[2]/b174 @/bond:GAFF/c3-f $/atom:polymer[2]/C54 $/atom:polymer[2]/F103
+$/bond:polymer[2]/b175 @/bond:GAFF/c3-f $/atom:polymer[2]/C54 $/atom:polymer[2]/F104
+$/bond:polymer[2]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C54 $/atom:polymer[2]/C55
+$/bond:polymer[2]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C55 $/atom:polymer[2]/C56
+$/bond:polymer[2]/b178 @/bond:GAFF/c3-os $/atom:polymer[2]/C55 $/atom:polymer[2]/O12
+$/bond:polymer[2]/b179 @/bond:GAFF/c3-f $/atom:polymer[2]/C55 $/atom:polymer[2]/F112
+$/bond:polymer[2]/b180 @/bond:GAFF/c3-f $/atom:polymer[2]/C56 $/atom:polymer[2]/F105
+$/bond:polymer[2]/b181 @/bond:GAFF/c3-f $/atom:polymer[2]/C56 $/atom:polymer[2]/F106
+$/bond:polymer[2]/b182 @/bond:GAFF/c3-f $/atom:polymer[2]/C56 $/atom:polymer[2]/F107
+$/bond:polymer[2]/b183 @/bond:GAFF/c3-os $/atom:polymer[2]/O12 $/atom:polymer[2]/C57
+$/bond:polymer[2]/b184 @/bond:GAFF/c3-f $/atom:polymer[2]/C57 $/atom:polymer[2]/F108
+$/bond:polymer[2]/b185 @/bond:GAFF/c3-f $/atom:polymer[2]/C57 $/atom:polymer[2]/F109
+$/bond:polymer[2]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C57 $/atom:polymer[2]/C58
+$/bond:polymer[2]/b187 @/bond:GAFF/c3-f $/atom:polymer[2]/C58 $/atom:polymer[2]/F110
+$/bond:polymer[2]/b188 @/bond:GAFF/c3-f $/atom:polymer[2]/C58 $/atom:polymer[2]/F111
+$/bond:polymer[2]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[2]/C58 $/atom:polymer[2]/S3
+$/bond:polymer[2]/b190 @/bond:GAFF/o-s6 $/atom:polymer[2]/S3 $/atom:polymer[2]/O13
+$/bond:polymer[2]/b191 @/bond:GAFF/o-s6 $/atom:polymer[2]/S3 $/atom:polymer[2]/O14
+$/bond:polymer[2]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[2]/S3 $/atom:polymer[2]/O15
+$/bond:polymer[2]/b193 @/bond:GAFF/ho-oh $/atom:polymer[2]/O15 $/atom:polymer[2]/H3
+$/bond:polymer[2]/b194 @/bond:GAFF/c3-f $/atom:polymer[2]/C59 $/atom:polymer[2]/F115
+$/bond:polymer[2]/b195 @/bond:GAFF/c3-f $/atom:polymer[2]/C59 $/atom:polymer[2]/F116
+$/bond:polymer[2]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C59 $/atom:polymer[2]/C60
+$/bond:polymer[2]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C60 $/atom:polymer[2]/C61
+$/bond:polymer[2]/b198 @/bond:GAFF/c3-f $/atom:polymer[2]/C60 $/atom:polymer[2]/F117
+$/bond:polymer[2]/b199 @/bond:GAFF/c3-f $/atom:polymer[2]/C60 $/atom:polymer[2]/F118
+$/bond:polymer[2]/b200 @/bond:GAFF/c3-f $/atom:polymer[2]/C61 $/atom:polymer[2]/F119
+$/bond:polymer[2]/b201 @/bond:GAFF/c3-f $/atom:polymer[2]/C61 $/atom:polymer[2]/F120
+$/bond:polymer[2]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C61 $/atom:polymer[2]/C62
+$/bond:polymer[2]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C62 $/atom:polymer[2]/C63
+$/bond:polymer[2]/b204 @/bond:GAFF/c3-f $/atom:polymer[2]/C62 $/atom:polymer[2]/F121
+$/bond:polymer[2]/b205 @/bond:GAFF/c3-f $/atom:polymer[2]/C62 $/atom:polymer[2]/F122
+$/bond:polymer[2]/b206 @/bond:GAFF/c3-f $/atom:polymer[2]/C63 $/atom:polymer[2]/F123
+$/bond:polymer[2]/b207 @/bond:GAFF/c3-f $/atom:polymer[2]/C63 $/atom:polymer[2]/F124
+$/bond:polymer[2]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C63 $/atom:polymer[2]/C64
+$/bond:polymer[2]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C64 $/atom:polymer[2]/C65
+$/bond:polymer[2]/b210 @/bond:GAFF/c3-f $/atom:polymer[2]/C64 $/atom:polymer[2]/F125
+$/bond:polymer[2]/b211 @/bond:GAFF/c3-f $/atom:polymer[2]/C64 $/atom:polymer[2]/F126
+$/bond:polymer[2]/b212 @/bond:GAFF/c3-f $/atom:polymer[2]/C65 $/atom:polymer[2]/F127
+$/bond:polymer[2]/b213 @/bond:GAFF/c3-f $/atom:polymer[2]/C65 $/atom:polymer[2]/F128
+$/bond:polymer[2]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C65 $/atom:polymer[2]/C66
+$/bond:polymer[2]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C66 $/atom:polymer[2]/C67
+$/bond:polymer[2]/b216 @/bond:GAFF/c3-f $/atom:polymer[2]/C66 $/atom:polymer[2]/F129
+$/bond:polymer[2]/b217 @/bond:GAFF/c3-f $/atom:polymer[2]/C66 $/atom:polymer[2]/F130
+$/bond:polymer[2]/b218 @/bond:GAFF/c3-f $/atom:polymer[2]/C67 $/atom:polymer[2]/F131
+$/bond:polymer[2]/b219 @/bond:GAFF/c3-f $/atom:polymer[2]/C67 $/atom:polymer[2]/F132
+$/bond:polymer[2]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C67 $/atom:polymer[2]/C68
+$/bond:polymer[2]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C68 $/atom:polymer[2]/C69
+$/bond:polymer[2]/b222 @/bond:GAFF/c3-f $/atom:polymer[2]/C68 $/atom:polymer[2]/F133
+$/bond:polymer[2]/b223 @/bond:GAFF/c3-f $/atom:polymer[2]/C68 $/atom:polymer[2]/F134
+$/bond:polymer[2]/b224 @/bond:GAFF/c3-f $/atom:polymer[2]/C69 $/atom:polymer[2]/F135
+$/bond:polymer[2]/b225 @/bond:GAFF/c3-f $/atom:polymer[2]/C69 $/atom:polymer[2]/F136
+$/bond:polymer[2]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C69 $/atom:polymer[2]/C70
+$/bond:polymer[2]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C70 $/atom:polymer[2]/C71
+$/bond:polymer[2]/b228 @/bond:GAFF/c3-os $/atom:polymer[2]/C70 $/atom:polymer[2]/O16
+$/bond:polymer[2]/b229 @/bond:GAFF/c3-f $/atom:polymer[2]/C70 $/atom:polymer[2]/F137
+$/bond:polymer[2]/b230 @/bond:GAFF/c3-f $/atom:polymer[2]/C71 $/atom:polymer[2]/F138
+$/bond:polymer[2]/b231 @/bond:GAFF/c3-f $/atom:polymer[2]/C71 $/atom:polymer[2]/F139
+$/bond:polymer[2]/b232 @/bond:GAFF/c3-f $/atom:polymer[2]/C71 $/atom:polymer[2]/F140
+$/bond:polymer[2]/b233 @/bond:GAFF/c3-os $/atom:polymer[2]/O16 $/atom:polymer[2]/C72
+$/bond:polymer[2]/b234 @/bond:GAFF/c3-f $/atom:polymer[2]/C72 $/atom:polymer[2]/F141
+$/bond:polymer[2]/b235 @/bond:GAFF/c3-f $/atom:polymer[2]/C72 $/atom:polymer[2]/F142
+$/bond:polymer[2]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C72 $/atom:polymer[2]/C73
+$/bond:polymer[2]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C73 $/atom:polymer[2]/C74
+$/bond:polymer[2]/b238 @/bond:GAFF/c3-os $/atom:polymer[2]/C73 $/atom:polymer[2]/O17
+$/bond:polymer[2]/b239 @/bond:GAFF/c3-f $/atom:polymer[2]/C73 $/atom:polymer[2]/F150
+$/bond:polymer[2]/b240 @/bond:GAFF/c3-f $/atom:polymer[2]/C74 $/atom:polymer[2]/F143
+$/bond:polymer[2]/b241 @/bond:GAFF/c3-f $/atom:polymer[2]/C74 $/atom:polymer[2]/F144
+$/bond:polymer[2]/b242 @/bond:GAFF/c3-f $/atom:polymer[2]/C74 $/atom:polymer[2]/F145
+$/bond:polymer[2]/b243 @/bond:GAFF/c3-os $/atom:polymer[2]/O17 $/atom:polymer[2]/C75
+$/bond:polymer[2]/b244 @/bond:GAFF/c3-f $/atom:polymer[2]/C75 $/atom:polymer[2]/F146
+$/bond:polymer[2]/b245 @/bond:GAFF/c3-f $/atom:polymer[2]/C75 $/atom:polymer[2]/F147
+$/bond:polymer[2]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[2]/C75 $/atom:polymer[2]/C76
+$/bond:polymer[2]/b247 @/bond:GAFF/c3-f $/atom:polymer[2]/C76 $/atom:polymer[2]/F148
+$/bond:polymer[2]/b248 @/bond:GAFF/c3-f $/atom:polymer[2]/C76 $/atom:polymer[2]/F149
+$/bond:polymer[2]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[2]/C76 $/atom:polymer[2]/S4
+$/bond:polymer[2]/b250 @/bond:GAFF/o-s6 $/atom:polymer[2]/S4 $/atom:polymer[2]/O18
+$/bond:polymer[2]/b251 @/bond:GAFF/o-s6 $/atom:polymer[2]/S4 $/atom:polymer[2]/O19
+$/bond:polymer[2]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[2]/S4 $/atom:polymer[2]/O20
+$/bond:polymer[2]/b253 @/bond:GAFF/ho-oh $/atom:polymer[2]/O20 $/atom:polymer[2]/H4
+$/bond:polymer[3]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C1 $/atom:polymer[3]/C2
+$/bond:polymer[3]/b2 @/bond:GAFF/c3-f $/atom:polymer[3]/C1 $/atom:polymer[3]/F1
+$/bond:polymer[3]/b3 @/bond:GAFF/c3-f $/atom:polymer[3]/C1 $/atom:polymer[3]/F2
+$/bond:polymer[3]/b4 @/bond:GAFF/c3-f $/atom:polymer[3]/C1 $/atom:polymer[3]/F3
+$/bond:polymer[3]/b5 @/bond:GAFF/c3-f $/atom:polymer[3]/C2 $/atom:polymer[3]/F4
+$/bond:polymer[3]/b6 @/bond:GAFF/c3-f $/atom:polymer[3]/C2 $/atom:polymer[3]/F5
+$/bond:polymer[3]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C2 $/atom:polymer[3]/C3
+$/bond:polymer[3]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C3 $/atom:polymer[3]/C4
+$/bond:polymer[3]/b9 @/bond:GAFF/c3-f $/atom:polymer[3]/C3 $/atom:polymer[3]/F6
+$/bond:polymer[3]/b10 @/bond:GAFF/c3-f $/atom:polymer[3]/C3 $/atom:polymer[3]/F7
+$/bond:polymer[3]/b11 @/bond:GAFF/c3-f $/atom:polymer[3]/C4 $/atom:polymer[3]/F8
+$/bond:polymer[3]/b12 @/bond:GAFF/c3-f $/atom:polymer[3]/C4 $/atom:polymer[3]/F9
+$/bond:polymer[3]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C4 $/atom:polymer[3]/C5
+$/bond:polymer[3]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C5 $/atom:polymer[3]/C6
+$/bond:polymer[3]/b15 @/bond:GAFF/c3-f $/atom:polymer[3]/C5 $/atom:polymer[3]/F10
+$/bond:polymer[3]/b16 @/bond:GAFF/c3-f $/atom:polymer[3]/C5 $/atom:polymer[3]/F11
+$/bond:polymer[3]/b17 @/bond:GAFF/c3-f $/atom:polymer[3]/C6 $/atom:polymer[3]/F12
+$/bond:polymer[3]/b18 @/bond:GAFF/c3-f $/atom:polymer[3]/C6 $/atom:polymer[3]/F13
+$/bond:polymer[3]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C6 $/atom:polymer[3]/C7
+$/bond:polymer[3]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C7 $/atom:polymer[3]/C8
+$/bond:polymer[3]/b21 @/bond:GAFF/c3-f $/atom:polymer[3]/C7 $/atom:polymer[3]/F14
+$/bond:polymer[3]/b22 @/bond:GAFF/c3-f $/atom:polymer[3]/C7 $/atom:polymer[3]/F15
+$/bond:polymer[3]/b23 @/bond:GAFF/c3-f $/atom:polymer[3]/C8 $/atom:polymer[3]/F16
+$/bond:polymer[3]/b24 @/bond:GAFF/c3-f $/atom:polymer[3]/C8 $/atom:polymer[3]/F17
+$/bond:polymer[3]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C8 $/atom:polymer[3]/C9
+$/bond:polymer[3]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C9 $/atom:polymer[3]/C10
+$/bond:polymer[3]/b27 @/bond:GAFF/c3-f $/atom:polymer[3]/C9 $/atom:polymer[3]/F18
+$/bond:polymer[3]/b28 @/bond:GAFF/c3-f $/atom:polymer[3]/C9 $/atom:polymer[3]/F19
+$/bond:polymer[3]/b29 @/bond:GAFF/c3-f $/atom:polymer[3]/C10 $/atom:polymer[3]/F20
+$/bond:polymer[3]/b30 @/bond:GAFF/c3-f $/atom:polymer[3]/C10 $/atom:polymer[3]/F21
+$/bond:polymer[3]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C10 $/atom:polymer[3]/C11
+$/bond:polymer[3]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C11 $/atom:polymer[3]/C12
+$/bond:polymer[3]/b33 @/bond:GAFF/c3-f $/atom:polymer[3]/C11 $/atom:polymer[3]/F22
+$/bond:polymer[3]/b34 @/bond:GAFF/c3-f $/atom:polymer[3]/C11 $/atom:polymer[3]/F23
+$/bond:polymer[3]/b35 @/bond:GAFF/c3-f $/atom:polymer[3]/C12 $/atom:polymer[3]/F24
+$/bond:polymer[3]/b36 @/bond:GAFF/c3-f $/atom:polymer[3]/C12 $/atom:polymer[3]/F25
+$/bond:polymer[3]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C12 $/atom:polymer[3]/C13
+$/bond:polymer[3]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C13 $/atom:polymer[3]/C14
+$/bond:polymer[3]/b39 @/bond:GAFF/c3-os $/atom:polymer[3]/C13 $/atom:polymer[3]/O1
+$/bond:polymer[3]/b40 @/bond:GAFF/c3-f $/atom:polymer[3]/C13 $/atom:polymer[3]/F26
+$/bond:polymer[3]/b41 @/bond:GAFF/c3-f $/atom:polymer[3]/C14 $/atom:polymer[3]/F27
+$/bond:polymer[3]/b42 @/bond:GAFF/c3-f $/atom:polymer[3]/C14 $/atom:polymer[3]/F28
+$/bond:polymer[3]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C14 $/atom:polymer[3]/C15
+$/bond:polymer[3]/b44 @/bond:GAFF/c3-os $/atom:polymer[3]/O1 $/atom:polymer[3]/C16
+$/bond:polymer[3]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C15 $/atom:polymer[3]/C21
+$/bond:polymer[3]/b46 @/bond:GAFF/c3-f $/atom:polymer[3]/C15 $/atom:polymer[3]/F39
+$/bond:polymer[3]/b47 @/bond:GAFF/c3-f $/atom:polymer[3]/C15 $/atom:polymer[3]/F40
+$/bond:polymer[3]/b48 @/bond:GAFF/c3-f $/atom:polymer[3]/C16 $/atom:polymer[3]/F29
+$/bond:polymer[3]/b49 @/bond:GAFF/c3-f $/atom:polymer[3]/C16 $/atom:polymer[3]/F30
+$/bond:polymer[3]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C16 $/atom:polymer[3]/C17
+$/bond:polymer[3]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C17 $/atom:polymer[3]/C18
+$/bond:polymer[3]/b52 @/bond:GAFF/c3-os $/atom:polymer[3]/C17 $/atom:polymer[3]/O2
+$/bond:polymer[3]/b53 @/bond:GAFF/c3-f $/atom:polymer[3]/C17 $/atom:polymer[3]/F38
+$/bond:polymer[3]/b54 @/bond:GAFF/c3-f $/atom:polymer[3]/C18 $/atom:polymer[3]/F31
+$/bond:polymer[3]/b55 @/bond:GAFF/c3-f $/atom:polymer[3]/C18 $/atom:polymer[3]/F32
+$/bond:polymer[3]/b56 @/bond:GAFF/c3-f $/atom:polymer[3]/C18 $/atom:polymer[3]/F33
+$/bond:polymer[3]/b57 @/bond:GAFF/c3-os $/atom:polymer[3]/O2 $/atom:polymer[3]/C19
+$/bond:polymer[3]/b58 @/bond:GAFF/c3-f $/atom:polymer[3]/C19 $/atom:polymer[3]/F34
+$/bond:polymer[3]/b59 @/bond:GAFF/c3-f $/atom:polymer[3]/C19 $/atom:polymer[3]/F35
+$/bond:polymer[3]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C19 $/atom:polymer[3]/C20
+$/bond:polymer[3]/b61 @/bond:GAFF/c3-f $/atom:polymer[3]/C20 $/atom:polymer[3]/F36
+$/bond:polymer[3]/b62 @/bond:GAFF/c3-f $/atom:polymer[3]/C20 $/atom:polymer[3]/F37
+$/bond:polymer[3]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[3]/C20 $/atom:polymer[3]/S1
+$/bond:polymer[3]/b64 @/bond:GAFF/o-s6 $/atom:polymer[3]/S1 $/atom:polymer[3]/O3
+$/bond:polymer[3]/b65 @/bond:GAFF/o-s6 $/atom:polymer[3]/S1 $/atom:polymer[3]/O4
+$/bond:polymer[3]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[3]/S1 $/atom:polymer[3]/O5
+$/bond:polymer[3]/b67 @/bond:GAFF/ho-oh $/atom:polymer[3]/O5 $/atom:polymer[3]/H1
+$/bond:polymer[3]/b68 @/bond:GAFF/c3-f $/atom:polymer[3]/C21 $/atom:polymer[3]/F41
+$/bond:polymer[3]/b69 @/bond:GAFF/c3-f $/atom:polymer[3]/C21 $/atom:polymer[3]/F42
+$/bond:polymer[3]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C21 $/atom:polymer[3]/C22
+$/bond:polymer[3]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C22 $/atom:polymer[3]/C23
+$/bond:polymer[3]/b72 @/bond:GAFF/c3-f $/atom:polymer[3]/C22 $/atom:polymer[3]/F43
+$/bond:polymer[3]/b73 @/bond:GAFF/c3-f $/atom:polymer[3]/C22 $/atom:polymer[3]/F44
+$/bond:polymer[3]/b74 @/bond:GAFF/c3-f $/atom:polymer[3]/C23 $/atom:polymer[3]/F45
+$/bond:polymer[3]/b75 @/bond:GAFF/c3-f $/atom:polymer[3]/C23 $/atom:polymer[3]/F46
+$/bond:polymer[3]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C23 $/atom:polymer[3]/C24
+$/bond:polymer[3]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C24 $/atom:polymer[3]/C25
+$/bond:polymer[3]/b78 @/bond:GAFF/c3-f $/atom:polymer[3]/C24 $/atom:polymer[3]/F47
+$/bond:polymer[3]/b79 @/bond:GAFF/c3-f $/atom:polymer[3]/C24 $/atom:polymer[3]/F48
+$/bond:polymer[3]/b80 @/bond:GAFF/c3-f $/atom:polymer[3]/C25 $/atom:polymer[3]/F49
+$/bond:polymer[3]/b81 @/bond:GAFF/c3-f $/atom:polymer[3]/C25 $/atom:polymer[3]/F50
+$/bond:polymer[3]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C25 $/atom:polymer[3]/C26
+$/bond:polymer[3]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C26 $/atom:polymer[3]/C27
+$/bond:polymer[3]/b84 @/bond:GAFF/c3-f $/atom:polymer[3]/C26 $/atom:polymer[3]/F51
+$/bond:polymer[3]/b85 @/bond:GAFF/c3-f $/atom:polymer[3]/C26 $/atom:polymer[3]/F52
+$/bond:polymer[3]/b86 @/bond:GAFF/c3-f $/atom:polymer[3]/C27 $/atom:polymer[3]/F53
+$/bond:polymer[3]/b87 @/bond:GAFF/c3-f $/atom:polymer[3]/C27 $/atom:polymer[3]/F54
+$/bond:polymer[3]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C27 $/atom:polymer[3]/C28
+$/bond:polymer[3]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C28 $/atom:polymer[3]/C29
+$/bond:polymer[3]/b90 @/bond:GAFF/c3-f $/atom:polymer[3]/C28 $/atom:polymer[3]/F55
+$/bond:polymer[3]/b91 @/bond:GAFF/c3-f $/atom:polymer[3]/C28 $/atom:polymer[3]/F56
+$/bond:polymer[3]/b92 @/bond:GAFF/c3-f $/atom:polymer[3]/C29 $/atom:polymer[3]/F57
+$/bond:polymer[3]/b93 @/bond:GAFF/c3-f $/atom:polymer[3]/C29 $/atom:polymer[3]/F58
+$/bond:polymer[3]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C29 $/atom:polymer[3]/C30
+$/bond:polymer[3]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C30 $/atom:polymer[3]/C31
+$/bond:polymer[3]/b96 @/bond:GAFF/c3-f $/atom:polymer[3]/C30 $/atom:polymer[3]/F59
+$/bond:polymer[3]/b97 @/bond:GAFF/c3-f $/atom:polymer[3]/C30 $/atom:polymer[3]/F60
+$/bond:polymer[3]/b98 @/bond:GAFF/c3-f $/atom:polymer[3]/C31 $/atom:polymer[3]/F61
+$/bond:polymer[3]/b99 @/bond:GAFF/c3-f $/atom:polymer[3]/C31 $/atom:polymer[3]/F62
+$/bond:polymer[3]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C31 $/atom:polymer[3]/C32
+$/bond:polymer[3]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C32 $/atom:polymer[3]/C33
+$/bond:polymer[3]/b102 @/bond:GAFF/c3-os $/atom:polymer[3]/C32 $/atom:polymer[3]/O6
+$/bond:polymer[3]/b103 @/bond:GAFF/c3-f $/atom:polymer[3]/C32 $/atom:polymer[3]/F63
+$/bond:polymer[3]/b104 @/bond:GAFF/c3-f $/atom:polymer[3]/C33 $/atom:polymer[3]/F64
+$/bond:polymer[3]/b105 @/bond:GAFF/c3-f $/atom:polymer[3]/C33 $/atom:polymer[3]/F65
+$/bond:polymer[3]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C33 $/atom:polymer[3]/C34
+$/bond:polymer[3]/b107 @/bond:GAFF/c3-os $/atom:polymer[3]/O6 $/atom:polymer[3]/C35
+$/bond:polymer[3]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C34 $/atom:polymer[3]/C40
+$/bond:polymer[3]/b109 @/bond:GAFF/c3-f $/atom:polymer[3]/C34 $/atom:polymer[3]/F76
+$/bond:polymer[3]/b110 @/bond:GAFF/c3-f $/atom:polymer[3]/C34 $/atom:polymer[3]/F77
+$/bond:polymer[3]/b111 @/bond:GAFF/c3-f $/atom:polymer[3]/C35 $/atom:polymer[3]/F66
+$/bond:polymer[3]/b112 @/bond:GAFF/c3-f $/atom:polymer[3]/C35 $/atom:polymer[3]/F67
+$/bond:polymer[3]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C35 $/atom:polymer[3]/C36
+$/bond:polymer[3]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C36 $/atom:polymer[3]/C37
+$/bond:polymer[3]/b115 @/bond:GAFF/c3-os $/atom:polymer[3]/C36 $/atom:polymer[3]/O7
+$/bond:polymer[3]/b116 @/bond:GAFF/c3-f $/atom:polymer[3]/C36 $/atom:polymer[3]/F75
+$/bond:polymer[3]/b117 @/bond:GAFF/c3-f $/atom:polymer[3]/C37 $/atom:polymer[3]/F68
+$/bond:polymer[3]/b118 @/bond:GAFF/c3-f $/atom:polymer[3]/C37 $/atom:polymer[3]/F69
+$/bond:polymer[3]/b119 @/bond:GAFF/c3-f $/atom:polymer[3]/C37 $/atom:polymer[3]/F70
+$/bond:polymer[3]/b120 @/bond:GAFF/c3-os $/atom:polymer[3]/O7 $/atom:polymer[3]/C38
+$/bond:polymer[3]/b121 @/bond:GAFF/c3-f $/atom:polymer[3]/C38 $/atom:polymer[3]/F71
+$/bond:polymer[3]/b122 @/bond:GAFF/c3-f $/atom:polymer[3]/C38 $/atom:polymer[3]/F72
+$/bond:polymer[3]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C38 $/atom:polymer[3]/C39
+$/bond:polymer[3]/b124 @/bond:GAFF/c3-f $/atom:polymer[3]/C39 $/atom:polymer[3]/F73
+$/bond:polymer[3]/b125 @/bond:GAFF/c3-f $/atom:polymer[3]/C39 $/atom:polymer[3]/F74
+$/bond:polymer[3]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[3]/C39 $/atom:polymer[3]/S2
+$/bond:polymer[3]/b127 @/bond:GAFF/o-s6 $/atom:polymer[3]/S2 $/atom:polymer[3]/O8
+$/bond:polymer[3]/b128 @/bond:GAFF/o-s6 $/atom:polymer[3]/S2 $/atom:polymer[3]/O9
+$/bond:polymer[3]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[3]/S2 $/atom:polymer[3]/O10
+$/bond:polymer[3]/b130 @/bond:GAFF/ho-oh $/atom:polymer[3]/O10 $/atom:polymer[3]/H2
+$/bond:polymer[3]/b131 @/bond:GAFF/c3-f $/atom:polymer[3]/C40 $/atom:polymer[3]/F78
+$/bond:polymer[3]/b132 @/bond:GAFF/c3-f $/atom:polymer[3]/C40 $/atom:polymer[3]/F79
+$/bond:polymer[3]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C40 $/atom:polymer[3]/C41
+$/bond:polymer[3]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C41 $/atom:polymer[3]/C42
+$/bond:polymer[3]/b135 @/bond:GAFF/c3-f $/atom:polymer[3]/C41 $/atom:polymer[3]/F80
+$/bond:polymer[3]/b136 @/bond:GAFF/c3-f $/atom:polymer[3]/C41 $/atom:polymer[3]/F81
+$/bond:polymer[3]/b137 @/bond:GAFF/c3-f $/atom:polymer[3]/C42 $/atom:polymer[3]/F82
+$/bond:polymer[3]/b138 @/bond:GAFF/c3-f $/atom:polymer[3]/C42 $/atom:polymer[3]/F83
+$/bond:polymer[3]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C42 $/atom:polymer[3]/C43
+$/bond:polymer[3]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C43 $/atom:polymer[3]/C44
+$/bond:polymer[3]/b141 @/bond:GAFF/c3-f $/atom:polymer[3]/C43 $/atom:polymer[3]/F84
+$/bond:polymer[3]/b142 @/bond:GAFF/c3-f $/atom:polymer[3]/C43 $/atom:polymer[3]/F85
+$/bond:polymer[3]/b143 @/bond:GAFF/c3-f $/atom:polymer[3]/C44 $/atom:polymer[3]/F86
+$/bond:polymer[3]/b144 @/bond:GAFF/c3-f $/atom:polymer[3]/C44 $/atom:polymer[3]/F87
+$/bond:polymer[3]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C44 $/atom:polymer[3]/C45
+$/bond:polymer[3]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C45 $/atom:polymer[3]/C46
+$/bond:polymer[3]/b147 @/bond:GAFF/c3-f $/atom:polymer[3]/C45 $/atom:polymer[3]/F88
+$/bond:polymer[3]/b148 @/bond:GAFF/c3-f $/atom:polymer[3]/C45 $/atom:polymer[3]/F89
+$/bond:polymer[3]/b149 @/bond:GAFF/c3-f $/atom:polymer[3]/C46 $/atom:polymer[3]/F90
+$/bond:polymer[3]/b150 @/bond:GAFF/c3-f $/atom:polymer[3]/C46 $/atom:polymer[3]/F91
+$/bond:polymer[3]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C46 $/atom:polymer[3]/C47
+$/bond:polymer[3]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C47 $/atom:polymer[3]/C48
+$/bond:polymer[3]/b153 @/bond:GAFF/c3-f $/atom:polymer[3]/C47 $/atom:polymer[3]/F92
+$/bond:polymer[3]/b154 @/bond:GAFF/c3-f $/atom:polymer[3]/C47 $/atom:polymer[3]/F93
+$/bond:polymer[3]/b155 @/bond:GAFF/c3-f $/atom:polymer[3]/C48 $/atom:polymer[3]/F94
+$/bond:polymer[3]/b156 @/bond:GAFF/c3-f $/atom:polymer[3]/C48 $/atom:polymer[3]/F95
+$/bond:polymer[3]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C48 $/atom:polymer[3]/C49
+$/bond:polymer[3]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C49 $/atom:polymer[3]/C50
+$/bond:polymer[3]/b159 @/bond:GAFF/c3-f $/atom:polymer[3]/C49 $/atom:polymer[3]/F96
+$/bond:polymer[3]/b160 @/bond:GAFF/c3-f $/atom:polymer[3]/C49 $/atom:polymer[3]/F97
+$/bond:polymer[3]/b161 @/bond:GAFF/c3-f $/atom:polymer[3]/C50 $/atom:polymer[3]/F98
+$/bond:polymer[3]/b162 @/bond:GAFF/c3-f $/atom:polymer[3]/C50 $/atom:polymer[3]/F99
+$/bond:polymer[3]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C50 $/atom:polymer[3]/C51
+$/bond:polymer[3]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C51 $/atom:polymer[3]/C52
+$/bond:polymer[3]/b165 @/bond:GAFF/c3-os $/atom:polymer[3]/C51 $/atom:polymer[3]/O11
+$/bond:polymer[3]/b166 @/bond:GAFF/c3-f $/atom:polymer[3]/C51 $/atom:polymer[3]/F100
+$/bond:polymer[3]/b167 @/bond:GAFF/c3-f $/atom:polymer[3]/C52 $/atom:polymer[3]/F101
+$/bond:polymer[3]/b168 @/bond:GAFF/c3-f $/atom:polymer[3]/C52 $/atom:polymer[3]/F102
+$/bond:polymer[3]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C52 $/atom:polymer[3]/C53
+$/bond:polymer[3]/b170 @/bond:GAFF/c3-os $/atom:polymer[3]/O11 $/atom:polymer[3]/C54
+$/bond:polymer[3]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C53 $/atom:polymer[3]/C59
+$/bond:polymer[3]/b172 @/bond:GAFF/c3-f $/atom:polymer[3]/C53 $/atom:polymer[3]/F113
+$/bond:polymer[3]/b173 @/bond:GAFF/c3-f $/atom:polymer[3]/C53 $/atom:polymer[3]/F114
+$/bond:polymer[3]/b174 @/bond:GAFF/c3-f $/atom:polymer[3]/C54 $/atom:polymer[3]/F103
+$/bond:polymer[3]/b175 @/bond:GAFF/c3-f $/atom:polymer[3]/C54 $/atom:polymer[3]/F104
+$/bond:polymer[3]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C54 $/atom:polymer[3]/C55
+$/bond:polymer[3]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C55 $/atom:polymer[3]/C56
+$/bond:polymer[3]/b178 @/bond:GAFF/c3-os $/atom:polymer[3]/C55 $/atom:polymer[3]/O12
+$/bond:polymer[3]/b179 @/bond:GAFF/c3-f $/atom:polymer[3]/C55 $/atom:polymer[3]/F112
+$/bond:polymer[3]/b180 @/bond:GAFF/c3-f $/atom:polymer[3]/C56 $/atom:polymer[3]/F105
+$/bond:polymer[3]/b181 @/bond:GAFF/c3-f $/atom:polymer[3]/C56 $/atom:polymer[3]/F106
+$/bond:polymer[3]/b182 @/bond:GAFF/c3-f $/atom:polymer[3]/C56 $/atom:polymer[3]/F107
+$/bond:polymer[3]/b183 @/bond:GAFF/c3-os $/atom:polymer[3]/O12 $/atom:polymer[3]/C57
+$/bond:polymer[3]/b184 @/bond:GAFF/c3-f $/atom:polymer[3]/C57 $/atom:polymer[3]/F108
+$/bond:polymer[3]/b185 @/bond:GAFF/c3-f $/atom:polymer[3]/C57 $/atom:polymer[3]/F109
+$/bond:polymer[3]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C57 $/atom:polymer[3]/C58
+$/bond:polymer[3]/b187 @/bond:GAFF/c3-f $/atom:polymer[3]/C58 $/atom:polymer[3]/F110
+$/bond:polymer[3]/b188 @/bond:GAFF/c3-f $/atom:polymer[3]/C58 $/atom:polymer[3]/F111
+$/bond:polymer[3]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[3]/C58 $/atom:polymer[3]/S3
+$/bond:polymer[3]/b190 @/bond:GAFF/o-s6 $/atom:polymer[3]/S3 $/atom:polymer[3]/O13
+$/bond:polymer[3]/b191 @/bond:GAFF/o-s6 $/atom:polymer[3]/S3 $/atom:polymer[3]/O14
+$/bond:polymer[3]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[3]/S3 $/atom:polymer[3]/O15
+$/bond:polymer[3]/b193 @/bond:GAFF/ho-oh $/atom:polymer[3]/O15 $/atom:polymer[3]/H3
+$/bond:polymer[3]/b194 @/bond:GAFF/c3-f $/atom:polymer[3]/C59 $/atom:polymer[3]/F115
+$/bond:polymer[3]/b195 @/bond:GAFF/c3-f $/atom:polymer[3]/C59 $/atom:polymer[3]/F116
+$/bond:polymer[3]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C59 $/atom:polymer[3]/C60
+$/bond:polymer[3]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C60 $/atom:polymer[3]/C61
+$/bond:polymer[3]/b198 @/bond:GAFF/c3-f $/atom:polymer[3]/C60 $/atom:polymer[3]/F117
+$/bond:polymer[3]/b199 @/bond:GAFF/c3-f $/atom:polymer[3]/C60 $/atom:polymer[3]/F118
+$/bond:polymer[3]/b200 @/bond:GAFF/c3-f $/atom:polymer[3]/C61 $/atom:polymer[3]/F119
+$/bond:polymer[3]/b201 @/bond:GAFF/c3-f $/atom:polymer[3]/C61 $/atom:polymer[3]/F120
+$/bond:polymer[3]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C61 $/atom:polymer[3]/C62
+$/bond:polymer[3]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C62 $/atom:polymer[3]/C63
+$/bond:polymer[3]/b204 @/bond:GAFF/c3-f $/atom:polymer[3]/C62 $/atom:polymer[3]/F121
+$/bond:polymer[3]/b205 @/bond:GAFF/c3-f $/atom:polymer[3]/C62 $/atom:polymer[3]/F122
+$/bond:polymer[3]/b206 @/bond:GAFF/c3-f $/atom:polymer[3]/C63 $/atom:polymer[3]/F123
+$/bond:polymer[3]/b207 @/bond:GAFF/c3-f $/atom:polymer[3]/C63 $/atom:polymer[3]/F124
+$/bond:polymer[3]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C63 $/atom:polymer[3]/C64
+$/bond:polymer[3]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C64 $/atom:polymer[3]/C65
+$/bond:polymer[3]/b210 @/bond:GAFF/c3-f $/atom:polymer[3]/C64 $/atom:polymer[3]/F125
+$/bond:polymer[3]/b211 @/bond:GAFF/c3-f $/atom:polymer[3]/C64 $/atom:polymer[3]/F126
+$/bond:polymer[3]/b212 @/bond:GAFF/c3-f $/atom:polymer[3]/C65 $/atom:polymer[3]/F127
+$/bond:polymer[3]/b213 @/bond:GAFF/c3-f $/atom:polymer[3]/C65 $/atom:polymer[3]/F128
+$/bond:polymer[3]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C65 $/atom:polymer[3]/C66
+$/bond:polymer[3]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C66 $/atom:polymer[3]/C67
+$/bond:polymer[3]/b216 @/bond:GAFF/c3-f $/atom:polymer[3]/C66 $/atom:polymer[3]/F129
+$/bond:polymer[3]/b217 @/bond:GAFF/c3-f $/atom:polymer[3]/C66 $/atom:polymer[3]/F130
+$/bond:polymer[3]/b218 @/bond:GAFF/c3-f $/atom:polymer[3]/C67 $/atom:polymer[3]/F131
+$/bond:polymer[3]/b219 @/bond:GAFF/c3-f $/atom:polymer[3]/C67 $/atom:polymer[3]/F132
+$/bond:polymer[3]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C67 $/atom:polymer[3]/C68
+$/bond:polymer[3]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C68 $/atom:polymer[3]/C69
+$/bond:polymer[3]/b222 @/bond:GAFF/c3-f $/atom:polymer[3]/C68 $/atom:polymer[3]/F133
+$/bond:polymer[3]/b223 @/bond:GAFF/c3-f $/atom:polymer[3]/C68 $/atom:polymer[3]/F134
+$/bond:polymer[3]/b224 @/bond:GAFF/c3-f $/atom:polymer[3]/C69 $/atom:polymer[3]/F135
+$/bond:polymer[3]/b225 @/bond:GAFF/c3-f $/atom:polymer[3]/C69 $/atom:polymer[3]/F136
+$/bond:polymer[3]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C69 $/atom:polymer[3]/C70
+$/bond:polymer[3]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C70 $/atom:polymer[3]/C71
+$/bond:polymer[3]/b228 @/bond:GAFF/c3-os $/atom:polymer[3]/C70 $/atom:polymer[3]/O16
+$/bond:polymer[3]/b229 @/bond:GAFF/c3-f $/atom:polymer[3]/C70 $/atom:polymer[3]/F137
+$/bond:polymer[3]/b230 @/bond:GAFF/c3-f $/atom:polymer[3]/C71 $/atom:polymer[3]/F138
+$/bond:polymer[3]/b231 @/bond:GAFF/c3-f $/atom:polymer[3]/C71 $/atom:polymer[3]/F139
+$/bond:polymer[3]/b232 @/bond:GAFF/c3-f $/atom:polymer[3]/C71 $/atom:polymer[3]/F140
+$/bond:polymer[3]/b233 @/bond:GAFF/c3-os $/atom:polymer[3]/O16 $/atom:polymer[3]/C72
+$/bond:polymer[3]/b234 @/bond:GAFF/c3-f $/atom:polymer[3]/C72 $/atom:polymer[3]/F141
+$/bond:polymer[3]/b235 @/bond:GAFF/c3-f $/atom:polymer[3]/C72 $/atom:polymer[3]/F142
+$/bond:polymer[3]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C72 $/atom:polymer[3]/C73
+$/bond:polymer[3]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C73 $/atom:polymer[3]/C74
+$/bond:polymer[3]/b238 @/bond:GAFF/c3-os $/atom:polymer[3]/C73 $/atom:polymer[3]/O17
+$/bond:polymer[3]/b239 @/bond:GAFF/c3-f $/atom:polymer[3]/C73 $/atom:polymer[3]/F150
+$/bond:polymer[3]/b240 @/bond:GAFF/c3-f $/atom:polymer[3]/C74 $/atom:polymer[3]/F143
+$/bond:polymer[3]/b241 @/bond:GAFF/c3-f $/atom:polymer[3]/C74 $/atom:polymer[3]/F144
+$/bond:polymer[3]/b242 @/bond:GAFF/c3-f $/atom:polymer[3]/C74 $/atom:polymer[3]/F145
+$/bond:polymer[3]/b243 @/bond:GAFF/c3-os $/atom:polymer[3]/O17 $/atom:polymer[3]/C75
+$/bond:polymer[3]/b244 @/bond:GAFF/c3-f $/atom:polymer[3]/C75 $/atom:polymer[3]/F146
+$/bond:polymer[3]/b245 @/bond:GAFF/c3-f $/atom:polymer[3]/C75 $/atom:polymer[3]/F147
+$/bond:polymer[3]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[3]/C75 $/atom:polymer[3]/C76
+$/bond:polymer[3]/b247 @/bond:GAFF/c3-f $/atom:polymer[3]/C76 $/atom:polymer[3]/F148
+$/bond:polymer[3]/b248 @/bond:GAFF/c3-f $/atom:polymer[3]/C76 $/atom:polymer[3]/F149
+$/bond:polymer[3]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[3]/C76 $/atom:polymer[3]/S4
+$/bond:polymer[3]/b250 @/bond:GAFF/o-s6 $/atom:polymer[3]/S4 $/atom:polymer[3]/O18
+$/bond:polymer[3]/b251 @/bond:GAFF/o-s6 $/atom:polymer[3]/S4 $/atom:polymer[3]/O19
+$/bond:polymer[3]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[3]/S4 $/atom:polymer[3]/O20
+$/bond:polymer[3]/b253 @/bond:GAFF/ho-oh $/atom:polymer[3]/O20 $/atom:polymer[3]/H4
+$/bond:polymer[4]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C1 $/atom:polymer[4]/C2
+$/bond:polymer[4]/b2 @/bond:GAFF/c3-f $/atom:polymer[4]/C1 $/atom:polymer[4]/F1
+$/bond:polymer[4]/b3 @/bond:GAFF/c3-f $/atom:polymer[4]/C1 $/atom:polymer[4]/F2
+$/bond:polymer[4]/b4 @/bond:GAFF/c3-f $/atom:polymer[4]/C1 $/atom:polymer[4]/F3
+$/bond:polymer[4]/b5 @/bond:GAFF/c3-f $/atom:polymer[4]/C2 $/atom:polymer[4]/F4
+$/bond:polymer[4]/b6 @/bond:GAFF/c3-f $/atom:polymer[4]/C2 $/atom:polymer[4]/F5
+$/bond:polymer[4]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C2 $/atom:polymer[4]/C3
+$/bond:polymer[4]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C3 $/atom:polymer[4]/C4
+$/bond:polymer[4]/b9 @/bond:GAFF/c3-f $/atom:polymer[4]/C3 $/atom:polymer[4]/F6
+$/bond:polymer[4]/b10 @/bond:GAFF/c3-f $/atom:polymer[4]/C3 $/atom:polymer[4]/F7
+$/bond:polymer[4]/b11 @/bond:GAFF/c3-f $/atom:polymer[4]/C4 $/atom:polymer[4]/F8
+$/bond:polymer[4]/b12 @/bond:GAFF/c3-f $/atom:polymer[4]/C4 $/atom:polymer[4]/F9
+$/bond:polymer[4]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C4 $/atom:polymer[4]/C5
+$/bond:polymer[4]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C5 $/atom:polymer[4]/C6
+$/bond:polymer[4]/b15 @/bond:GAFF/c3-f $/atom:polymer[4]/C5 $/atom:polymer[4]/F10
+$/bond:polymer[4]/b16 @/bond:GAFF/c3-f $/atom:polymer[4]/C5 $/atom:polymer[4]/F11
+$/bond:polymer[4]/b17 @/bond:GAFF/c3-f $/atom:polymer[4]/C6 $/atom:polymer[4]/F12
+$/bond:polymer[4]/b18 @/bond:GAFF/c3-f $/atom:polymer[4]/C6 $/atom:polymer[4]/F13
+$/bond:polymer[4]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C6 $/atom:polymer[4]/C7
+$/bond:polymer[4]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C7 $/atom:polymer[4]/C8
+$/bond:polymer[4]/b21 @/bond:GAFF/c3-f $/atom:polymer[4]/C7 $/atom:polymer[4]/F14
+$/bond:polymer[4]/b22 @/bond:GAFF/c3-f $/atom:polymer[4]/C7 $/atom:polymer[4]/F15
+$/bond:polymer[4]/b23 @/bond:GAFF/c3-f $/atom:polymer[4]/C8 $/atom:polymer[4]/F16
+$/bond:polymer[4]/b24 @/bond:GAFF/c3-f $/atom:polymer[4]/C8 $/atom:polymer[4]/F17
+$/bond:polymer[4]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C8 $/atom:polymer[4]/C9
+$/bond:polymer[4]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C9 $/atom:polymer[4]/C10
+$/bond:polymer[4]/b27 @/bond:GAFF/c3-f $/atom:polymer[4]/C9 $/atom:polymer[4]/F18
+$/bond:polymer[4]/b28 @/bond:GAFF/c3-f $/atom:polymer[4]/C9 $/atom:polymer[4]/F19
+$/bond:polymer[4]/b29 @/bond:GAFF/c3-f $/atom:polymer[4]/C10 $/atom:polymer[4]/F20
+$/bond:polymer[4]/b30 @/bond:GAFF/c3-f $/atom:polymer[4]/C10 $/atom:polymer[4]/F21
+$/bond:polymer[4]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C10 $/atom:polymer[4]/C11
+$/bond:polymer[4]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C11 $/atom:polymer[4]/C12
+$/bond:polymer[4]/b33 @/bond:GAFF/c3-f $/atom:polymer[4]/C11 $/atom:polymer[4]/F22
+$/bond:polymer[4]/b34 @/bond:GAFF/c3-f $/atom:polymer[4]/C11 $/atom:polymer[4]/F23
+$/bond:polymer[4]/b35 @/bond:GAFF/c3-f $/atom:polymer[4]/C12 $/atom:polymer[4]/F24
+$/bond:polymer[4]/b36 @/bond:GAFF/c3-f $/atom:polymer[4]/C12 $/atom:polymer[4]/F25
+$/bond:polymer[4]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C12 $/atom:polymer[4]/C13
+$/bond:polymer[4]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C13 $/atom:polymer[4]/C14
+$/bond:polymer[4]/b39 @/bond:GAFF/c3-os $/atom:polymer[4]/C13 $/atom:polymer[4]/O1
+$/bond:polymer[4]/b40 @/bond:GAFF/c3-f $/atom:polymer[4]/C13 $/atom:polymer[4]/F26
+$/bond:polymer[4]/b41 @/bond:GAFF/c3-f $/atom:polymer[4]/C14 $/atom:polymer[4]/F27
+$/bond:polymer[4]/b42 @/bond:GAFF/c3-f $/atom:polymer[4]/C14 $/atom:polymer[4]/F28
+$/bond:polymer[4]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C14 $/atom:polymer[4]/C15
+$/bond:polymer[4]/b44 @/bond:GAFF/c3-os $/atom:polymer[4]/O1 $/atom:polymer[4]/C16
+$/bond:polymer[4]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C15 $/atom:polymer[4]/C21
+$/bond:polymer[4]/b46 @/bond:GAFF/c3-f $/atom:polymer[4]/C15 $/atom:polymer[4]/F39
+$/bond:polymer[4]/b47 @/bond:GAFF/c3-f $/atom:polymer[4]/C15 $/atom:polymer[4]/F40
+$/bond:polymer[4]/b48 @/bond:GAFF/c3-f $/atom:polymer[4]/C16 $/atom:polymer[4]/F29
+$/bond:polymer[4]/b49 @/bond:GAFF/c3-f $/atom:polymer[4]/C16 $/atom:polymer[4]/F30
+$/bond:polymer[4]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C16 $/atom:polymer[4]/C17
+$/bond:polymer[4]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C17 $/atom:polymer[4]/C18
+$/bond:polymer[4]/b52 @/bond:GAFF/c3-os $/atom:polymer[4]/C17 $/atom:polymer[4]/O2
+$/bond:polymer[4]/b53 @/bond:GAFF/c3-f $/atom:polymer[4]/C17 $/atom:polymer[4]/F38
+$/bond:polymer[4]/b54 @/bond:GAFF/c3-f $/atom:polymer[4]/C18 $/atom:polymer[4]/F31
+$/bond:polymer[4]/b55 @/bond:GAFF/c3-f $/atom:polymer[4]/C18 $/atom:polymer[4]/F32
+$/bond:polymer[4]/b56 @/bond:GAFF/c3-f $/atom:polymer[4]/C18 $/atom:polymer[4]/F33
+$/bond:polymer[4]/b57 @/bond:GAFF/c3-os $/atom:polymer[4]/O2 $/atom:polymer[4]/C19
+$/bond:polymer[4]/b58 @/bond:GAFF/c3-f $/atom:polymer[4]/C19 $/atom:polymer[4]/F34
+$/bond:polymer[4]/b59 @/bond:GAFF/c3-f $/atom:polymer[4]/C19 $/atom:polymer[4]/F35
+$/bond:polymer[4]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C19 $/atom:polymer[4]/C20
+$/bond:polymer[4]/b61 @/bond:GAFF/c3-f $/atom:polymer[4]/C20 $/atom:polymer[4]/F36
+$/bond:polymer[4]/b62 @/bond:GAFF/c3-f $/atom:polymer[4]/C20 $/atom:polymer[4]/F37
+$/bond:polymer[4]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[4]/C20 $/atom:polymer[4]/S1
+$/bond:polymer[4]/b64 @/bond:GAFF/o-s6 $/atom:polymer[4]/S1 $/atom:polymer[4]/O3
+$/bond:polymer[4]/b65 @/bond:GAFF/o-s6 $/atom:polymer[4]/S1 $/atom:polymer[4]/O4
+$/bond:polymer[4]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[4]/S1 $/atom:polymer[4]/O5
+$/bond:polymer[4]/b67 @/bond:GAFF/ho-oh $/atom:polymer[4]/O5 $/atom:polymer[4]/H1
+$/bond:polymer[4]/b68 @/bond:GAFF/c3-f $/atom:polymer[4]/C21 $/atom:polymer[4]/F41
+$/bond:polymer[4]/b69 @/bond:GAFF/c3-f $/atom:polymer[4]/C21 $/atom:polymer[4]/F42
+$/bond:polymer[4]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C21 $/atom:polymer[4]/C22
+$/bond:polymer[4]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C22 $/atom:polymer[4]/C23
+$/bond:polymer[4]/b72 @/bond:GAFF/c3-f $/atom:polymer[4]/C22 $/atom:polymer[4]/F43
+$/bond:polymer[4]/b73 @/bond:GAFF/c3-f $/atom:polymer[4]/C22 $/atom:polymer[4]/F44
+$/bond:polymer[4]/b74 @/bond:GAFF/c3-f $/atom:polymer[4]/C23 $/atom:polymer[4]/F45
+$/bond:polymer[4]/b75 @/bond:GAFF/c3-f $/atom:polymer[4]/C23 $/atom:polymer[4]/F46
+$/bond:polymer[4]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C23 $/atom:polymer[4]/C24
+$/bond:polymer[4]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C24 $/atom:polymer[4]/C25
+$/bond:polymer[4]/b78 @/bond:GAFF/c3-f $/atom:polymer[4]/C24 $/atom:polymer[4]/F47
+$/bond:polymer[4]/b79 @/bond:GAFF/c3-f $/atom:polymer[4]/C24 $/atom:polymer[4]/F48
+$/bond:polymer[4]/b80 @/bond:GAFF/c3-f $/atom:polymer[4]/C25 $/atom:polymer[4]/F49
+$/bond:polymer[4]/b81 @/bond:GAFF/c3-f $/atom:polymer[4]/C25 $/atom:polymer[4]/F50
+$/bond:polymer[4]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C25 $/atom:polymer[4]/C26
+$/bond:polymer[4]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C26 $/atom:polymer[4]/C27
+$/bond:polymer[4]/b84 @/bond:GAFF/c3-f $/atom:polymer[4]/C26 $/atom:polymer[4]/F51
+$/bond:polymer[4]/b85 @/bond:GAFF/c3-f $/atom:polymer[4]/C26 $/atom:polymer[4]/F52
+$/bond:polymer[4]/b86 @/bond:GAFF/c3-f $/atom:polymer[4]/C27 $/atom:polymer[4]/F53
+$/bond:polymer[4]/b87 @/bond:GAFF/c3-f $/atom:polymer[4]/C27 $/atom:polymer[4]/F54
+$/bond:polymer[4]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C27 $/atom:polymer[4]/C28
+$/bond:polymer[4]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C28 $/atom:polymer[4]/C29
+$/bond:polymer[4]/b90 @/bond:GAFF/c3-f $/atom:polymer[4]/C28 $/atom:polymer[4]/F55
+$/bond:polymer[4]/b91 @/bond:GAFF/c3-f $/atom:polymer[4]/C28 $/atom:polymer[4]/F56
+$/bond:polymer[4]/b92 @/bond:GAFF/c3-f $/atom:polymer[4]/C29 $/atom:polymer[4]/F57
+$/bond:polymer[4]/b93 @/bond:GAFF/c3-f $/atom:polymer[4]/C29 $/atom:polymer[4]/F58
+$/bond:polymer[4]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C29 $/atom:polymer[4]/C30
+$/bond:polymer[4]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C30 $/atom:polymer[4]/C31
+$/bond:polymer[4]/b96 @/bond:GAFF/c3-f $/atom:polymer[4]/C30 $/atom:polymer[4]/F59
+$/bond:polymer[4]/b97 @/bond:GAFF/c3-f $/atom:polymer[4]/C30 $/atom:polymer[4]/F60
+$/bond:polymer[4]/b98 @/bond:GAFF/c3-f $/atom:polymer[4]/C31 $/atom:polymer[4]/F61
+$/bond:polymer[4]/b99 @/bond:GAFF/c3-f $/atom:polymer[4]/C31 $/atom:polymer[4]/F62
+$/bond:polymer[4]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C31 $/atom:polymer[4]/C32
+$/bond:polymer[4]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C32 $/atom:polymer[4]/C33
+$/bond:polymer[4]/b102 @/bond:GAFF/c3-os $/atom:polymer[4]/C32 $/atom:polymer[4]/O6
+$/bond:polymer[4]/b103 @/bond:GAFF/c3-f $/atom:polymer[4]/C32 $/atom:polymer[4]/F63
+$/bond:polymer[4]/b104 @/bond:GAFF/c3-f $/atom:polymer[4]/C33 $/atom:polymer[4]/F64
+$/bond:polymer[4]/b105 @/bond:GAFF/c3-f $/atom:polymer[4]/C33 $/atom:polymer[4]/F65
+$/bond:polymer[4]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C33 $/atom:polymer[4]/C34
+$/bond:polymer[4]/b107 @/bond:GAFF/c3-os $/atom:polymer[4]/O6 $/atom:polymer[4]/C35
+$/bond:polymer[4]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C34 $/atom:polymer[4]/C40
+$/bond:polymer[4]/b109 @/bond:GAFF/c3-f $/atom:polymer[4]/C34 $/atom:polymer[4]/F76
+$/bond:polymer[4]/b110 @/bond:GAFF/c3-f $/atom:polymer[4]/C34 $/atom:polymer[4]/F77
+$/bond:polymer[4]/b111 @/bond:GAFF/c3-f $/atom:polymer[4]/C35 $/atom:polymer[4]/F66
+$/bond:polymer[4]/b112 @/bond:GAFF/c3-f $/atom:polymer[4]/C35 $/atom:polymer[4]/F67
+$/bond:polymer[4]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C35 $/atom:polymer[4]/C36
+$/bond:polymer[4]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C36 $/atom:polymer[4]/C37
+$/bond:polymer[4]/b115 @/bond:GAFF/c3-os $/atom:polymer[4]/C36 $/atom:polymer[4]/O7
+$/bond:polymer[4]/b116 @/bond:GAFF/c3-f $/atom:polymer[4]/C36 $/atom:polymer[4]/F75
+$/bond:polymer[4]/b117 @/bond:GAFF/c3-f $/atom:polymer[4]/C37 $/atom:polymer[4]/F68
+$/bond:polymer[4]/b118 @/bond:GAFF/c3-f $/atom:polymer[4]/C37 $/atom:polymer[4]/F69
+$/bond:polymer[4]/b119 @/bond:GAFF/c3-f $/atom:polymer[4]/C37 $/atom:polymer[4]/F70
+$/bond:polymer[4]/b120 @/bond:GAFF/c3-os $/atom:polymer[4]/O7 $/atom:polymer[4]/C38
+$/bond:polymer[4]/b121 @/bond:GAFF/c3-f $/atom:polymer[4]/C38 $/atom:polymer[4]/F71
+$/bond:polymer[4]/b122 @/bond:GAFF/c3-f $/atom:polymer[4]/C38 $/atom:polymer[4]/F72
+$/bond:polymer[4]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C38 $/atom:polymer[4]/C39
+$/bond:polymer[4]/b124 @/bond:GAFF/c3-f $/atom:polymer[4]/C39 $/atom:polymer[4]/F73
+$/bond:polymer[4]/b125 @/bond:GAFF/c3-f $/atom:polymer[4]/C39 $/atom:polymer[4]/F74
+$/bond:polymer[4]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[4]/C39 $/atom:polymer[4]/S2
+$/bond:polymer[4]/b127 @/bond:GAFF/o-s6 $/atom:polymer[4]/S2 $/atom:polymer[4]/O8
+$/bond:polymer[4]/b128 @/bond:GAFF/o-s6 $/atom:polymer[4]/S2 $/atom:polymer[4]/O9
+$/bond:polymer[4]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[4]/S2 $/atom:polymer[4]/O10
+$/bond:polymer[4]/b130 @/bond:GAFF/ho-oh $/atom:polymer[4]/O10 $/atom:polymer[4]/H2
+$/bond:polymer[4]/b131 @/bond:GAFF/c3-f $/atom:polymer[4]/C40 $/atom:polymer[4]/F78
+$/bond:polymer[4]/b132 @/bond:GAFF/c3-f $/atom:polymer[4]/C40 $/atom:polymer[4]/F79
+$/bond:polymer[4]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C40 $/atom:polymer[4]/C41
+$/bond:polymer[4]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C41 $/atom:polymer[4]/C42
+$/bond:polymer[4]/b135 @/bond:GAFF/c3-f $/atom:polymer[4]/C41 $/atom:polymer[4]/F80
+$/bond:polymer[4]/b136 @/bond:GAFF/c3-f $/atom:polymer[4]/C41 $/atom:polymer[4]/F81
+$/bond:polymer[4]/b137 @/bond:GAFF/c3-f $/atom:polymer[4]/C42 $/atom:polymer[4]/F82
+$/bond:polymer[4]/b138 @/bond:GAFF/c3-f $/atom:polymer[4]/C42 $/atom:polymer[4]/F83
+$/bond:polymer[4]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C42 $/atom:polymer[4]/C43
+$/bond:polymer[4]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C43 $/atom:polymer[4]/C44
+$/bond:polymer[4]/b141 @/bond:GAFF/c3-f $/atom:polymer[4]/C43 $/atom:polymer[4]/F84
+$/bond:polymer[4]/b142 @/bond:GAFF/c3-f $/atom:polymer[4]/C43 $/atom:polymer[4]/F85
+$/bond:polymer[4]/b143 @/bond:GAFF/c3-f $/atom:polymer[4]/C44 $/atom:polymer[4]/F86
+$/bond:polymer[4]/b144 @/bond:GAFF/c3-f $/atom:polymer[4]/C44 $/atom:polymer[4]/F87
+$/bond:polymer[4]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C44 $/atom:polymer[4]/C45
+$/bond:polymer[4]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C45 $/atom:polymer[4]/C46
+$/bond:polymer[4]/b147 @/bond:GAFF/c3-f $/atom:polymer[4]/C45 $/atom:polymer[4]/F88
+$/bond:polymer[4]/b148 @/bond:GAFF/c3-f $/atom:polymer[4]/C45 $/atom:polymer[4]/F89
+$/bond:polymer[4]/b149 @/bond:GAFF/c3-f $/atom:polymer[4]/C46 $/atom:polymer[4]/F90
+$/bond:polymer[4]/b150 @/bond:GAFF/c3-f $/atom:polymer[4]/C46 $/atom:polymer[4]/F91
+$/bond:polymer[4]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C46 $/atom:polymer[4]/C47
+$/bond:polymer[4]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C47 $/atom:polymer[4]/C48
+$/bond:polymer[4]/b153 @/bond:GAFF/c3-f $/atom:polymer[4]/C47 $/atom:polymer[4]/F92
+$/bond:polymer[4]/b154 @/bond:GAFF/c3-f $/atom:polymer[4]/C47 $/atom:polymer[4]/F93
+$/bond:polymer[4]/b155 @/bond:GAFF/c3-f $/atom:polymer[4]/C48 $/atom:polymer[4]/F94
+$/bond:polymer[4]/b156 @/bond:GAFF/c3-f $/atom:polymer[4]/C48 $/atom:polymer[4]/F95
+$/bond:polymer[4]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C48 $/atom:polymer[4]/C49
+$/bond:polymer[4]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C49 $/atom:polymer[4]/C50
+$/bond:polymer[4]/b159 @/bond:GAFF/c3-f $/atom:polymer[4]/C49 $/atom:polymer[4]/F96
+$/bond:polymer[4]/b160 @/bond:GAFF/c3-f $/atom:polymer[4]/C49 $/atom:polymer[4]/F97
+$/bond:polymer[4]/b161 @/bond:GAFF/c3-f $/atom:polymer[4]/C50 $/atom:polymer[4]/F98
+$/bond:polymer[4]/b162 @/bond:GAFF/c3-f $/atom:polymer[4]/C50 $/atom:polymer[4]/F99
+$/bond:polymer[4]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C50 $/atom:polymer[4]/C51
+$/bond:polymer[4]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C51 $/atom:polymer[4]/C52
+$/bond:polymer[4]/b165 @/bond:GAFF/c3-os $/atom:polymer[4]/C51 $/atom:polymer[4]/O11
+$/bond:polymer[4]/b166 @/bond:GAFF/c3-f $/atom:polymer[4]/C51 $/atom:polymer[4]/F100
+$/bond:polymer[4]/b167 @/bond:GAFF/c3-f $/atom:polymer[4]/C52 $/atom:polymer[4]/F101
+$/bond:polymer[4]/b168 @/bond:GAFF/c3-f $/atom:polymer[4]/C52 $/atom:polymer[4]/F102
+$/bond:polymer[4]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C52 $/atom:polymer[4]/C53
+$/bond:polymer[4]/b170 @/bond:GAFF/c3-os $/atom:polymer[4]/O11 $/atom:polymer[4]/C54
+$/bond:polymer[4]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C53 $/atom:polymer[4]/C59
+$/bond:polymer[4]/b172 @/bond:GAFF/c3-f $/atom:polymer[4]/C53 $/atom:polymer[4]/F113
+$/bond:polymer[4]/b173 @/bond:GAFF/c3-f $/atom:polymer[4]/C53 $/atom:polymer[4]/F114
+$/bond:polymer[4]/b174 @/bond:GAFF/c3-f $/atom:polymer[4]/C54 $/atom:polymer[4]/F103
+$/bond:polymer[4]/b175 @/bond:GAFF/c3-f $/atom:polymer[4]/C54 $/atom:polymer[4]/F104
+$/bond:polymer[4]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C54 $/atom:polymer[4]/C55
+$/bond:polymer[4]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C55 $/atom:polymer[4]/C56
+$/bond:polymer[4]/b178 @/bond:GAFF/c3-os $/atom:polymer[4]/C55 $/atom:polymer[4]/O12
+$/bond:polymer[4]/b179 @/bond:GAFF/c3-f $/atom:polymer[4]/C55 $/atom:polymer[4]/F112
+$/bond:polymer[4]/b180 @/bond:GAFF/c3-f $/atom:polymer[4]/C56 $/atom:polymer[4]/F105
+$/bond:polymer[4]/b181 @/bond:GAFF/c3-f $/atom:polymer[4]/C56 $/atom:polymer[4]/F106
+$/bond:polymer[4]/b182 @/bond:GAFF/c3-f $/atom:polymer[4]/C56 $/atom:polymer[4]/F107
+$/bond:polymer[4]/b183 @/bond:GAFF/c3-os $/atom:polymer[4]/O12 $/atom:polymer[4]/C57
+$/bond:polymer[4]/b184 @/bond:GAFF/c3-f $/atom:polymer[4]/C57 $/atom:polymer[4]/F108
+$/bond:polymer[4]/b185 @/bond:GAFF/c3-f $/atom:polymer[4]/C57 $/atom:polymer[4]/F109
+$/bond:polymer[4]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C57 $/atom:polymer[4]/C58
+$/bond:polymer[4]/b187 @/bond:GAFF/c3-f $/atom:polymer[4]/C58 $/atom:polymer[4]/F110
+$/bond:polymer[4]/b188 @/bond:GAFF/c3-f $/atom:polymer[4]/C58 $/atom:polymer[4]/F111
+$/bond:polymer[4]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[4]/C58 $/atom:polymer[4]/S3
+$/bond:polymer[4]/b190 @/bond:GAFF/o-s6 $/atom:polymer[4]/S3 $/atom:polymer[4]/O13
+$/bond:polymer[4]/b191 @/bond:GAFF/o-s6 $/atom:polymer[4]/S3 $/atom:polymer[4]/O14
+$/bond:polymer[4]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[4]/S3 $/atom:polymer[4]/O15
+$/bond:polymer[4]/b193 @/bond:GAFF/ho-oh $/atom:polymer[4]/O15 $/atom:polymer[4]/H3
+$/bond:polymer[4]/b194 @/bond:GAFF/c3-f $/atom:polymer[4]/C59 $/atom:polymer[4]/F115
+$/bond:polymer[4]/b195 @/bond:GAFF/c3-f $/atom:polymer[4]/C59 $/atom:polymer[4]/F116
+$/bond:polymer[4]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C59 $/atom:polymer[4]/C60
+$/bond:polymer[4]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C60 $/atom:polymer[4]/C61
+$/bond:polymer[4]/b198 @/bond:GAFF/c3-f $/atom:polymer[4]/C60 $/atom:polymer[4]/F117
+$/bond:polymer[4]/b199 @/bond:GAFF/c3-f $/atom:polymer[4]/C60 $/atom:polymer[4]/F118
+$/bond:polymer[4]/b200 @/bond:GAFF/c3-f $/atom:polymer[4]/C61 $/atom:polymer[4]/F119
+$/bond:polymer[4]/b201 @/bond:GAFF/c3-f $/atom:polymer[4]/C61 $/atom:polymer[4]/F120
+$/bond:polymer[4]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C61 $/atom:polymer[4]/C62
+$/bond:polymer[4]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C62 $/atom:polymer[4]/C63
+$/bond:polymer[4]/b204 @/bond:GAFF/c3-f $/atom:polymer[4]/C62 $/atom:polymer[4]/F121
+$/bond:polymer[4]/b205 @/bond:GAFF/c3-f $/atom:polymer[4]/C62 $/atom:polymer[4]/F122
+$/bond:polymer[4]/b206 @/bond:GAFF/c3-f $/atom:polymer[4]/C63 $/atom:polymer[4]/F123
+$/bond:polymer[4]/b207 @/bond:GAFF/c3-f $/atom:polymer[4]/C63 $/atom:polymer[4]/F124
+$/bond:polymer[4]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C63 $/atom:polymer[4]/C64
+$/bond:polymer[4]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C64 $/atom:polymer[4]/C65
+$/bond:polymer[4]/b210 @/bond:GAFF/c3-f $/atom:polymer[4]/C64 $/atom:polymer[4]/F125
+$/bond:polymer[4]/b211 @/bond:GAFF/c3-f $/atom:polymer[4]/C64 $/atom:polymer[4]/F126
+$/bond:polymer[4]/b212 @/bond:GAFF/c3-f $/atom:polymer[4]/C65 $/atom:polymer[4]/F127
+$/bond:polymer[4]/b213 @/bond:GAFF/c3-f $/atom:polymer[4]/C65 $/atom:polymer[4]/F128
+$/bond:polymer[4]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C65 $/atom:polymer[4]/C66
+$/bond:polymer[4]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C66 $/atom:polymer[4]/C67
+$/bond:polymer[4]/b216 @/bond:GAFF/c3-f $/atom:polymer[4]/C66 $/atom:polymer[4]/F129
+$/bond:polymer[4]/b217 @/bond:GAFF/c3-f $/atom:polymer[4]/C66 $/atom:polymer[4]/F130
+$/bond:polymer[4]/b218 @/bond:GAFF/c3-f $/atom:polymer[4]/C67 $/atom:polymer[4]/F131
+$/bond:polymer[4]/b219 @/bond:GAFF/c3-f $/atom:polymer[4]/C67 $/atom:polymer[4]/F132
+$/bond:polymer[4]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C67 $/atom:polymer[4]/C68
+$/bond:polymer[4]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C68 $/atom:polymer[4]/C69
+$/bond:polymer[4]/b222 @/bond:GAFF/c3-f $/atom:polymer[4]/C68 $/atom:polymer[4]/F133
+$/bond:polymer[4]/b223 @/bond:GAFF/c3-f $/atom:polymer[4]/C68 $/atom:polymer[4]/F134
+$/bond:polymer[4]/b224 @/bond:GAFF/c3-f $/atom:polymer[4]/C69 $/atom:polymer[4]/F135
+$/bond:polymer[4]/b225 @/bond:GAFF/c3-f $/atom:polymer[4]/C69 $/atom:polymer[4]/F136
+$/bond:polymer[4]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C69 $/atom:polymer[4]/C70
+$/bond:polymer[4]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C70 $/atom:polymer[4]/C71
+$/bond:polymer[4]/b228 @/bond:GAFF/c3-os $/atom:polymer[4]/C70 $/atom:polymer[4]/O16
+$/bond:polymer[4]/b229 @/bond:GAFF/c3-f $/atom:polymer[4]/C70 $/atom:polymer[4]/F137
+$/bond:polymer[4]/b230 @/bond:GAFF/c3-f $/atom:polymer[4]/C71 $/atom:polymer[4]/F138
+$/bond:polymer[4]/b231 @/bond:GAFF/c3-f $/atom:polymer[4]/C71 $/atom:polymer[4]/F139
+$/bond:polymer[4]/b232 @/bond:GAFF/c3-f $/atom:polymer[4]/C71 $/atom:polymer[4]/F140
+$/bond:polymer[4]/b233 @/bond:GAFF/c3-os $/atom:polymer[4]/O16 $/atom:polymer[4]/C72
+$/bond:polymer[4]/b234 @/bond:GAFF/c3-f $/atom:polymer[4]/C72 $/atom:polymer[4]/F141
+$/bond:polymer[4]/b235 @/bond:GAFF/c3-f $/atom:polymer[4]/C72 $/atom:polymer[4]/F142
+$/bond:polymer[4]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C72 $/atom:polymer[4]/C73
+$/bond:polymer[4]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C73 $/atom:polymer[4]/C74
+$/bond:polymer[4]/b238 @/bond:GAFF/c3-os $/atom:polymer[4]/C73 $/atom:polymer[4]/O17
+$/bond:polymer[4]/b239 @/bond:GAFF/c3-f $/atom:polymer[4]/C73 $/atom:polymer[4]/F150
+$/bond:polymer[4]/b240 @/bond:GAFF/c3-f $/atom:polymer[4]/C74 $/atom:polymer[4]/F143
+$/bond:polymer[4]/b241 @/bond:GAFF/c3-f $/atom:polymer[4]/C74 $/atom:polymer[4]/F144
+$/bond:polymer[4]/b242 @/bond:GAFF/c3-f $/atom:polymer[4]/C74 $/atom:polymer[4]/F145
+$/bond:polymer[4]/b243 @/bond:GAFF/c3-os $/atom:polymer[4]/O17 $/atom:polymer[4]/C75
+$/bond:polymer[4]/b244 @/bond:GAFF/c3-f $/atom:polymer[4]/C75 $/atom:polymer[4]/F146
+$/bond:polymer[4]/b245 @/bond:GAFF/c3-f $/atom:polymer[4]/C75 $/atom:polymer[4]/F147
+$/bond:polymer[4]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[4]/C75 $/atom:polymer[4]/C76
+$/bond:polymer[4]/b247 @/bond:GAFF/c3-f $/atom:polymer[4]/C76 $/atom:polymer[4]/F148
+$/bond:polymer[4]/b248 @/bond:GAFF/c3-f $/atom:polymer[4]/C76 $/atom:polymer[4]/F149
+$/bond:polymer[4]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[4]/C76 $/atom:polymer[4]/S4
+$/bond:polymer[4]/b250 @/bond:GAFF/o-s6 $/atom:polymer[4]/S4 $/atom:polymer[4]/O18
+$/bond:polymer[4]/b251 @/bond:GAFF/o-s6 $/atom:polymer[4]/S4 $/atom:polymer[4]/O19
+$/bond:polymer[4]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[4]/S4 $/atom:polymer[4]/O20
+$/bond:polymer[4]/b253 @/bond:GAFF/ho-oh $/atom:polymer[4]/O20 $/atom:polymer[4]/H4
+$/bond:polymer[5]/b1 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C1 $/atom:polymer[5]/C2
+$/bond:polymer[5]/b2 @/bond:GAFF/c3-f $/atom:polymer[5]/C1 $/atom:polymer[5]/F1
+$/bond:polymer[5]/b3 @/bond:GAFF/c3-f $/atom:polymer[5]/C1 $/atom:polymer[5]/F2
+$/bond:polymer[5]/b4 @/bond:GAFF/c3-f $/atom:polymer[5]/C1 $/atom:polymer[5]/F3
+$/bond:polymer[5]/b5 @/bond:GAFF/c3-f $/atom:polymer[5]/C2 $/atom:polymer[5]/F4
+$/bond:polymer[5]/b6 @/bond:GAFF/c3-f $/atom:polymer[5]/C2 $/atom:polymer[5]/F5
+$/bond:polymer[5]/b7 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C2 $/atom:polymer[5]/C3
+$/bond:polymer[5]/b8 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C3 $/atom:polymer[5]/C4
+$/bond:polymer[5]/b9 @/bond:GAFF/c3-f $/atom:polymer[5]/C3 $/atom:polymer[5]/F6
+$/bond:polymer[5]/b10 @/bond:GAFF/c3-f $/atom:polymer[5]/C3 $/atom:polymer[5]/F7
+$/bond:polymer[5]/b11 @/bond:GAFF/c3-f $/atom:polymer[5]/C4 $/atom:polymer[5]/F8
+$/bond:polymer[5]/b12 @/bond:GAFF/c3-f $/atom:polymer[5]/C4 $/atom:polymer[5]/F9
+$/bond:polymer[5]/b13 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C4 $/atom:polymer[5]/C5
+$/bond:polymer[5]/b14 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C5 $/atom:polymer[5]/C6
+$/bond:polymer[5]/b15 @/bond:GAFF/c3-f $/atom:polymer[5]/C5 $/atom:polymer[5]/F10
+$/bond:polymer[5]/b16 @/bond:GAFF/c3-f $/atom:polymer[5]/C5 $/atom:polymer[5]/F11
+$/bond:polymer[5]/b17 @/bond:GAFF/c3-f $/atom:polymer[5]/C6 $/atom:polymer[5]/F12
+$/bond:polymer[5]/b18 @/bond:GAFF/c3-f $/atom:polymer[5]/C6 $/atom:polymer[5]/F13
+$/bond:polymer[5]/b19 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C6 $/atom:polymer[5]/C7
+$/bond:polymer[5]/b20 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C7 $/atom:polymer[5]/C8
+$/bond:polymer[5]/b21 @/bond:GAFF/c3-f $/atom:polymer[5]/C7 $/atom:polymer[5]/F14
+$/bond:polymer[5]/b22 @/bond:GAFF/c3-f $/atom:polymer[5]/C7 $/atom:polymer[5]/F15
+$/bond:polymer[5]/b23 @/bond:GAFF/c3-f $/atom:polymer[5]/C8 $/atom:polymer[5]/F16
+$/bond:polymer[5]/b24 @/bond:GAFF/c3-f $/atom:polymer[5]/C8 $/atom:polymer[5]/F17
+$/bond:polymer[5]/b25 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C8 $/atom:polymer[5]/C9
+$/bond:polymer[5]/b26 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C9 $/atom:polymer[5]/C10
+$/bond:polymer[5]/b27 @/bond:GAFF/c3-f $/atom:polymer[5]/C9 $/atom:polymer[5]/F18
+$/bond:polymer[5]/b28 @/bond:GAFF/c3-f $/atom:polymer[5]/C9 $/atom:polymer[5]/F19
+$/bond:polymer[5]/b29 @/bond:GAFF/c3-f $/atom:polymer[5]/C10 $/atom:polymer[5]/F20
+$/bond:polymer[5]/b30 @/bond:GAFF/c3-f $/atom:polymer[5]/C10 $/atom:polymer[5]/F21
+$/bond:polymer[5]/b31 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C10 $/atom:polymer[5]/C11
+$/bond:polymer[5]/b32 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C11 $/atom:polymer[5]/C12
+$/bond:polymer[5]/b33 @/bond:GAFF/c3-f $/atom:polymer[5]/C11 $/atom:polymer[5]/F22
+$/bond:polymer[5]/b34 @/bond:GAFF/c3-f $/atom:polymer[5]/C11 $/atom:polymer[5]/F23
+$/bond:polymer[5]/b35 @/bond:GAFF/c3-f $/atom:polymer[5]/C12 $/atom:polymer[5]/F24
+$/bond:polymer[5]/b36 @/bond:GAFF/c3-f $/atom:polymer[5]/C12 $/atom:polymer[5]/F25
+$/bond:polymer[5]/b37 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C12 $/atom:polymer[5]/C13
+$/bond:polymer[5]/b38 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C13 $/atom:polymer[5]/C14
+$/bond:polymer[5]/b39 @/bond:GAFF/c3-os $/atom:polymer[5]/C13 $/atom:polymer[5]/O1
+$/bond:polymer[5]/b40 @/bond:GAFF/c3-f $/atom:polymer[5]/C13 $/atom:polymer[5]/F26
+$/bond:polymer[5]/b41 @/bond:GAFF/c3-f $/atom:polymer[5]/C14 $/atom:polymer[5]/F27
+$/bond:polymer[5]/b42 @/bond:GAFF/c3-f $/atom:polymer[5]/C14 $/atom:polymer[5]/F28
+$/bond:polymer[5]/b43 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C14 $/atom:polymer[5]/C15
+$/bond:polymer[5]/b44 @/bond:GAFF/c3-os $/atom:polymer[5]/O1 $/atom:polymer[5]/C16
+$/bond:polymer[5]/b45 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C15 $/atom:polymer[5]/C21
+$/bond:polymer[5]/b46 @/bond:GAFF/c3-f $/atom:polymer[5]/C15 $/atom:polymer[5]/F39
+$/bond:polymer[5]/b47 @/bond:GAFF/c3-f $/atom:polymer[5]/C15 $/atom:polymer[5]/F40
+$/bond:polymer[5]/b48 @/bond:GAFF/c3-f $/atom:polymer[5]/C16 $/atom:polymer[5]/F29
+$/bond:polymer[5]/b49 @/bond:GAFF/c3-f $/atom:polymer[5]/C16 $/atom:polymer[5]/F30
+$/bond:polymer[5]/b50 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C16 $/atom:polymer[5]/C17
+$/bond:polymer[5]/b51 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C17 $/atom:polymer[5]/C18
+$/bond:polymer[5]/b52 @/bond:GAFF/c3-os $/atom:polymer[5]/C17 $/atom:polymer[5]/O2
+$/bond:polymer[5]/b53 @/bond:GAFF/c3-f $/atom:polymer[5]/C17 $/atom:polymer[5]/F38
+$/bond:polymer[5]/b54 @/bond:GAFF/c3-f $/atom:polymer[5]/C18 $/atom:polymer[5]/F31
+$/bond:polymer[5]/b55 @/bond:GAFF/c3-f $/atom:polymer[5]/C18 $/atom:polymer[5]/F32
+$/bond:polymer[5]/b56 @/bond:GAFF/c3-f $/atom:polymer[5]/C18 $/atom:polymer[5]/F33
+$/bond:polymer[5]/b57 @/bond:GAFF/c3-os $/atom:polymer[5]/O2 $/atom:polymer[5]/C19
+$/bond:polymer[5]/b58 @/bond:GAFF/c3-f $/atom:polymer[5]/C19 $/atom:polymer[5]/F34
+$/bond:polymer[5]/b59 @/bond:GAFF/c3-f $/atom:polymer[5]/C19 $/atom:polymer[5]/F35
+$/bond:polymer[5]/b60 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C19 $/atom:polymer[5]/C20
+$/bond:polymer[5]/b61 @/bond:GAFF/c3-f $/atom:polymer[5]/C20 $/atom:polymer[5]/F36
+$/bond:polymer[5]/b62 @/bond:GAFF/c3-f $/atom:polymer[5]/C20 $/atom:polymer[5]/F37
+$/bond:polymer[5]/b63 @/bond:GAFF/c3-s6 $/atom:polymer[5]/C20 $/atom:polymer[5]/S1
+$/bond:polymer[5]/b64 @/bond:GAFF/o-s6 $/atom:polymer[5]/S1 $/atom:polymer[5]/O3
+$/bond:polymer[5]/b65 @/bond:GAFF/o-s6 $/atom:polymer[5]/S1 $/atom:polymer[5]/O4
+$/bond:polymer[5]/b66 @/bond:GAFF/oh-s6 $/atom:polymer[5]/S1 $/atom:polymer[5]/O5
+$/bond:polymer[5]/b67 @/bond:GAFF/ho-oh $/atom:polymer[5]/O5 $/atom:polymer[5]/H1
+$/bond:polymer[5]/b68 @/bond:GAFF/c3-f $/atom:polymer[5]/C21 $/atom:polymer[5]/F41
+$/bond:polymer[5]/b69 @/bond:GAFF/c3-f $/atom:polymer[5]/C21 $/atom:polymer[5]/F42
+$/bond:polymer[5]/b70 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C21 $/atom:polymer[5]/C22
+$/bond:polymer[5]/b71 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C22 $/atom:polymer[5]/C23
+$/bond:polymer[5]/b72 @/bond:GAFF/c3-f $/atom:polymer[5]/C22 $/atom:polymer[5]/F43
+$/bond:polymer[5]/b73 @/bond:GAFF/c3-f $/atom:polymer[5]/C22 $/atom:polymer[5]/F44
+$/bond:polymer[5]/b74 @/bond:GAFF/c3-f $/atom:polymer[5]/C23 $/atom:polymer[5]/F45
+$/bond:polymer[5]/b75 @/bond:GAFF/c3-f $/atom:polymer[5]/C23 $/atom:polymer[5]/F46
+$/bond:polymer[5]/b76 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C23 $/atom:polymer[5]/C24
+$/bond:polymer[5]/b77 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C24 $/atom:polymer[5]/C25
+$/bond:polymer[5]/b78 @/bond:GAFF/c3-f $/atom:polymer[5]/C24 $/atom:polymer[5]/F47
+$/bond:polymer[5]/b79 @/bond:GAFF/c3-f $/atom:polymer[5]/C24 $/atom:polymer[5]/F48
+$/bond:polymer[5]/b80 @/bond:GAFF/c3-f $/atom:polymer[5]/C25 $/atom:polymer[5]/F49
+$/bond:polymer[5]/b81 @/bond:GAFF/c3-f $/atom:polymer[5]/C25 $/atom:polymer[5]/F50
+$/bond:polymer[5]/b82 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C25 $/atom:polymer[5]/C26
+$/bond:polymer[5]/b83 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C26 $/atom:polymer[5]/C27
+$/bond:polymer[5]/b84 @/bond:GAFF/c3-f $/atom:polymer[5]/C26 $/atom:polymer[5]/F51
+$/bond:polymer[5]/b85 @/bond:GAFF/c3-f $/atom:polymer[5]/C26 $/atom:polymer[5]/F52
+$/bond:polymer[5]/b86 @/bond:GAFF/c3-f $/atom:polymer[5]/C27 $/atom:polymer[5]/F53
+$/bond:polymer[5]/b87 @/bond:GAFF/c3-f $/atom:polymer[5]/C27 $/atom:polymer[5]/F54
+$/bond:polymer[5]/b88 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C27 $/atom:polymer[5]/C28
+$/bond:polymer[5]/b89 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C28 $/atom:polymer[5]/C29
+$/bond:polymer[5]/b90 @/bond:GAFF/c3-f $/atom:polymer[5]/C28 $/atom:polymer[5]/F55
+$/bond:polymer[5]/b91 @/bond:GAFF/c3-f $/atom:polymer[5]/C28 $/atom:polymer[5]/F56
+$/bond:polymer[5]/b92 @/bond:GAFF/c3-f $/atom:polymer[5]/C29 $/atom:polymer[5]/F57
+$/bond:polymer[5]/b93 @/bond:GAFF/c3-f $/atom:polymer[5]/C29 $/atom:polymer[5]/F58
+$/bond:polymer[5]/b94 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C29 $/atom:polymer[5]/C30
+$/bond:polymer[5]/b95 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C30 $/atom:polymer[5]/C31
+$/bond:polymer[5]/b96 @/bond:GAFF/c3-f $/atom:polymer[5]/C30 $/atom:polymer[5]/F59
+$/bond:polymer[5]/b97 @/bond:GAFF/c3-f $/atom:polymer[5]/C30 $/atom:polymer[5]/F60
+$/bond:polymer[5]/b98 @/bond:GAFF/c3-f $/atom:polymer[5]/C31 $/atom:polymer[5]/F61
+$/bond:polymer[5]/b99 @/bond:GAFF/c3-f $/atom:polymer[5]/C31 $/atom:polymer[5]/F62
+$/bond:polymer[5]/b100 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C31 $/atom:polymer[5]/C32
+$/bond:polymer[5]/b101 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C32 $/atom:polymer[5]/C33
+$/bond:polymer[5]/b102 @/bond:GAFF/c3-os $/atom:polymer[5]/C32 $/atom:polymer[5]/O6
+$/bond:polymer[5]/b103 @/bond:GAFF/c3-f $/atom:polymer[5]/C32 $/atom:polymer[5]/F63
+$/bond:polymer[5]/b104 @/bond:GAFF/c3-f $/atom:polymer[5]/C33 $/atom:polymer[5]/F64
+$/bond:polymer[5]/b105 @/bond:GAFF/c3-f $/atom:polymer[5]/C33 $/atom:polymer[5]/F65
+$/bond:polymer[5]/b106 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C33 $/atom:polymer[5]/C34
+$/bond:polymer[5]/b107 @/bond:GAFF/c3-os $/atom:polymer[5]/O6 $/atom:polymer[5]/C35
+$/bond:polymer[5]/b108 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C34 $/atom:polymer[5]/C40
+$/bond:polymer[5]/b109 @/bond:GAFF/c3-f $/atom:polymer[5]/C34 $/atom:polymer[5]/F76
+$/bond:polymer[5]/b110 @/bond:GAFF/c3-f $/atom:polymer[5]/C34 $/atom:polymer[5]/F77
+$/bond:polymer[5]/b111 @/bond:GAFF/c3-f $/atom:polymer[5]/C35 $/atom:polymer[5]/F66
+$/bond:polymer[5]/b112 @/bond:GAFF/c3-f $/atom:polymer[5]/C35 $/atom:polymer[5]/F67
+$/bond:polymer[5]/b113 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C35 $/atom:polymer[5]/C36
+$/bond:polymer[5]/b114 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C36 $/atom:polymer[5]/C37
+$/bond:polymer[5]/b115 @/bond:GAFF/c3-os $/atom:polymer[5]/C36 $/atom:polymer[5]/O7
+$/bond:polymer[5]/b116 @/bond:GAFF/c3-f $/atom:polymer[5]/C36 $/atom:polymer[5]/F75
+$/bond:polymer[5]/b117 @/bond:GAFF/c3-f $/atom:polymer[5]/C37 $/atom:polymer[5]/F68
+$/bond:polymer[5]/b118 @/bond:GAFF/c3-f $/atom:polymer[5]/C37 $/atom:polymer[5]/F69
+$/bond:polymer[5]/b119 @/bond:GAFF/c3-f $/atom:polymer[5]/C37 $/atom:polymer[5]/F70
+$/bond:polymer[5]/b120 @/bond:GAFF/c3-os $/atom:polymer[5]/O7 $/atom:polymer[5]/C38
+$/bond:polymer[5]/b121 @/bond:GAFF/c3-f $/atom:polymer[5]/C38 $/atom:polymer[5]/F71
+$/bond:polymer[5]/b122 @/bond:GAFF/c3-f $/atom:polymer[5]/C38 $/atom:polymer[5]/F72
+$/bond:polymer[5]/b123 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C38 $/atom:polymer[5]/C39
+$/bond:polymer[5]/b124 @/bond:GAFF/c3-f $/atom:polymer[5]/C39 $/atom:polymer[5]/F73
+$/bond:polymer[5]/b125 @/bond:GAFF/c3-f $/atom:polymer[5]/C39 $/atom:polymer[5]/F74
+$/bond:polymer[5]/b126 @/bond:GAFF/c3-s6 $/atom:polymer[5]/C39 $/atom:polymer[5]/S2
+$/bond:polymer[5]/b127 @/bond:GAFF/o-s6 $/atom:polymer[5]/S2 $/atom:polymer[5]/O8
+$/bond:polymer[5]/b128 @/bond:GAFF/o-s6 $/atom:polymer[5]/S2 $/atom:polymer[5]/O9
+$/bond:polymer[5]/b129 @/bond:GAFF/oh-s6 $/atom:polymer[5]/S2 $/atom:polymer[5]/O10
+$/bond:polymer[5]/b130 @/bond:GAFF/ho-oh $/atom:polymer[5]/O10 $/atom:polymer[5]/H2
+$/bond:polymer[5]/b131 @/bond:GAFF/c3-f $/atom:polymer[5]/C40 $/atom:polymer[5]/F78
+$/bond:polymer[5]/b132 @/bond:GAFF/c3-f $/atom:polymer[5]/C40 $/atom:polymer[5]/F79
+$/bond:polymer[5]/b133 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C40 $/atom:polymer[5]/C41
+$/bond:polymer[5]/b134 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C41 $/atom:polymer[5]/C42
+$/bond:polymer[5]/b135 @/bond:GAFF/c3-f $/atom:polymer[5]/C41 $/atom:polymer[5]/F80
+$/bond:polymer[5]/b136 @/bond:GAFF/c3-f $/atom:polymer[5]/C41 $/atom:polymer[5]/F81
+$/bond:polymer[5]/b137 @/bond:GAFF/c3-f $/atom:polymer[5]/C42 $/atom:polymer[5]/F82
+$/bond:polymer[5]/b138 @/bond:GAFF/c3-f $/atom:polymer[5]/C42 $/atom:polymer[5]/F83
+$/bond:polymer[5]/b139 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C42 $/atom:polymer[5]/C43
+$/bond:polymer[5]/b140 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C43 $/atom:polymer[5]/C44
+$/bond:polymer[5]/b141 @/bond:GAFF/c3-f $/atom:polymer[5]/C43 $/atom:polymer[5]/F84
+$/bond:polymer[5]/b142 @/bond:GAFF/c3-f $/atom:polymer[5]/C43 $/atom:polymer[5]/F85
+$/bond:polymer[5]/b143 @/bond:GAFF/c3-f $/atom:polymer[5]/C44 $/atom:polymer[5]/F86
+$/bond:polymer[5]/b144 @/bond:GAFF/c3-f $/atom:polymer[5]/C44 $/atom:polymer[5]/F87
+$/bond:polymer[5]/b145 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C44 $/atom:polymer[5]/C45
+$/bond:polymer[5]/b146 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C45 $/atom:polymer[5]/C46
+$/bond:polymer[5]/b147 @/bond:GAFF/c3-f $/atom:polymer[5]/C45 $/atom:polymer[5]/F88
+$/bond:polymer[5]/b148 @/bond:GAFF/c3-f $/atom:polymer[5]/C45 $/atom:polymer[5]/F89
+$/bond:polymer[5]/b149 @/bond:GAFF/c3-f $/atom:polymer[5]/C46 $/atom:polymer[5]/F90
+$/bond:polymer[5]/b150 @/bond:GAFF/c3-f $/atom:polymer[5]/C46 $/atom:polymer[5]/F91
+$/bond:polymer[5]/b151 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C46 $/atom:polymer[5]/C47
+$/bond:polymer[5]/b152 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C47 $/atom:polymer[5]/C48
+$/bond:polymer[5]/b153 @/bond:GAFF/c3-f $/atom:polymer[5]/C47 $/atom:polymer[5]/F92
+$/bond:polymer[5]/b154 @/bond:GAFF/c3-f $/atom:polymer[5]/C47 $/atom:polymer[5]/F93
+$/bond:polymer[5]/b155 @/bond:GAFF/c3-f $/atom:polymer[5]/C48 $/atom:polymer[5]/F94
+$/bond:polymer[5]/b156 @/bond:GAFF/c3-f $/atom:polymer[5]/C48 $/atom:polymer[5]/F95
+$/bond:polymer[5]/b157 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C48 $/atom:polymer[5]/C49
+$/bond:polymer[5]/b158 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C49 $/atom:polymer[5]/C50
+$/bond:polymer[5]/b159 @/bond:GAFF/c3-f $/atom:polymer[5]/C49 $/atom:polymer[5]/F96
+$/bond:polymer[5]/b160 @/bond:GAFF/c3-f $/atom:polymer[5]/C49 $/atom:polymer[5]/F97
+$/bond:polymer[5]/b161 @/bond:GAFF/c3-f $/atom:polymer[5]/C50 $/atom:polymer[5]/F98
+$/bond:polymer[5]/b162 @/bond:GAFF/c3-f $/atom:polymer[5]/C50 $/atom:polymer[5]/F99
+$/bond:polymer[5]/b163 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C50 $/atom:polymer[5]/C51
+$/bond:polymer[5]/b164 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C51 $/atom:polymer[5]/C52
+$/bond:polymer[5]/b165 @/bond:GAFF/c3-os $/atom:polymer[5]/C51 $/atom:polymer[5]/O11
+$/bond:polymer[5]/b166 @/bond:GAFF/c3-f $/atom:polymer[5]/C51 $/atom:polymer[5]/F100
+$/bond:polymer[5]/b167 @/bond:GAFF/c3-f $/atom:polymer[5]/C52 $/atom:polymer[5]/F101
+$/bond:polymer[5]/b168 @/bond:GAFF/c3-f $/atom:polymer[5]/C52 $/atom:polymer[5]/F102
+$/bond:polymer[5]/b169 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C52 $/atom:polymer[5]/C53
+$/bond:polymer[5]/b170 @/bond:GAFF/c3-os $/atom:polymer[5]/O11 $/atom:polymer[5]/C54
+$/bond:polymer[5]/b171 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C53 $/atom:polymer[5]/C59
+$/bond:polymer[5]/b172 @/bond:GAFF/c3-f $/atom:polymer[5]/C53 $/atom:polymer[5]/F113
+$/bond:polymer[5]/b173 @/bond:GAFF/c3-f $/atom:polymer[5]/C53 $/atom:polymer[5]/F114
+$/bond:polymer[5]/b174 @/bond:GAFF/c3-f $/atom:polymer[5]/C54 $/atom:polymer[5]/F103
+$/bond:polymer[5]/b175 @/bond:GAFF/c3-f $/atom:polymer[5]/C54 $/atom:polymer[5]/F104
+$/bond:polymer[5]/b176 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C54 $/atom:polymer[5]/C55
+$/bond:polymer[5]/b177 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C55 $/atom:polymer[5]/C56
+$/bond:polymer[5]/b178 @/bond:GAFF/c3-os $/atom:polymer[5]/C55 $/atom:polymer[5]/O12
+$/bond:polymer[5]/b179 @/bond:GAFF/c3-f $/atom:polymer[5]/C55 $/atom:polymer[5]/F112
+$/bond:polymer[5]/b180 @/bond:GAFF/c3-f $/atom:polymer[5]/C56 $/atom:polymer[5]/F105
+$/bond:polymer[5]/b181 @/bond:GAFF/c3-f $/atom:polymer[5]/C56 $/atom:polymer[5]/F106
+$/bond:polymer[5]/b182 @/bond:GAFF/c3-f $/atom:polymer[5]/C56 $/atom:polymer[5]/F107
+$/bond:polymer[5]/b183 @/bond:GAFF/c3-os $/atom:polymer[5]/O12 $/atom:polymer[5]/C57
+$/bond:polymer[5]/b184 @/bond:GAFF/c3-f $/atom:polymer[5]/C57 $/atom:polymer[5]/F108
+$/bond:polymer[5]/b185 @/bond:GAFF/c3-f $/atom:polymer[5]/C57 $/atom:polymer[5]/F109
+$/bond:polymer[5]/b186 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C57 $/atom:polymer[5]/C58
+$/bond:polymer[5]/b187 @/bond:GAFF/c3-f $/atom:polymer[5]/C58 $/atom:polymer[5]/F110
+$/bond:polymer[5]/b188 @/bond:GAFF/c3-f $/atom:polymer[5]/C58 $/atom:polymer[5]/F111
+$/bond:polymer[5]/b189 @/bond:GAFF/c3-s6 $/atom:polymer[5]/C58 $/atom:polymer[5]/S3
+$/bond:polymer[5]/b190 @/bond:GAFF/o-s6 $/atom:polymer[5]/S3 $/atom:polymer[5]/O13
+$/bond:polymer[5]/b191 @/bond:GAFF/o-s6 $/atom:polymer[5]/S3 $/atom:polymer[5]/O14
+$/bond:polymer[5]/b192 @/bond:GAFF/oh-s6 $/atom:polymer[5]/S3 $/atom:polymer[5]/O15
+$/bond:polymer[5]/b193 @/bond:GAFF/ho-oh $/atom:polymer[5]/O15 $/atom:polymer[5]/H3
+$/bond:polymer[5]/b194 @/bond:GAFF/c3-f $/atom:polymer[5]/C59 $/atom:polymer[5]/F115
+$/bond:polymer[5]/b195 @/bond:GAFF/c3-f $/atom:polymer[5]/C59 $/atom:polymer[5]/F116
+$/bond:polymer[5]/b196 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C59 $/atom:polymer[5]/C60
+$/bond:polymer[5]/b197 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C60 $/atom:polymer[5]/C61
+$/bond:polymer[5]/b198 @/bond:GAFF/c3-f $/atom:polymer[5]/C60 $/atom:polymer[5]/F117
+$/bond:polymer[5]/b199 @/bond:GAFF/c3-f $/atom:polymer[5]/C60 $/atom:polymer[5]/F118
+$/bond:polymer[5]/b200 @/bond:GAFF/c3-f $/atom:polymer[5]/C61 $/atom:polymer[5]/F119
+$/bond:polymer[5]/b201 @/bond:GAFF/c3-f $/atom:polymer[5]/C61 $/atom:polymer[5]/F120
+$/bond:polymer[5]/b202 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C61 $/atom:polymer[5]/C62
+$/bond:polymer[5]/b203 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C62 $/atom:polymer[5]/C63
+$/bond:polymer[5]/b204 @/bond:GAFF/c3-f $/atom:polymer[5]/C62 $/atom:polymer[5]/F121
+$/bond:polymer[5]/b205 @/bond:GAFF/c3-f $/atom:polymer[5]/C62 $/atom:polymer[5]/F122
+$/bond:polymer[5]/b206 @/bond:GAFF/c3-f $/atom:polymer[5]/C63 $/atom:polymer[5]/F123
+$/bond:polymer[5]/b207 @/bond:GAFF/c3-f $/atom:polymer[5]/C63 $/atom:polymer[5]/F124
+$/bond:polymer[5]/b208 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C63 $/atom:polymer[5]/C64
+$/bond:polymer[5]/b209 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C64 $/atom:polymer[5]/C65
+$/bond:polymer[5]/b210 @/bond:GAFF/c3-f $/atom:polymer[5]/C64 $/atom:polymer[5]/F125
+$/bond:polymer[5]/b211 @/bond:GAFF/c3-f $/atom:polymer[5]/C64 $/atom:polymer[5]/F126
+$/bond:polymer[5]/b212 @/bond:GAFF/c3-f $/atom:polymer[5]/C65 $/atom:polymer[5]/F127
+$/bond:polymer[5]/b213 @/bond:GAFF/c3-f $/atom:polymer[5]/C65 $/atom:polymer[5]/F128
+$/bond:polymer[5]/b214 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C65 $/atom:polymer[5]/C66
+$/bond:polymer[5]/b215 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C66 $/atom:polymer[5]/C67
+$/bond:polymer[5]/b216 @/bond:GAFF/c3-f $/atom:polymer[5]/C66 $/atom:polymer[5]/F129
+$/bond:polymer[5]/b217 @/bond:GAFF/c3-f $/atom:polymer[5]/C66 $/atom:polymer[5]/F130
+$/bond:polymer[5]/b218 @/bond:GAFF/c3-f $/atom:polymer[5]/C67 $/atom:polymer[5]/F131
+$/bond:polymer[5]/b219 @/bond:GAFF/c3-f $/atom:polymer[5]/C67 $/atom:polymer[5]/F132
+$/bond:polymer[5]/b220 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C67 $/atom:polymer[5]/C68
+$/bond:polymer[5]/b221 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C68 $/atom:polymer[5]/C69
+$/bond:polymer[5]/b222 @/bond:GAFF/c3-f $/atom:polymer[5]/C68 $/atom:polymer[5]/F133
+$/bond:polymer[5]/b223 @/bond:GAFF/c3-f $/atom:polymer[5]/C68 $/atom:polymer[5]/F134
+$/bond:polymer[5]/b224 @/bond:GAFF/c3-f $/atom:polymer[5]/C69 $/atom:polymer[5]/F135
+$/bond:polymer[5]/b225 @/bond:GAFF/c3-f $/atom:polymer[5]/C69 $/atom:polymer[5]/F136
+$/bond:polymer[5]/b226 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C69 $/atom:polymer[5]/C70
+$/bond:polymer[5]/b227 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C70 $/atom:polymer[5]/C71
+$/bond:polymer[5]/b228 @/bond:GAFF/c3-os $/atom:polymer[5]/C70 $/atom:polymer[5]/O16
+$/bond:polymer[5]/b229 @/bond:GAFF/c3-f $/atom:polymer[5]/C70 $/atom:polymer[5]/F137
+$/bond:polymer[5]/b230 @/bond:GAFF/c3-f $/atom:polymer[5]/C71 $/atom:polymer[5]/F138
+$/bond:polymer[5]/b231 @/bond:GAFF/c3-f $/atom:polymer[5]/C71 $/atom:polymer[5]/F139
+$/bond:polymer[5]/b232 @/bond:GAFF/c3-f $/atom:polymer[5]/C71 $/atom:polymer[5]/F140
+$/bond:polymer[5]/b233 @/bond:GAFF/c3-os $/atom:polymer[5]/O16 $/atom:polymer[5]/C72
+$/bond:polymer[5]/b234 @/bond:GAFF/c3-f $/atom:polymer[5]/C72 $/atom:polymer[5]/F141
+$/bond:polymer[5]/b235 @/bond:GAFF/c3-f $/atom:polymer[5]/C72 $/atom:polymer[5]/F142
+$/bond:polymer[5]/b236 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C72 $/atom:polymer[5]/C73
+$/bond:polymer[5]/b237 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C73 $/atom:polymer[5]/C74
+$/bond:polymer[5]/b238 @/bond:GAFF/c3-os $/atom:polymer[5]/C73 $/atom:polymer[5]/O17
+$/bond:polymer[5]/b239 @/bond:GAFF/c3-f $/atom:polymer[5]/C73 $/atom:polymer[5]/F150
+$/bond:polymer[5]/b240 @/bond:GAFF/c3-f $/atom:polymer[5]/C74 $/atom:polymer[5]/F143
+$/bond:polymer[5]/b241 @/bond:GAFF/c3-f $/atom:polymer[5]/C74 $/atom:polymer[5]/F144
+$/bond:polymer[5]/b242 @/bond:GAFF/c3-f $/atom:polymer[5]/C74 $/atom:polymer[5]/F145
+$/bond:polymer[5]/b243 @/bond:GAFF/c3-os $/atom:polymer[5]/O17 $/atom:polymer[5]/C75
+$/bond:polymer[5]/b244 @/bond:GAFF/c3-f $/atom:polymer[5]/C75 $/atom:polymer[5]/F146
+$/bond:polymer[5]/b245 @/bond:GAFF/c3-f $/atom:polymer[5]/C75 $/atom:polymer[5]/F147
+$/bond:polymer[5]/b246 @/bond:GAFF/c3-c3 $/atom:polymer[5]/C75 $/atom:polymer[5]/C76
+$/bond:polymer[5]/b247 @/bond:GAFF/c3-f $/atom:polymer[5]/C76 $/atom:polymer[5]/F148
+$/bond:polymer[5]/b248 @/bond:GAFF/c3-f $/atom:polymer[5]/C76 $/atom:polymer[5]/F149
+$/bond:polymer[5]/b249 @/bond:GAFF/c3-s6 $/atom:polymer[5]/C76 $/atom:polymer[5]/S4
+$/bond:polymer[5]/b250 @/bond:GAFF/o-s6 $/atom:polymer[5]/S4 $/atom:polymer[5]/O18
+$/bond:polymer[5]/b251 @/bond:GAFF/o-s6 $/atom:polymer[5]/S4 $/atom:polymer[5]/O19
+$/bond:polymer[5]/b252 @/bond:GAFF/oh-s6 $/atom:polymer[5]/S4 $/atom:polymer[5]/O20
+$/bond:polymer[5]/b253 @/bond:GAFF/ho-oh $/atom:polymer[5]/O20 $/atom:polymer[5]/H4
+    $/bond:wat[0]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[0]/o $/atom:wat[0]/h1
+    $/bond:wat[0]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[0]/o $/atom:wat[0]/h2
+    $/bond:wat[1]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[1]/o $/atom:wat[1]/h1
+    $/bond:wat[1]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[1]/o $/atom:wat[1]/h2
+    $/bond:wat[2]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[2]/o $/atom:wat[2]/h1
+    $/bond:wat[2]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[2]/o $/atom:wat[2]/h2
+    $/bond:wat[3]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[3]/o $/atom:wat[3]/h1
+    $/bond:wat[3]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[3]/o $/atom:wat[3]/h2
+    $/bond:wat[4]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[4]/o $/atom:wat[4]/h1
+    $/bond:wat[4]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[4]/o $/atom:wat[4]/h2
+    $/bond:wat[5]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[5]/o $/atom:wat[5]/h1
+    $/bond:wat[5]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[5]/o $/atom:wat[5]/h2
+    $/bond:wat[6]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[6]/o $/atom:wat[6]/h1
+    $/bond:wat[6]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[6]/o $/atom:wat[6]/h2
+    $/bond:wat[7]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[7]/o $/atom:wat[7]/h1
+    $/bond:wat[7]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[7]/o $/atom:wat[7]/h2
+    $/bond:wat[8]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[8]/o $/atom:wat[8]/h1
+    $/bond:wat[8]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[8]/o $/atom:wat[8]/h2
+    $/bond:wat[9]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[9]/o $/atom:wat[9]/h1
+    $/bond:wat[9]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[9]/o $/atom:wat[9]/h2
+    $/bond:wat[10]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[10]/o $/atom:wat[10]/h1
+    $/bond:wat[10]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[10]/o $/atom:wat[10]/h2
+    $/bond:wat[11]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[11]/o $/atom:wat[11]/h1
+    $/bond:wat[11]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[11]/o $/atom:wat[11]/h2
+    $/bond:wat[12]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[12]/o $/atom:wat[12]/h1
+    $/bond:wat[12]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[12]/o $/atom:wat[12]/h2
+    $/bond:wat[13]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[13]/o $/atom:wat[13]/h1
+    $/bond:wat[13]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[13]/o $/atom:wat[13]/h2
+    $/bond:wat[14]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[14]/o $/atom:wat[14]/h1
+    $/bond:wat[14]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[14]/o $/atom:wat[14]/h2
+    $/bond:wat[15]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[15]/o $/atom:wat[15]/h1
+    $/bond:wat[15]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[15]/o $/atom:wat[15]/h2
+    $/bond:wat[16]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[16]/o $/atom:wat[16]/h1
+    $/bond:wat[16]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[16]/o $/atom:wat[16]/h2
+    $/bond:wat[17]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[17]/o $/atom:wat[17]/h1
+    $/bond:wat[17]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[17]/o $/atom:wat[17]/h2
+    $/bond:wat[18]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[18]/o $/atom:wat[18]/h1
+    $/bond:wat[18]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[18]/o $/atom:wat[18]/h2
+    $/bond:wat[19]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[19]/o $/atom:wat[19]/h1
+    $/bond:wat[19]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[19]/o $/atom:wat[19]/h2
+    $/bond:wat[20]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[20]/o $/atom:wat[20]/h1
+    $/bond:wat[20]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[20]/o $/atom:wat[20]/h2
+    $/bond:wat[21]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[21]/o $/atom:wat[21]/h1
+    $/bond:wat[21]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[21]/o $/atom:wat[21]/h2
+    $/bond:wat[22]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[22]/o $/atom:wat[22]/h1
+    $/bond:wat[22]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[22]/o $/atom:wat[22]/h2
+    $/bond:wat[23]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[23]/o $/atom:wat[23]/h1
+    $/bond:wat[23]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[23]/o $/atom:wat[23]/h2
+    $/bond:wat[24]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[24]/o $/atom:wat[24]/h1
+    $/bond:wat[24]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[24]/o $/atom:wat[24]/h2
+    $/bond:wat[25]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[25]/o $/atom:wat[25]/h1
+    $/bond:wat[25]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[25]/o $/atom:wat[25]/h2
+    $/bond:wat[26]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[26]/o $/atom:wat[26]/h1
+    $/bond:wat[26]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[26]/o $/atom:wat[26]/h2
+    $/bond:wat[27]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[27]/o $/atom:wat[27]/h1
+    $/bond:wat[27]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[27]/o $/atom:wat[27]/h2
+    $/bond:wat[28]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[28]/o $/atom:wat[28]/h1
+    $/bond:wat[28]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[28]/o $/atom:wat[28]/h2
+    $/bond:wat[29]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[29]/o $/atom:wat[29]/h1
+    $/bond:wat[29]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[29]/o $/atom:wat[29]/h2
+    $/bond:wat[30]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[30]/o $/atom:wat[30]/h1
+    $/bond:wat[30]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[30]/o $/atom:wat[30]/h2
+    $/bond:wat[31]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[31]/o $/atom:wat[31]/h1
+    $/bond:wat[31]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[31]/o $/atom:wat[31]/h2
+    $/bond:wat[32]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[32]/o $/atom:wat[32]/h1
+    $/bond:wat[32]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[32]/o $/atom:wat[32]/h2
+    $/bond:wat[33]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[33]/o $/atom:wat[33]/h1
+    $/bond:wat[33]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[33]/o $/atom:wat[33]/h2
+    $/bond:wat[34]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[34]/o $/atom:wat[34]/h1
+    $/bond:wat[34]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[34]/o $/atom:wat[34]/h2
+    $/bond:wat[35]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[35]/o $/atom:wat[35]/h1
+    $/bond:wat[35]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[35]/o $/atom:wat[35]/h2
+    $/bond:wat[36]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[36]/o $/atom:wat[36]/h1
+    $/bond:wat[36]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[36]/o $/atom:wat[36]/h2
+    $/bond:wat[37]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[37]/o $/atom:wat[37]/h1
+    $/bond:wat[37]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[37]/o $/atom:wat[37]/h2
+    $/bond:wat[38]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[38]/o $/atom:wat[38]/h1
+    $/bond:wat[38]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[38]/o $/atom:wat[38]/h2
+    $/bond:wat[39]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[39]/o $/atom:wat[39]/h1
+    $/bond:wat[39]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[39]/o $/atom:wat[39]/h2
+    $/bond:wat[40]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[40]/o $/atom:wat[40]/h1
+    $/bond:wat[40]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[40]/o $/atom:wat[40]/h2
+    $/bond:wat[41]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[41]/o $/atom:wat[41]/h1
+    $/bond:wat[41]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[41]/o $/atom:wat[41]/h2
+    $/bond:wat[42]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[42]/o $/atom:wat[42]/h1
+    $/bond:wat[42]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[42]/o $/atom:wat[42]/h2
+    $/bond:wat[43]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[43]/o $/atom:wat[43]/h1
+    $/bond:wat[43]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[43]/o $/atom:wat[43]/h2
+    $/bond:wat[44]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[44]/o $/atom:wat[44]/h1
+    $/bond:wat[44]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[44]/o $/atom:wat[44]/h2
+    $/bond:wat[45]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[45]/o $/atom:wat[45]/h1
+    $/bond:wat[45]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[45]/o $/atom:wat[45]/h2
+    $/bond:wat[46]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[46]/o $/atom:wat[46]/h1
+    $/bond:wat[46]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[46]/o $/atom:wat[46]/h2
+    $/bond:wat[47]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[47]/o $/atom:wat[47]/h1
+    $/bond:wat[47]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[47]/o $/atom:wat[47]/h2
+    $/bond:wat[48]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[48]/o $/atom:wat[48]/h1
+    $/bond:wat[48]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[48]/o $/atom:wat[48]/h2
+    $/bond:wat[49]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[49]/o $/atom:wat[49]/h1
+    $/bond:wat[49]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[49]/o $/atom:wat[49]/h2
+    $/bond:wat[50]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[50]/o $/atom:wat[50]/h1
+    $/bond:wat[50]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[50]/o $/atom:wat[50]/h2
+    $/bond:wat[51]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[51]/o $/atom:wat[51]/h1
+    $/bond:wat[51]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[51]/o $/atom:wat[51]/h2
+    $/bond:wat[52]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[52]/o $/atom:wat[52]/h1
+    $/bond:wat[52]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[52]/o $/atom:wat[52]/h2
+    $/bond:wat[53]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[53]/o $/atom:wat[53]/h1
+    $/bond:wat[53]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[53]/o $/atom:wat[53]/h2
+    $/bond:wat[54]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[54]/o $/atom:wat[54]/h1
+    $/bond:wat[54]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[54]/o $/atom:wat[54]/h2
+    $/bond:wat[55]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[55]/o $/atom:wat[55]/h1
+    $/bond:wat[55]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[55]/o $/atom:wat[55]/h2
+    $/bond:wat[56]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[56]/o $/atom:wat[56]/h1
+    $/bond:wat[56]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[56]/o $/atom:wat[56]/h2
+    $/bond:wat[57]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[57]/o $/atom:wat[57]/h1
+    $/bond:wat[57]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[57]/o $/atom:wat[57]/h2
+    $/bond:wat[58]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[58]/o $/atom:wat[58]/h1
+    $/bond:wat[58]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[58]/o $/atom:wat[58]/h2
+    $/bond:wat[59]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[59]/o $/atom:wat[59]/h1
+    $/bond:wat[59]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[59]/o $/atom:wat[59]/h2
+    $/bond:wat[60]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[60]/o $/atom:wat[60]/h1
+    $/bond:wat[60]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[60]/o $/atom:wat[60]/h2
+    $/bond:wat[61]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[61]/o $/atom:wat[61]/h1
+    $/bond:wat[61]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[61]/o $/atom:wat[61]/h2
+    $/bond:wat[62]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[62]/o $/atom:wat[62]/h1
+    $/bond:wat[62]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[62]/o $/atom:wat[62]/h2
+    $/bond:wat[63]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[63]/o $/atom:wat[63]/h1
+    $/bond:wat[63]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[63]/o $/atom:wat[63]/h2
+    $/bond:wat[64]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[64]/o $/atom:wat[64]/h1
+    $/bond:wat[64]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[64]/o $/atom:wat[64]/h2
+    $/bond:wat[65]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[65]/o $/atom:wat[65]/h1
+    $/bond:wat[65]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[65]/o $/atom:wat[65]/h2
+    $/bond:wat[66]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[66]/o $/atom:wat[66]/h1
+    $/bond:wat[66]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[66]/o $/atom:wat[66]/h2
+    $/bond:wat[67]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[67]/o $/atom:wat[67]/h1
+    $/bond:wat[67]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[67]/o $/atom:wat[67]/h2
+    $/bond:wat[68]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[68]/o $/atom:wat[68]/h1
+    $/bond:wat[68]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[68]/o $/atom:wat[68]/h2
+    $/bond:wat[69]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[69]/o $/atom:wat[69]/h1
+    $/bond:wat[69]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[69]/o $/atom:wat[69]/h2
+    $/bond:wat[70]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[70]/o $/atom:wat[70]/h1
+    $/bond:wat[70]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[70]/o $/atom:wat[70]/h2
+    $/bond:wat[71]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[71]/o $/atom:wat[71]/h1
+    $/bond:wat[71]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[71]/o $/atom:wat[71]/h2
+    $/bond:wat[72]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[72]/o $/atom:wat[72]/h1
+    $/bond:wat[72]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[72]/o $/atom:wat[72]/h2
+    $/bond:wat[73]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[73]/o $/atom:wat[73]/h1
+    $/bond:wat[73]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[73]/o $/atom:wat[73]/h2
+    $/bond:wat[74]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[74]/o $/atom:wat[74]/h1
+    $/bond:wat[74]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[74]/o $/atom:wat[74]/h2
+    $/bond:wat[75]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[75]/o $/atom:wat[75]/h1
+    $/bond:wat[75]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[75]/o $/atom:wat[75]/h2
+    $/bond:wat[76]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[76]/o $/atom:wat[76]/h1
+    $/bond:wat[76]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[76]/o $/atom:wat[76]/h2
+    $/bond:wat[77]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[77]/o $/atom:wat[77]/h1
+    $/bond:wat[77]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[77]/o $/atom:wat[77]/h2
+    $/bond:wat[78]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[78]/o $/atom:wat[78]/h1
+    $/bond:wat[78]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[78]/o $/atom:wat[78]/h2
+    $/bond:wat[79]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[79]/o $/atom:wat[79]/h1
+    $/bond:wat[79]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[79]/o $/atom:wat[79]/h2
+    $/bond:wat[80]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[80]/o $/atom:wat[80]/h1
+    $/bond:wat[80]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[80]/o $/atom:wat[80]/h2
+    $/bond:wat[81]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[81]/o $/atom:wat[81]/h1
+    $/bond:wat[81]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[81]/o $/atom:wat[81]/h2
+    $/bond:wat[82]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[82]/o $/atom:wat[82]/h1
+    $/bond:wat[82]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[82]/o $/atom:wat[82]/h2
+    $/bond:wat[83]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[83]/o $/atom:wat[83]/h1
+    $/bond:wat[83]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[83]/o $/atom:wat[83]/h2
+    $/bond:wat[84]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[84]/o $/atom:wat[84]/h1
+    $/bond:wat[84]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[84]/o $/atom:wat[84]/h2
+    $/bond:wat[85]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[85]/o $/atom:wat[85]/h1
+    $/bond:wat[85]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[85]/o $/atom:wat[85]/h2
+    $/bond:wat[86]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[86]/o $/atom:wat[86]/h1
+    $/bond:wat[86]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[86]/o $/atom:wat[86]/h2
+    $/bond:wat[87]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[87]/o $/atom:wat[87]/h1
+    $/bond:wat[87]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[87]/o $/atom:wat[87]/h2
+    $/bond:wat[88]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[88]/o $/atom:wat[88]/h1
+    $/bond:wat[88]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[88]/o $/atom:wat[88]/h2
+    $/bond:wat[89]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[89]/o $/atom:wat[89]/h1
+    $/bond:wat[89]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[89]/o $/atom:wat[89]/h2
+    $/bond:wat[90]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[90]/o $/atom:wat[90]/h1
+    $/bond:wat[90]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[90]/o $/atom:wat[90]/h2
+    $/bond:wat[91]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[91]/o $/atom:wat[91]/h1
+    $/bond:wat[91]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[91]/o $/atom:wat[91]/h2
+    $/bond:wat[92]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[92]/o $/atom:wat[92]/h1
+    $/bond:wat[92]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[92]/o $/atom:wat[92]/h2
+    $/bond:wat[93]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[93]/o $/atom:wat[93]/h1
+    $/bond:wat[93]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[93]/o $/atom:wat[93]/h2
+    $/bond:wat[94]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[94]/o $/atom:wat[94]/h1
+    $/bond:wat[94]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[94]/o $/atom:wat[94]/h2
+    $/bond:wat[95]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[95]/o $/atom:wat[95]/h1
+    $/bond:wat[95]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[95]/o $/atom:wat[95]/h2
+    $/bond:wat[96]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[96]/o $/atom:wat[96]/h1
+    $/bond:wat[96]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[96]/o $/atom:wat[96]/h2
+    $/bond:wat[97]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[97]/o $/atom:wat[97]/h1
+    $/bond:wat[97]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[97]/o $/atom:wat[97]/h2
+    $/bond:wat[98]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[98]/o $/atom:wat[98]/h1
+    $/bond:wat[98]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[98]/o $/atom:wat[98]/h2
+    $/bond:wat[99]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[99]/o $/atom:wat[99]/h1
+    $/bond:wat[99]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[99]/o $/atom:wat[99]/h2
+    $/bond:wat[100]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[100]/o $/atom:wat[100]/h1
+    $/bond:wat[100]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[100]/o $/atom:wat[100]/h2
+    $/bond:wat[101]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[101]/o $/atom:wat[101]/h1
+    $/bond:wat[101]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[101]/o $/atom:wat[101]/h2
+    $/bond:wat[102]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[102]/o $/atom:wat[102]/h1
+    $/bond:wat[102]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[102]/o $/atom:wat[102]/h2
+    $/bond:wat[103]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[103]/o $/atom:wat[103]/h1
+    $/bond:wat[103]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[103]/o $/atom:wat[103]/h2
+    $/bond:wat[104]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[104]/o $/atom:wat[104]/h1
+    $/bond:wat[104]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[104]/o $/atom:wat[104]/h2
+    $/bond:wat[105]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[105]/o $/atom:wat[105]/h1
+    $/bond:wat[105]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[105]/o $/atom:wat[105]/h2
+    $/bond:wat[106]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[106]/o $/atom:wat[106]/h1
+    $/bond:wat[106]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[106]/o $/atom:wat[106]/h2
+    $/bond:wat[107]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[107]/o $/atom:wat[107]/h1
+    $/bond:wat[107]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[107]/o $/atom:wat[107]/h2
+    $/bond:wat[108]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[108]/o $/atom:wat[108]/h1
+    $/bond:wat[108]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[108]/o $/atom:wat[108]/h2
+    $/bond:wat[109]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[109]/o $/atom:wat[109]/h1
+    $/bond:wat[109]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[109]/o $/atom:wat[109]/h2
+    $/bond:wat[110]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[110]/o $/atom:wat[110]/h1
+    $/bond:wat[110]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[110]/o $/atom:wat[110]/h2
+    $/bond:wat[111]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[111]/o $/atom:wat[111]/h1
+    $/bond:wat[111]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[111]/o $/atom:wat[111]/h2
+    $/bond:wat[112]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[112]/o $/atom:wat[112]/h1
+    $/bond:wat[112]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[112]/o $/atom:wat[112]/h2
+    $/bond:wat[113]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[113]/o $/atom:wat[113]/h1
+    $/bond:wat[113]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[113]/o $/atom:wat[113]/h2
+    $/bond:wat[114]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[114]/o $/atom:wat[114]/h1
+    $/bond:wat[114]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[114]/o $/atom:wat[114]/h2
+    $/bond:wat[115]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[115]/o $/atom:wat[115]/h1
+    $/bond:wat[115]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[115]/o $/atom:wat[115]/h2
+    $/bond:wat[116]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[116]/o $/atom:wat[116]/h1
+    $/bond:wat[116]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[116]/o $/atom:wat[116]/h2
+    $/bond:wat[117]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[117]/o $/atom:wat[117]/h1
+    $/bond:wat[117]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[117]/o $/atom:wat[117]/h2
+    $/bond:wat[118]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[118]/o $/atom:wat[118]/h1
+    $/bond:wat[118]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[118]/o $/atom:wat[118]/h2
+    $/bond:wat[119]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[119]/o $/atom:wat[119]/h1
+    $/bond:wat[119]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[119]/o $/atom:wat[119]/h2
+    $/bond:wat[120]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[120]/o $/atom:wat[120]/h1
+    $/bond:wat[120]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[120]/o $/atom:wat[120]/h2
+    $/bond:wat[121]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[121]/o $/atom:wat[121]/h1
+    $/bond:wat[121]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[121]/o $/atom:wat[121]/h2
+    $/bond:wat[122]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[122]/o $/atom:wat[122]/h1
+    $/bond:wat[122]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[122]/o $/atom:wat[122]/h2
+    $/bond:wat[123]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[123]/o $/atom:wat[123]/h1
+    $/bond:wat[123]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[123]/o $/atom:wat[123]/h2
+    $/bond:wat[124]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[124]/o $/atom:wat[124]/h1
+    $/bond:wat[124]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[124]/o $/atom:wat[124]/h2
+    $/bond:wat[125]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[125]/o $/atom:wat[125]/h1
+    $/bond:wat[125]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[125]/o $/atom:wat[125]/h2
+    $/bond:wat[126]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[126]/o $/atom:wat[126]/h1
+    $/bond:wat[126]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[126]/o $/atom:wat[126]/h2
+    $/bond:wat[127]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[127]/o $/atom:wat[127]/h1
+    $/bond:wat[127]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[127]/o $/atom:wat[127]/h2
+    $/bond:wat[128]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[128]/o $/atom:wat[128]/h1
+    $/bond:wat[128]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[128]/o $/atom:wat[128]/h2
+    $/bond:wat[129]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[129]/o $/atom:wat[129]/h1
+    $/bond:wat[129]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[129]/o $/atom:wat[129]/h2
+    $/bond:wat[130]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[130]/o $/atom:wat[130]/h1
+    $/bond:wat[130]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[130]/o $/atom:wat[130]/h2
+    $/bond:wat[131]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[131]/o $/atom:wat[131]/h1
+    $/bond:wat[131]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[131]/o $/atom:wat[131]/h2
+    $/bond:wat[132]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[132]/o $/atom:wat[132]/h1
+    $/bond:wat[132]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[132]/o $/atom:wat[132]/h2
+    $/bond:wat[133]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[133]/o $/atom:wat[133]/h1
+    $/bond:wat[133]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[133]/o $/atom:wat[133]/h2
+    $/bond:wat[134]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[134]/o $/atom:wat[134]/h1
+    $/bond:wat[134]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[134]/o $/atom:wat[134]/h2
+    $/bond:wat[135]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[135]/o $/atom:wat[135]/h1
+    $/bond:wat[135]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[135]/o $/atom:wat[135]/h2
+    $/bond:wat[136]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[136]/o $/atom:wat[136]/h1
+    $/bond:wat[136]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[136]/o $/atom:wat[136]/h2
+    $/bond:wat[137]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[137]/o $/atom:wat[137]/h1
+    $/bond:wat[137]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[137]/o $/atom:wat[137]/h2
+    $/bond:wat[138]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[138]/o $/atom:wat[138]/h1
+    $/bond:wat[138]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[138]/o $/atom:wat[138]/h2
+    $/bond:wat[139]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[139]/o $/atom:wat[139]/h1
+    $/bond:wat[139]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[139]/o $/atom:wat[139]/h2
+    $/bond:wat[140]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[140]/o $/atom:wat[140]/h1
+    $/bond:wat[140]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[140]/o $/atom:wat[140]/h2
+    $/bond:wat[141]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[141]/o $/atom:wat[141]/h1
+    $/bond:wat[141]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[141]/o $/atom:wat[141]/h2
+    $/bond:wat[142]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[142]/o $/atom:wat[142]/h1
+    $/bond:wat[142]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[142]/o $/atom:wat[142]/h2
+    $/bond:wat[143]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[143]/o $/atom:wat[143]/h1
+    $/bond:wat[143]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[143]/o $/atom:wat[143]/h2
+    $/bond:wat[144]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[144]/o $/atom:wat[144]/h1
+    $/bond:wat[144]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[144]/o $/atom:wat[144]/h2
+    $/bond:wat[145]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[145]/o $/atom:wat[145]/h1
+    $/bond:wat[145]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[145]/o $/atom:wat[145]/h2
+    $/bond:wat[146]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[146]/o $/atom:wat[146]/h1
+    $/bond:wat[146]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[146]/o $/atom:wat[146]/h2
+    $/bond:wat[147]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[147]/o $/atom:wat[147]/h1
+    $/bond:wat[147]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[147]/o $/atom:wat[147]/h2
+    $/bond:wat[148]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[148]/o $/atom:wat[148]/h1
+    $/bond:wat[148]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[148]/o $/atom:wat[148]/h2
+    $/bond:wat[149]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[149]/o $/atom:wat[149]/h1
+    $/bond:wat[149]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[149]/o $/atom:wat[149]/h2
+    $/bond:wat[150]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[150]/o $/atom:wat[150]/h1
+    $/bond:wat[150]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[150]/o $/atom:wat[150]/h2
+    $/bond:wat[151]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[151]/o $/atom:wat[151]/h1
+    $/bond:wat[151]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[151]/o $/atom:wat[151]/h2
+    $/bond:wat[152]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[152]/o $/atom:wat[152]/h1
+    $/bond:wat[152]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[152]/o $/atom:wat[152]/h2
+    $/bond:wat[153]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[153]/o $/atom:wat[153]/h1
+    $/bond:wat[153]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[153]/o $/atom:wat[153]/h2
+    $/bond:wat[154]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[154]/o $/atom:wat[154]/h1
+    $/bond:wat[154]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[154]/o $/atom:wat[154]/h2
+    $/bond:wat[155]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[155]/o $/atom:wat[155]/h1
+    $/bond:wat[155]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[155]/o $/atom:wat[155]/h2
+    $/bond:wat[156]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[156]/o $/atom:wat[156]/h1
+    $/bond:wat[156]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[156]/o $/atom:wat[156]/h2
+    $/bond:wat[157]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[157]/o $/atom:wat[157]/h1
+    $/bond:wat[157]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[157]/o $/atom:wat[157]/h2
+    $/bond:wat[158]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[158]/o $/atom:wat[158]/h1
+    $/bond:wat[158]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[158]/o $/atom:wat[158]/h2
+    $/bond:wat[159]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[159]/o $/atom:wat[159]/h1
+    $/bond:wat[159]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[159]/o $/atom:wat[159]/h2
+    $/bond:wat[160]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[160]/o $/atom:wat[160]/h1
+    $/bond:wat[160]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[160]/o $/atom:wat[160]/h2
+    $/bond:wat[161]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[161]/o $/atom:wat[161]/h1
+    $/bond:wat[161]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[161]/o $/atom:wat[161]/h2
+    $/bond:wat[162]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[162]/o $/atom:wat[162]/h1
+    $/bond:wat[162]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[162]/o $/atom:wat[162]/h2
+    $/bond:wat[163]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[163]/o $/atom:wat[163]/h1
+    $/bond:wat[163]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[163]/o $/atom:wat[163]/h2
+    $/bond:wat[164]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[164]/o $/atom:wat[164]/h1
+    $/bond:wat[164]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[164]/o $/atom:wat[164]/h2
+    $/bond:wat[165]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[165]/o $/atom:wat[165]/h1
+    $/bond:wat[165]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[165]/o $/atom:wat[165]/h2
+    $/bond:wat[166]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[166]/o $/atom:wat[166]/h1
+    $/bond:wat[166]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[166]/o $/atom:wat[166]/h2
+    $/bond:wat[167]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[167]/o $/atom:wat[167]/h1
+    $/bond:wat[167]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[167]/o $/atom:wat[167]/h2
+    $/bond:wat[168]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[168]/o $/atom:wat[168]/h1
+    $/bond:wat[168]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[168]/o $/atom:wat[168]/h2
+    $/bond:wat[169]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[169]/o $/atom:wat[169]/h1
+    $/bond:wat[169]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[169]/o $/atom:wat[169]/h2
+    $/bond:wat[170]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[170]/o $/atom:wat[170]/h1
+    $/bond:wat[170]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[170]/o $/atom:wat[170]/h2
+    $/bond:wat[171]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[171]/o $/atom:wat[171]/h1
+    $/bond:wat[171]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[171]/o $/atom:wat[171]/h2
+    $/bond:wat[172]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[172]/o $/atom:wat[172]/h1
+    $/bond:wat[172]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[172]/o $/atom:wat[172]/h2
+    $/bond:wat[173]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[173]/o $/atom:wat[173]/h1
+    $/bond:wat[173]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[173]/o $/atom:wat[173]/h2
+    $/bond:wat[174]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[174]/o $/atom:wat[174]/h1
+    $/bond:wat[174]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[174]/o $/atom:wat[174]/h2
+    $/bond:wat[175]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[175]/o $/atom:wat[175]/h1
+    $/bond:wat[175]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[175]/o $/atom:wat[175]/h2
+    $/bond:wat[176]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[176]/o $/atom:wat[176]/h1
+    $/bond:wat[176]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[176]/o $/atom:wat[176]/h2
+    $/bond:wat[177]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[177]/o $/atom:wat[177]/h1
+    $/bond:wat[177]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[177]/o $/atom:wat[177]/h2
+    $/bond:wat[178]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[178]/o $/atom:wat[178]/h1
+    $/bond:wat[178]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[178]/o $/atom:wat[178]/h2
+    $/bond:wat[179]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[179]/o $/atom:wat[179]/h1
+    $/bond:wat[179]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[179]/o $/atom:wat[179]/h2
+    $/bond:wat[180]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[180]/o $/atom:wat[180]/h1
+    $/bond:wat[180]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[180]/o $/atom:wat[180]/h2
+    $/bond:wat[181]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[181]/o $/atom:wat[181]/h1
+    $/bond:wat[181]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[181]/o $/atom:wat[181]/h2
+    $/bond:wat[182]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[182]/o $/atom:wat[182]/h1
+    $/bond:wat[182]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[182]/o $/atom:wat[182]/h2
+    $/bond:wat[183]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[183]/o $/atom:wat[183]/h1
+    $/bond:wat[183]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[183]/o $/atom:wat[183]/h2
+    $/bond:wat[184]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[184]/o $/atom:wat[184]/h1
+    $/bond:wat[184]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[184]/o $/atom:wat[184]/h2
+    $/bond:wat[185]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[185]/o $/atom:wat[185]/h1
+    $/bond:wat[185]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[185]/o $/atom:wat[185]/h2
+    $/bond:wat[186]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[186]/o $/atom:wat[186]/h1
+    $/bond:wat[186]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[186]/o $/atom:wat[186]/h2
+    $/bond:wat[187]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[187]/o $/atom:wat[187]/h1
+    $/bond:wat[187]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[187]/o $/atom:wat[187]/h2
+    $/bond:wat[188]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[188]/o $/atom:wat[188]/h1
+    $/bond:wat[188]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[188]/o $/atom:wat[188]/h2
+    $/bond:wat[189]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[189]/o $/atom:wat[189]/h1
+    $/bond:wat[189]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[189]/o $/atom:wat[189]/h2
+    $/bond:wat[190]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[190]/o $/atom:wat[190]/h1
+    $/bond:wat[190]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[190]/o $/atom:wat[190]/h2
+    $/bond:wat[191]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[191]/o $/atom:wat[191]/h1
+    $/bond:wat[191]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[191]/o $/atom:wat[191]/h2
+    $/bond:wat[192]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[192]/o $/atom:wat[192]/h1
+    $/bond:wat[192]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[192]/o $/atom:wat[192]/h2
+    $/bond:wat[193]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[193]/o $/atom:wat[193]/h1
+    $/bond:wat[193]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[193]/o $/atom:wat[193]/h2
+    $/bond:wat[194]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[194]/o $/atom:wat[194]/h1
+    $/bond:wat[194]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[194]/o $/atom:wat[194]/h2
+    $/bond:wat[195]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[195]/o $/atom:wat[195]/h1
+    $/bond:wat[195]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[195]/o $/atom:wat[195]/h2
+    $/bond:wat[196]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[196]/o $/atom:wat[196]/h1
+    $/bond:wat[196]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[196]/o $/atom:wat[196]/h2
+    $/bond:wat[197]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[197]/o $/atom:wat[197]/h1
+    $/bond:wat[197]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[197]/o $/atom:wat[197]/h2
+    $/bond:wat[198]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[198]/o $/atom:wat[198]/h1
+    $/bond:wat[198]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[198]/o $/atom:wat[198]/h2
+    $/bond:wat[199]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[199]/o $/atom:wat[199]/h1
+    $/bond:wat[199]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[199]/o $/atom:wat[199]/h2
+    $/bond:wat[200]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[200]/o $/atom:wat[200]/h1
+    $/bond:wat[200]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[200]/o $/atom:wat[200]/h2
+    $/bond:wat[201]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[201]/o $/atom:wat[201]/h1
+    $/bond:wat[201]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[201]/o $/atom:wat[201]/h2
+    $/bond:wat[202]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[202]/o $/atom:wat[202]/h1
+    $/bond:wat[202]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[202]/o $/atom:wat[202]/h2
+    $/bond:wat[203]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[203]/o $/atom:wat[203]/h1
+    $/bond:wat[203]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[203]/o $/atom:wat[203]/h2
+    $/bond:wat[204]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[204]/o $/atom:wat[204]/h1
+    $/bond:wat[204]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[204]/o $/atom:wat[204]/h2
+    $/bond:wat[205]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[205]/o $/atom:wat[205]/h1
+    $/bond:wat[205]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[205]/o $/atom:wat[205]/h2
+    $/bond:wat[206]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[206]/o $/atom:wat[206]/h1
+    $/bond:wat[206]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[206]/o $/atom:wat[206]/h2
+    $/bond:wat[207]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[207]/o $/atom:wat[207]/h1
+    $/bond:wat[207]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[207]/o $/atom:wat[207]/h2
+    $/bond:wat[208]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[208]/o $/atom:wat[208]/h1
+    $/bond:wat[208]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[208]/o $/atom:wat[208]/h2
+    $/bond:wat[209]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[209]/o $/atom:wat[209]/h1
+    $/bond:wat[209]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[209]/o $/atom:wat[209]/h2
+    $/bond:wat[210]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[210]/o $/atom:wat[210]/h1
+    $/bond:wat[210]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[210]/o $/atom:wat[210]/h2
+    $/bond:wat[211]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[211]/o $/atom:wat[211]/h1
+    $/bond:wat[211]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[211]/o $/atom:wat[211]/h2
+    $/bond:wat[212]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[212]/o $/atom:wat[212]/h1
+    $/bond:wat[212]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[212]/o $/atom:wat[212]/h2
+    $/bond:wat[213]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[213]/o $/atom:wat[213]/h1
+    $/bond:wat[213]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[213]/o $/atom:wat[213]/h2
+    $/bond:wat[214]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[214]/o $/atom:wat[214]/h1
+    $/bond:wat[214]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[214]/o $/atom:wat[214]/h2
+    $/bond:wat[215]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[215]/o $/atom:wat[215]/h1
+    $/bond:wat[215]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[215]/o $/atom:wat[215]/h2
+    $/bond:wat[216]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[216]/o $/atom:wat[216]/h1
+    $/bond:wat[216]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[216]/o $/atom:wat[216]/h2
+    $/bond:wat[217]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[217]/o $/atom:wat[217]/h1
+    $/bond:wat[217]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[217]/o $/atom:wat[217]/h2
+    $/bond:wat[218]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[218]/o $/atom:wat[218]/h1
+    $/bond:wat[218]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[218]/o $/atom:wat[218]/h2
+    $/bond:wat[219]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[219]/o $/atom:wat[219]/h1
+    $/bond:wat[219]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[219]/o $/atom:wat[219]/h2
+    $/bond:wat[220]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[220]/o $/atom:wat[220]/h1
+    $/bond:wat[220]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[220]/o $/atom:wat[220]/h2
+    $/bond:wat[221]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[221]/o $/atom:wat[221]/h1
+    $/bond:wat[221]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[221]/o $/atom:wat[221]/h2
+    $/bond:wat[222]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[222]/o $/atom:wat[222]/h1
+    $/bond:wat[222]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[222]/o $/atom:wat[222]/h2
+    $/bond:wat[223]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[223]/o $/atom:wat[223]/h1
+    $/bond:wat[223]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[223]/o $/atom:wat[223]/h2
+    $/bond:wat[224]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[224]/o $/atom:wat[224]/h1
+    $/bond:wat[224]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[224]/o $/atom:wat[224]/h2
+    $/bond:wat[225]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[225]/o $/atom:wat[225]/h1
+    $/bond:wat[225]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[225]/o $/atom:wat[225]/h2
+    $/bond:wat[226]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[226]/o $/atom:wat[226]/h1
+    $/bond:wat[226]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[226]/o $/atom:wat[226]/h2
+    $/bond:wat[227]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[227]/o $/atom:wat[227]/h1
+    $/bond:wat[227]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[227]/o $/atom:wat[227]/h2
+    $/bond:wat[228]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[228]/o $/atom:wat[228]/h1
+    $/bond:wat[228]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[228]/o $/atom:wat[228]/h2
+    $/bond:wat[229]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[229]/o $/atom:wat[229]/h1
+    $/bond:wat[229]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[229]/o $/atom:wat[229]/h2
+    $/bond:wat[230]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[230]/o $/atom:wat[230]/h1
+    $/bond:wat[230]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[230]/o $/atom:wat[230]/h2
+    $/bond:wat[231]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[231]/o $/atom:wat[231]/h1
+    $/bond:wat[231]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[231]/o $/atom:wat[231]/h2
+    $/bond:wat[232]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[232]/o $/atom:wat[232]/h1
+    $/bond:wat[232]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[232]/o $/atom:wat[232]/h2
+    $/bond:wat[233]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[233]/o $/atom:wat[233]/h1
+    $/bond:wat[233]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[233]/o $/atom:wat[233]/h2
+    $/bond:wat[234]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[234]/o $/atom:wat[234]/h1
+    $/bond:wat[234]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[234]/o $/atom:wat[234]/h2
+    $/bond:wat[235]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[235]/o $/atom:wat[235]/h1
+    $/bond:wat[235]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[235]/o $/atom:wat[235]/h2
+    $/bond:wat[236]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[236]/o $/atom:wat[236]/h1
+    $/bond:wat[236]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[236]/o $/atom:wat[236]/h2
+    $/bond:wat[237]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[237]/o $/atom:wat[237]/h1
+    $/bond:wat[237]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[237]/o $/atom:wat[237]/h2
+    $/bond:wat[238]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[238]/o $/atom:wat[238]/h1
+    $/bond:wat[238]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[238]/o $/atom:wat[238]/h2
+    $/bond:wat[239]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[239]/o $/atom:wat[239]/h1
+    $/bond:wat[239]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[239]/o $/atom:wat[239]/h2
+    $/bond:wat[240]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[240]/o $/atom:wat[240]/h1
+    $/bond:wat[240]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[240]/o $/atom:wat[240]/h2
+    $/bond:wat[241]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[241]/o $/atom:wat[241]/h1
+    $/bond:wat[241]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[241]/o $/atom:wat[241]/h2
+    $/bond:wat[242]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[242]/o $/atom:wat[242]/h1
+    $/bond:wat[242]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[242]/o $/atom:wat[242]/h2
+    $/bond:wat[243]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[243]/o $/atom:wat[243]/h1
+    $/bond:wat[243]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[243]/o $/atom:wat[243]/h2
+    $/bond:wat[244]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[244]/o $/atom:wat[244]/h1
+    $/bond:wat[244]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[244]/o $/atom:wat[244]/h2
+    $/bond:wat[245]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[245]/o $/atom:wat[245]/h1
+    $/bond:wat[245]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[245]/o $/atom:wat[245]/h2
+    $/bond:wat[246]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[246]/o $/atom:wat[246]/h1
+    $/bond:wat[246]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[246]/o $/atom:wat[246]/h2
+    $/bond:wat[247]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[247]/o $/atom:wat[247]/h1
+    $/bond:wat[247]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[247]/o $/atom:wat[247]/h2
+    $/bond:wat[248]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[248]/o $/atom:wat[248]/h1
+    $/bond:wat[248]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[248]/o $/atom:wat[248]/h2
+    $/bond:wat[249]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[249]/o $/atom:wat[249]/h1
+    $/bond:wat[249]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[249]/o $/atom:wat[249]/h2
+    $/bond:wat[250]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[250]/o $/atom:wat[250]/h1
+    $/bond:wat[250]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[250]/o $/atom:wat[250]/h2
+    $/bond:wat[251]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[251]/o $/atom:wat[251]/h1
+    $/bond:wat[251]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[251]/o $/atom:wat[251]/h2
+    $/bond:wat[252]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[252]/o $/atom:wat[252]/h1
+    $/bond:wat[252]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[252]/o $/atom:wat[252]/h2
+    $/bond:wat[253]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[253]/o $/atom:wat[253]/h1
+    $/bond:wat[253]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[253]/o $/atom:wat[253]/h2
+    $/bond:wat[254]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[254]/o $/atom:wat[254]/h1
+    $/bond:wat[254]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[254]/o $/atom:wat[254]/h2
+    $/bond:wat[255]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[255]/o $/atom:wat[255]/h1
+    $/bond:wat[255]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[255]/o $/atom:wat[255]/h2
+    $/bond:wat[256]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[256]/o $/atom:wat[256]/h1
+    $/bond:wat[256]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[256]/o $/atom:wat[256]/h2
+    $/bond:wat[257]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[257]/o $/atom:wat[257]/h1
+    $/bond:wat[257]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[257]/o $/atom:wat[257]/h2
+    $/bond:wat[258]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[258]/o $/atom:wat[258]/h1
+    $/bond:wat[258]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[258]/o $/atom:wat[258]/h2
+    $/bond:wat[259]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[259]/o $/atom:wat[259]/h1
+    $/bond:wat[259]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[259]/o $/atom:wat[259]/h2
+    $/bond:wat[260]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[260]/o $/atom:wat[260]/h1
+    $/bond:wat[260]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[260]/o $/atom:wat[260]/h2
+    $/bond:wat[261]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[261]/o $/atom:wat[261]/h1
+    $/bond:wat[261]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[261]/o $/atom:wat[261]/h2
+    $/bond:wat[262]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[262]/o $/atom:wat[262]/h1
+    $/bond:wat[262]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[262]/o $/atom:wat[262]/h2
+    $/bond:wat[263]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[263]/o $/atom:wat[263]/h1
+    $/bond:wat[263]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[263]/o $/atom:wat[263]/h2
+    $/bond:wat[264]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[264]/o $/atom:wat[264]/h1
+    $/bond:wat[264]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[264]/o $/atom:wat[264]/h2
+    $/bond:wat[265]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[265]/o $/atom:wat[265]/h1
+    $/bond:wat[265]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[265]/o $/atom:wat[265]/h2
+    $/bond:wat[266]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[266]/o $/atom:wat[266]/h1
+    $/bond:wat[266]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[266]/o $/atom:wat[266]/h2
+    $/bond:wat[267]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[267]/o $/atom:wat[267]/h1
+    $/bond:wat[267]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[267]/o $/atom:wat[267]/h2
+    $/bond:wat[268]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[268]/o $/atom:wat[268]/h1
+    $/bond:wat[268]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[268]/o $/atom:wat[268]/h2
+    $/bond:wat[269]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[269]/o $/atom:wat[269]/h1
+    $/bond:wat[269]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[269]/o $/atom:wat[269]/h2
+    $/bond:wat[270]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[270]/o $/atom:wat[270]/h1
+    $/bond:wat[270]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[270]/o $/atom:wat[270]/h2
+    $/bond:wat[271]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[271]/o $/atom:wat[271]/h1
+    $/bond:wat[271]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[271]/o $/atom:wat[271]/h2
+    $/bond:wat[272]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[272]/o $/atom:wat[272]/h1
+    $/bond:wat[272]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[272]/o $/atom:wat[272]/h2
+    $/bond:wat[273]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[273]/o $/atom:wat[273]/h1
+    $/bond:wat[273]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[273]/o $/atom:wat[273]/h2
+    $/bond:wat[274]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[274]/o $/atom:wat[274]/h1
+    $/bond:wat[274]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[274]/o $/atom:wat[274]/h2
+    $/bond:wat[275]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[275]/o $/atom:wat[275]/h1
+    $/bond:wat[275]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[275]/o $/atom:wat[275]/h2
+    $/bond:wat[276]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[276]/o $/atom:wat[276]/h1
+    $/bond:wat[276]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[276]/o $/atom:wat[276]/h2
+    $/bond:wat[277]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[277]/o $/atom:wat[277]/h1
+    $/bond:wat[277]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[277]/o $/atom:wat[277]/h2
+    $/bond:wat[278]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[278]/o $/atom:wat[278]/h1
+    $/bond:wat[278]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[278]/o $/atom:wat[278]/h2
+    $/bond:wat[279]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[279]/o $/atom:wat[279]/h1
+    $/bond:wat[279]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[279]/o $/atom:wat[279]/h2
+    $/bond:wat[280]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[280]/o $/atom:wat[280]/h1
+    $/bond:wat[280]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[280]/o $/atom:wat[280]/h2
+    $/bond:wat[281]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[281]/o $/atom:wat[281]/h1
+    $/bond:wat[281]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[281]/o $/atom:wat[281]/h2
+    $/bond:wat[282]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[282]/o $/atom:wat[282]/h1
+    $/bond:wat[282]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[282]/o $/atom:wat[282]/h2
+    $/bond:wat[283]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[283]/o $/atom:wat[283]/h1
+    $/bond:wat[283]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[283]/o $/atom:wat[283]/h2
+    $/bond:wat[284]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[284]/o $/atom:wat[284]/h1
+    $/bond:wat[284]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[284]/o $/atom:wat[284]/h2
+    $/bond:wat[285]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[285]/o $/atom:wat[285]/h1
+    $/bond:wat[285]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[285]/o $/atom:wat[285]/h2
+    $/bond:wat[286]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[286]/o $/atom:wat[286]/h1
+    $/bond:wat[286]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[286]/o $/atom:wat[286]/h2
+    $/bond:wat[287]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[287]/o $/atom:wat[287]/h1
+    $/bond:wat[287]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[287]/o $/atom:wat[287]/h2
+    $/bond:wat[288]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[288]/o $/atom:wat[288]/h1
+    $/bond:wat[288]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[288]/o $/atom:wat[288]/h2
+    $/bond:wat[289]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[289]/o $/atom:wat[289]/h1
+    $/bond:wat[289]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[289]/o $/atom:wat[289]/h2
+    $/bond:wat[290]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[290]/o $/atom:wat[290]/h1
+    $/bond:wat[290]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[290]/o $/atom:wat[290]/h2
+    $/bond:wat[291]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[291]/o $/atom:wat[291]/h1
+    $/bond:wat[291]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[291]/o $/atom:wat[291]/h2
+    $/bond:wat[292]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[292]/o $/atom:wat[292]/h1
+    $/bond:wat[292]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[292]/o $/atom:wat[292]/h2
+    $/bond:wat[293]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[293]/o $/atom:wat[293]/h1
+    $/bond:wat[293]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[293]/o $/atom:wat[293]/h2
+    $/bond:wat[294]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[294]/o $/atom:wat[294]/h1
+    $/bond:wat[294]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[294]/o $/atom:wat[294]/h2
+    $/bond:wat[295]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[295]/o $/atom:wat[295]/h1
+    $/bond:wat[295]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[295]/o $/atom:wat[295]/h2
+    $/bond:wat[296]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[296]/o $/atom:wat[296]/h1
+    $/bond:wat[296]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[296]/o $/atom:wat[296]/h2
+    $/bond:wat[297]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[297]/o $/atom:wat[297]/h1
+    $/bond:wat[297]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[297]/o $/atom:wat[297]/h2
+    $/bond:wat[298]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[298]/o $/atom:wat[298]/h1
+    $/bond:wat[298]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[298]/o $/atom:wat[298]/h2
+    $/bond:wat[299]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[299]/o $/atom:wat[299]/h1
+    $/bond:wat[299]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[299]/o $/atom:wat[299]/h2
+    $/bond:wat[300]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[300]/o $/atom:wat[300]/h1
+    $/bond:wat[300]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[300]/o $/atom:wat[300]/h2
+    $/bond:wat[301]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[301]/o $/atom:wat[301]/h1
+    $/bond:wat[301]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[301]/o $/atom:wat[301]/h2
+    $/bond:wat[302]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[302]/o $/atom:wat[302]/h1
+    $/bond:wat[302]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[302]/o $/atom:wat[302]/h2
+    $/bond:wat[303]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[303]/o $/atom:wat[303]/h1
+    $/bond:wat[303]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[303]/o $/atom:wat[303]/h2
+    $/bond:wat[304]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[304]/o $/atom:wat[304]/h1
+    $/bond:wat[304]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[304]/o $/atom:wat[304]/h2
+    $/bond:wat[305]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[305]/o $/atom:wat[305]/h1
+    $/bond:wat[305]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[305]/o $/atom:wat[305]/h2
+    $/bond:wat[306]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[306]/o $/atom:wat[306]/h1
+    $/bond:wat[306]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[306]/o $/atom:wat[306]/h2
+    $/bond:wat[307]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[307]/o $/atom:wat[307]/h1
+    $/bond:wat[307]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[307]/o $/atom:wat[307]/h2
+    $/bond:wat[308]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[308]/o $/atom:wat[308]/h1
+    $/bond:wat[308]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[308]/o $/atom:wat[308]/h2
+    $/bond:wat[309]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[309]/o $/atom:wat[309]/h1
+    $/bond:wat[309]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[309]/o $/atom:wat[309]/h2
+    $/bond:wat[310]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[310]/o $/atom:wat[310]/h1
+    $/bond:wat[310]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[310]/o $/atom:wat[310]/h2
+    $/bond:wat[311]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[311]/o $/atom:wat[311]/h1
+    $/bond:wat[311]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[311]/o $/atom:wat[311]/h2
+    $/bond:wat[312]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[312]/o $/atom:wat[312]/h1
+    $/bond:wat[312]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[312]/o $/atom:wat[312]/h2
+    $/bond:wat[313]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[313]/o $/atom:wat[313]/h1
+    $/bond:wat[313]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[313]/o $/atom:wat[313]/h2
+    $/bond:wat[314]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[314]/o $/atom:wat[314]/h1
+    $/bond:wat[314]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[314]/o $/atom:wat[314]/h2
+    $/bond:wat[315]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[315]/o $/atom:wat[315]/h1
+    $/bond:wat[315]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[315]/o $/atom:wat[315]/h2
+    $/bond:wat[316]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[316]/o $/atom:wat[316]/h1
+    $/bond:wat[316]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[316]/o $/atom:wat[316]/h2
+    $/bond:wat[317]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[317]/o $/atom:wat[317]/h1
+    $/bond:wat[317]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[317]/o $/atom:wat[317]/h2
+    $/bond:wat[318]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[318]/o $/atom:wat[318]/h1
+    $/bond:wat[318]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[318]/o $/atom:wat[318]/h2
+    $/bond:wat[319]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[319]/o $/atom:wat[319]/h1
+    $/bond:wat[319]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[319]/o $/atom:wat[319]/h2
+    $/bond:wat[320]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[320]/o $/atom:wat[320]/h1
+    $/bond:wat[320]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[320]/o $/atom:wat[320]/h2
+    $/bond:wat[321]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[321]/o $/atom:wat[321]/h1
+    $/bond:wat[321]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[321]/o $/atom:wat[321]/h2
+    $/bond:wat[322]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[322]/o $/atom:wat[322]/h1
+    $/bond:wat[322]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[322]/o $/atom:wat[322]/h2
+    $/bond:wat[323]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[323]/o $/atom:wat[323]/h1
+    $/bond:wat[323]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[323]/o $/atom:wat[323]/h2
+    $/bond:wat[324]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[324]/o $/atom:wat[324]/h1
+    $/bond:wat[324]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[324]/o $/atom:wat[324]/h2
+    $/bond:wat[325]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[325]/o $/atom:wat[325]/h1
+    $/bond:wat[325]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[325]/o $/atom:wat[325]/h2
+    $/bond:wat[326]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[326]/o $/atom:wat[326]/h1
+    $/bond:wat[326]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[326]/o $/atom:wat[326]/h2
+    $/bond:wat[327]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[327]/o $/atom:wat[327]/h1
+    $/bond:wat[327]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[327]/o $/atom:wat[327]/h2
+    $/bond:wat[328]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[328]/o $/atom:wat[328]/h1
+    $/bond:wat[328]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[328]/o $/atom:wat[328]/h2
+    $/bond:wat[329]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[329]/o $/atom:wat[329]/h1
+    $/bond:wat[329]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[329]/o $/atom:wat[329]/h2
+    $/bond:wat[330]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[330]/o $/atom:wat[330]/h1
+    $/bond:wat[330]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[330]/o $/atom:wat[330]/h2
+    $/bond:wat[331]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[331]/o $/atom:wat[331]/h1
+    $/bond:wat[331]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[331]/o $/atom:wat[331]/h2
+    $/bond:wat[332]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[332]/o $/atom:wat[332]/h1
+    $/bond:wat[332]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[332]/o $/atom:wat[332]/h2
+    $/bond:wat[333]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[333]/o $/atom:wat[333]/h1
+    $/bond:wat[333]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[333]/o $/atom:wat[333]/h2
+    $/bond:wat[334]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[334]/o $/atom:wat[334]/h1
+    $/bond:wat[334]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[334]/o $/atom:wat[334]/h2
+    $/bond:wat[335]/oh1 @/bond:TIP3P_2004/OH $/atom:wat[335]/o $/atom:wat[335]/h1
+    $/bond:wat[335]/oh2 @/bond:TIP3P_2004/OH $/atom:wat[335]/o $/atom:wat[335]/h2
