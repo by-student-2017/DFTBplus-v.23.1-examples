@@ -9,4 +9,9 @@ Usage
 3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
 
 4. ./../scripts/velo_autocorr geo_end.xyz molec 1 200 10 0.001
+Note: https://dftbplus-recipes.readthedocs.io/en/latest/moleculardynamics/analysis.html
+
+Note: In the literature, MSD is calculated by performing NVT for 1 [ps] at 0.1 [fs]. 
+  It takes weeks on my PC. It would be better to do it with ReaxFF or 
+  find a calculation target that can be calculated using a smaller cell.
 --------------------------------------------------------------------------------------------------------------
