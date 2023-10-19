@@ -7,10 +7,13 @@ atom_style      full
 # ----------------------- Read Structure file ------------------------
 #read_data       polymer-6_water-336.data
 #variable        elem string "C F O S H"
+#variable ReaxFF_elem string "C F O S H"
 
 read_data       restart.data
-variable        elem string "H F C O S"
-group           hydrogen type 1
+variable        elem string "Hw Ow F C O H S" # Hw and Ow are related water (H2O)
+variable ReaxFF_elem string "H O F C O H S"   # "Hw -> H and Ow -> H" for ReaxFF
+group           hydrogen type 1               # This is H in water and is probably involved in proton hopping.
+# Note: Proton hopping; H+/4H2O and H+/6H2O; a shoulder band at about 261 [cm^-1] = 128 [fs]
 
 replicate       1 1 1
 
@@ -20,7 +23,7 @@ variable         Td equal 300.0 # [K]
 
 # ------------------------ FORCE FIELDS ------------------------------
 pair_style      reax/c NULL
-pair_coeff      * * ffield.reax.035.CHOSFClN ${elem}
+pair_coeff      * * ffield.reax.035.CHOSFClN ${ReaxFF_elem}
 
 neighbor        1.0 bin
 neigh_modify    every 10 delay 0 check no
