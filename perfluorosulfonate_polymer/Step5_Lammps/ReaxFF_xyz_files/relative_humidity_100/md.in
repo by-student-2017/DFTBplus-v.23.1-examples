@@ -5,11 +5,11 @@ boundary        p p p
 atom_style      full
 
 # ----------------------- Read Structure file ------------------------
-#read_data       polymer-6.data
+#read_data       polymer-6_water-336.data
 #variable        elem string "C F O S H"
 
 read_data       restart.data
-variable        elem string "H O F C S"
+variable        elem string "H F C O S"
 group           hydrogen type 1
 
 replicate       1 1 1
@@ -73,7 +73,7 @@ fix             msdT1 hydrogen ave/time 1 1 1000 v_msdx v_msdy v_msdz v_msdtot f
 fix             4 all nvt temp ${Td} ${Td} 0.01 
 
 thermo          1000
-thermo_style    custom step v_Timer cpu temp etotal fmax lx ly lz vol press 
+thermo_style    custom step cpu temp etotal fmax lx ly lz vol press 
 
 dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}
