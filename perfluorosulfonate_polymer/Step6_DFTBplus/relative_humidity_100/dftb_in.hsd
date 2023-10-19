@@ -14,16 +14,17 @@ Driver = VelocityVerlet{
   # Time step for MD
   TimeStep [fs] = 1.0
   # Use thermostat to maintain temperature
+  # Nose-Hoover chain thermostat sampling an NVT ensemble
   Thermostat = NoseHoover {
     Temperature [Kelvin] = 300
     # Approximately the highest vibrational frequency of the molecule
     CouplingStrength [cm^-1] = 3200
   }
-  # total of 20 ps
-  Steps = 20000
+  # total of 2 ps
+  Steps = 2000
   MovedAtoms = 1:-1
-  # save every 100 steps
-  MDRestartFrequency = 100
+  # save every 10 steps
+  MDRestartFrequency = 10
 }
 
 #Hamiltonian = xTB {
