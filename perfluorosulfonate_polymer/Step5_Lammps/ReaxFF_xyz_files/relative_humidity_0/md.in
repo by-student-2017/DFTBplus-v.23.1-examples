@@ -40,12 +40,12 @@ timestep        0.1 # 0.1 [fs]
 
 velocity        all create ${Td} 4928459 rot yes mom yes dist gaussian
 
-#fix             1 all nve
-fix             2 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
-#fix             3 all temp/berendsen 298.15 298.15 50.0
-#fix             3 all press/berendsen iso 1.0 1.0 1500.0
-#fix            3 all nvt temp ${Td} ${Td} 500.0 tchain 1
-fix             3 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
+fix             f1 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
+#fix             f2 all nve
+#fix             f3 all temp/berendsen 298.15 298.15 50.0
+#fix             f3 all press/berendsen iso 1.0 1.0 1500.0
+#fix            f2 all nvt temp ${Td} ${Td} 500.0 tchain 1
+fix             f2 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
 
 thermo          100
 thermo_style    custom step temp ke pe press lx ly lz
@@ -53,9 +53,9 @@ thermo_style    custom step temp ke pe press lx ly lz
 dump            d1 all cfg 100 cfg/run.equil.*.cfg mass type xs ys zs id type q
 dump_modify     d1 element ${elem}
 
-run             20000 # 2 [ps]
+run             40000 # 4 [ps]
 
-unfix           3
+unfix           f2
 undump          d1
 
 # ------------------------- MSD ---------------------------------
@@ -70,14 +70,14 @@ variable      msdtot equal "c_mymsd[4]"
 
 fix             msdT1 hydrogen ave/time 1 1 1000 v_msdx v_msdy v_msdz v_msdtot file msdH_${Td}K
 
-fix             4 all nvt temp ${Td} ${Td} $(1000.0*dt)
+fix             f3 all nvt temp ${Td} ${Td} $(1000.0*dt)
 
 thermo          1000
-thermo_style    custom step temp ke pe press lx ly lz vol press 
+thermo_style    custom step temp ke pe press lx ly lz vol
 
-dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
+dump            d2 all cfg 1000 cfg/run.nvt_msd_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}
 
-run             200000 # 20 [ps]
+run             100000 # 10 [ps]
 
 # ------------------------- Ende -------------------------------------
