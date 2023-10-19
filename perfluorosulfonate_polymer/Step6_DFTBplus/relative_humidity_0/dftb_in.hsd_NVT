@@ -11,19 +11,15 @@ Geometry = LammpsFormat {
 }
 
 Driver = VelocityVerlet{
-  #  XL-BOMD method case
-  TimeStep [fs] = 0.5
-  Thermostat = None {
-    InitialTemperature [Kelvin] = 300
+  # Time step for MD
+  TimeStep [fs] = 1.0
+  # Use thermostat to maintain temperature
+  # Nose-Hoover chain thermostat sampling an NVT ensemble
+  Thermostat = NoseHoover {
+    Temperature [Kelvin] = 300
+    # Approximately the highest vibrational frequency of the molecule
+    CouplingStrength [cm^-1] = 3200
   }
-  #
-  # extended Lagrangian dynamics, using the 'fast' option
-  XlbomdFast {
-    IntegrationSteps = 5 # 5, 6 or 7
-    Scale = 0.5 # scalekappa (only for fast option with 1 scf cycle)
-    TransientSteps = 10
-  }
-  
   # total of 100 fs
   Steps = 100
   MovedAtoms = 1:-1
@@ -34,9 +30,6 @@ Driver = VelocityVerlet{
 #Hamiltonian = xTB {
 #  Method = "GFN2-xTB"
 Hamiltonian = DFTB {
-  # use the corrected forces for XL-BOMD
-  ForceEvaluation = Dynamics
-  #
   SCC = Yes
   SCCTolerance = 1.000000000000000E-04
   MaxSCCIterations = 250
