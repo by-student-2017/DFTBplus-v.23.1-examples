@@ -70,10 +70,10 @@ variable      msdtot equal "c_mymsd[4]"
 
 fix             msdT1 hydrogen ave/time 1 1 1000 v_msdx v_msdy v_msdz v_msdtot file msdH_${Td}K
 
-fix             4 all nvt temp ${Td} ${Td} 0.01 
+fix             4 all nvt temp ${Td} ${Td} $(1000.0*dt)
 
 thermo          1000
-thermo_style    custom step cpu temp etotal fmax lx ly lz vol press 
+thermo_style    custom step temp ke pe press lx ly lz vol press 
 
 dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}

@@ -1,6 +1,6 @@
 #!/usr/bin/gnuplot
 
-msd_file_name = "msdH_300.0K"
+msd_file_name = "msdH_300K"
 timestep = 0.1 # 0.1 [fs]
 
 set terminal png
