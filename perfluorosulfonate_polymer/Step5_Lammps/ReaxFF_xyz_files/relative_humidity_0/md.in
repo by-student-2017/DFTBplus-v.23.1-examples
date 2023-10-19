@@ -55,7 +55,7 @@ dump_modify     d1 element ${elem}
 
 run             20000 # 2 [ps]
 
-unfix           f3
+unfix           3
 undump          d1
 
 # ------------------------- MSD ---------------------------------
