@@ -1,1 +1,1 @@
-# DFTBplus_v.23.1-examples
+# DFTBplus-v.23.1-examples
