@@ -38,7 +38,7 @@ Hamiltonian = DFTB {
   ForceEvaluation = Dynamics
   #
   SCC = Yes
-  SCCTolerance = 1.000000000000000E-03
+  SCCTolerance = 1.000000000000000E-04
   MaxSCCIterations = 250
   Mixer = Broyden {
     MixingParameter = 0.300000000000000
