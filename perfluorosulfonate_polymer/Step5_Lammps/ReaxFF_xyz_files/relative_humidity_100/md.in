@@ -5,11 +5,11 @@ boundary        p p p
 atom_style      full
 
 # ----------------------- Read Structure file ------------------------
-#read_data       polymer-6_water-336.data
+#read_data       polymer-6.data
 #variable        elem string "C F O S H"
 
 read_data       restart.data
-variable        elem string "H F C O S"
+variable        elem string "H O F C S"
 group           hydrogen type 1
 
 replicate       1 1 1
@@ -55,7 +55,7 @@ dump_modify     d1 element ${elem}
 
 run             20000 # 2 [ps]
 
-unfix           f3
+unfix           3
 undump          d1
 
 # ------------------------- MSD ---------------------------------
