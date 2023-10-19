@@ -19,12 +19,12 @@ awk -v nms=${nms} -v nml=${nml} '{
     if((NR-nms-2)%20==0){printf "&\n  "}
     #
     #if((NR-nms-2)>=0){printf "%2d",$1} # for debug
-         if( ( 1.0-0.4 <= $2) && ($2 <=  1.0+0.4) ){printf " H "}
+         if( ( 1.0-0.4 <= $2) && ($2 <=  1.0+0.4) ){ if($4=="H"){printf "Hw "}else{printf " H "} }
     else if( ( 6.9-0.4 <= $2) && ($2 <=  6.9+0.4) ){printf "Li "}
     else if( (10.8-0.4 <= $2) && ($2 <= 10.8+0.4) ){printf " B "}
     else if( (12.0-0.4 <= $2) && ($2 <= 12.0+0.4) ){printf " C "}
     else if( (14.0-0.4 <= $2) && ($2 <= 14.0+0.4) ){printf " N "}
-    else if( (16.0-0.4 <= $2) && ($2 <= 16.0+0.4) ){printf " O "}
+    else if( (16.0-0.4 <= $2) && ($2 <= 16.0+0.4) ){ if($4=="O"){printf "Ow "}else{printf " O "} }
     else if( (19.0-0.4 <= $2) && ($2 <= 19.0+0.4) ){printf " F "}
     else if( (23.0-0.4 <= $2) && ($2 <= 23.0+0.4) ){printf "Na "}
     else if( (24.0-0.4 <= $2) && ($2 <= 24.0+0.4) ){printf "Mg "}
@@ -107,6 +107,7 @@ echo "#  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 &"
 echo "#------------------------------+-------------------------------"
 echo "# Add the above command (from \"dump_modify\" to the last atomic"
 echo "#  symbol) under \"dump d1 all cfg ...\" in run.in.EXAMPLE."
+echo "# Hw = H of water, Ow = O of water"
 echo "#------------------------------+-------------------------------"
 echo ""
 echo ""
@@ -122,12 +123,12 @@ awk -v nms=${nms} -v nml=${nml} '{
     if((NR-nms-2)%10==0){printf " \n  "}
     #
     if((NR-nms-2)>=0){printf "%5d",$1} # for debug
-         if( ( 1.0-0.4 <= $2) && ($2 <=  1.0+0.4) ){printf " H "}
+         if( ( 1.0-0.4 <= $2) && ($2 <=  1.0+0.4) ){ if($4=="H"){printf "Hw "}else{printf " H "} }
     else if( ( 6.9-0.4 <= $2) && ($2 <=  6.9+0.4) ){printf "Li "}
     else if( (10.8-0.4 <= $2) && ($2 <= 10.8+0.4) ){printf " B "}
     else if( (12.0-0.4 <= $2) && ($2 <= 12.0+0.4) ){printf " C "}
     else if( (14.0-0.4 <= $2) && ($2 <= 14.0+0.4) ){printf " N "}
-    else if( (16.0-0.4 <= $2) && ($2 <= 16.0+0.4) ){printf " O "}
+    else if( (16.0-0.4 <= $2) && ($2 <= 16.0+0.4) ){ if($4=="O"){printf "Ow "}else{printf " O "} }
     else if( (19.0-0.4 <= $2) && ($2 <= 19.0+0.4) ){printf " F "}
     else if( (23.0-0.4 <= $2) && ($2 <= 23.0+0.4) ){printf "Na "}
     else if( (24.0-0.4 <= $2) && ($2 <= 24.0+0.4) ){printf "Mg "}
