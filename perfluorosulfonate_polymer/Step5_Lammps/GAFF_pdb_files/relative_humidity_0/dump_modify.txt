@@ -1,6 +1,0 @@
-dump_modify     d1 element &
-   C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  C  H  H &
-   H  H  H  H  H  H  H  H  H  H  H  F Cl Br  I  N  N  N  N  N &
-   N  N  N  N  N  N  N  N  N  N  N  N  N  N  N  N  O  O  O  O &
-   O  O  P  P  P  P  P  P  P  P  P  P  P  S  S  S  S  S  S  S &
-   S  S  S 
