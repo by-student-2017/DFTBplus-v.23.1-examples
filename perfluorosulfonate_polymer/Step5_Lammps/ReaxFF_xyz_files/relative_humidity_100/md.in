@@ -78,7 +78,7 @@ fix             4 all nvt temp ${Td} ${Td} $(1000.0*dt)
 thermo          1000
 thermo_style    custom step temp ke pe press lx ly lz vol press 
 
-dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
+dump            d2 all cfg 1000 cfg/run.nvt_msd_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}
 
 run             200000 # 20 [ps]
