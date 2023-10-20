@@ -75,7 +75,7 @@ fix             4 all nvt temp ${Td} ${Td} 0.01
 thermo          1000
 thermo_style    custom step cpu temp etotal fmax lx ly lz vol press 
 
-dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
+dump            d2 all cfg 1000 cfg/run.nvt_msd_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}
 
 run             200000 # 20 [ps]
