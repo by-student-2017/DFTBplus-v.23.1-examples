@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------------------------------------------
+Usage
+
+(on windows)
+1. (double click) run_msmpi.bat
+
+Note: In this case, the calculation tends to stop midway, so it is necessary to repeat the calculation many times. 
+  Since the reaction does not proceed even if an H defect is introduced to create a dangling bond, 
+  it is considered necessary to perform NEB.
+--------------------------------------------------------------------------------------------------------------
