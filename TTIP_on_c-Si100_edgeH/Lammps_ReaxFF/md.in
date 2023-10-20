@@ -15,7 +15,7 @@ replicate       1 1 1
 
 # ------------------------ initialize system -------------------------
 
-variable         Td equal 1573.0 # [K]
+variable         Td equal 2773.0 # [K] (e.g., 1573.0 or 300.0 K)
 
 # ------------------------ FORCE FIELDS ------------------------------
 pair_style      reax/c NULL
@@ -24,9 +24,11 @@ pair_coeff      * * ffield.reax.2008X2.CHONSSiPtZrNiAuVBiTiMoTeNb ${elem}
 neighbor        1.0 bin
 neigh_modify    every 10 delay 0 check no
 
+fix             f1 all qeq/reax 1 0.0 10.0 1e-6 reax/c
+
 # ------------------------- MINIMIZATION -----------------------------
 # relax structure, 0 K
-fix             f1 all qeq/reax 1 0.0 10.0 1e-6 reax/c
+
 fix             f2 all box/relax iso 0.0
 minimize        1.0e-6 1.0e-6 1000 100000
 unfix           f1
@@ -39,7 +41,6 @@ timestep        0.1 # 0.1 [fs]
 
 velocity        all create 10.0 4928459 rot yes mom yes dist gaussian
 
-fix             f1 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
 #fix             f2 all nve
 #fix             f3 all temp/berendsen 298.15 298.15 50.0
 #fix             f3 all press/berendsen iso 1.0 1.0 1500.0
