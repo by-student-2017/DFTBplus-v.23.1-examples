@@ -5,7 +5,10 @@ boundary        p p p
 atom_style      full
 
 # ----------------------- Read Structure file ------------------------
-read_data       TTIP_on_Si100_edgeH_2x3x1.data
+#read_data       TTIP_on_Si100_edgeH_2x3x1.data
+#variable        elem string "Ti Si O C H"
+
+read_data       TTIP_on_Si100_edgeH_2x3x1_defect1H.data
 variable        elem string "Ti Si O C H"
 
 replicate       1 1 1
