@@ -28,12 +28,13 @@ pair_coeff      * * ffield.reax.035.CHOSFClN ${ReaxFF_elem}
 neighbor        1.0 bin
 neigh_modify    every 10 delay 0 check no
 
+fix             f1 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
+
 # ------------------------- MINIMIZATION -----------------------------
 # relax structure, 0 K
-#fix             f1 all qeq/reax 1 0.0 10.0 1e-6 reax/c
+
 #fix             f2 all box/relax iso 0.0
 #minimize        1.0e-6 1.0e-6 1000 100000
-#unfix           f1
 #unfix           f2
 
 # ------------------------- SETTINGS ---------------------------------
@@ -43,12 +44,11 @@ timestep        0.1 # 0.1 [fs]
 
 velocity        all create ${Td} 4928459 rot yes mom yes dist gaussian
 
-fix             f1 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
-#fix             f2 all nve
+#fix             f3 all nve
 #fix             f3 all temp/berendsen 298.15 298.15 50.0
 #fix             f3 all press/berendsen iso 1.0 1.0 1500.0
-#fix            f2 all nvt temp ${Td} ${Td} 500.0 tchain 1
-fix             f2 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
+#fix            f3 all nvt temp ${Td} ${Td} 500.0 tchain 1
+fix             f3 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
 
 thermo          100
 thermo_style    custom step temp ke pe press lx ly lz
@@ -58,7 +58,7 @@ dump_modify     d1 element ${elem}
 
 run             40000 # 4 [ps]
 
-unfix           f2
+unfix           f3
 undump          d1
 
 # ------------------------- MSD ---------------------------------
@@ -73,7 +73,7 @@ variable      msdtot equal "c_mymsd[4]"
 
 fix             msdT1 hydrogen ave/time 1 1 1000 v_msdx v_msdy v_msdz v_msdtot file msdH_${Td}K
 
-fix             f3 all nvt temp ${Td} ${Td} $(1000.0*dt)
+fix             f4 all nvt temp ${Td} ${Td} $(1000.0*dt)
 
 thermo          1000
 thermo_style    custom step temp ke pe press lx ly lz vol
