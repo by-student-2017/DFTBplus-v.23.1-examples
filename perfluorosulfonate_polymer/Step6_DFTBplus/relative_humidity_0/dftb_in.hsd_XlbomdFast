@@ -11,7 +11,7 @@ Geometry = LammpsFormat {
 }
 
 Driver = VelocityVerlet{
-  #  XL-BOMD method case (NVE)
+  # XL-BOMD method case (NVE)
   # Applicable to systems with large band gaps [=E(LUMO)-E(HOMO)]
   # https://doi.org/10.1007/s002110050316
   #
