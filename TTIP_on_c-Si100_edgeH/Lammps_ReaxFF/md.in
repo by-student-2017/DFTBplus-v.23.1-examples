@@ -49,7 +49,7 @@ thermo_style    custom step temp ke pe press lx ly lz
 dump            d1 all cfg 100 cfg/run.equil.*.cfg mass type xs ys zs id type q
 dump_modify     d1 element ${elem}
 
-run             20000 # 2 [ps]
+run             10000 # 1 [ps]
 
 unfix           f2
 undump          d1
