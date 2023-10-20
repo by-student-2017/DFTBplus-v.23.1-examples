@@ -6,8 +6,7 @@ Geometry = LammpsFormat {
       <<< "in.lammps"
    }
    DataFile = {
-     # <<< "TTIP_on_Si100_edgeH_2x3x1_defect1H.data"
-     <<< "restart.data"
+     <<< "TTIP_on_Si100_edgeH_2x3x1_defect1H.data"
    } # Lammps (GAFF) -> Lammps (ReaxFF) -> cfg (Ovito) -> POSCAR -> Lammps data
 }
 #Geometry = VaspFormat {
