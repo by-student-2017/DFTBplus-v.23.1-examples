@@ -6,7 +6,8 @@ Geometry = LammpsFormat {
       <<< "in.lammps"
    }
    DataFile = {
-      <<< "TTIP_on_Si100_edgeH_2x3x1_defect1H.data"
+     # <<< "TTIP_on_Si100_edgeH_2x3x1_defect1H.data"
+     <<< "restart.data"
    } # Lammps (GAFF) -> Lammps (ReaxFF) -> cfg (Ovito) -> POSCAR -> Lammps data
 }
 #Geometry = VaspFormat {
@@ -27,7 +28,7 @@ Driver = VelocityVerlet{
   #
   # Berendsen thermostat sampling an NVT ensemble
   Thermostat = Berendsen {
-    Temperature [Kelvin] = 1573
+    Temperature [Kelvin] = 1073
     # Approximately the highest vibrational frequency of the molecule
     # https://sherwingroup.itst.ucsb.edu/internal/unit-conversion/
     # CouplingStrength [cm^-1] = 667 # or Timescale [fs] = 50 settings
@@ -35,11 +36,11 @@ Driver = VelocityVerlet{
     AdaptFillingTemp = Yes
   }
   #
-  # total of 200 fs
-  Steps = 100
+  # total of 2 ps
+  Steps = 1000
   MovedAtoms = 1:-1
-  # save every 1 steps
-  MDRestartFrequency = 1
+  # save every 10 steps
+  MDRestartFrequency = 10
 }
 
 Hamiltonian = xTB {
