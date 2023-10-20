@@ -11,16 +11,20 @@ Geometry = LammpsFormat {
 }
 
 Driver = VelocityVerlet{
-  #  XL-BOMD method case
-  TimeStep [fs] = 0.5
+  # XL-BOMD method case (NVE)
+  # Applicable to systems with large band gaps [=E(LUMO)-E(HOMO)]
+  # https://doi.org/10.1007/s002110050316
+  #
+  TimeStep [fs] = 1.0
   Thermostat = None {
     InitialTemperature [Kelvin] = 300
   }
   #
   # extended Lagrangian dynamics, using the 'fast' option
   XlbomdFast {
-    IntegrationSteps = 5 # 5, 6 or 7
-    Scale = 0.5 # scalekappa (only for fast option with 1 scf cycle)
+    IntegrationSteps = 5 # set 5, 6 or 7
+    # 0 < Scale  =< 1, "Scale" is the highest possible value
+    Scale = 1.0 # scalekappa (only for fast option with 1 scf cycle)
     TransientSteps = 10
   }
   
