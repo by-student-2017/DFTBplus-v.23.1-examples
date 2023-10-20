@@ -18,7 +18,7 @@ replicate       1 1 1
 
 # ------------------------ initialize system -------------------------
 
-variable         Td equal 2773.0 # [K] (e.g., 1573.0 or 300.0 K)
+variable         Td equal 1573.0 # [K]
 
 # ------------------------ FORCE FIELDS ------------------------------
 pair_style      reax/c NULL
