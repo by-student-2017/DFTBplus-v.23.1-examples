@@ -1,0 +1,7 @@
+https://doi.org/10.1021/acs.jctc.3c00310
+
+We used tiorg-0-1 (51) (for TiO2-C3N4 system) and matsci-0-3 (72) (for Si-Ti-O systems) parameter sets. 
+
+The structures were optimized until forces were below 1e-3 eV/Angstrom. An electronic temperature of 300 K was used to improve convergence.
+
+DFTB molecular dynamics (MD) was performed with a time step of 2 fs. The temperature of an NVT ensemble was controlled by a Berendsen thermostat with a 50 fs time constant. MD calculations were performed at the Gamma point.

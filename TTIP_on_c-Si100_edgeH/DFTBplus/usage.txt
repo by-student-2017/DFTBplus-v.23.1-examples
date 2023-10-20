@@ -2,16 +2,12 @@
 Usage
 
 (on windows11)
-1. Lammps (GAFF) -> Lammps (ReaxFF) -> cfg (Ovito) -> POSCAR -> Lammps data (e.g., polymer-6_water-336.data)
+1. cfg (Ovito) -> POSCAR -> Lammps data (e.g., TTIP_on_Si100_edgeH_2x3x1.data)
 
 (on Linux or WSL, etc)
 2. export OMP_NUM_THREADS=1
 3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
 
-4. ./../scripts/velo_autocorr geo_end.xyz molec 1 2000 1000 0.0005
+4. ./../scripts/velo_autocorr geo_end.xyz molec 1 200 10 0.001
 Note: https://dftbplus-recipes.readthedocs.io/en/latest/moleculardynamics/analysis.html
-
-Note: In the paper (molsci.center.ims.ac.jp, 2007), MSD is calculated by performing NVT for 1 [ps] at 0.1 [fs]. 
-  It takes weeks on my PC. It would be better to do it with ReaxFF or 
-  find a calculation target that can be calculated using a smaller cell.
 --------------------------------------------------------------------------------------------------------------
