@@ -12,7 +12,7 @@ replicate       1 1 1
 
 # ------------------------ initialize system -------------------------
 
-variable         Td equal 2500.0 # [K]
+variable         Td equal 300.0 # [K]
 
 # ------------------------ FORCE FIELDS ------------------------------
 pair_style      reax/c NULL
@@ -23,36 +23,36 @@ neigh_modify    every 10 delay 0 check no
 
 # ------------------------- MINIMIZATION -----------------------------
 # relax structure, 0 K
-#fix             f1 all qeq/reax 1 0.0 10.0 1e-6 reax/c
-#fix             f2 all box/relax iso 0.0
-#minimize        1.0e-6 1.0e-6 1000 100000
-#unfix           f1
-#unfix           f2
+fix             f1 all qeq/reax 1 0.0 10.0 1e-6 reax/c
+fix             f2 all box/relax iso 0.0
+minimize        1.0e-6 1.0e-6 1000 100000
+unfix           f1
+unfix           f2
 
 # ------------------------- SETTINGS ---------------------------------
 reset_timestep  0
 
 timestep        0.1 # 0.1 [fs]
 
-velocity        all create ${Td} 4928459 rot yes mom yes dist gaussian
+velocity        all create 10.0 4928459 rot yes mom yes dist gaussian
 
 fix             f1 all qeq/reax 1 0.0 10.0 1.0e-6 reax/c
 #fix             f2 all nve
 #fix             f3 all temp/berendsen 298.15 298.15 50.0
 #fix             f3 all press/berendsen iso 1.0 1.0 1500.0
-#fix             f2 all nvt temp ${Td} ${Td} 500.0 tchain 1
-#fix             f2 all npt temp ${Td} ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
+#fix            f2 all nvt temp ${Td} ${Td} 500.0 tchain 1
+fix             f2 all npt temp 10.0 ${Td} 100.0 iso 1.0 1.0 1000.0 drag 1.0
 
-#thermo          100
-#thermo_style    custom step temp ke pe press lx ly lz
+thermo          100
+thermo_style    custom step temp ke pe press lx ly lz
 
-#dump            d1 all cfg 100 cfg/run.equil.*.cfg mass type xs ys zs id type q
-#dump_modify     d1 element ${elem}
+dump            d1 all cfg 100 cfg/run.equil.*.cfg mass type xs ys zs id type q
+dump_modify     d1 element ${elem}
 
-#run             40000 # 4 [ps]
+run             40000 # 4 [ps]
 
-#unfix           f2
-#undump          d1
+unfix           f2
+undump          d1
 
 # ------------------------- NVT ---------------------------------
 reset_timestep  0
