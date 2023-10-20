@@ -27,7 +27,7 @@ Driver = VelocityVerlet{
   #
   # Berendsen thermostat sampling an NVT ensemble
   Thermostat = Berendsen {
-    Temperature [Kelvin] = 300
+    Temperature [Kelvin] = 1573
     # Approximately the highest vibrational frequency of the molecule
     # https://sherwingroup.itst.ucsb.edu/internal/unit-conversion/
     # CouplingStrength [cm^-1] = 667 # or Timescale [fs] = 50 settings

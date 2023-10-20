@@ -15,7 +15,7 @@ replicate       1 1 1
 
 # ------------------------ initialize system -------------------------
 
-variable         Td equal 300.0 # [K]
+variable         Td equal 1573.0 # [K]
 
 # ------------------------ FORCE FIELDS ------------------------------
 pair_style      reax/c NULL
@@ -70,6 +70,6 @@ thermo_style    custom step temp ke pe press lx ly lz vol
 dump            d2 all cfg 1000 cfg/run.nvt_${Td}K.no.*.cfg mass type xs ys zs id type q vx vy vz fx fy fz
 dump_modify     d2 element ${elem}
 
-run             200000 # 20 [ps]
+run             300000 # 30 [ps]
 
 # ------------------------- Ende -------------------------------------

@@ -27,7 +27,7 @@ Driver = VelocityVerlet{
   #
   # Berendsen thermostat sampling an NVT ensemble
   Thermostat = Berendsen {
-    Temperature [Kelvin] = 300
+    Temperature [Kelvin] = 1573
     # Approximately the highest vibrational frequency of the molecule
     # https://sherwingroup.itst.ucsb.edu/internal/unit-conversion/
     # CouplingStrength [cm^-1] = 667 # or Timescale [fs] = 50 settings
@@ -35,21 +35,21 @@ Driver = VelocityVerlet{
     AdaptFillingTemp = Yes
   }
   #
-  # total of 2 ps
-  Steps = 1000
+  # total of 200 fs
+  Steps = 100
   MovedAtoms = 1:-1
-  # save every 10 steps
-  MDRestartFrequency = 10
+  # save every 1 steps
+  MDRestartFrequency = 1
 }
 
-#Hamiltonian = xTB {
-#  Method = "GFN2-xTB"
-Hamiltonian = DFTB {
+Hamiltonian = xTB {
+  Method = "GFN1-xTB"
+#Hamiltonian = DFTB {
   SCC = Yes
   SCCTolerance = 1.000000000000000E-04
-  MaxSCCIterations = 250
+  MaxSCCIterations = 1000
   Mixer = Broyden {
-    MixingParameter = 0.300000000000000
+    MixingParameter = 0.10
     InverseJacobiWeight = 1.000000000000000E-002
     MinimalWeight = 1.00000000000000
     MaximalWeight = 100000.000000000
@@ -59,20 +59,20 @@ Hamiltonian = DFTB {
   #  Temperature [Kelvin] = 300
   #  #IndependentKFilling = No
   #}
-  SlaterKosterFiles = Type2FileNames {
-    # https://dftb.org/parameters/download
-    Prefix = "./slakos/"
-    Separator = "-"
-    Suffix = ".skf" 
-    #LowerCaseTypeName = No
-  }
-  MaxAngularMomentum = {
-    H = "s"
-    C = "p"
-    O = "p"
-    Si = "p"
-    Ti = "d"
-  }
+  #SlaterKosterFiles = Type2FileNames {
+  #  # https://dftb.org/parameters/download
+  #  Prefix = "./slakos/"
+  #  Separator = "-"
+  #  Suffix = ".skf" 
+  #  #LowerCaseTypeName = No
+  #}
+  #MaxAngularMomentum = {
+  #  H = "s"
+  #  C = "p"
+  #  O = "p"
+  #  Si = "p"
+  #  Ti = "d"
+  #}
   KPointsAndWeights = SuperCellFolding {
     1 0 0
     0 1 0
