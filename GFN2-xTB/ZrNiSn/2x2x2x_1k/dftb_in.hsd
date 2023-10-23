@@ -1,0 +1,75 @@
+Geometry = VaspFormat {
+  <<< "POSCAR_2x2x2"
+}
+
+Hamiltonian = xTB {
+  Method = "GFN2-xTB" # GFN1-xTB, IPEA1-xTB, or GFN2-xTB
+  SCC = Yes
+  SCCTolerance = 1.0e-4
+  MaxSCCIterations = 250
+  Mixer = Broyden {}
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+    1 0 0
+    0 1 0
+    0 0 1
+    0.0 0.0 0.0
+  }
+  #Differentiation = FiniteDiff {
+  #  Delta = 0.01
+  #}
+  #Filling = Fermi {
+  #  Temperature [Kelvin] = 300
+  #  #IndependentKFilling = No
+  #}
+  #EwaldParameter = 0.0
+  #EwaldTolerance = 1.0E-009
+  #ElectricField = {}
+  ShellResolvedSCC = No
+  SpinPolarisation = {}
+  Solver = RelativelyRobust {}
+  #Solvation = {}
+  #ForceEvaluation = "Traditional"
+}
+
+Analysis = {
+  #CalculateForces = Yes
+  #AtomResolvedEnergies = Yes
+  #ProjectStates = {}
+  #WriteEigenvectors = No
+  #MullikenAnalysis = No
+}
+
+Options = {
+  #WriteAutotestTag = Yes
+  #RandomSeed = 3871906
+  # speed up a bit by suppressing some file writing
+  #WriteDetailedOut = No
+  #WriteDetailedXML = No
+  #WriteResultsTag = No
+  #RestartFrequency = 0
+  #WriteHS = No
+  #WriteRealHS = No
+  #MinimiseMemoryUsage = No
+  #ShowFoldedCoords = No
+  #TimingVerbosity = 1
+  #WriteChargesAsText = No
+}
+
+ParserOptions = {
+  ParserVersion = 3
+  #WriteHSDInput = Yes
+  #WriteXMLInput = No
+  #StopAfterParsing = No
+  #IgnoreUnprocessedNodes = No
+}
+
+Parallel {
+  # Allow OMP threads explicitely to test for hybrid parallelisation with
+  # MPI-binary. (Check the manual before using this in production runs!)
+  UseOmpThreads = Yes
+}
+
+#ExcitedState = {}
+
+#Reks = None {}

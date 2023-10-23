@@ -1,0 +1,15 @@
+------------------------------------------------------------------------------------------
+2x2x2 case
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+3x3x3 case (failed ?)
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. dftb+ < dftb_in.hsd | tee dftb_out.hsd
+
+{    0,    0}:  On entry to DSTEGR2 parameter number -202 had an illegal value
+------------------------------------------------------------------------------------------
