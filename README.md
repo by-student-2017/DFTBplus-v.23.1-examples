@@ -3,7 +3,7 @@
 
 ## Examples ######################################
 - perfluorosulfonate polymer
-  + It shows the steps to draw a structure using ChemSkech and calculate from GAFF to ReaxFF and then to DFTB+.
+  + It shows the steps to draw a structure using ChemSketch (free version) and calculate from GAFF to ReaxFF and then to DFTB+.
   + Another feature is that it shows an example of structural optimization using GAFF for arranging water molecules. I would like you to perform calculations using various materials.
 - TTIP/c-Si(100) (Hydrogen-terminated Si(100) surface)
   + I think it's generally okay because it shows a figure with similar results to the reference [3].
