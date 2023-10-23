@@ -1,0 +1,87 @@
+Geometry = VaspFormat {
+  <<< "POSCAR_3x3x3"
+}
+
+Hamiltonian = xTB {
+  Method = "GFN2-xTB"
+  SCC = Yes
+  SCCTolerance = 1.0e-4
+  MaxSCCIterations = 250
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+1 0 0
+0 1 0
+0 0 1
+0.0 0.0 0.0
+  }
+  ShellResolvedSCC = No
+  SpinPolarisation = {}
+  Solver = RelativelyRobust {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  ElectricField = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+  Filling = Fermi {
+    Temperature = 9.5004460357391702E-004
+    IndependentKFilling = No
+  }
+}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteCharges = Yes
+  WriteChargesAsText = No
+  BinaryAccessTypes = {
+ "stream"
+  }
+}
+ParserOptions = {
+  ParserVersion = 13
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+  IgnoreUnprocessedNodes = No
+}
+Parallel = {
+  UseOmpThreads = Yes
+  Groups = 1
+  Blacs = BlockSize {
+32
+  }
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}
