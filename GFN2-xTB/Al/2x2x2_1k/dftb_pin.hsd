@@ -1,0 +1,125 @@
+Geometry = VaspFormat {
+Al4
+1.0
+8.0778598785         0.0000000000         0.0000000000
+0.0000000000         8.0778598785         0.0000000000
+0.0000000000         0.0000000000         8.0778598785
+Al
+32
+Cartesian
+0.000000000         0.000000000         0.000000000
+0.000000000         0.000000000         4.038929939
+0.000000000         4.038929939         0.000000000
+0.000000000         4.038929939         4.038929939
+4.038929939         0.000000000         0.000000000
+4.038929939         0.000000000         4.038929939
+4.038929939         4.038929939         0.000000000
+4.038929939         4.038929939         4.038929939
+0.000000000         2.019464970         2.019464970
+0.000000000         2.019464970         6.058394909
+0.000000000         6.058394909         2.019464970
+0.000000000         6.058394909         6.058394909
+4.038929939         2.019464970         2.019464970
+4.038929939         2.019464970         6.058394909
+4.038929939         6.058394909         2.019464970
+4.038929939         6.058394909         6.058394909
+2.019464970         0.000000000         2.019464970
+2.019464970         0.000000000         6.058394909
+2.019464970         4.038929939         2.019464970
+2.019464970         4.038929939         6.058394909
+6.058394909         0.000000000         2.019464970
+6.058394909         0.000000000         6.058394909
+6.058394909         4.038929939         2.019464970
+6.058394909         4.038929939         6.058394909
+2.019464970         2.019464970         0.000000000
+2.019464970         2.019464970         4.038929939
+2.019464970         6.058394909         0.000000000
+2.019464970         6.058394909         4.038929939
+6.058394909         2.019464970         0.000000000
+6.058394909         2.019464970         4.038929939
+6.058394909         6.058394909         0.000000000
+6.058394909         6.058394909         4.038929939
+}
+Hamiltonian = xTB {
+  Method = "GFN2-xTB"
+  SCC = Yes
+  SCCTolerance = 1.0e-4
+  MaxSCCIterations = 250
+  Mixer = Broyden {
+    MixingParameter = 0.20000000000000001
+    InverseJacobiWeight = 1.0000000000000000E-002
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+    WeightFactor = 1.0000000000000000E-002
+  }
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+1 0 0
+0 1 0
+0 0 1
+0.0 0.0 0.0
+  }
+  Filling = Fermi {
+    Temperature [Kelvin] = 100
+    IndependentKFilling = No
+  }
+  ShellResolvedSCC = No
+  SpinPolarisation = {}
+  Solver = RelativelyRobust {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  ElectricField = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  ForceEvaluation = "Traditional"
+}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteCharges = Yes
+  WriteChargesAsText = No
+  BinaryAccessTypes = {
+ "stream"
+  }
+}
+ParserOptions = {
+  ParserVersion = 13
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+  IgnoreUnprocessedNodes = No
+}
+Parallel = {
+  UseOmpThreads = Yes
+  Groups = 1
+  Blacs = BlockSize {
+32
+  }
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}

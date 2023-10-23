@@ -1,0 +1,107 @@
+|===============================================================================
+|
+|  DFTB+ release 23.1
+|
+|  Copyright (C) 2006 - 2023  DFTB+ developers group
+|
+|===============================================================================
+|
+|  When publishing results obtained with DFTB+, please cite the following
+|  reference:
+|
+|  * DFTB+, a software package for efficient approximate density functional
+|    theory based atomistic simulations, J. Chem. Phys. 152, 124101 (2020).
+|    [doi: 10.1063/1.5143190]
+|
+|  You should also cite additional publications crediting the parametrization
+|  data you use. Please consult the documentation of the SK-files for the
+|  references.
+|
+|===============================================================================
+
+Reading input file 'dftb_in.hsd'
+Parser version: 13
+
+--------------------------------------------------------------------------------
+***  Converting input from parser version  3 to parser version 13 ...
+***  Done.
+
+
+
+Processed input in HSD format written to 'dftb_pin.hsd'
+
+Starting initialization...
+--------------------------------------------------------------------------------
+WARNING!
+-> Dipole printed for extended system : value printed is not well defined
+MPI processes:               8
+OpenMP threads:              1
+BLACS orbital grid size:     2 x 4
+BLACS atom grid size:        1 x 1
+Chosen random seed:          260510270
+Current stacksize:           unlimited
+Mode:                        Static calculation
+Self consistent charges:     Yes
+SCC-tolerance:                 0.100000E-03
+Max. scc iterations:                    250
+Shell resolved Hubbard:      No
+Spin polarisation:           No
+Nr. of up electrons:            48.000000
+Nr. of down electrons:          48.000000
+Periodic boundaries:         Yes
+Electronic solver:           Relatively robust
+Mixer:                       Broyden mixer
+Mixing parameter:                  0.200000
+Maximal SCC-cycles:                     250
+Nr. of chrg. vec. in memory:            250
+tblite library version:      0.3.0
+-> parametrization:          GFN2-xTB
+-> repulsion:                Yes
+-> dispersion:               Yes
+-> halogen bonding:          No
+-> electrostatics:           Yes
+   -> isotropic:             Yes
+   -> anisotropic:           Yes
+   -> third-order:           Yes
+Electronic temperature:              0.316682E-03 H      0.861734E-02 eV
+Initial charges:             Set automatically (system chrg:   0.000E+00)
+Included shells:            Al:  s, p, d
+K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
+
+K-points in absolute space:     1:  0.000000  0.000000  0.000000
+
+Extra options:
+                             Mulliken analysis
+
+--------------------------------------------------------------------------------
+
+***  Geometry step: 0
+
+ iSCC Total electronic   Diff electronic      SCC error    
+    1    0.00000000E+00    0.00000000E+00    0.12781854E+01
+    2   -0.33882162E+02   -0.33882162E+02    0.10497885E+01
+    3   -0.33970699E+02   -0.88536949E-01    0.40678920E+00
+    4   -0.34428502E+02   -0.45780225E+00    0.45971967E+00
+    5   -0.34338976E+02    0.89526172E-01    0.69695908E-01
+    6   -0.34628791E+02   -0.28981574E+00    0.12484268E-01
+    7   -0.34637182E+02   -0.83910872E-02    0.74003284E-03
+    8   -0.34637343E+02   -0.16091638E-03    0.51520035E-03
+    9   -0.34637344E+02   -0.44665034E-06    0.94196347E-04
+>> Charges saved for restart in charges.bin
+
+Total Energy:                      -34.6373439206 H         -942.5301 eV
+Extrapolated to 0K:                -34.6373445189 H         -942.5301 eV
+Total Mermin free energy:          -34.6373451172 H         -942.5301 eV
+Force related energy:              -34.6373451172 H         -942.5301 eV
+
+
+--------------------------------------------------------------------------------
+DFTB+ running times                          cpu [s]             wall clock [s]
+--------------------------------------------------------------------------------
+Global initialisation                  +       0.00 (  0.3%)       0.01 (  0.9%)
+Pre-SCC initialisation                 +       0.62 ( 41.2%)       0.62 ( 37.7%)
+SCC                                    +       0.88 ( 58.4%)       1.02 ( 61.2%)
+--------------------------------------------------------------------------------
+Missing                                +       0.00 (  0.1%)       0.00 (  0.2%)
+Total                                  =       1.51 (100.0%)       1.66 (100.0%)
+--------------------------------------------------------------------------------
