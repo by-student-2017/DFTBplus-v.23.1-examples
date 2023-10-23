@@ -7,7 +7,7 @@
   + Another feature is that it shows an example of structural optimization using GAFF for arranging water molecules. I would like you to perform calculations for various materials.
 - TTIP/c-Si(100) (Hydrogen-terminated Si(100) surface)
   + I think it's generally okay because it shows a figure with similar results to the reference [3].
-  + Slater Koster file can be calculated 10 times faster than xTB. We have confirmed that the results are similar to those in reference [3] only with xTB. I failed with ReaxFF. ReaxFF may give good results with NEB.
+  + Slater Koster file can be calculated 10 times faster than xTB (GFN1-xTB). We have confirmed that the results are similar to those in reference [3] only with xTB. I failed with ReaxFF. ReaxFF may give good results with NEB.
   + I am using GFN1-xTB. The reason is that GFN2-xTB does not converge well. If anyone has found a better way to calculate it, please let me know.
   + In the literature [3], it was hydrogen terminated, which I thought was surprising. While some people are trying to solve the problem by brute force using the power of PCs without hydrogen termination, it is wonderful that they are reporting on hydrogen termination even in 2022. I thought he was a real professional.
 
