@@ -4,7 +4,7 @@
 ## Examples ######################################
 - perfluorosulfonate polymer
 - TTIP/c-Si(100) (Hydrogen-terminated Si(100) surface)
-  + 
+  + I think it's generally okay because it shows a figure with similar results to the reference [3].
 
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
