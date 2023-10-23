@@ -1,0 +1,4 @@
+-----------------------------------------------------------------------------------------------------
+
+[C1] https://figshare.com/articles/dataset/Identifying_Promising_Covalent-Organic_Frameworks_for_Decarburization_and_Desulfurization_from_Biogas_via_Computational_Screening/14823797/1
+[C2] https://doi.org/10.1021/acssuschemeng.1c02696
