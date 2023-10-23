@@ -1,0 +1,49 @@
+------------------------------------------------------------------------------------------
+2x2x2 case
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+3x3x3 case
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. dftb+ < dftb_in.hsd | tee dftb_out.hsd
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+1x1x1 case (failed)
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+
+k-point 4x4x4 case is failed.
+k-point 6x6x6 case is failed.
+k-point 8x8x8 case is failed.
+
+Note: It is thought that a cell size of 10 Angstroms or more is probably required for GFN2-xTB to converge stably.
+------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
+3x3x3 case (OpenMP or OpenMPI)
+1. ulimit -s unlimited
+2. export OMP_NUM_THREADS=1
+3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Program received signal SIGSEGV: Segmentation fault - invalid memory reference.
+
+Backtrace for this error:
+
+Backtrace for this error:
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 0 on node xps exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------
