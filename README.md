@@ -5,6 +5,7 @@
 - perfluorosulfonate polymer
 - TTIP/c-Si(100) (Hydrogen-terminated Si(100) surface)
   + I think it's generally okay because it shows a figure with similar results to the reference [3].
+  + Slater Koster file can be calculated 10 times faster than xTB. We have confirmed that the results are similar to those in reference [3] only with xTB. I failed with ReaxFF. ReaxFF may give similar results with NEB.
 
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
