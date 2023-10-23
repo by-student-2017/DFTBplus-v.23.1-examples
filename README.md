@@ -5,6 +5,7 @@
 - perfluorosulfonate polymer
   + It shows the steps to draw a structure using ChemSketch (non-commercial) and calculate from GAFF to ReaxFF and then to DFTB+.
   + Another feature is that it shows an example of structural optimization using GAFF for arranging water molecules. I would like you to perform calculations for various materials.
+  + Due to the computational time required, we did not calculate MSD, diffusion coefficient, frequency, or IR. Please try it out and let me know if there is a better way or improvements.
 - TTIP/c-Si(100) (Hydrogen-terminated Si(100) surface)
   + I think it's generally okay because it shows a figure with similar results to the reference [3].
   + Slater Koster file can be calculated 10 times faster than xTB (GFN1-xTB). We have confirmed that the results are similar to those in reference [3] only with xTB. I failed with ReaxFF. ReaxFF may give good results with NEB.
