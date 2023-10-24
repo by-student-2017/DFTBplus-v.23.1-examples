@@ -20,6 +20,8 @@
   + GFN2-xTB may be able to calculate well for systems with open gaps such as semiconductors and insulators. GFN2-xTB does not converge well with a unit cell, but it can be calculated successfully with a supercell. It may become a practical tool for calculations of supercells with element substitutions.
   + System that did not converge with GFN2-xTB: Mn4Si7, CaMgZn, MnGaNi2, Li3Al2, ZrCuB, TaCoB, AlFe2Si
   + For Whistler-based structures, "{ 0, 0}: On entry to DSTEGR2 parameter number -202 had an illegal value" is output. If this is related to ScaLapack, it may work fine if you stop OpenMPI.
+- GFN1-xTB
+  + Even if "GFN2-xTB" does not converge well, "GFN1-xTB" may converge. Stores the results when SCF converges. I have not checked DOS, Band, etc., including "GFN2-xTB". Readers should definitely check this point.
   
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
