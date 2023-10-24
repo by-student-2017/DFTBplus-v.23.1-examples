@@ -29,9 +29,6 @@
 - DFTB is close to MOPAC or ReaxFF in accuracy and precision. It has an accuracy of about 10 kcal/mol, so it is useful for practical purposes.
   + [C. Bannwarth et al., Chem. Theory Comput. 2019, 15 (2019) 1652-1671.](https://doi.org/10.1021/acs.jctc.8b01176)
   + [Reactive Force Fields in Particular ReaxFF and Application Possibilities](https://www.tu-chemnitz.de/physik/CPHYS/Conferences/EL/EL2010/presentations/schonfelder.t.10.reactive.0701.pdf)
-- Estimated reaction time, $t = \frac{h}{k_{B}T}exp(\frac{\Delta E}{k_{B}T})$ <br>
-  where $h$ is Planck's constant, $k_{B}T$​ is Boltzmann's constant, $T$ is temperature, and $\Delta E$ is activation energy.
-
 
 ## Car-Parrinello methods ######################################
 - XL-BOMD method is used for "perfluorosulfonate polymer". This is because the purpose is simply to calculate MSD or vibrations to find the diffusion coefficient of proton.
