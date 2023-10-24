@@ -122,11 +122,11 @@ Hamiltonian = xTB {
   SCCTolerance = 1.0e-4
   MaxSCCIterations = 250
   Mixer = Broyden {
-    MixingParameter = 0.20000000000000001
-    InverseJacobiWeight = 1.0000000000000000E-002
+    MixingParameter = 0.2
+    InverseJacobiWeight = 0.5
+    WeightFactor = 0.5
     MinimalWeight = 1.0000000000000000
     MaximalWeight = 100000.00000000000
-    WeightFactor = 1.0000000000000000E-002
   }
   Charge = 0.0
   KPointsAndWeights = SuperCellFolding {
@@ -151,8 +151,9 @@ Hamiltonian = xTB {
     Delta = 1.2207031250000000E-004
   }
   ForceEvaluation = "Traditional"
-  Filling = Fermi {
-    Temperature = 100
+  Filling = MethfesselPaxton {
+    Order = 2
+    Temperature [Kelvin] = 300
     IndependentKFilling = No
   }
 }

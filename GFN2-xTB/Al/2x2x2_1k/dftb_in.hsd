@@ -7,7 +7,22 @@ Hamiltonian = xTB {
   SCC = Yes
   SCCTolerance = 1.0e-4
   MaxSCCIterations = 250
-  Mixer = Broyden {}
+  Mixer = Broyden {
+    MixingParameter = 0.20
+    InverseJacobiWeight = 0.01
+    WeightFactor = 0.01
+  }
+  # Note: MixingParameter InverseJacobiWeight WeightFactor
+  #   9 cycle: 0.40 0.01 0.01
+  #   9 cycle: 0.30 0.01 0.01
+  #   9 cycle: 0.20 0.01 0.01 # default values
+  #   9 cycle: 0.20 0.05 0.05
+  #   9 cycle: 0.20 0.10 0.10
+  #  10 cycle: 0.20 0.50 0.50
+  #  10 cycle: 0.20 0.80 0.80
+  #   9 cycle: 0.10 0.01 0.01
+  #   9 cycle: 0.05 0.01 0.01
+  #
   Charge = 0.0
   KPointsAndWeights = SuperCellFolding {
     1 0 0
@@ -18,9 +33,14 @@ Hamiltonian = xTB {
   #Differentiation = FiniteDiff {
   #  Delta = 0.01
   #}
-  Filling = Fermi {
-    Temperature [Kelvin] = 100
-    #IndependentKFilling = No
+  #Filling = Fermi {
+  #  Temperature [Kelvin] = 100
+  #  #IndependentKFilling = No
+  #}
+  Filling = MethfesselPaxton{
+    Order = 2
+    Temperature [Kelvin] = 300
+    IndependentKFilling = No
   }
   #EwaldParameter = 0.0
   #EwaldTolerance = 1.0E-009

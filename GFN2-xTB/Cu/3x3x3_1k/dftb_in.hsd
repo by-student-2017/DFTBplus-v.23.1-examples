@@ -8,18 +8,28 @@ Hamiltonian = xTB {
   SCCTolerance = 1.0e-4
   MaxSCCIterations = 250
   Mixer = Broyden {
-    MixingParameter = 0.20000000000000001
-    InverseJacobiWeight = 1.0000000000000000E-002
-    MinimalWeight = 1.0000000000000000
-    MaximalWeight = 100000.00000000000
-    WeightFactor = 1.0000000000000000E-002
+    MixingParameter = 0.2
+    InverseJacobiWeight = 0.01
+    WeightFactor = 0.01
   }
+  # Note: MixingParameter InverseJacobiWeight WeightFactor
+  #   6 cycle: 0.40 0.01 0.01
+  #   6 cycle: 0.30 0.01 0.01
+  #   6 cycle: 0.20 0.01 0.01 # default values
+  #   6 cycle: 0.20 0.05 0.05
+  #   7 cycle: 0.20 0.10 0.10
+  #   7 cycle: 0.20 0.50 0.50
+  #   8 cycle: 0.20 0.80 0.80
+  #   6 cycle: 0.10 0.01 0.01
+  #   6 cycle: 0.05 0.01 0.01
+  #   6 cycle: 0.01 0.01 0.01
+  #
   Charge = 0.0
   KPointsAndWeights = SuperCellFolding {
-1 0 0
-0 1 0
-0 0 1
-0.0 0.0 0.0
+    1 0 0
+    0 1 0
+    0 0 1
+    0.0 0.0 0.0
   }
   ShellResolvedSCC = No
   SpinPolarisation = {}
@@ -37,8 +47,13 @@ Hamiltonian = xTB {
     Delta = 1.2207031250000000E-004
   }
   ForceEvaluation = "Traditional"
-  Filling = Fermi {
-    Temperature = 100
+  #Filling = Fermi {
+  #  Temperature [Kelvin] = 300
+  #  #IndependentKFilling = No
+  #}
+  Filling = MethfesselPaxton{
+    Order = 2
+    Temperature [Kelvin] = 300
     IndependentKFilling = No
   }
 }

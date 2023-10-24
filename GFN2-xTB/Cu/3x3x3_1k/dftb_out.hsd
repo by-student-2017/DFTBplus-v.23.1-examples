@@ -35,7 +35,7 @@ MPI processes:               8
 OpenMP threads:              1
 BLACS orbital grid size:     2 x 4
 BLACS atom grid size:        2 x 4
-Chosen random seed:          261156336
+Chosen random seed:          1961571
 Current stacksize:           unlimited
 Mode:                        Static calculation
 Self consistent charges:     Yes
@@ -60,7 +60,7 @@ tblite library version:      0.3.0
    -> isotropic:             Yes
    -> anisotropic:           Yes
    -> third-order:           Yes
-Electronic temperature:              0.100000E+03 H      0.272114E+04 eV
+Electronic temperature:              0.950045E-03 H      0.258520E-01 eV
 Initial charges:             Set automatically (system chrg:   0.000E+00)
 Included shells:            Cu:  d, s, p
 K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
@@ -75,26 +75,28 @@ Extra options:
 ***  Geometry step: 0
 
  iSCC Total electronic   Diff electronic      SCC error    
-    1    0.00000000E+00    0.00000000E+00    0.38749884E+01
-    2   -0.41772817E+02   -0.41772817E+02    0.31034583E+01
-    3   -0.41882153E+02   -0.10933612E+00    0.24820245E-02
-    4   -0.42648547E+02   -0.76639324E+00    0.11447688E-02
-    5   -0.42649120E+02   -0.57306941E-03    0.13694967E-04
+    1    0.00000000E+00    0.00000000E+00    0.11654619E+00
+    2   -0.42387766E+03   -0.42387766E+03    0.93495148E-01
+    3   -0.42387806E+03   -0.40037056E-03    0.15918331E-01
+    4   -0.42387885E+03   -0.78768679E-03    0.21805132E-02
+    5   -0.42387891E+03   -0.64264714E-04    0.17859693E-02
+    6   -0.42387892E+03   -0.93109362E-05    0.35495958E-02
+    7   -0.42387893E+03   -0.41242846E-05    0.85321435E-04
 >> Charges saved for restart in charges.bin
 
-Total Energy:                      -42.6489905068 H        -1160.5381 eV
-Extrapolated to 0K:             -64993.4698070841 H     -1768562.2969 eV
-Total Mermin free energy:      -129944.2906236615 H     -3535964.0557 eV
-Force related energy:          -129944.2906236615 H     -3535964.0557 eV
+Total Energy:                     -423.8789411310 H       -11534.3328 eV
+Extrapolated to 0K:               -423.8851010850 H       -11534.5005 eV
+Total Mermin free energy:         -423.8912610390 H       -11534.6681 eV
+Force related energy:             -423.8912610390 H       -11534.6681 eV
 
 
 --------------------------------------------------------------------------------
 DFTB+ running times                          cpu [s]             wall clock [s]
 --------------------------------------------------------------------------------
-Global initialisation                  +       0.01 (  0.1%)       0.02 (  0.3%)
-Pre-SCC initialisation                 +       3.81 ( 58.4%)       3.81 ( 57.4%)
-SCC                                    +       2.70 ( 41.5%)       2.80 ( 42.2%)
+Global initialisation                  +       0.01 (  0.1%)       0.03 (  0.3%)
+Pre-SCC initialisation                 +       3.90 ( 50.9%)       3.90 ( 49.8%)
+SCC                                    +       3.74 ( 48.9%)       3.90 ( 49.8%)
 --------------------------------------------------------------------------------
-Missing                                +       0.00 (  0.1%)       0.01 (  0.1%)
-Total                                  =       6.52 (100.0%)       6.64 (100.0%)
+Missing                                +       0.00 (  0.1%)       0.00 (  0.1%)
+Total                                  =       7.65 (100.0%)       7.83 (100.0%)
 --------------------------------------------------------------------------------

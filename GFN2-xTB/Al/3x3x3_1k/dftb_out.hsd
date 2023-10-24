@@ -31,11 +31,11 @@ Starting initialization...
 --------------------------------------------------------------------------------
 WARNING!
 -> Dipole printed for extended system : value printed is not well defined
-MPI processes:               1
+MPI processes:               8
 OpenMP threads:              1
-BLACS orbital grid size:     1 x 1
-BLACS atom grid size:        1 x 1
-Chosen random seed:          260351132
+BLACS orbital grid size:     2 x 4
+BLACS atom grid size:        2 x 4
+Chosen random seed:          1451866
 Current stacksize:           unlimited
 Mode:                        Static calculation
 Self consistent charges:     Yes
@@ -48,7 +48,7 @@ Nr. of down electrons:         162.000000
 Periodic boundaries:         Yes
 Electronic solver:           Relatively robust
 Mixer:                       Broyden mixer
-Mixing parameter:                  0.200000
+Mixing parameter:                  0.050000
 Maximal SCC-cycles:                     250
 Nr. of chrg. vec. in memory:            250
 tblite library version:      0.3.0
@@ -60,7 +60,7 @@ tblite library version:      0.3.0
    -> isotropic:             Yes
    -> anisotropic:           Yes
    -> third-order:           Yes
-Electronic temperature:              0.100000E+03 H      0.272114E+04 eV
+Electronic temperature:              0.950045E-03 H      0.258520E-01 eV
 Initial charges:             Set automatically (system chrg:   0.000E+00)
 Included shells:            Al:  s, p, d
 K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
@@ -75,26 +75,31 @@ Extra options:
 ***  Geometry step: 0
 
  iSCC Total electronic   Diff electronic      SCC error    
-    1    0.00000000E+00    0.00000000E+00    0.16669639E+01
-    2    0.26264875E+03    0.26264875E+03    0.13334526E+01
-    3    0.26264892E+03    0.16833432E-03    0.33754161E-02
-    4    0.26258745E+03   -0.61470349E-01    0.16857435E-02
-    5    0.26258770E+03    0.24900677E-03    0.32414485E-04
+    1    0.00000000E+00    0.00000000E+00    0.11921262E+01
+    2   -0.11554332E+03   -0.11554332E+03    0.11456191E+01
+    3   -0.11565289E+03   -0.10956716E+00    0.56193592E+00
+    4   -0.11719282E+03   -0.15399324E+01    0.64035354E+00
+    5   -0.11606872E+03    0.11241024E+01    0.45990406E+00
+    6   -0.11707989E+03   -0.10111734E+01    0.36503398E-01
+    7   -0.11873173E+03   -0.16518360E+01    0.66050236E-02
+    8   -0.11873687E+03   -0.51395157E-02    0.34135197E-02
+    9   -0.11873693E+03   -0.59435787E-04    0.25825495E-03
+   10   -0.11873696E+03   -0.29217725E-04    0.17572720E-04
 >> Charges saved for restart in charges.bin
 
-Total Energy:                      262.5879250019 H         7145.3810 eV
-Extrapolated to 0K:             -43530.8567513318 H     -1184534.8807 eV
-Total Mermin free energy:       -87324.3014276655 H     -2376215.1423 eV
-Force related energy:           -87324.3014276655 H     -2376215.1423 eV
+Total Energy:                     -118.7369580274 H        -3230.9970 eV
+Extrapolated to 0K:               -118.7417410993 H        -3231.1272 eV
+Total Mermin free energy:         -118.7465241712 H        -3231.2573 eV
+Force related energy:             -118.7465241712 H        -3231.2573 eV
 
 
 --------------------------------------------------------------------------------
 DFTB+ running times                          cpu [s]             wall clock [s]
 --------------------------------------------------------------------------------
-Global initialisation                  +       0.00 (  0.1%)       0.04 (  0.8%)
-Pre-SCC initialisation                 +       2.47 ( 48.4%)       2.48 ( 47.4%)
-SCC                                    +       2.63 ( 51.5%)       2.71 ( 51.7%)
+Global initialisation                  +       0.01 (  0.1%)       0.02 (  0.3%)
+Pre-SCC initialisation                 +       3.02 ( 41.5%)       3.02 ( 40.6%)
+SCC                                    +       4.24 ( 58.3%)       4.41 ( 59.1%)
 --------------------------------------------------------------------------------
-Missing                                +       0.00 (  0.0%)       0.01 (  0.1%)
-Total                                  =       5.11 (100.0%)       5.25 (100.0%)
+Missing                                +       0.00 (  0.1%)       0.00 (  0.1%)
+Total                                  =       7.28 (100.0%)       7.45 (100.0%)
 --------------------------------------------------------------------------------
