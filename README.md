@@ -30,7 +30,10 @@
   + [C. Bannwarth et al., Chem. Theory Comput. 2019, 15 (2019) 1652-1671.](https://doi.org/10.1021/acs.jctc.8b01176)
   + [Reactive Force Fields in Particular ReaxFF and Application Possibilities](https://www.tu-chemnitz.de/physik/CPHYS/Conferences/EL/EL2010/presentations/schonfelder.t.10.reactive.0701.pdf)
 - Reaction time, $t = \frac{h}{k_{B}T}exp(\frac{\Delta E}{k_{B}T})$
-  + where h is Planck's constant, $k_{B}T$​ is Boltzmann's constant, T is temperature, and ΔE is activation energy. Under conditions of atmospheric pressure and room temperature, the temperature T is assumed to be approximately 300 K. Also, the atmospheric pressure is assumed to be 1 atm (101.325 kPa) under standard conditions.
+
+
+where h is Planck's constant, $k_{B}T$​ is Boltzmann's constant, T is temperature, and ΔE is activation energy. Under conditions of atmospheric pressure and room temperature, the temperature T is assumed to be approximately 300 K. Also, the atmospheric pressure is assumed to be 1 atm (101.325 kPa) under standard conditions.
+
 
 ## Car-Parrinello methods ######################################
 - XL-BOMD method is used for "perfluorosulfonate polymer". This is because the purpose is simply to calculate MSD or vibrations to find the diffusion coefficient of proton.
