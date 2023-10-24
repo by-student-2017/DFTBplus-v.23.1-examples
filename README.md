@@ -29,6 +29,12 @@
   + [C. Bannwarth et al., Chem. Theory Comput. 2019, 15 (2019) 1652-1671.](https://doi.org/10.1021/acs.jctc.8b01176)
   + [Reactive Force Fields in Particular ReaxFF and Application Possibilities](https://www.tu-chemnitz.de/physik/CPHYS/Conferences/EL/EL2010/presentations/schonfelder.t.10.reactive.0701.pdf)
 
+## Car-Parrinello methods ######################################
+- XL-BOMD method is used for "perfluorosulfonate polymer". This is because the purpose is simply to calculate MSD and vibrations to find the proton diffusion coefficient.
+- In the case of a reaction in which the HOMO-LUMO gap closes, the conditions for applying the Car-Parrinello method are no longer satisfied for the reasons shown below. Therefore, please be careful when applying the XL-BOMD method. This is an effective method for calculating MSD and vibrations in systems with no reaction and a HOMO-LUMO gap.
+- The Car-Parrinello method requires that the time scales of the electron fluctuation motion and the nuclear fluctuation motion be sufficiently separated. This means that the HOMO-LUMO gap must be large. Therefore, it is difficult to handle in systems close to metals.
+  + [F. A. Bornemann et al., Numerische Mathematik 78 (1998) 359-376.](https://doi.org/10.1007/s002110050316)
+
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
   + [LAMMPS for primers on WindowsPC (for organic materials)](https://makoto-yoneya.github.io/LAMMPS-organics/)
