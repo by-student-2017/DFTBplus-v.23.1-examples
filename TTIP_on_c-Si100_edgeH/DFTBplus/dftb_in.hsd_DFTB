@@ -35,8 +35,8 @@ Driver = VelocityVerlet{
     AdaptFillingTemp = Yes
   }
   #
-  # total of 6.5 ps
-  Steps = 26000 # needs >=26000 (4h for core-i7)
+  # total of 65 ps
+  Steps = 260000 # 120000 (15h for core-i7)
   MovedAtoms = 1:-1
   # save every 40 steps
   MDRestartFrequency = 40 # output for 1 [fs]

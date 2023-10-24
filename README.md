@@ -12,11 +12,22 @@
   + I am using GFN1-xTB. The reason is that GFN2-xTB does not converge well. If anyone has found a better way to calculate it, please let me know.
   + In the literature [3], it was hydrogen terminated, which I thought was surprising. While some people are trying to solve the problem by brute force using the power of PCs without hydrogen termination, it is wonderful that they are reporting on hydrogen termination even in 2022. I thought he was a real professional.
   + In DFTB+, an initial structure in which the TTIP molecules are brought closer to the Si interface may be sufficient. Initially, I tried to calculate the TTIP molecule with an initial structure closer to the Si interface, but the molecule was broken in ReaxFF, so this is the current input file.
+  + DFTB, that is, "*.skf", just floated on the surface and did not react. If you want to get the same results as in literature [3], you need to use GFN1-xTB.
+  + There are also sites where hydrogen is not terminated (dangling bonds), but TTIP does not seem to work on them.
 - GFN2-xTB
   + I created this item to find out under which calculation conditions GFN2-xTB converges well.
   + Due to my time constraints, I only checked the SCF calculation and did not check the band structure or DOS. Interested readers may wish to compare the band structure with the results of GFN1-xTB and *.skf.
   + GFN2-xTB may be able to calculate well for systems with open gaps such as semiconductors and insulators. GFN2-xTB does not converge well with a unit cell, but it can be calculated successfully with a supercell. It may become a practical tool for calculations of supercells with element substitutions.
   + System that did not converge with GFN2-xTB: Mn4Si7
+  
+## Activation Energy (TS - Reactant) ######################################
+- About 10 kcal/mol: Reacts at room temperature
+- About 20 kcal/mol: Takes very long at room temperature
+- About 25 kcal/mol: Reacts when heated in an oil bath
+- >= 30 kcal/mol: rarely happens
+- DFTB is close to MOPAC or ReaxFF in accuracy and precision. It has an accuracy of about 10 kcal/mol, so it is useful for practical purposes.
+  + [C. Bannwarth et al., Chem. Theory Comput. 2019, 15 (2019) 1652-1671.](https://doi.org/10.1021/acs.jctc.8b01176)
+  + [Reactive Force Fields in Particular ReaxFF and Application Possibilities](https://www.tu-chemnitz.de/physik/CPHYS/Conferences/EL/EL2010/presentations/schonfelder.t.10.reactive.0701.pdf)
 
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
