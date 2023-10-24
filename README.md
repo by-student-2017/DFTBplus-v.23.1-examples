@@ -36,10 +36,6 @@
 - The Car-Parrinello method requires that the time scales of the electron fluctuation motion and the nuclear fluctuation motion be sufficiently separated. This means that the HOMO-LUMO gap must be large. Therefore, handling in systems close to metal is generally not recommended.
   + [F. A. Bornemann et al., Numerische Mathematik 78 (1998) 359-376.](https://doi.org/10.1007/s002110050316)
 
-## Filling ######################################
-- Applies to metal systems
-- 0.1 eV = 100 meV = 1160.4525 K
-- 
 
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
