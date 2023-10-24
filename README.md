@@ -21,7 +21,7 @@
   + System that did not converge with GFN2-xTB: Mn4Si7
   
 ## Activation Energy (TS - Reactant) ######################################
-- If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCDF(T)), the relationship with the experimental results would be as follows.
+- If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
 - About 10 kcal/mol: Reacts at room temperature
 - About 20 kcal/mol: Takes very long at room temperature
 - About 25 kcal/mol: Reacts when heated in an oil bath
