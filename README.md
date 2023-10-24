@@ -26,7 +26,7 @@
 - About 20 kcal/mol: Takes very long at room temperature
 - About 25 kcal/mol: Reacts when heated in an oil bath
 - \>= 30 kcal/mol: Rarely happens
-- Reaction time, $t = h/k_{b}T exp(\DeltaE/k_{B}T)$
+- Reaction time, $t = \frac{h}{k_{b}T}exp(\frac{DeltaE}{k_{B}T})$
   + 
 - DFTB is close to MOPAC or ReaxFF in accuracy and precision. It has an accuracy of about 10 kcal/mol, so it is useful for practical purposes.
   + [C. Bannwarth et al., Chem. Theory Comput. 2019, 15 (2019) 1652-1671.](https://doi.org/10.1021/acs.jctc.8b01176)
