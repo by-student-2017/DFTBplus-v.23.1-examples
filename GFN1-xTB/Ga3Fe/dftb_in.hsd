@@ -1,39 +1,24 @@
 Geometry = VaspFormat {
-  <<< "POSCAR_3x3x3"
+  <<< "POSCAR_2x2x2"
 }
 
 Hamiltonian = xTB {
-  Method = "GFN2-xTB" # GFN1-xTB, IPEA1-xTB, or GFN2-xTB
+  Method = "GFN1-xTB" # GFN1-xTB, IPEA1-xTB, or GFN2-xTB
   SCC = Yes
-  SCCTolerance = 1.0e-4
-  MaxSCCIterations = 250
+  SCCTolerance = 1.0e-3
+  MaxSCCIterations = 1000
   Mixer = Broyden {
     MixingParameter = 0.05
     InverseJacobiWeight = 0.05
     WeightFactor = 0.05
   }
   # Note: MixingParameter InverseJacobiWeight WeightFactor
-  # SCCTolerance = 1.0e-3
-  #  23 cycle: 0.30 0.01 0.01
-  #  35 cycle: 0.20 0.01 0.01
-  #  14 cycle: 0.10 0.01 0.01
-  #   9 cycle: 0.05 0.01 0.01
-  #   9 cycle: 0.05 0.03 0.03
-  #   9 cycle: 0.05 0.05 0.05
-  #   9 cycle: 0.05 0.07 0.07
-  #  10 cycle: 0.05 0.10 0.10
-  #  12 cycle: 0.01 0.01 0.01
-  #
-  # SCCTolerance = 1.0e-4
-  #  10 cycle: 0.05 0.01 0.01
-  #  10 cycle: 0.05 0.02 0.02
-  #  10 cycle: 0.05 0.03 0.03
-  #  10 cycle: 0.05 0.04 0.04
-  #  10 cycle: 0.05 0.05 0.05
-  #  10 cycle: 0.05 0.06 0.06
-  #  10 cycle: 0.05 0.07 0.07
-  #  10 cycle: 0.05 0.08 0.08
-  #  10 cycle: 0.05 0.09 0.09
+  # 39 cycle: 0.20 0.05 0.05
+  # 24 cycle: 0.10 0.05 0.05
+  # 20 cycle: 0.05 0.01 0.01
+  # 14 cycle: 0.05 0.05 0.05 # best !!!
+  # 17 cycle: 0.05 0.10 0.10
+  #  failed : 0.01 0.05 0.05
   #
   Charge = 0.0
   KPointsAndWeights = SuperCellFolding {

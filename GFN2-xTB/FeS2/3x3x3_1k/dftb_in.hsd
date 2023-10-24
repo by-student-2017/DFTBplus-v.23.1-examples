@@ -8,18 +8,22 @@ Hamiltonian = xTB {
   SCCTolerance = 1.0e-4
   MaxSCCIterations = 250
   Mixer = Broyden {
-    MixingParameter = 0.20000000000000001
-    InverseJacobiWeight = 1.0000000000000000E-002
-    MinimalWeight = 1.0000000000000000
-    MaximalWeight = 100000.00000000000
-    WeightFactor = 1.0000000000000000E-002
+    MixingParameter = 0.20
+    InverseJacobiWeight = 0.01
+    WeightFactor = 0.01
   }
+  # Note: MixingParameter InverseJacobiWeight WeightFactor
+  #  21 cycle: 0.20 0.01 0.01
+  #  18 cycle: 0.20 0.01 0.01 # default values
+  #  20 cycle: 0.20 0.05 0.05
+  #  19 cycle: 0.10 0.01 0.01
+  #
   Charge = 0.0
   KPointsAndWeights = SuperCellFolding {
-1 0 0
-0 1 0
-0 0 1
-0.0 0.0 0.0
+    1 0 0
+    0 1 0
+    0 0 1
+    0.0 0.0 0.0
   }
   ShellResolvedSCC = No
   SpinPolarisation = {}
