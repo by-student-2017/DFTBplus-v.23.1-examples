@@ -1,0 +1,141 @@
+Geometry = VaspFormat {
+Sn2 Pb2 F8
+1.0
+8.7369422913         0.0000000000         0.0000000000
+0.0000000000         8.7369422913         0.0000000000
+0.0000000000         0.0000000000        11.0853738785
+Sn   Pb    F
+8    8   32
+Cartesian
+0.000000000         2.184235573         1.583479217
+0.000000000         6.552706718         1.583479217
+4.368471146         2.184235573         1.583479217
+4.368471146         6.552706718         1.583479217
+2.184235573         0.000000000         9.501894496
+2.184235573         4.368471146         9.501894496
+6.552706718         0.000000000         9.501894496
+6.552706718         4.368471146         9.501894496
+0.000000000         2.184235573         6.860937448
+0.000000000         6.552706718         6.860937448
+4.368471146         2.184235573         6.860937448
+4.368471146         6.552706718         6.860937448
+2.184235573         0.000000000         4.224436430
+2.184235573         4.368471146         4.224436430
+6.552706718         0.000000000         4.224436430
+6.552706718         4.368471146         4.224436430
+0.000000000         2.184235573         3.705208616
+0.000000000         6.552706718         3.705208616
+4.368471146         2.184235573         3.705208616
+4.368471146         6.552706718         3.705208616
+2.184235573         0.000000000         7.380165262
+2.184235573         4.368471146         7.380165262
+6.552706718         0.000000000         7.380165262
+6.552706718         4.368471146         7.380165262
+2.184235573         2.184235573         5.542686939
+2.184235573         6.552706718         5.542686939
+6.552706718         2.184235573         5.542686939
+6.552706718         6.552706718         5.542686939
+0.000000000         0.000000000         5.542686939
+0.000000000         4.368471146         5.542686939
+4.368471146         0.000000000         5.542686939
+4.368471146         4.368471146         5.542686939
+0.000000000         0.000000000         2.232594265
+0.000000000         4.368471146         2.232594265
+4.368471146         0.000000000         2.232594265
+4.368471146         4.368471146         2.232594265
+2.184235573         2.184235573         2.232594265
+2.184235573         6.552706718         2.232594265
+6.552706718         2.184235573         2.232594265
+6.552706718         6.552706718         2.232594265
+2.184235573         2.184235573         8.852779779
+2.184235573         6.552706718         8.852779779
+6.552706718         2.184235573         8.852779779
+6.552706718         6.552706718         8.852779779
+0.000000000         0.000000000         8.852779779
+0.000000000         4.368471146         8.852779779
+4.368471146         0.000000000         8.852779779
+4.368471146         4.368471146         8.852779779
+}
+Hamiltonian = xTB {
+  Method = "GFN2-xTB"
+  SCC = Yes
+  SCCTolerance = 1.0e-3
+  MaxSCCIterations = 1000
+  Mixer = Broyden {
+    MixingParameter = 0.10
+    InverseJacobiWeight = 0.01
+    WeightFactor = 0.01
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+  }
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+1 0 0
+0 1 0
+0 0 1
+0.0 0.0 0.0
+  }
+  ShellResolvedSCC = No
+  SpinPolarisation = {}
+  Solver = RelativelyRobust {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  ElectricField = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  ForceEvaluation = "Traditional"
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  Filling = Fermi {
+    Temperature = 9.5004460357391702E-004
+    IndependentKFilling = No
+  }
+}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteCharges = Yes
+  WriteChargesAsText = No
+  BinaryAccessTypes = {
+"stream"
+  }
+}
+ParserOptions = {
+  ParserVersion = 13
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+  IgnoreUnprocessedNodes = No
+}
+Parallel = {
+  UseOmpThreads = Yes
+  Groups = 1
+  Blacs = BlockSize {
+32
+  }
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}

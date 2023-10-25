@@ -1,0 +1,120 @@
+|===============================================================================
+|
+|  DFTB+ release 23.1
+|
+|  Copyright (C) 2006 - 2023  DFTB+ developers group
+|
+|===============================================================================
+|
+|  When publishing results obtained with DFTB+, please cite the following
+|  reference:
+|
+|  * DFTB+, a software package for efficient approximate density functional
+|    theory based atomistic simulations, J. Chem. Phys. 152, 124101 (2020).
+|    [doi: 10.1063/1.5143190]
+|
+|  You should also cite additional publications crediting the parametrization
+|  data you use. Please consult the documentation of the SK-files for the
+|  references.
+|
+|===============================================================================
+
+Reading input file 'dftb_in.hsd'
+Parser version: 13
+
+--------------------------------------------------------------------------------
+
+
+Processed input in HSD format written to 'dftb_pin.hsd'
+
+Starting initialization...
+--------------------------------------------------------------------------------
+WARNING!
+-> Dipole printed for extended system : value printed is not well defined
+MPI processes:               1
+OpenMP threads:              1
+BLACS orbital grid size:     1 x 1
+BLACS atom grid size:        1 x 1
+Chosen random seed:          4922071
+Current stacksize:           8 [Mb] (recommended: unlimited)
+WARNING!
+-> Current stacksize not set to unlimited or hard limit, which might cause
+   random crashes (e.g. segmentation faults). It is advised to unlimit the
+   stacksize by issuing 'ulimit -s unlimited' (Linux) or setting it to the 
+   hard limit by 'ulimit -s hard' (Mac) in advance.
+Mode:                        Static calculation
+Self consistent charges:     Yes
+SCC-tolerance:                 0.100000E-02
+Max. scc iterations:                   1000
+Shell resolved Hubbard:      No
+Spin polarisation:           No
+Nr. of up electrons:           144.000000
+Nr. of down electrons:         144.000000
+Periodic boundaries:         Yes
+Electronic solver:           Relatively robust
+Mixer:                       Broyden mixer
+Mixing parameter:                  0.100000
+Maximal SCC-cycles:                    1000
+Nr. of chrg. vec. in memory:           1000
+tblite library version:      0.3.0
+-> parametrization:          GFN2-xTB
+-> repulsion:                Yes
+-> dispersion:               Yes
+-> halogen bonding:          No
+-> electrostatics:           Yes
+   -> isotropic:             Yes
+   -> anisotropic:           Yes
+   -> third-order:           Yes
+Electronic temperature:              0.950045E-03 H      0.258520E-01 eV
+Initial charges:             Set automatically (system chrg:   0.000E+00)
+Included shells:            Sn:  s, p, d
+                            Pb:  s, p
+                             F:  s, p
+K-points and weights:           1:  0.000000  0.000000  0.000000     1.000000
+
+K-points in absolute space:     1:  0.000000  0.000000  0.000000
+
+Extra options:
+                             Mulliken analysis
+
+--------------------------------------------------------------------------------
+
+***  Geometry step: 0
+
+ iSCC Total electronic   Diff electronic      SCC error    
+    1    0.00000000E+00    0.00000000E+00    0.16188811E+01
+    2   -0.18709791E+03   -0.18709791E+03    0.15644682E+01
+    3   -0.18821506E+03   -0.11171496E+01    0.17038742E+01
+    4   -0.18836020E+03   -0.14514362E+00    0.23866988E+01
+    5   -0.18884848E+03   -0.48827862E+00    0.41607896E+00
+    6   -0.18931095E+03   -0.46247288E+00    0.52785488E+00
+    7   -0.18930162E+03    0.93336644E-02    0.15559709E+00
+    8   -0.18932411E+03   -0.22496878E-01    0.29020535E+00
+    9   -0.18932416E+03   -0.44515331E-04    0.45038804E+00
+   10   -0.18932301E+03    0.11515166E-02    0.39187611E+00
+   11   -0.18932541E+03   -0.24053737E-02    0.21069775E+00
+   12   -0.18932905E+03   -0.36386015E-02    0.43173429E-01
+   13   -0.18932996E+03   -0.91207115E-03    0.47435350E-01
+   14   -0.18932997E+03   -0.10537071E-04    0.17997288E-01
+   15   -0.18933050E+03   -0.52435532E-03    0.13624340E-01
+   16   -0.18933058E+03   -0.84359992E-04    0.60304682E-02
+   17   -0.18933056E+03    0.22989774E-04    0.56932491E-02
+   18   -0.18933055E+03    0.51161825E-05    0.19826159E-03
+>> Charges saved for restart in charges.bin
+
+Total Energy:                     -189.3305846694 H        -5151.9473 eV
+Extrapolated to 0K:               -189.3305846694 H        -5151.9473 eV
+Total Mermin free energy:         -189.3305846694 H        -5151.9473 eV
+Force related energy:             -189.3305846694 H        -5151.9473 eV
+
+
+--------------------------------------------------------------------------------
+DFTB+ running times                          cpu [s]             wall clock [s]
+--------------------------------------------------------------------------------
+Global initialisation                  +       0.00 (  0.3%)       0.04 (  2.3%)
+Pre-SCC initialisation                 +       0.47 ( 31.1%)       0.48 ( 27.6%)
+SCC                                    +       1.03 ( 68.5%)       1.22 ( 69.7%)
+--------------------------------------------------------------------------------
+Missing                                +       0.00 (  0.1%)       0.01 (  0.3%)
+Total                                  =       1.50 (100.0%)       1.74 (100.0%)
+--------------------------------------------------------------------------------
