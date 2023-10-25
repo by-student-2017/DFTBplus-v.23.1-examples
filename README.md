@@ -57,7 +57,7 @@
 - Up to about 12% for same groups in the periodic table.
 - Up to 2% if groups is +/-1.
 - Conditions other than the above are rarely tried.
-- If the formation energy is negative (stable) under the above conditions, the amount of substitution will be increased by several percentage points.
+- If the formation energy is negative (stable) under the above max conditions, the amount of substitution will be increased by several percentage points.
 
 ## Acknowledgment ######################################
 - This project (modified version) is/was partially supported by the following :
