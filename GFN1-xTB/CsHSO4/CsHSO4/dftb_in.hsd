@@ -50,12 +50,12 @@ Hamiltonian = xTB {
   #}
   ForceEvaluation = "Traditional"
   #Filling = Fermi {
-  #  Temperature [Kelvin] = 433
+  #  Temperature [Kelvin] = 100
   #  #IndependentKFilling = No
   #}
   #Filling = MethfesselPaxton{
   #  Order = 2
-  #  Temperature [Kelvin] = 433
+  #  Temperature [Kelvin] = 300
   #  IndependentKFilling = No
   #}
 }

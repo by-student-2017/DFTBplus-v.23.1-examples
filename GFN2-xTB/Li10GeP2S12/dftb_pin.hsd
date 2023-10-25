@@ -1,0 +1,143 @@
+Geometry = VaspFormat {
+Li20 Ge2 P4 S24
+1.0
+8.7876462936         0.0000000000         0.0000000000
+0.0000000000         8.7876462936         0.0000000000
+0.0000000000         0.0000000000        12.6575460434
+Li   Ge    P    S
+20    2    4   24
+Cartesian
+2.009717135         2.398588000         3.728444677
+6.777929028         6.389058294         3.728444677
+2.398588000         6.777929028        10.057217699
+6.389058294         2.009717135        10.057217699
+2.009717135         6.389058294         3.728444677
+6.777929028         2.398588000         3.728444677
+2.398588000         2.009717135        10.057217699
+6.389058294         6.777929028        10.057217699
+0.000000000         0.000000000        11.894675599
+0.000000000         0.000000000         5.565902577
+4.393823147         4.393823147         6.936588449
+4.393823147         4.393823147         0.607815380
+2.252431949         6.369039773         0.464063605
+6.535214607         2.418606259         0.464063605
+2.418606259         2.252431949         6.792836579
+6.369039773         6.535214607         6.792836579
+2.418606259         6.535214607         6.792836579
+6.369039773         2.252431949         6.792836579
+2.252431949         2.418606259         0.464063605
+6.535214607         6.369039773         0.464063605
+4.393823147         4.393823147        10.139048960
+4.393823147         4.393823147         3.810275938
+0.000000000         0.000000000         8.683722261
+0.000000000         0.000000000         2.354949051
+0.000000000         4.393823147         6.380327508
+4.393823147         0.000000000         0.051554186
+4.393823147         2.548434899         5.104054080
+4.393823147         6.239211395         5.104054080
+2.548434899         4.393823147        11.432827102
+6.239211395         4.393823147        11.432827102
+0.000000000         6.102414064         5.215807524
+0.000000000         2.685232230         5.215807524
+2.685232230         0.000000000        11.544580546
+6.102414064         0.000000000        11.544580546
+4.393823147         1.668317124         1.228503444
+4.393823147         7.119329169         1.228503444
+1.668317124         4.393823147         7.557276277
+7.119329169         4.393823147         7.557276277
+0.000000000         7.071489309         1.191024421
+0.000000000         1.716156985         1.191024421
+1.716156985         0.000000000         7.519797537
+7.071489309         0.000000000         7.519797537
+0.000000000         1.686788648         9.835786299
+0.000000000         7.100857384         9.835786299
+7.100857384         0.000000000         3.507013655
+1.686788648         0.000000000         3.507013655
+4.393823147         6.216187398         8.837068452
+4.393823147         2.571458634         8.837068452
+6.216187398         4.393823147         2.508295242
+2.571458634         4.393823147         2.508295242
+}
+Hamiltonian = xTB {
+  Method = "GFN2-xTB"
+  SCC = Yes
+  SCCTolerance = 1.0e-3
+  MaxSCCIterations = 1000
+  Mixer = Broyden {
+    MixingParameter = 0.2
+    InverseJacobiWeight = 0.05
+    WeightFactor = 0.05
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+  }
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+1 0 0
+0 1 0
+0 0 1
+0.0 0.0 0.0
+  }
+  ShellResolvedSCC = No
+  SpinPolarisation = {}
+  Solver = RelativelyRobust {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  ElectricField = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  ForceEvaluation = "Traditional"
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+  Filling = Fermi {
+    Temperature = 9.5004460357391702E-004
+    IndependentKFilling = No
+  }
+}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteCharges = Yes
+  WriteChargesAsText = No
+  BinaryAccessTypes = {
+"stream"
+  }
+}
+ParserOptions = {
+  ParserVersion = 13
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+  IgnoreUnprocessedNodes = No
+}
+Parallel = {
+  UseOmpThreads = Yes
+  Groups = 1
+  Blacs = BlockSize {
+32
+  }
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}
