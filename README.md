@@ -54,6 +54,7 @@
 
 
 ## Student's Element Substitution Rules ######################################
+- For ternary or higher systems
 - Up to about 12% for same groups in the periodic table.
 - Up to 2% if groups is +/-1.
 - Conditions other than the above are rarely tried.
