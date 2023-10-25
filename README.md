@@ -59,7 +59,7 @@
 - Note 2: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
 - Note 3: SCCTolerance = the order of 1e-5 * number of atoms
 - Note 4: GFN2-xTB did not converge using anything other than the Broyden method.
-- Note 5: Before performing MD calculations for the diffusion coefficient and MSD, it is best to clarify the calculation conditions for the Broyden method. If there are multiple candidates, choose one that is close to the default value.
+- Note 5: Before performing MD calculations for the diffusion coefficient and MSD, it is best to clarify the calculation conditions for the Broyden method. Among them, choose one that is close to the default value.
 
 
 ## Student's Element Substitution Rules ######################################
