@@ -2,3 +2,8 @@
 1. export OMP_NUM_THREADS=1
 2. dftb+ < dftb_in.hsd | tee dftb_out.hsd
 ------------------------------------------------------------
+
+------------------------------------------------------------
+cif database
+https://github.com/tkotani/ecalj/tree/master/StructureTool/sample/STRUC-CIF
+------------------------------------------------------------
