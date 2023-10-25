@@ -16,12 +16,12 @@
   + There are also sites where hydrogen is not terminated (dangling bonds), but TTIP does not seem to work on them.
 - GFN2-xTB
   + I created this item to find out under which calculation conditions GFN2-xTB converges well.
-  + Due to my time constraints, I only checked the SCF calculation and did not check the band structure or DOS. Interested readers may wish to compare the band structure with the results of GFN1-xTB and *.skf.
+  + Due to my time constraints, I only checked the SCC calculation and did not check the band structure or DOS. Interested readers may wish to compare the band structure with the results of GFN1-xTB and *.skf.
   + GFN2-xTB may be able to calculate well for systems with open gaps such as semiconductors and insulators. GFN2-xTB does not converge well with a unit cell, but it can be calculated successfully with a supercell. It may become a practical tool for calculations of supercells with element substitutions.
   + System that did not converge with GFN2-xTB: Mn4Si7, CaMgZn, MnGaNi2, Li3Al2, ZrCuB, TaCoB, AlFe2Si, CsHSO4, Li2BNH6
   + For Whistler-based structures, "{ 0, 0}: On entry to DSTEGR2 parameter number -202 had an illegal value" is output. If this is related to ScaLapack, it may work fine if you stop OpenMPI.
 - GFN1-xTB
-  + Even if "GFN2-xTB" does not converge well, "GFN1-xTB" may converge. Stores the results when SCF converges. I have not checked DOS, Band, etc., including "GFN2-xTB". I want you to definitely check this point.
+  + Even if "GFN2-xTB" does not converge well, "GFN1-xTB" may converge. Stores the results when SCC converges. I have not checked DOS, Band, etc., including "GFN2-xTB". I want you to definitely check this point.
   + [Extended tight-binding quantum chemistry methods](https://doi.org/10.1002/wcms.1493)
     + In this respect, in 2017 GFN1-xTB filled a gap in the market of off-the-shelf atomistic models as it is fast, robust, reasonably accurate, and works for many metallic systems.
 
