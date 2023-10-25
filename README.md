@@ -52,6 +52,13 @@
 - [3] [Investigation of thermal and transport properties of organic and inorganic compounds](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/283169/1/scr_2023_48.pdf)
 - [4] [Charge transport analysis in organic semiconductor by using density functional tight-binding (DFTB) method](http://molsci.center.ims.ac.jp/area/2015/PDF/pdf/3P040_m.pdf)
 
+
+## Student's Element Substitution Rules ######################################
+- Up to about 12% for homologous substitutions.
+- Up to 2% if family is +/-1.
+- Conditions other than the above are rarely tried.
+- If the formation energy is negative (stable) under the above conditions, the amount of substitution will be increased by several percentage points.
+
 ## Acknowledgment ######################################
 - This project (modified version) is/was partially supported by the following :
   + meguREnergy Co., Ltd.
