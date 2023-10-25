@@ -44,14 +44,20 @@ awk -v natom=${natom} -v c3=${c3} '{
   else{print $0}
 }' tmp_b2.exyz > tmp_c3.exyz
 
-cp tmp_c3.exyz geo_end_unwrap.exyz
+cp tmp_c3.exyz geo_end_wrap.exyz
 
 echo "-----------------------------------------------------"
-echo "geo_end.xyz"
+echo "geo_end.xyz:
+echo "  Position, x [Angstrom]"
+echo "  Charge, q [e]"
+echo "  Velocities, vx [Angstrom/ps]=[A/ps]=[AA/ps]"
 echo "1:atom, 2:x,  3:y,  4:z,  5:q, 6:vx, 7:vy, 8:vz"
 echo "-----------------------------------------------------"
 echo "-----------------------------------------------------"
-echo "geo_end_unwrap.exyz"
+echo "geo_end_wrap.exyz"
+echo "  Position, xs [Angstrom] (wrap)"
+echo "  Charge, q [e]"
+echo "  Velocities, vx [Angstrom/ps]=[A/ps]=[AA/ps]"
 echo "1:atom, 2:xs, 3:ys, 4:xs, 5:q, 6:vx, 7:vy, 8:vz"
 echo "-----------------------------------------------------"
 
