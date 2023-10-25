@@ -1,5 +1,6 @@
 # DFTBplus-v.23.1-examples
-
+- Note 1: On a normal PC, it is faster to make each axis a supercell of 8 Angstroms or more and calculate at 1 k than to calculate at an appropriate k point using a small cell, and GFN2-xTB is stable and easy to converge.
+- Note 2: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
 
 ## Examples ######################################
 - perfluorosulfonate polymer
