@@ -71,6 +71,19 @@
 - If the formation energy is negative (stable), increase the amount of substitution by a few percent.
 
 
+## Units (DFTB+ and Lammps output) ######################################
+- force : DFTB+ (results.tag: Ha/Bohr), Lammps (eV/Angstrom)
+- stress: DFTB+ (results.tag: au), Lammps (bar = 100 kPa = 0.1 MPa)
+  + (dftbplus.h) stress: Pa
+  + (DFTB+ output (terminal or console, etc)) Pressure: au and Pa
+  + (DFTBP) virial: eV
+  + "elastic[ii][jj] /= (PRESURE_AU * 1.0E9) # Convert to GPa": Inue 134 in calcelastic (python3 code): au => *1.0/(0.339893208050290E-13 * 1.0E9) => GPa
+  + ("fix external command" on Lammps) energy and virial are energy units [eV]. (https://docs.lammps.org/fix_external.html)
+  + Ref. VASP: E = V * PSTRESS (https://www.vasp.at/wiki/index.php/PSTRESS)
+- volume: DFTB+ (results.tag: au^3 = Bohr^3), Lammps (A^3 = Angstrom^3)
+  + (DFTB+ output) Volume: [au^3] and [A^3]
+
+
 ## Acknowledgment ######################################
 - This project (modified version) is/was partially supported by the following :
   + meguREnergy Co., Ltd.
