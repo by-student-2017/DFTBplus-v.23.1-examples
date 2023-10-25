@@ -6,6 +6,9 @@ Usage
 
 (on Linux or WSL, etc)
 2. export OMP_NUM_THREADS=1
+3. dftb+ < dftb_in.hsd | tee dftb_out.hsd
+
+(Parallelization may only make it slower.)
 3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
 
 4. sh xyz2exyz.sh
