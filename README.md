@@ -54,7 +54,7 @@
 
 
 ## Student's Element Substitution Rules ######################################
-- Up to about 12% for homologous substitutions.
+- Up to about 12% for same family.
 - Up to 2% if family is +/-1.
 - Conditions other than the above are rarely tried.
 - If the formation energy is negative (stable) under the above conditions, the amount of substitution will be increased by several percentage points.
