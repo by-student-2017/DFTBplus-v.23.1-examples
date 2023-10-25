@@ -5,10 +5,11 @@ Usage
 1. cfg (Ovito) -> POSCAR -> Lammps data (e.g., TTIP_on_Si100_edgeH_2x3x1.data)
 
 (on Linux or WSL, etc)
-2. export OMP_NUM_THREADS=1
+2. export OMP_NUM_THREADS=8
 3. dftb+ < dftb_in.hsd | tee dftb_out.hsd
 
 (Parallelization may only make it slower.)
+2. export OMP_NUM_THREADS=1
 3. mpirun -np 8 dftb+ < dftb_in.hsd | tee dftb_out.hsd
 
 4. sh xyz2exyz.sh
