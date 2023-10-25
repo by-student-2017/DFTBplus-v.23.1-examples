@@ -9,14 +9,14 @@ Hamiltonian = xTB {
   MaxSCCIterations = 1000
   Mixer = Broyden {
     MixingParameter = 0.01
-    InverseJacobiWeight = 0.5
-    WeightFactor = 0.5
+    InverseJacobiWeight = 0.1
+    WeightFactor = 0.1
   }
   # Note: MixingParameter InverseJacobiWeight WeightFactor
   # 258 cycle: 0.005 0.50 0.50
   # 223 cycle: 0.01 0.05 0.05
   # 199 cycle: 0.01 0.10 0.10
-  # 188 cycle: 0.01 0.50 0.50 # best !!!
+  # 188 cycle: 0.01 0.50 0.50
   # 199 cycle: 0.01 0.80 0.80
   #> 50 cycle: 0.05 0.50 0.50
   #
