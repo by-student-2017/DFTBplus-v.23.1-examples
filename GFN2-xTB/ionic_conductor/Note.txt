@@ -47,10 +47,10 @@ Li7La3Zr2O12 (LLZ)
 Li7P3S11
 | --------------------|
 LiNi0.5Mn1.5O4
-LiCoO2
+LiCoO2: https://github.com/tkotani/ecalj/tree/master/StructureTool/sample/STRUC-CIF
 LiMn2O4
 LiNiO2
-LiFePO4
+LiFePO4: https://github.com/tkotani/ecalj/tree/master/StructureTool/sample/STRUC-CIF
 Li2MnO3
 | --------------------|
 Li1.14Ti0.29Mn0.57O2
