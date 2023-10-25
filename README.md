@@ -1,6 +1,5 @@
 # DFTBplus-v.23.1-examples
-- Note 1: On a normal PC, it is faster to make each axis a supercell of 8 Angstroms or more and calculate at 1 k than to calculate at an appropriate k point using a small cell, and GFN2-xTB is stable and easy to converge.
-- Note 2: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
+
 
 ## Examples ######################################
 - perfluorosulfonate polymer
@@ -25,7 +24,8 @@
   + Even if "GFN2-xTB" does not converge well, "GFN1-xTB" may converge. Stores the results when SCF converges. I have not checked DOS, Band, etc., including "GFN2-xTB". I want you to definitely check this point.
   + [Extended tight-binding quantum chemistry methods](https://doi.org/10.1002/wcms.1493)
     + In this respect, in 2017 GFN1-xTB filled a gap in the market of off-the-shelf atomistic models as it is fast, robust, reasonably accurate, and works for many metallic systems.
-  
+
+
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
 - About 10 kcal/mol: Reacts at room temperature
@@ -54,12 +54,18 @@
 - [4] [Charge transport analysis in organic semiconductor by using density functional tight-binding (DFTB) method](http://molsci.center.ims.ac.jp/area/2015/PDF/pdf/3P040_m.pdf)
 
 
+## Note ######################################
+- Note 1: On a normal PC, it is faster to make each axis a supercell of 8 Angstroms or more and calculate at 1 k than to calculate at an appropriate k point using a small cell, and GFN2-xTB is stable and easy to converge.
+- Note 2: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
+
+
 ## Student's Element Substitution Rules ######################################
 - For ternary or higher systems
 - Up to about 12% for same groups in the periodic table.
 - Up to 2.3% if groups is +/-1.
 - Up to 1% if group is +/-2 or more.
 - If the formation energy is negative (stable), increase the amount of substitution by a few percent.
+
 
 ## Acknowledgment ######################################
 - This project (modified version) is/was partially supported by the following :
