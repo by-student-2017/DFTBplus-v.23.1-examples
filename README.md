@@ -25,6 +25,7 @@
   + [Extended tight-binding quantum chemistry methods](https://doi.org/10.1002/wcms.1493)
     + In this respect, in 2017 GFN1-xTB filled a gap in the market of off-the-shelf atomistic models as it is fast, robust, reasonably accurate, and works for many metallic systems.
   + [Performance of GFN1-xTB for periodic optimization of metal organic frameworks](https://doi.org/10.1039/D2CP00184E)
+    + MOF: Some structures converged (change in energy <− 1e-2 Hartree), but still had residual gradients larger than the default criterion of 1e-5 Hartree. 
 
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
@@ -58,7 +59,7 @@
 - Note 1: On a regular PC, it is faster to make each axis a supercell of 8 angstroms or more and calculate at 1k than to use a small cell to calculate at a random k point.
 - Note 2: GFN2-xTB is more stable and converges easily if each axis is made into a supercell of 8 (if possible, 12.8) angstroms or more.
 - Note 3: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
-- Note 4: SCCTolerance = the order of 1e-5 * number of atoms
+- Note 4: SCCTolerance = the order of 1e-5 * number of atoms (vibration: 1e-7 * number of atoms)
 - Note 5: GFN2-xTB did not converge using anything other than the Broyden method.
 - Note 6: Before performing MD calculations of diffusion coefficient and MSD, it is recommended to clarify the calculation conditions of the Broyden method. Please choose the one closest to the default value.
 
