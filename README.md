@@ -68,7 +68,7 @@
 - [2] [Proton conduction simulation of perfluorosulfonic acid polymers using quantum molecular dynamics method](http://molsci.center.ims.ac.jp/area/2007/bk2007/papers/3P057_w.pdf)
 - [3] [Investigation of thermal and transport properties of organic and inorganic compounds](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/283169/1/scr_2023_48.pdf)
 - [4] [Charge transport analysis in organic semiconductor by using density functional tight-binding (DFTB) method](http://molsci.center.ims.ac.jp/area/2015/PDF/pdf/3P040_m.pdf)
-
+- [CP1] [Car-Parrinello method](https://www.jstage.jst.go.jp/article/mssj/17/3/17_167/_pdf/-char/ja)
 
 ## Note ######################################
 - Note 1: On a regular PC, it is faster to make each axis a supercell of 8 angstroms or more and calculate at 1k than to use a small cell to calculate at a random k point.
