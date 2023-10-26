@@ -53,7 +53,7 @@
 
 ## Car-Parrinello method ######################################
 - Not implemented in DFTB+.
-- In the case of a reaction in which the HOMO-LUMO gap closes, the conditions for applying the Car-Parrinello method are no longer satisfied for the reasons shown below. Therefore, please be careful when applying the XL-BOMD method. This (The Car-Parrinello method) is an effective method for calculating MSD and vibrations in systems with no reaction and a HOMO-LUMO gap.
+- In the case of a reaction in which the HOMO-LUMO gap closes, the conditions for applying the Cal-Parinello method are no longer satisfied for the reasons shown below. It is a good idea to keep this in mind when applying the XL-BOMD method. This (Car-Parrinello method) is an effective method for calculating MSD and vibrations in non-reactive systems with HOMO-LUMO gaps.
 - The Car-Parrinello method requires that the time scales of the electron fluctuation motion and the nuclear fluctuation motion be sufficiently separated. This means that the HOMO-LUMO gap must be large. Therefore, handling in systems close to metal is generally not recommended.
   + [F. A. Bornemann et al., Numerische Mathematik 78 (1998) 359-376.](https://doi.org/10.1007/s002110050316)
 - In the case of semiconductors and insulators, calculations are often relatively quick.
