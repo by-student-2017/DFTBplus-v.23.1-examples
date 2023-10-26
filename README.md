@@ -27,6 +27,9 @@
   + [Performance of GFN1-xTB for periodic optimization of metal organic frameworks](https://doi.org/10.1039/D2CP00184E)
     + Some structures converged (change in energy <− 1e-2 Hartree), but still had residual gradients larger than the default criterion of 1e-5 Hartree. 
     + These RMSD values compare favourably with those obtained of a set of 72 MOFs calculated with the PM7 semi-empirical method. (e.g., MOPAC PM7)
+  + [Refined GFN1-xTB Parameters for Engineering Phase-Stable CsPbX3 Perovskites](https://doi.org/10.1021/acs.jpcc.2c02412)
+  + [Efficient Computation of Structural and Electronic Properties of Halide Perovskites Using Density Functional Tight Binding: GFN1-xTB Method](https://doi.org/10.1021/acs.jcim.1c00432)
+  + [Electronic structure of two-dimensional-layered PbTiO3 perovskite crystal: an extended tight-binding study based on DFT](https://doi.org/10.1007/s12034-022-02688-3)
 
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
@@ -85,6 +88,16 @@
 - volume: DFTB+ (results.tag: au^3 = Bohr^3), Lammps (A^3 = Angstrom^3)
   + (DFTB+ output) Volume: [au^3] and [A^3]
 
+
+## Unfolding ######################################
+- In calculations using supercells, it is necessary to return the band dispersion to the unit cell by unfolding and compare it with experiment (ARPES).
+- As shown below, the unfolding code exists, but it is not compatible with DFTB+.
+  + [siesta-unfold](https://github.com/yw-choi/siesta-unfold)
+  + [bandup](https://github.com/band-unfolding/bandup)
+  + [banduppy](https://github.com/band-unfolding/banduppy)
+  + [VaspBandUnfolding](https://github.com/QijingZheng/VaspBandUnfolding)
+  + [easyunfold](https://github.com/SMTG-Bham/easyunfold)
+- [C.-C. Lee, et al., J. Phys.: Condens. Matter 25 (2013) 345501.](10.1088/0953-8984/25/34/345501)
 
 ## Acknowledgment ######################################
 - This project (modified version) is/was partially supported by the following :
