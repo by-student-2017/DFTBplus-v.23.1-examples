@@ -45,8 +45,9 @@
 - XL-BOMD method is used for "perfluorosulfonate polymer". This is because the purpose is simply to calculate MSD or vibrations to find the diffusion coefficient of proton.
 - High reliability even for metal
 - A time step comparable to that of classical MD can be adopted.
-  + 
+  + e.g., O-H 3300 cm^-1 = 10.11 fs, C-H 3000 cm^-1 = 11.11 fs --> x 0.1 --> TimeStep [fs] = 1
 - In the case of large structural changes, the time step may have to be shortened due to SCC convergence problems.
+  + e.g., 1 [fs] --> 0.5 [fs]
 - Even when large structural changes such as structural phase transitions occur, calculations are unlikely to break down.
 
 ## Car-Parrinello method ######################################
