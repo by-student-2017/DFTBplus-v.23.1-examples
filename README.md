@@ -45,7 +45,7 @@
 - XL-BOMD method is used for "perfluorosulfonate polymer". This is because the purpose is simply to calculate MSD or vibrations to find the diffusion coefficient of proton.
 - High reliability even for metal
 - A time step comparable to that of classical MD can be adopted.
-  + e.g., O-H 3300 [cm^-1] = 10.11 [fs] or  C-H 3000 [cm^-1] = 11.11 [fs] --> x 1/10 (Track MD by dividing the time for these vibrations into 10) --> TimeStep [fs] = 1 (It can be seen that TimeStep, which is generally used in MD, can be obtained.)
+  + e.g., O-H 3300 [cm^-1] = 10.11 [fs] or  C-H 3000 [cm^-1] = 11.11 [fs] --> x 1/10 (Track MD by dividing the time for these vibrations into 10) --> TimeStep [fs] = 1
   + If energy is released due to a reaction, the speed (temperature) of atoms increases, atoms collide, etc., and MD cannot be calculated properly, reduce the TimeStep. ReaxFF is often set to 0.25 [fs] or 0.1 [fs].
 - In the case of large structural changes, the time step may have to be shortened due to SCC convergence problems.
   + e.g., 1 [fs] --> 0.5 [fs]
