@@ -58,7 +58,7 @@
   + [F. A. Bornemann et al., Numerische Mathematik 78 (1998) 359-376.](https://doi.org/10.1007/s002110050316)
 - In the case of semiconductors and insulators, calculations are often relatively quick.
 - The time step of CPMD is about 1/10 of that of classical MD. In other words, it is 0.1 fs.
-- Difficult to adapt to metal systems (requires considerable skill)
+- Adaptation to metal systems requires considerable skill. [CP2]
 - Requires know-how such as virtual temperature.
 
 ## References ######################################
@@ -71,6 +71,7 @@
 - [3] [Investigation of thermal and transport properties of organic and inorganic compounds](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/283169/1/scr_2023_48.pdf)
 - [4] [Charge transport analysis in organic semiconductor by using density functional tight-binding (DFTB) method](http://molsci.center.ims.ac.jp/area/2015/PDF/pdf/3P040_m.pdf)
 - [CP1] [Car-Parrinello method](https://www.jstage.jst.go.jp/article/mssj/17/3/17_167/_pdf/-char/ja)
+- [CP2] [P. E. Blochl and M. Parrinello, Phys. Rev. B 45 (1992) 9413.](https://doi.org/10.1103/PhysRevB.45.9413)
 
 ## Note ######################################
 - Note 1: On a regular PC, it is faster to make each axis a supercell of 8 angstroms or more and calculate at 1k than to use a small cell to calculate at a random k point.
