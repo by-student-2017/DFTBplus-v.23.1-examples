@@ -25,7 +25,8 @@
   + [Extended tight-binding quantum chemistry methods](https://doi.org/10.1002/wcms.1493)
     + In this respect, in 2017 GFN1-xTB filled a gap in the market of off-the-shelf atomistic models as it is fast, robust, reasonably accurate, and works for many metallic systems.
   + [Performance of GFN1-xTB for periodic optimization of metal organic frameworks](https://doi.org/10.1039/D2CP00184E)
-    + MOF: Some structures converged (change in energy <− 1e-2 Hartree), but still had residual gradients larger than the default criterion of 1e-5 Hartree. 
+    + Some structures converged (change in energy <− 1e-2 Hartree), but still had residual gradients larger than the default criterion of 1e-5 Hartree. 
+    + These RMSD values compare favourably with those obtained of a set of 72 MOFs calculated with the PM semi-empirical method.
 
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
