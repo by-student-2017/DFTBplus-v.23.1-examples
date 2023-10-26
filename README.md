@@ -24,7 +24,7 @@
   + Even if "GFN2-xTB" does not converge well, "GFN1-xTB" may converge. Stores the results when SCC converges. I have not checked DOS, Band, etc., including "GFN2-xTB". I want you to definitely check this point.
   + [Extended tight-binding quantum chemistry methods](https://doi.org/10.1002/wcms.1493)
     + In this respect, in 2017 GFN1-xTB filled a gap in the market of off-the-shelf atomistic models as it is fast, robust, reasonably accurate, and works for many metallic systems.
-
+  + [Performance of GFN1-xTB for periodic optimization of metal organic frameworks](https://doi.org/10.1039/D2CP00184E)
 
 ## Activation Energy (TS - Reactant) ######################################
 - If accurate reaction energies were obtained (1 kcal/mol even with highly accurate CCSD(T)), the relationship with the experimental results would be as follows.
