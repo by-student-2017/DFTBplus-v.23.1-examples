@@ -107,7 +107,8 @@ cp POSCAR POSCAR_original
 cp POSCAR POSCAR_tmp
 
 rm -f charges.bin
-mpirun -np ${NCPU} dftb+ < dftb_in.hsd | tee dftb_out.hsd
+#mpirun -np ${NCPU} dftb+ < dftb_in.hsd | tee dftb_out.hsd
+mpirun -np ${NCPU} dftb+ < dftb_in.hsd > dftb_out.hsd
 
 # Total Energy [eV]
 TE_old=`awk '{if($1=="Total" && $2=="Energy:"){printf "%f",$5}}' dftb_out.hsd`
@@ -163,7 +164,8 @@ do
   #diff POSCAR_tmp POSCAR
   #
   rm -f charges.bin
-  mpirun -np ${NCPU} dftb+ < dftb_in.hsd | tee dftb_out.hsd
+  #mpirun -np ${NCPU} dftb+ < dftb_in.hsd | tee dftb_out.hsd
+  mpirun -np ${NCPU} dftb+ < dftb_in.hsd > dftb_out.hsd
   #
   # Total Energy [eV]
   TE_new=`awk '{if($1=="Total" && $2=="Energy:"){printf "%f",$5}}' dftb_out.hsd`
@@ -181,11 +183,11 @@ do
     echo "replace"
     TE_old=${TE_new}
     echo ${TE_old}
-    awk -v R1=${R1} -v ratom2=${ratom2} '{
-      if(NR==R1){printf "%s \n",ratom2}else{print $0}
+    awk -v R1=${R1} -v ratom2=${ratom2} -v nc=$i '{
+      if(NR==R1){printf "%s #Step %d \n",ratom2,nc}else{print $0}
       }' atom_data.txt > atom_data_r1.txt
-    awk -v R2=${R2} -v ratom1=${ratom1} '{
-      if(NR==R2){printf "%s \n",ratom1}else{print $0}
+    awk -v R2=${R2} -v ratom1=${ratom1} -v nc=$i '{
+      if(NR==R2){printf "%s #Step %d \n",ratom1,nc}else{print $0}
       }' atom_data_r1.txt > atom_data.txt
   else
     cp POSCAR_tmp POSCAR
