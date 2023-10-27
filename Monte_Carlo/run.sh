@@ -185,10 +185,10 @@ do
     echo ${TE_old}
     #---------- For Memo -----------
     awk -v R1=${R1} -v ratom1=${ratom1} -v nc=$i '{
-      if(NR==R1){printf "%s #Step %d \n",ratom1,nc}else{print $0}
+      if(NR==R1){printf "%s #change xyz at step %d \n",ratom1,nc}else{print $0}
       }' atom_data.txt > atom_data_r1.txt
     awk -v R2=${R2} -v ratom2=${ratom2} -v nc=$i '{
-      if(NR==R2){printf "%s #Step %d \n",ratom2,nc}else{print $0}
+      if(NR==R2){printf "%s #change xyz at step %d \n",ratom2,nc}else{print $0}
       }' atom_data_r1.txt > atom_data.txt
     #-------------------------------
   else
