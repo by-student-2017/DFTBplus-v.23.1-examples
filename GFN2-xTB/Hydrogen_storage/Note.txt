@@ -65,7 +65,7 @@ Mm = Mischmetall (La, Ce, Pr, Nd, etc)
 
 
 AB5: MnNiMnCo alloy
-
+LaNi4.8Sn0.2H6
 
 |  O site | fcc | hcp |   bcc   |
 | ------- | ------------------- |
