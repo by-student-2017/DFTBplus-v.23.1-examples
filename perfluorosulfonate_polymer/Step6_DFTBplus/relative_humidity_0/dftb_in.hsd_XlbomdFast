@@ -14,10 +14,10 @@ Driver = VelocityVerlet{
   # XL-BOMD method case (NVE)
   # Applicable to systems with large band gaps [=E(LUMO)-E(HOMO)]
   # https://doi.org/10.1007/s002110050316
-  #
   # Time step for MD
   #   O-H 3300 cm^-1 = 10.11 fs, C-H 3000 cm^-1 = 11.11 fs
   #   Usually, the time step is set to 1/10 of the vibration time.
+  #   Furthermore, shorten TimeStep to half the value so that SCC converges more stably.
   TimeStep [fs] = 0.5
   Thermostat = None {
     InitialTemperature [Kelvin] = 300
