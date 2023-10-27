@@ -190,9 +190,11 @@ do
   #----------------------------------------------------------
   if [ ${swap_flag} == "yes" ]; then
     cp POSCAR POSCAR_tmp
-    echo "replace"
+    echo "-----------------------------------------------------------"
+    echo "Calculated using exchanged atomic coordinates."
     TE_old=${TE_new}
-    echo ${TE_old}
+    echo "Total Energy: "${TE_old}" [eV]"
+    echo "-----------------------------------------------------------"
     #---------- For Memo -----------
     awk -v R1=${R1} -v ratom1=${ratom1} -v nc=$i '{
       if(NR==R1){printf "%s #change xyz at step %d \n",ratom1,nc}else{print $0}
@@ -203,8 +205,11 @@ do
     #-------------------------------
   else
     cp POSCAR_tmp POSCAR
-    echo "no replace"
-    echo "New: "${TE_new}", Old: "${TE_old}
+    echo "-----------------------------------------------------------"
+    echo "This time we will not exchange the atomic coordinates."
+    echo "New total energy: "${TE_new}" [eV]"
+    echo "Old total energy: "${TE_old}" [eV]"
+    echo "-----------------------------------------------------------"
   fi
   echo "-----------------------------------------------------"
 done
