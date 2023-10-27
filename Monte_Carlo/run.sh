@@ -9,7 +9,7 @@
 if [ ! "$1" == "" ]; then
   Temp=$1
 else
-  echo "auto set 300 K"
+  echo "Auto set 300 K"
   Temp=300.0 # [K]
 fi
 kbT=`echo ${Temp} | awk '{printf "%f",(8.6173e-5*$1)}'`
