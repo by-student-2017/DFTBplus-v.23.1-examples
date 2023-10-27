@@ -14,6 +14,10 @@
   + In DFTB+, an initial structure in which the TTIP molecules are brought closer to the Si interface may be sufficient. Initially, I tried to calculate the TTIP molecule with an initial structure closer to the Si interface, but the molecule was broken in ReaxFF, so this is the current input file.
   + DFTB, that is, "*.skf", just floated on the surface and did not react. If you want to get the same results as in literature [3], you need to use GFN1-xTB.
   + There are also sites where hydrogen is not terminated (dangling bonds), but TTIP does not seem to work on them.
+- Monte_Carlo
+  + Created to explore high entropy alloys (HEA).
+  + As a simple example, I created one that exchanges Al-Cu atomic coordinates. We are trying to make this possible in a multi-component system, but since it takes time, we have decided to just swap the coordinates of Al and Cu in the FCC structure and mix them. It may be repeated alternately with structural optimization.
+  + In addition to exchanging coordinates, it is also possible to create something that moves the coordinates little by little. However, since DFTB+'s SCC calculation takes time, we believe that it is more efficient to alternately repeat atomic coordinate exchange and structural optimization than to move in unnecessary directions using the Monte Carlo method. I'm going to try it out, but for these reasons, I don't want you to have high expectations.
 - GFN2-xTB
   + I created this item to find out under which calculation conditions GFN2-xTB converges well.
   + Due to my time constraints, I only checked the SCC calculation and did not check the band structure or DOS. Interested readers may wish to compare the band structure with the results of GFN1-xTB and *.skf.
