@@ -162,7 +162,7 @@ do
   echo "Line: ${R2}"
   echo ${xR2}" "${yR2}" "${zR2}
   echo "-------------"
-  echo "Try replacing"
+  echo "This time we will adopt the exchange of atomic coordinates."
   awk -v R1=${R1} -v xR2=${xR2} -v yR2=${yR2} -v zR2=${zR2} '{
     if(NR==R1){printf "%s %s %s \n",xR2,yR2,zR2}else{print $0}
     }' POSCAR_tmp > POSCAR_r1
