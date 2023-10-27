@@ -74,7 +74,7 @@
 - [CP2] [P. E. Blochl and M. Parrinello, Phys. Rev. B 45 (1992) 9413.](https://doi.org/10.1103/PhysRevB.45.9413)
 
 ## Note ######################################
-- Note 1: On a regular PC, it is faster to make each axis a supercell of 8 angstroms or more and calculate at 1k than to use a small cell to calculate at a random k point.
+- Note 1: On a regular PC, it is faster to make each axis a supercell of 8 angstroms or more and calculate at 1k than to use a small cell to calculate at a few k point.
 - Note 2: GFN2-xTB is more stable and converges easily if each axis is made into a supercell of 8 (if possible, 12.8) angstroms or more.
 - Note 3: On a normal PC, when trying to calculate under the above conditions, it is faster to calculate with 1 CPU without using MPI parallelism (such as OpenMPI) or OpenMP parallelism.
 - Note 4: SCCTolerance = the order of 1e-5 * number of atoms (vibration: 1e-7 * number of atoms)
