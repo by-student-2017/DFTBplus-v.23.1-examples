@@ -15,7 +15,9 @@ Geometry = LammpsFormat {
 
 Driver = VelocityVerlet{
   # Time step for MD
-  TimeStep [fs] = 0.5
+  #   O-H 3300 cm^-1 = 10.11 fs, C-H 3000 cm^-1 = 11.11 fs
+  #   Usually, the time step is set to 1/10 of the vibration time.
+  TimeStep [fs] = 1.0
   # Use thermostat to maintain temperature
   #
   # Nose-Hoover chain thermostat sampling an NVT ensemble
@@ -32,7 +34,7 @@ Driver = VelocityVerlet{
     # https://sherwingroup.itst.ucsb.edu/internal/unit-conversion/
     # CouplingStrength [cm^-1] = 667 # or Timescale [fs] = 50 settings
     Timescale [fs] = 50
-    AdaptFillingTemp = Yes
+    AdaptFillingTemp = No
   }
   #
   # total of 8 ps
@@ -132,6 +134,16 @@ Hamiltonian = xTB {
   #} # DFTB3-D3(BJ) Parameters for Halogen corrections 
   #Solvation = {}
   #ForceEvaluation = "Traditional"
+  #
+  #Filling = Fermi {
+  #  Temperature [Kelvin] = 100
+  #  #IndependentKFilling = No
+  #}
+  Filling = MethfesselPaxton{
+    Order = 2
+    Temperature [Kelvin] = 300
+    IndependentKFilling = No
+  }
 }
 
 Analysis = {
