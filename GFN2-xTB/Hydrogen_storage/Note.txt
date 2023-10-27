@@ -65,3 +65,19 @@ Mm = Mischmetall (La, Ce, Pr, Nd, etc)
 
 
 AB5: MnNiMnCo alloy
+
+
+|  O site | fcc | hcp |   bcc   |
+| ------- | ------------------- |
+|   H/M   |  1  |  1  |    3    |
+| r of M  |   0.414*r | 0.155*r |
+| ------- | ------------------- |
+
+|  T site | fcc | hcp |   bcc   |
+|   H/M   |     2     |    6    |
+| r of M  |   0.225*r | 0.291*r |
+| ------- | ------------------- |
+
+Note: Ratio of volumetric expansion to H/M
+Transition metal (TM): (2.6 +/- 0.5) x 10^-3 [nm^3]
+Rare earth: (4 +/- 0.5) x 10-^3 [nm^3]
