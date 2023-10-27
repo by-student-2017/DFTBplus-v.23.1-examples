@@ -183,12 +183,14 @@ do
     echo "replace"
     TE_old=${TE_new}
     echo ${TE_old}
-    awk -v R1=${R1} -v ratom2=${ratom2} -v nc=$i '{
-      if(NR==R1){printf "%s #Step %d \n",ratom2,nc}else{print $0}
+    #---------- For Memo -----------
+    awk -v R1=${R1} -v ratom1=${ratom1} -v nc=$i '{
+      if(NR==R1){printf "%s #Step %d \n",ratom1,nc}else{print $0}
       }' atom_data.txt > atom_data_r1.txt
-    awk -v R2=${R2} -v ratom1=${ratom1} -v nc=$i '{
-      if(NR==R2){printf "%s #Step %d \n",ratom1,nc}else{print $0}
+    awk -v R2=${R2} -v ratom2=${ratom2} -v nc=$i '{
+      if(NR==R2){printf "%s #Step %d \n",ratom2,nc}else{print $0}
       }' atom_data_r1.txt > atom_data.txt
+    #-------------------------------
   else
     cp POSCAR_tmp POSCAR
     echo "no replace"
