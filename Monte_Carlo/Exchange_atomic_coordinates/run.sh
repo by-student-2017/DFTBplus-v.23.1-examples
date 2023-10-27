@@ -2,18 +2,28 @@
 
 # Usage
 # chmod +x run.sh
-# ./run.sh 300.0
+# ./run.sh 300.0 10
+# command temp #cycles
 
 #--------------------------------------------------------------------------
 
 if [ ! "$1" == "" ]; then
   Temp=$1
 else
+  echo "------------------"
   echo "Auto set 300 K"
   Temp=300.0 # [K]
 fi
 kbT=`echo ${Temp} | awk '{printf "%f",(8.6173e-5*$1)}'`
 echo "kbT = "${kbT}" [eV]"
+
+if [ ! "$2" == "" ]; then
+  Ncycles=$2
+else
+  echo "------------------"
+  echo "Auto set 10 cycles"
+  Ncycles=10
+fi
 
 export OMP_NUM_THREADS=1
 NCPU=1
@@ -118,7 +128,7 @@ TE_old=`awk '{if($1=="Total" && $2=="Energy:"){printf "%f",$5}}' dftb_out.hsd`
 
 #--------------------------------------------------------------------------
 
-for i in `seq 1 100`
+for i in `seq 1 ${Ncycles}`
 do
   echo "-----------------------------------------------------"
   echo "No. $i cycle"
