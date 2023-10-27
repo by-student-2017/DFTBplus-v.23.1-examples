@@ -38,8 +38,6 @@ Driver = VelocityVerlet{
   MDRestartFrequency = 1
 }
 
-#Hamiltonian = xTB {
-#  Method = "GFN2-xTB"
 Hamiltonian = DFTB {
   # use the corrected forces for XL-BOMD
   ForceEvaluation = Dynamics
