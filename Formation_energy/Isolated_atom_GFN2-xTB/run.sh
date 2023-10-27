@@ -21,7 +21,7 @@ element_list=( H He \
 
 #--------------------------------------------------------------------------
 
-echo "# Atom, Total Energy [eV], Extrapolated to 0 K [eV], Total Mermin free energy [eV], Force related energy [eV]" > isolated_atom_energy.txt
+echo "# Atom, Total Energy [eV], Extrapolated to 0 K [eV], Total Mermin free energy [eV], Force related energy [eV]" > isolated_atom_energy_GFN2-xTB.txt
 
 #--------------------------------------------------------------------------
 
@@ -53,7 +53,7 @@ do
   # Force related energy [eV]
   FRE=`awk '{if($1=="Force" && $2=="related"){printf "%f",$6}}' dftb_out.hsd`
   #---------------
-  echo "${atom}, ${TE}, ${ETE}, ${TMFE}, ${FRE}" >> isolated_atom_energy.txt
+  echo "${atom}, ${TE}, ${ETE}, ${TMFE}, ${FRE}" >> isolated_atom_energy_GFN2-xTB.txt
   #------------------------------------------------------------------------
   
   #------------------------------------------------------------------------
