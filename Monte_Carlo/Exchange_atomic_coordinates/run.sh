@@ -23,6 +23,7 @@ else
   echo "------------------"
   echo "Auto set 10 cycles"
   Ncycles=10
+  echo "------------------"
 fi
 
 export OMP_NUM_THREADS=1
