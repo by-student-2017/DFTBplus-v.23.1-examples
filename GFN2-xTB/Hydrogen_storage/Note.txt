@@ -67,6 +67,7 @@ Mm = Mischmetall (La, Ce, Pr, Nd, etc)
 AB5: MnNiMnCo alloy
 LaNi4.8Sn0.2H6
 
+
 |  O site | fcc | hcp |   bcc   |
 | ------- | ------------------- |
 |   H/M   |  1  |  1  |    3    |
@@ -78,6 +79,68 @@ LaNi4.8Sn0.2H6
 | r of M  |   0.225*r | 0.291*r |
 | ------- | ------------------- |
 
+
 Note: Ratio of volumetric expansion to H/M
 Transition metal (TM): (2.6 +/- 0.5) x 10^-3 [nm^3]
 Rare earth: (4 +/- 0.5) x 10-^3 [nm^3]
+
+
+TABLE 1 [2]
+|     Hydride    | Delta H, cal/mol | Deta S, cal/mol-K | mc, g/mole |
+| -------------- | ------ | ------ | ------ |
+| V0.95Cr0.05    |  −8930 |  −33.3 |  109.8 |
+| V0.925Cr0.075  |  −8680 |  −33.4 |  128.3 |
+| V0.9Cr0.1      |  −7970 |  −32.0 |  120.9 |
+| NiZr           |  −7270 |  −17.1 |  112.0 | 
+| V0.85Cr015     |  −7100 |  −30.0 |  347.3 | 
+| Mni4.5Al0.46Fe0.05  |  −7420  | −26.5 | 290.0 |
+| LaNi5          |  −7380 |  −25.8 |  175.8 | 
+| Fe0.85Mn0.15Ti |  −7040 |  −25.6 |  220.0 | 
+| PrNi5          |  −6940 |  −28.5 |  220.0 | 
+| MNi4.5Al0.05   |  −6700 |  −25.2 |  281.2 | 
+| FeTi           |  −6700 |  −25.3 |  242.2 | 
+| NdNi5          |  −6650 |  −27.8 |  167.8 | 
+| MNi4.15FE0.85  |  −6000 |  −25.0 |  308.4 | 
+| Zr(Fe0.75Cr0.25)2 |  −5920 |  −21.9 |  206.2 |
+| Ca0.7M0.3Ni5   |  −6400 |  −24.0 |  168.8 | 
+| Ca0.5M0.5Ni5   |  −6160 |  −24.8 |  168.8 | 
+| Ca0.4M0.6Ni5   |  −6040 |  −25.2 |  168.8 | 
+| Ca0.2M0.8Ni5   |  −5800 |  −26.0 |  168.8 | 
+| Ce0.5La0.5Ni2.5Cu2.5 |  −5500 |  −20.7 |  393.0 | 
+| CeNi5          |  −5300 |  −26.7 |  198.5 | 
+| CeNi4.5Al0.5   |  −5230 | −220.0 |  220.1 | 
+| MNi5           |  −5000 |  −23.1 |  203.1 | 
+| ZrMn2Cu0.8     |  −6170 |  −13.8 |  175.0 | 
+| ZrMn3.8        |  −4710 |  −14.7 |  200.0 | 
+| ZrMn2.8        |  −4400 |  −12.5 |  200.0 | 
+| Zr0.8Ti0.2MnFe |  −2660 |   −9.4 |  175.0 |
+
+
+TABLE 2 [2]
+|        Alloy Used           | Type | Mass (kg) | Capacity (kW) | COP | 
+| --------------------------- | --- | ----- | ----- | ----- |
+| LaNi5/MmNi4.15Fe0.85        |  R  |   3.6 |  0.6  |  —    | 
+| LaNi4.7Al0.3/MmNi4.15Fe0.85 |  R  |   3.6 |  0.6  |  —    | 
+| LaNi4.7Al0.3/LaNi4.85Al0.15 |  R  |  90   |  —    |  0.42 | 
+| LaNi4.65Al0.35/MmNi4Fe      |  R  |  40   |  1.75 |  —    | 
+| LaNi4.65Al0.35/MmNi4Fe      |  R  |  40   |  1.3  |  0.3  | 
+| LaNi4.7Al0.3/MmNi4.15Fe0.85 |  R  |  90   |  22.8 |  —    | 
+| LaNi5/LaNi4.7Al0.3          |  HP |  20   |   0.6 |  —    | 
+| LaNi4.7Al0.3/MmNi4.65Fe0.35 |  HP |   1   |  —    |  —    | 
+| MmNiMnAl/MmNiMnCo           |  HP |  64   |   3   |  —    | 
+| MmNi4.4Mn0.5Al0.05Co0.05    |  R  |  48   |   4.6 |  —    | 
+| MmNi4.7Mn0.15Lm0.95Ni5      |     |       |       |       | 
+| LaNi4.5Al0.5/(CFM)Ni5       |  R  |  2.6  |  —    |  0.33 | 
+| Zr0.9Ti0.1Cr0.9Fe1.1/Zr0.9Ti0.1Cr0.6Fe1.4 |  R |  4.5 |  0.683 |  — |
+| Program control             |  R  |  1.5  |  0.1  | 0.2-0.4 | 
+| LaNi4.7Al0.3/MmNi4.15Fe0.85 |  R  |  —    |  —    |  —    | 
+| LaNi46Al0.3/MmNi4.85Fe0.15  |  HP |   3   | 0.15-0.2 |  0.17-0.2 | 
+| LaNi5                       |  C  |   1   | 1.5 (150 s — cooling) | - | 
+| Ca0.4Mm0.6NiS               |  C  |   1   |       | —     | 
+| LaNi4.6Al0.4                |  R  |   3   | 2.2 (150 s — MmNi4.15Fe0.85 cooling) | - | 
+| Zr0.9Ti0.1Cr0.55Fe1.45      |  C  |   1   | 0.41  | 1.8   | 
+
+
+[1] https://doi.org/10.1016/j.ijhydene.2014.01.158
+[2] Furnishing temperature control system employing an electrochemical compressor
+[3] ISBN978-4-254-14099-6
