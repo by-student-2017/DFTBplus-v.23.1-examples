@@ -141,6 +141,20 @@ TABLE 2 [2]
 | Zr0.9Ti0.1Cr0.55Fe1.45      |  C  |   1   | 0.41  | 1.8   | 
 
 
+Table 1. Thermodynamic properties of hydride-forming alloys for the absorption process. [4]
+| Chemical Composition | Temperature Range (TL-TH) (°C) | -delta H (kJ/mol-H2) | -delta S (J/mol H2K) | Ref. |
+| Ti0.9Zr0.1Mn1.4Cr0.35V0.2Fe0.05 | 25-100 | 25.89 | 106.9 | [48] | 
+| LaNi5               | 25-200 | 31.80 | 110   | [49] | 
+| TiFe0.9Mn0.1        |  0-100 | 29.70 | 107.7 | [40] | 
+| LaNi4.7Sn0.3        | 25-80  | 36.51 | 112.6 | [50] | 
+| MmNi4.15Fe0.85      | 25-200 | 25    | 105.4 | [40] | 
+| TiCr1.5Mn0.25Fe0.25 | 10-165 | 19.32 | 101.6 | [41] | 
+| LaNi4.7Al0.3        | 20-80  | 29.21 |  98   | [51] | 
+| LaNi4.6Al0.4        | 20-80  | 34.04 | 108   | [51] | 
+| TiCr1.8             |  0-100 | 20.2  | 111   | [52] | 
+| Ti0.98Zr0.02V0.43   |  0-100 | 27.4  | 112   | [52] | 
+
 [1] https://doi.org/10.1016/j.ijhydene.2014.01.158
 [2] Furnishing temperature control system employing an electrochemical compressor
 [3] ISBN978-4-254-14099-6
+[4] https://doi.org/10.3390/en16010341
