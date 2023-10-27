@@ -1,5 +1,5 @@
 # DFTBplus-v.23.1-examples
-
+- Currently, many modes such as pSIC and XL-BOMD do not work on xTB (GFN1-xTB or GFN2-xTB, ect). I hope that the development of DFTB+ will progress further.
 
 ## Examples ######################################
 - perfluorosulfonate polymer
@@ -50,6 +50,7 @@
 - In the case of large structural changes, the time step may have to be shortened due to SCC convergence problems.
   + e.g., 1 [fs] --> 0.5 [fs]
 - Even when large structural changes such as structural phase transitions occur, calculations are unlikely to break down.
+- When I tried it, XL-BOMD did not work with xTB (GFN1-xTB or GFN2-xTB, ect).
 
 ## Car-Parrinello method ######################################
 - Not implemented in DFTB+.
