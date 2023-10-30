@@ -98,11 +98,11 @@ do
   echo ${xR2}" "${yR2}" "${zR2}
   echo "-------------"
   echo "This time we will adopt the exchange of atomic coordinates."
-  awk -v R1=${R1} -v ratom2=${ratom2} -v xR2=${xR2} -v yR2=${yR2} -v zR2=${zR2} '{
-    if(NR==R1){printf "%s %s %s %s \n",ratom2,xR2,yR2,zR2}else{print $0}
+  awk -v R1=${R1} -v ratom1=${ratom1} -v xR2=${xR2} -v yR2=${yR2} -v zR2=${zR2} '{
+    if(NR==R1){printf "%s %s %s %s \n",ratom1,xR2,yR2,zR2}else{print $0}
     }' input.mop_tmp > input.mop_r1
-  awk -v R2=${R2} -v ratom2=${ratom1} -v xR1=${xR1} -v yR1=${yR1} -v zR1=${zR1} '{
-    if(NR==R2){printf "%s %s %s %s \n",xR1,yR1,zR1}else{print $0}
+  awk -v R2=${R2} -v ratom2=${ratom2} -v xR1=${xR1} -v yR1=${yR1} -v zR1=${zR1} '{
+    if(NR==R2){printf "%s %s %s %s \n",ratom2,xR1,yR1,zR1}else{print $0}
     }' input.mop_r1  > input.mop
   echo "-------------"
   #
