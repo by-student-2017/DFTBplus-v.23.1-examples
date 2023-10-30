@@ -15,7 +15,7 @@
   + DFTB, that is, "*.skf", just floated on the surface and did not react. If you want to get the same results as in literature [3], you need to use GFN1-xTB.
   + There are also sites where hydrogen is not terminated (dangling bonds), but TTIP does not seem to work on them.
 - Monte_Carlo_method
-  + Created to explore high entropy alloys (HEA).
+  + Created to study initial structures for the exploration of high entropy alloys (HEAs) or metallic glasses.
   + As a simple example, I created one that exchanges Al-Cu atomic coordinates. We are trying to make this possible in a multi-component system, but since it takes time, we have decided to just swap the coordinates of Al and Cu in the FCC structure and mix them. It may be repeated alternately with structural optimization.
   + Find a stable composition ratio with "Akai-KKR", use "DFTB+" at that composition ratio to mix atoms using the Monte Carlo method, optimize the structure with "DFTB+", and use the basic structure (ideal FCC structure). All you have to do is check the displacement from the position (position, etc.).
     + [Atomic Displacement and Strength Properties in Equiatomic High Entropy Alloys with the FCC Structure](https://www.jstage.jst.go.jp/article/materia/57/7/57_57.312/_pdf/-char/ja)
