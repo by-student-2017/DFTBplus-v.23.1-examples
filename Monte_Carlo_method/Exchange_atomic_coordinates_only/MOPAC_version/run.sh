@@ -63,7 +63,7 @@ cp input.mop input.mop_tmp
 mpirun -np ${NCPU} ${mopac} input.mop
 
 # Formation Energy [eV] (KCAL/MOL -> eV)
-FE_old=`awk '{if($1=="FINAL" && $2=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
+FE_old=`awk '{if($1=="FINAL" && $4=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
 
 #--------------------------------------------------------------------------
 
@@ -118,7 +118,7 @@ do
   mpirun -np ${NCPU} ${mopac} input.mop
   #
   # Formation Energy [eV]
-  FE_new=`awk '{if($1=="FINAL" && $2=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
+  FE_new=`awk '{if($1=="FINAL" && $4=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
   #
   R0=`echo $(( $RANDOM % 101 + 0 ))`
   echo "Random value: "${R0}
