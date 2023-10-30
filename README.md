@@ -17,7 +17,6 @@
 - Monte_Carlo_method
   + Created to explore high entropy alloys (HEA).
   + As a simple example, I created one that exchanges Al-Cu atomic coordinates. We are trying to make this possible in a multi-component system, but since it takes time, we have decided to just swap the coordinates of Al and Cu in the FCC structure and mix them. It may be repeated alternately with structural optimization.
-  + In addition to exchanging coordinates, it is also possible to create something that moves the coordinates little by little. However, since DFTB+'s SCC calculation takes time, we believe that it is more efficient to alternately repeat atomic coordinate exchange and structural optimization than to move in unnecessary directions using the Monte Carlo method. I'm going to try it out, but for these reasons, I don't want you to have high expectations.
   + Find a stable composition ratio with "Akai-KKR", use "DFTB+" at that composition ratio to mix atoms using the Monte Carlo method, optimize the structure with "DFTB+", and use the basic structure (ideal FCC structure). All you have to do is check the displacement from the position (position, etc.).
     + [Atomic Displacement and Strength Properties in Equiatomic High Entropy Alloys with the FCC Structure](https://www.jstage.jst.go.jp/article/materia/57/7/57_57.312/_pdf/-char/ja)
   + In the case of HEA, even "DFTB+" takes time, so it would be a good idea to have someone create a MEAM potential for Lammps.
