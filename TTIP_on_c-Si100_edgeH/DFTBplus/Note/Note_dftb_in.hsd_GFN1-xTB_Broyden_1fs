@@ -41,7 +41,7 @@ Driver = VelocityVerlet{
   Steps = 8000 # needs >=6000 (14 h for core-i7)
   MovedAtoms = 1:-1
   # save every 40 steps
-  MDRestartFrequency = 40 # output for 1 [fs]
+  MDRestartFrequency = 40 # output for 40 [fs]
 }
 
 Hamiltonian = xTB {
