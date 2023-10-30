@@ -21,6 +21,8 @@
   + Find a stable composition ratio with "Akai-KKR", use "DFTB+" at that composition ratio to mix atoms using the Monte Carlo method, optimize the structure with "DFTB+", and use the basic structure (ideal FCC structure). All you have to do is check the displacement from the position (position, etc.).
     + [Atomic Displacement and Strength Properties in Equiatomic High Entropy Alloys with the FCC Structure](https://www.jstage.jst.go.jp/article/materia/57/7/57_57.312/_pdf/-char/ja)
   + In the case of HEA, even "DFTB+" takes time, so it would be a good idea to have someone create a MEAM potential for Lammps.
+  + Check the composition and volume with "Akai-KKR", and then check the atomic arrangement with "MOPAC" or "DFTB+" using the Monte Carlo method based on the information on the composition and volume (if possible, relax the structure at the end) We believe that the procedure of checking with OpenMX is valid.
+  + Even the above method requires too much calculation time for researchers who mainly conduct experiments, so we plan to try converting Open Catalyst Project data to potfit format to create MEAM potentials in the future. It would be helpful if someone could go ahead and publish it on github instead of me, as it would reduce my workload.
 - GFN2-xTB
   + I created this item to find out under which calculation conditions GFN2-xTB converges well.
   + Due to my time constraints, I only checked the SCC calculation and did not check the band structure or DOS. Interested readers may wish to compare the band structure with the results of GFN1-xTB and *.skf.
