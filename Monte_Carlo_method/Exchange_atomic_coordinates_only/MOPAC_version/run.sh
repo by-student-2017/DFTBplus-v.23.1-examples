@@ -7,12 +7,31 @@
 # command temp #cycles
 #--------------------------------------------------------------------------
 
+NCORE=0
+NTHRE=0
+
+#----------------------------------------------------------------------
+if [ $NCORE = 0 ]; then
+  NCORE=`lscpu -b -p=Core,Socket | grep -v '^#' | sort -u | wc -l`
+fi
+if [ $NTHRE = 0 ]; then
+  NTHRE=$(bc <<< "$NCORE/2")
+fi
+echo "----------------------------------------------------------------"
+#echo "MPI   : "$NCORE" cores"
+echo "OpenMP: "$NTHRE" threads"
+#----------------------------------------------------------------------
+export OMP_NUM_THREADS=$NTHRE
+MPI_PREFIX="mpirun -np 1"
+#----------------------------------------------------------------------
+#export OMP_NUM_THREADS=1
+#MPI_PREFIX="mpirun -np $NCORE"
+#----------------------------------------------------------------------
+
 #--------------------------------------------------------------------------
 # Environment setting
 
 mopac=/usr/local/bin/mopac
-export OMP_NUM_THREADS=8
-NCPU=1
 
 #--------------------------------------------------------------------------
 
@@ -60,7 +79,7 @@ echo "Number of atoms: "${natoms}
 cp input.mop input.mop_original
 cp input.mop input.mop_tmp
 
-mpirun -np ${NCPU} ${mopac} input.mop
+${MPI_PREFIX} ${mopac} input.mop
 
 # Formation Energy [eV] (KCAL/MOL -> eV)
 FE_old=`awk '{if($1=="FINAL" && $4=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
@@ -115,7 +134,7 @@ do
   #
   #diff input.mop_tmp input.mop
   #
-  mpirun -np ${NCPU} ${mopac} input.mop
+  ${MPI_PREFIX} ${mopac} input.mop
   #
   # Formation Energy [eV]
   FE_new=`awk '{if($1=="FINAL" && $4=="FORMATION"){printf "%f",($6*0.0434)}}' input.out`
