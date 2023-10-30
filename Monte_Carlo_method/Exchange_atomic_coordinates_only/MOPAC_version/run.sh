@@ -75,7 +75,7 @@ do
   yR1=`awk -v R1=${R1} '{if(NR==R1){print $3}}' input.mop_tmp`
   zR1=`awk -v R1=${R1} '{if(NR==R1){print $4}}' input.mop_tmp`
   echo "Line: ${R1}"
-  echo ${xR1}" "${yR1}" "${zR1}
+  echo ${ratom1}" "${xR1}" "${yR1}" "${zR1}
   #
   R2=`echo $(( $RANDOM % ${natoms} + 1 + 3))`
   ratom2=`awk -v R2=${R2} '{if(NR==R2){print $1}}' input.mop_tmp`
@@ -95,7 +95,7 @@ do
   yR2=`awk -v R2=${R2} '{if(NR==R2){print $3}}' input.mop_tmp`
   zR2=`awk -v R2=${R2} '{if(NR==R2){print $4}}' input.mop_tmp`
   echo "Line: ${R2}"
-  echo ${xR2}" "${yR2}" "${zR2}
+  echo ${ratom2}" "${xR2}" "${yR2}" "${zR2}
   echo "-------------"
   echo "This time we will adopt the exchange of atomic coordinates."
   awk -v R1=${R1} -v ratom1=${ratom1} -v xR2=${xR2} -v yR2=${yR2} -v zR2=${zR2} '{
