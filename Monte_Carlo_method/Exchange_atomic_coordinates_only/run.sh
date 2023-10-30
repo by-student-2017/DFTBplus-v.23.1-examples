@@ -33,6 +33,9 @@ NCPU=1
 
 #--------------------------------------------------------------------------
 
+sed -i "s/\r//g" POSCAR
+sed -i "s/\r//g" atom_data.txt
+
 #---------------------------------------------------
 natoms=`awk '{if(NR==7){printf "%d",($1+$2+$3+$4+$5+$6+$7+$8+$9)}}' POSCAR`
 echo "Number of atoms: "${natoms}
@@ -112,8 +115,6 @@ do
 done
 #---------------------------------------------------
 
-sed -i "s/\r//g" POSCAR
-sed -i "s/\r//g" atom_data.txt
 cp POSCAR POSCAR_original
 cp POSCAR POSCAR_tmp
 
