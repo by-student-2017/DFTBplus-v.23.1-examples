@@ -30,7 +30,7 @@ Hamiltonian = xTB {
       }
       AtomSpin = {
         Atoms = 54:54
-        SpinPerAtom = +3.0
+        SpinPerAtom = +5.0
       }
     }
   }
