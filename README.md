@@ -19,8 +19,8 @@
   + As a simple example, I created one that exchanges Al-Cu atomic coordinates. We are trying to make this possible in a multi-component system, but since it takes time, we have decided to just swap the coordinates of Al and Cu in the FCC structure and mix them. It may be repeated alternately with structural optimization.
   + Check the composition and volume with "Akai-KKR", and then check the atomic arrangement with "MOPAC" or "DFTB+" using the Monte Carlo method based on the information on the composition and volume (if possible, relax the structure at the end) We believe that the procedure of checking with OpenMX is valid. All you have to do is check the displacement from the position (position, etc.).
     + [Atomic Displacement and Strength Properties in Equiatomic High Entropy Alloys with the FCC Structure](https://www.jstage.jst.go.jp/article/materia/57/7/57_57.312/_pdf/-char/ja)
-  + A similar attempt was made with MOPAC, but like DFTB+, it took a considerable amount of calculation time.
   + In the case of HEA, even "DFTB+" takes time, so it would be a good idea to have someone create a MEAM potential for Lammps.
+  + A similar attempt was made with MOPAC, but like DFTB+, it took a considerable amount of calculation time.
   + Even the above method requires too much calculation time for researchers who mainly conduct experiments, so we plan to try converting Open Catalyst Project data to potfit format to create MEAM potentials in the future. It would be helpful if someone could go ahead and publish it on github instead of me, as it would reduce my workload.
 - GFN2-xTB
   + I created this item to find out under which calculation conditions GFN2-xTB converges well.
