@@ -1,0 +1,9 @@
+--------------------------------------------------
+See "DFTB+ v.23.1 manual"
+appendix E
+Atomic spin constants
+--------------------------------------------------
+Spin–orbit coupling corrections for the GFN-xTB method
+- G. Jha et al., J. Chem. Phys. 158 (2023) 044120.
+  https://doi.org/10.1063/5.0129071
+--------------------------------------------------
