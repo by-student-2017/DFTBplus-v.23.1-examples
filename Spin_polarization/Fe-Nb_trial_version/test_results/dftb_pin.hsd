@@ -1,0 +1,174 @@
+Geometry = VaspFormat {
+Fe2
+1.0
+8.5201549530         0.0000000000         0.0000000000
+0.0000000000         8.5201549530         0.0000000000
+0.0000000000         0.0000000000         8.5201549530
+Fe  Nb
+53   1
+Cartesian
+0.000000000         0.000000000         0.000000000
+0.000000000         0.000000000         2.840051736
+0.000000000         0.000000000         5.680103471
+0.000000000         2.840051736         0.000000000
+0.000000000         2.840051736         2.840051736
+0.000000000         2.840051736         5.680103471
+0.000000000         5.680103471         0.000000000
+0.000000000         5.680103471         2.840051736
+0.000000000         5.680103471         5.680103471
+2.840051736         0.000000000         0.000000000
+2.840051736         0.000000000         2.840051736
+2.840051736         0.000000000         5.680103471
+2.840051736         2.840051736         0.000000000
+2.840051736         2.840051736         2.840051736
+2.840051736         2.840051736         5.680103471
+2.840051736         5.680103471         0.000000000
+2.840051736         5.680103471         2.840051736
+2.840051736         5.680103471         5.680103471
+5.680103471         0.000000000         0.000000000
+5.680103471         0.000000000         2.840051736
+5.680103471         0.000000000         5.680103471
+5.680103471         2.840051736         0.000000000
+5.680103471         2.840051736         2.840051736
+5.680103471         2.840051736         5.680103471
+5.680103471         5.680103471         0.000000000
+5.680103471         5.680103471         2.840051736
+5.680103471         5.680103471         5.680103471
+1.420025741         1.420025741         1.420025741
+1.420025741         1.420025741         4.260077477
+1.420025741         1.420025741         7.100128958
+1.420025741         4.260077477         1.420025741
+1.420025741         4.260077477         4.260077477
+1.420025741         4.260077477         7.100128958
+1.420025741         7.100128958         1.420025741
+1.420025741         7.100128958         4.260077477
+1.420025741         7.100128958         7.100128958
+4.260077477         1.420025741         1.420025741
+4.260077477         1.420025741         4.260077477
+4.260077477         1.420025741         7.100128958
+4.260077477         4.260077477         1.420025741
+4.260077477         4.260077477         4.260077477
+4.260077477         4.260077477         7.100128958
+4.260077477         7.100128958         1.420025741
+4.260077477         7.100128958         4.260077477
+4.260077477         7.100128958         7.100128958
+7.100128958         1.420025741         1.420025741
+7.100128958         1.420025741         4.260077477
+7.100128958         1.420025741         7.100128958
+7.100128958         4.260077477         1.420025741
+7.100128958         4.260077477         4.260077477
+7.100128958         4.260077477         7.100128958
+7.100128958         7.100128958         1.420025741
+7.100128958         7.100128958         4.260077477
+7.100128958         7.100128958         7.100128958
+}
+Hamiltonian = xTB {
+  Method = "GFN1-xTB"
+  SCC = Yes
+  SCCTolerance = 1.0e-3
+  MaxSCCIterations = 1000
+  Mixer = Broyden {
+    MixingParameter = 0.20
+    InverseJacobiWeight = 0.01
+    WeightFactor = 0.01
+    MinimalWeight = 1.0000000000000000
+    MaximalWeight = 100000.00000000000
+  }
+  Charge = 0.0
+  KPointsAndWeights = SuperCellFolding {
+1 0 0
+0 1 0
+0 0 1
+0.0 0.0 0.0
+  }
+  ShellResolvedSCC = No
+  SpinPolarisation = Colinear {
+    UnpairedElectrons = 0.0
+    RelaxTotalSpin = Yes
+    InitialSpins = {
+      AtomSpin = {
+        Atoms = 1:53
+        SpinPerAtom = +6.0
+      }
+      AtomSpin = {
+        Atoms = 54:54
+        SpinPerAtom = +3.0
+      }
+    }
+  }
+  SpinConstants = {
+    Fe = {
+-0.017 -0.003 -0.001
+-0.003 -0.015 -0.012
+-0.001 -0.012 -0.019
+    }
+    Nb = {
+-0.017 -0.003 -0.001
+-0.003 -0.015 -0.012
+-0.001 -0.012 -0.019
+    }
+    ShellResolvedSpin = Yes
+  }
+  Solver = RelativelyRobust {}
+  ReadInitialCharges = No
+  InitialCharges = {}
+  EwaldParameter = 0.0000000000000000
+  EwaldTolerance = 1.0000000000000001E-009
+  ConvergentSCCOnly = Yes
+  ElectricField = {}
+  Dispersion = {}
+  Solvation = {}
+  Electrostatics = GammaFunctional {}
+  ForceEvaluation = "Traditional"
+  Filling = MethfesselPaxton {
+    Order = 2
+    Temperature [Kelvin] = 300
+    IndependentKFilling = No
+  }
+  Differentiation = FiniteDiff {
+    Delta = 1.2207031250000000E-004
+  }
+}
+Analysis = {
+  ProjectStates = {}
+  WriteEigenvectors = No
+  WriteBandOut = Yes
+  MullikenAnalysis = Yes
+  WriteNetCharges = No
+  AtomResolvedEnergies = No
+  CalculateForces = No
+}
+Options = {
+  WriteDetailedOut = Yes
+  WriteAutotestTag = No
+  WriteDetailedXML = No
+  WriteResultsTag = No
+  RestartFrequency = 20
+  RandomSeed = 0
+  WriteHS = No
+  WriteRealHS = No
+  MinimiseMemoryUsage = No
+  ShowFoldedCoords = No
+  TimingVerbosity = 1
+  WriteCharges = Yes
+  WriteChargesAsText = No
+  BinaryAccessTypes = {
+"stream"
+  }
+}
+ParserOptions = {
+  ParserVersion = 13
+  WriteHSDInput = Yes
+  StopAfterParsing = No
+  IgnoreUnprocessedNodes = No
+}
+Parallel = {
+  UseOmpThreads = Yes
+  Groups = 1
+  Blacs = BlockSize {
+32
+  }
+}
+Reks = None {}
+Driver = {}
+ExcitedState = {}
