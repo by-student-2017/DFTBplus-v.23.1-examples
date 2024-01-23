@@ -70,6 +70,10 @@
 - Adaptation to metal systems requires considerable skill. [CP2]
 - Requires know-how such as virtual temperature.
 
+## Usage (Commands) ######################################
+1. export OMP_NUM_THREADS=8
+2. mpirun -np 1 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
   + [LAMMPS for primers on WindowsPC (for organic materials)](https://makoto-yoneya.github.io/LAMMPS-organics/)
