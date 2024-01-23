@@ -73,6 +73,7 @@
 ## Usage (Commands) ######################################
 1. export OMP_NUM_THREADS=8
 2. mpirun -np 1 dftb+ < dftb_in.hsd | tee dftb_out.hsd
+3. (open geo_end.xyz on Ovito, etc)
 
 ## References ######################################
 - [1] [Makoto Yoneya at Work](https://makoto-yoneya.github.io/)
