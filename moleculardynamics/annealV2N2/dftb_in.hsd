@@ -1,5 +1,5 @@
 Geometry = GenFormat {
-  <<< 80_V2N.gen
+  <<< 80_V2N2.gen
 }
 
 Driver = VelocityVerlet {
