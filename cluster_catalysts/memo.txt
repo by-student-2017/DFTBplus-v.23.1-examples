@@ -1,0 +1,37 @@
+------------------------------------------------------------------------
+Fe7Mo
+RhCo3
+RuIr3
+Mn4Ca
+CuN3
+------------------------------------------------------------------------
+Nitrogenase
+There are three types of nitrogenase found in various nitrogen-fixing bacteria:
+molybdenum (Mo) nitrogenase, vanadium (V) nitrogenase, and iron-only (Fe) nitrogenase.
+https://www.sciencedirect.com/science/article/pii/S1367593106000329?via%3Dihub
+------------------------------------------------------------------------
+MT cluster =< 2nm
+Au39
+https://www.chem.s.u-tokyo.ac.jp/users/chemreact/research.html
+------------------------------------------------------------------------
+Ni15 + C2H4 -> Ni15（+C2H2）+ H2
+Co15 + C2H4 -> Co15（+C2H2）+ H2
+Fe26 + C2H4 -> Fe26（+C2H2）+ H2
+Co4 + NH3 -> Co4(+NH3)
+Fe4 + NH3 -> Fe4(+NH) + H2
+https://www.jstage.jst.go.jp/article/molsci/5/1/5_1_A0044/_pdf/-char/ja
+------------------------------------------------------------------------
+ATP: Mg, Ca
+DNA: Zn
+NH3: Fe7Mo
+https://info.ouj.ac.jp/~hamada/TextLib/kk/chap12/Text/Cs901203.html
+https://www.kyoto-u.ac.jp/sites/default/files/2022-07/220707_ohki-2003a48d75b165bb711a9354b7cc07f4.pdf
+------------------------------------------------------------------------
+https://www.jstage.jst.go.jp/article/jccj/18/1/18_2018-0043/_html/-char/ja
+------------------------------------------------------------------------
+https://www.titech.ac.jp/news/2017/039089
+------------------------------------------------------------------------
+https://www.jstage.jst.go.jp/article/jsssj1980/7/5/7_5_370/_pdf
+------------------------------------------------------------------------
+https://www.jsps.go.jp/file/storage/grants/j-grantsinaid/12_kiban/hyouka21/shinchoku_gaiyo/summary_35_suzuki.pdf
+------------------------------------------------------------------------
