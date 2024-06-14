@@ -19,7 +19,7 @@ Driver = VelocityVerlet{
     Timescale [ps] = 0.1
   }
   
-  Steps = 20000 # 20 ps total
+  Steps = 20000 # 20 ps total (300 steps/h)
   
   MovedAtoms = 1:-1
   
@@ -69,6 +69,7 @@ Hamiltonian = DFTB {
   #}
   
   # SimpleDftD3: DFTB+ internal implementation of the D3-dispersion model.
+  # Becke-Johnson damping, old default values
   Dispersion = SimpleDftD3 {
     a1 = 0.5719
     a2 = 3.6017

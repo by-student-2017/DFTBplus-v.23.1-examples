@@ -1,0 +1,1390 @@
+MD step: 0
+ Nose-Hoover chain variables
+ x:
+    0.1000000000E+01    0.1000000000E+01    0.1000000000E+01
+ v:
+    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+ g:
+    0.0000000000E+00    0.0000000000E+00    0.0000000000E+00
+Lattice vectors (A)
+          0.13040029E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25897057E+02          0.00000000E+00
+         -0.28689221E+01          0.00000000E+00          0.10436896E+02
+Volume:                              0.237847E+05 au^3   0.352452E+04 A^3
+Pressure:                            0.667195E-03 au     0.196296E+11 Pa
+Gibbs free energy:                -415.4986545948 H       -11306.2936 eV
+Gibbs free energy including KE:   -414.1941379325 H       -11270.7959 eV
+Potential Energy:                 -415.4987354373 H       -11306.2958 eV
+MD Kinetic Energy:                   1.3045166629 H           35.4977 eV
+Total MD Energy:                  -414.1942187743 H       -11270.7981 eV
+MD Temperature:                      0.0028328266 au         894.5348 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.00001717    0.00007794   -0.00000947 au
+Dipole moment:    0.00004363    0.00019811   -0.00002407 Debye
+MD step: 100
+ Nose-Hoover chain variables
+ x:
+    0.1883447928E+01    0.1026545659E+02    0.9994949607E+02
+ v:
+    0.1794875373E-03    0.4691757873E-03    0.5592297114E-01
+ g:
+   -0.1974288671E-06    0.2428590435E-04   -0.5164699481E-05
+Lattice vectors (A)
+          0.13040108E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25897214E+02          0.00000000E+00
+         -0.28689394E+01          0.00000000E+00          0.10436959E+02
+Volume:                              0.237851E+05 au^3   0.352459E+04 A^3
+Pressure:                            0.773803E-04 au     0.227661E+10 Pa
+Gibbs free energy:                -417.2746915079 H       -11354.6221 eV
+Gibbs free energy including KE:   -416.4687962317 H       -11332.6925 eV
+Potential Energy:                 -417.2747723518 H       -11354.6243 eV
+MD Kinetic Energy:                   0.8058952763 H           21.9295 eV
+Total MD Energy:                  -416.4688770755 H       -11332.6947 eV
+MD Temperature:                      0.0017500440 au         552.6195 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.44595510    0.09758986   -0.95790394 au
+Dipole moment:    1.13350489    0.24804870   -2.43474917 Debye
+MD step: 200
+ Nose-Hoover chain variables
+ x:
+    0.1829199562E+01    0.1041692650E+02    0.2041360321E+03
+ v:
+    0.1210049750E-03    0.1018674662E-03    0.4485854488E-01
+ g:
+    0.9774869703E-06    0.8100644461E-05   -0.5374448420E-05
+Lattice vectors (A)
+          0.13040111E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25897221E+02          0.00000000E+00
+         -0.28689402E+01          0.00000000E+00          0.10436962E+02
+Volume:                              0.237851E+05 au^3   0.352459E+04 A^3
+Pressure:                           -0.129893E-04 au    -0.382157E+09 Pa
+Gibbs free energy:                -417.3020994723 H       -11355.3679 eV
+Gibbs free energy including KE:   -416.3743993866 H       -11330.1239 eV
+Potential Energy:                 -417.3021803163 H       -11355.3701 eV
+MD Kinetic Energy:                   0.9277000857 H           25.2440 eV
+Total MD Energy:                  -416.3744802306 H       -11330.1261 eV
+MD Temperature:                      0.0020145496 au         636.1437 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.39451916   -0.34467612    0.39857518 au
+Dipole moment:   -1.00276777   -0.87607937    1.01307713 Debye
+MD step: 300
+ Nose-Hoover chain variables
+ x:
+    0.1823910480E+01    0.1043482688E+02    0.2853879777E+03
+ v:
+    0.1988456553E-04   -0.1543269505E-03    0.3375381907E-01
+ g:
+    0.6752703651E-06   -0.5020665734E-05   -0.5361008593E-05
+Lattice vectors (A)
+          0.13040037E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25897074E+02          0.00000000E+00
+         -0.28689239E+01          0.00000000E+00          0.10436902E+02
+Volume:                              0.237847E+05 au^3   0.352453E+04 A^3
+Pressure:                            0.606310E-04 au     0.178382E+10 Pa
+Gibbs free energy:                -417.2702742585 H       -11354.5019 eV
+Gibbs free energy including KE:   -416.3593878033 H       -11329.7154 eV
+Potential Energy:                 -417.2703551010 H       -11354.5041 eV
+MD Kinetic Energy:                   0.9108864552 H           24.7865 eV
+Total MD Energy:                  -416.3594686458 H       -11329.7176 eV
+MD Temperature:                      0.0019780379 au         624.6142 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.90359946    0.01391744    0.23610061 au
+Dipole moment:    2.29672093    0.03537462    0.60010795 Debye
+MD step: 400
+ Nose-Hoover chain variables
+ x:
+    0.1858002018E+01    0.1051137956E+02    0.3436965868E+03
+ v:
+   -0.1031796371E-03    0.2023786899E-03    0.2266543373E-01
+ g:
+    0.2245466773E-06    0.4420175155E-05   -0.5343868266E-05
+Lattice vectors (A)
+          0.13039966E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896931E+02          0.00000000E+00
+         -0.28689081E+01          0.00000000E+00          0.10436845E+02
+Volume:                              0.237843E+05 au^3   0.352447E+04 A^3
+Pressure:                           -0.554318E-04 au    -0.163086E+10 Pa
+Gibbs free energy:                -417.3188947476 H       -11355.8249 eV
+Gibbs free energy including KE:   -416.4202756222 H       -11331.3722 eV
+Potential Energy:                 -417.3189755889 H       -11355.8271 eV
+MD Kinetic Energy:                   0.8986191254 H           24.4527 eV
+Total MD Energy:                  -416.4203564635 H       -11331.3744 eV
+MD Temperature:                      0.0019513988 au         616.2023 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.77209164   -1.10453346   -1.09408505 au
+Dipole moment:   -1.96246137   -2.80744424   -2.78088704 Debye
+MD step: 500
+ Nose-Hoover chain variables
+ x:
+    0.1904162399E+01    0.1028657010E+02    0.3791020149E+03
+ v:
+   -0.3724183390E-04   -0.3456965550E-03    0.1162529150E-01
+ g:
+    0.3286388349E-06   -0.4107440589E-05   -0.5265319292E-05
+Lattice vectors (A)
+          0.13039928E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896856E+02          0.00000000E+00
+         -0.28688998E+01          0.00000000E+00          0.10436815E+02
+Volume:                              0.237841E+05 au^3   0.352444E+04 A^3
+Pressure:                            0.321027E-04 au     0.944495E+09 Pa
+Gibbs free energy:                -417.3767153897 H       -11357.3983 eV
+Gibbs free energy including KE:   -416.4955661383 H       -11333.4210 eV
+Potential Energy:                 -417.3767962302 H       -11357.4005 eV
+MD Kinetic Energy:                   0.8811492514 H           23.9773 eV
+Total MD Energy:                  -416.4956469788 H       -11333.4232 eV
+MD Temperature:                      0.0019134620 au         604.2228 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    1.35228457   -0.27037390   -1.18337131 au
+Dipole moment:    3.43716482   -0.68722195   -3.00783009 Debye
+MD step: 600
+ Nose-Hoover chain variables
+ x:
+    0.1891072997E+01    0.1005350146E+02    0.3919042417E+03
+ v:
+    0.7056948561E-04    0.5387993241E-03    0.8695634283E-03
+ g:
+    0.1651205580E-06   -0.7981972327E-06   -0.5094520689E-05
+Lattice vectors (A)
+          0.13039858E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896717E+02          0.00000000E+00
+         -0.28688844E+01          0.00000000E+00          0.10436759E+02
+Volume:                              0.237837E+05 au^3   0.352438E+04 A^3
+Pressure:                           -0.292844E-04 au    -0.861576E+09 Pa
+Gibbs free energy:                -417.3329963925 H       -11356.2086 eV
+Gibbs free energy including KE:   -416.4733070646 H       -11332.8153 eV
+Potential Energy:                 -417.3330772318 H       -11356.2108 eV
+MD Kinetic Energy:                   0.8596893279 H           23.3933 eV
+Total MD Energy:                  -416.4733879038 H       -11332.8175 eV
+MD Temperature:                      0.0018668606 au         589.5073 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.90708883    0.79675857   -0.72208173 au
+Dipole moment:    2.30559001    2.02515845   -1.83534883 Debye
+MD step: 700
+ Nose-Hoover chain variables
+ x:
+    0.1859611439E+01    0.1061180994E+02    0.3897669389E+03
+ v:
+    0.5387526033E-04    0.3439556412E-02   -0.1247422446E-02
+ g:
+   -0.1420529816E-06   -0.2711582675E-05    0.6445722911E-05
+Lattice vectors (A)
+          0.13039760E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896524E+02          0.00000000E+00
+         -0.28688630E+01          0.00000000E+00          0.10436681E+02
+Volume:                              0.237832E+05 au^3   0.352430E+04 A^3
+Pressure:                           -0.862384E-04 au    -0.253722E+10 Pa
+Gibbs free energy:                -417.2311605215 H       -11353.4375 eV
+Gibbs free energy including KE:   -416.4148855435 H       -11331.2256 eV
+Potential Energy:                 -417.2312413589 H       -11353.4397 eV
+MD Kinetic Energy:                   0.8162749779 H           22.2120 eV
+Total MD Energy:                  -416.4149663810 H       -11331.2278 eV
+MD Temperature:                      0.0017725841 au         559.7371 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.63630726    0.10498056    0.93311737 au
+Dipole moment:    1.61733187    0.26683400    2.37174798 Debye
+MD step: 800
+ Nose-Hoover chain variables
+ x:
+    0.1845353957E+01    0.9071807877E+01    0.3908335990E+03
+ v:
+   -0.3601234652E-04   -0.1091951673E-02    0.3647275740E-02
+ g:
+    0.3796341725E-06   -0.4190390538E-05   -0.4192466944E-05
+Lattice vectors (A)
+          0.13039698E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896399E+02          0.00000000E+00
+         -0.28688491E+01          0.00000000E+00          0.10436630E+02
+Volume:                              0.237828E+05 au^3   0.352425E+04 A^3
+Pressure:                           -0.576903E-05 au    -0.169731E+09 Pa
+Gibbs free energy:                -417.2781812938 H       -11354.7170 eV
+Gibbs free energy including KE:   -416.3907869969 H       -11330.5698 eV
+Potential Energy:                 -417.2782621301 H       -11354.7192 eV
+MD Kinetic Energy:                   0.8873942969 H           24.1472 eV
+Total MD Energy:                  -416.3908678331 H       -11330.5720 eV
+MD Temperature:                      0.0019270234 au         608.5051 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.52015004    1.42546313   -1.15459389 au
+Dipole moment:    1.32208964    3.62316617   -2.93468519 Debye
+MD step: 900
+ Nose-Hoover chain variables
+ x:
+    0.1850801091E+01    0.6826564696E+01    0.3906432679E+03
+ v:
+   -0.1699956638E-03   -0.9705491642E-03   -0.1289753146E-02
+ g:
+    0.1309595120E-06    0.2123071677E-04   -0.4442859720E-05
+Lattice vectors (A)
+          0.13039640E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896285E+02          0.00000000E+00
+         -0.28688365E+01          0.00000000E+00          0.10436585E+02
+Volume:                              0.237825E+05 au^3   0.352421E+04 A^3
+Pressure:                           -0.262904E-04 au    -0.773489E+09 Pa
+Gibbs free energy:                -417.2343783520 H       -11353.5251 eV
+Gibbs free energy including KE:   -416.3943062756 H       -11330.6656 eV
+Potential Energy:                 -417.2344591872 H       -11353.5273 eV
+MD Kinetic Energy:                   0.8400720764 H           22.8595 eV
+Total MD Energy:                  -416.3943871108 H       -11330.6678 eV
+MD Temperature:                      0.0018242608 au         576.0553 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.75600527    5.43899744   -0.03717620 au
+Dipole moment:   -1.92157389   13.82455365   -0.09449249 Debye
+MD step: 1000
+ Nose-Hoover chain variables
+ x:
+    0.1874185322E+01    0.9443019229E+01    0.3893822789E+03
+ v:
+   -0.7771138104E-05   -0.3624144842E-02   -0.8541767855E-03
+ g:
+   -0.1399102034E-06   -0.5329205669E-05    0.7749600436E-05
+Lattice vectors (A)
+          0.13039537E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25896081E+02          0.00000000E+00
+         -0.28688139E+01          0.00000000E+00          0.10436502E+02
+Volume:                              0.237820E+05 au^3   0.352412E+04 A^3
+Pressure:                           -0.328358E-04 au    -0.966062E+09 Pa
+Gibbs free energy:                -417.2584381507 H       -11354.1798 eV
+Gibbs free energy including KE:   -416.4347307218 H       -11331.7656 eV
+Potential Energy:                 -417.2585189839 H       -11354.1820 eV
+MD Kinetic Energy:                   0.8237074289 H           22.4142 eV
+Total MD Energy:                  -416.4348115551 H       -11331.7678 eV
+MD Temperature:                      0.0017887241 au         564.8337 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.20804807    0.21952215    0.85525862 au
+Dipole moment:   -0.52880549    0.55796969    2.17385076 Debye
+MD step: 1100
+ Nose-Hoover chain variables
+ x:
+    0.1876169271E+01    0.5346831453E+01    0.3929704105E+03
+ v:
+    0.1307492321E-03    0.1549118322E-02   -0.1850529958E-03
+ g:
+   -0.2330358223E-06    0.1036000272E-04   -0.2985057826E-05
+Lattice vectors (A)
+          0.13039495E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895997E+02          0.00000000E+00
+         -0.28688046E+01          0.00000000E+00          0.10436468E+02
+Volume:                              0.237817E+05 au^3   0.352409E+04 A^3
+Pressure:                           -0.130127E-04 au    -0.382847E+09 Pa
+Gibbs free energy:                -417.2423163301 H       -11353.7411 eV
+Gibbs free energy including KE:   -416.4399535604 H       -11331.9077 eV
+Potential Energy:                 -417.2423971626 H       -11353.7433 eV
+MD Kinetic Energy:                   0.8023627697 H           21.8334 eV
+Total MD Energy:                  -416.4400343929 H       -11331.9099 eV
+MD Temperature:                      0.0017423730 au         550.1972 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.13236704    1.03145446   -0.05001891 au
+Dipole moment:    0.33644349    2.62169596   -0.12713540 Debye
+MD step: 1200
+ Nose-Hoover chain variables
+ x:
+    0.1771965905E+01    0.4720302359E+01    0.3896346651E+03
+ v:
+    0.7030027831E-05    0.1243891810E-02    0.2067900735E-03
+ g:
+    0.2250094182E-06   -0.5339308391E-05   -0.3837558566E-05
+Lattice vectors (A)
+          0.13039474E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895955E+02          0.00000000E+00
+         -0.28687999E+01          0.00000000E+00          0.10436451E+02
+Volume:                              0.237816E+05 au^3   0.352407E+04 A^3
+Pressure:                           -0.741550E-04 au    -0.218172E+10 Pa
+Gibbs free energy:                -417.1434870013 H       -11351.0518 eV
+Gibbs free energy including KE:   -416.2485070619 H       -11326.6982 eV
+Potential Energy:                 -417.1435678334 H       -11351.0540 eV
+MD Kinetic Energy:                   0.8949799393 H           24.3536 eV
+Total MD Energy:                  -416.2485878941 H       -11326.7004 eV
+MD Temperature:                      0.0019434961 au         613.7068 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.26440551   -3.22477858   -1.28401007 au
+Dipole moment:   -0.67205182   -8.19657023   -3.26362833 Debye
+MD step: 1300
+ Nose-Hoover chain variables
+ x:
+    0.1864937275E+01    0.6213807535E+01    0.3929878359E+03
+ v:
+   -0.1148182817E-03   -0.1882737248E-02    0.3141478949E-03
+ g:
+   -0.2325025233E-07    0.6756936629E-05   -0.1840125854E-05
+Lattice vectors (A)
+          0.13039377E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895763E+02          0.00000000E+00
+         -0.28687787E+01          0.00000000E+00          0.10436374E+02
+Volume:                              0.237811E+05 au^3   0.352399E+04 A^3
+Pressure:                            0.700045E-05 au     0.205960E+09 Pa
+Gibbs free energy:                -417.2619066400 H       -11354.2742 eV
+Gibbs free energy including KE:   -416.4209150879 H       -11331.3896 eV
+Potential Energy:                 -417.2619874703 H       -11354.2764 eV
+MD Kinetic Energy:                   0.8409915522 H           22.8845 eV
+Total MD Energy:                  -416.4209959182 H       -11331.3918 eV
+MD Temperature:                      0.0018262574 au         576.6858 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    1.22879940    2.89763557   -1.51687782 au
+Dipole moment:    3.12329678    7.36505559   -3.85551916 Debye
+MD step: 1400
+ Nose-Hoover chain variables
+ x:
+    0.1890625587E+01    0.7556328417E+01    0.3917981689E+03
+ v:
+   -0.7415948198E-04   -0.1971727050E-03    0.2600229635E-02
+ g:
+   -0.1681662032E-06   -0.3196673060E-06   -0.5345948325E-05
+Lattice vectors (A)
+          0.13039283E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895575E+02          0.00000000E+00
+         -0.28687578E+01          0.00000000E+00          0.10436298E+02
+Volume:                              0.237806E+05 au^3   0.352392E+04 A^3
+Pressure:                           -0.351507E-05 au    -0.103417E+09 Pa
+Gibbs free energy:                -417.2565969662 H       -11354.1297 eV
+Gibbs free energy including KE:   -416.4615074288 H       -11332.4942 eV
+Potential Energy:                 -417.2566777948 H       -11354.1319 eV
+MD Kinetic Energy:                   0.7950895374 H           21.6355 eV
+Total MD Energy:                  -416.4615882573 H       -11332.4964 eV
+MD Temperature:                      0.0017265788 au         545.2098 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.43097022   -0.43569642   -1.56101305 au
+Dipole moment:    1.09541713   -1.10742993   -3.96769974 Debye
+MD step: 1500
+ Nose-Hoover chain variables
+ x:
+    0.1916668063E+01    0.7734943491E+01    0.3899530749E+03
+ v:
+   -0.3038740766E-04    0.3212494654E-02    0.1183882144E-02
+ g:
+   -0.4987340098E-06   -0.4534379025E-05    0.4935296503E-05
+Lattice vectors (A)
+          0.13039259E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895528E+02          0.00000000E+00
+         -0.28687527E+01          0.00000000E+00          0.10436280E+02
+Volume:                              0.237804E+05 au^3   0.352390E+04 A^3
+Pressure:                           -0.427959E-04 au    -0.125910E+10 Pa
+Gibbs free energy:                -417.2829863039 H       -11354.8478 eV
+Gibbs free energy including KE:   -416.5037146748 H       -11333.6427 eV
+Potential Energy:                 -417.2830671320 H       -11354.8500 eV
+MD Kinetic Energy:                   0.7792716290 H           21.2051 eV
+Total MD Energy:                  -416.5037955030 H       -11333.6449 eV
+MD Temperature:                      0.0016922294 au         534.3631 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.69304400   -0.04758485    1.57171566 au
+Dipole moment:    1.76154227   -0.12094864    3.99490305 Debye
+MD step: 1600
+ Nose-Hoover chain variables
+ x:
+    0.1799837199E+01    0.6671959605E+01    0.3905020104E+03
+ v:
+   -0.1029884929E-03   -0.4336694126E-03    0.2869432914E-02
+ g:
+    0.3406316410E-07    0.4383880524E-05   -0.5196756241E-05
+Lattice vectors (A)
+          0.13039177E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895366E+02          0.00000000E+00
+         -0.28687347E+01          0.00000000E+00          0.10436214E+02
+Volume:                              0.237800E+05 au^3   0.352383E+04 A^3
+Pressure:                           -0.158933E-04 au    -0.467597E+09 Pa
+Gibbs free energy:                -417.1313451338 H       -11350.7214 eV
+Gibbs free energy including KE:   -416.3020814761 H       -11328.1560 eV
+Potential Energy:                 -417.1314259604 H       -11350.7236 eV
+MD Kinetic Energy:                   0.8292636577 H           22.5654 eV
+Total MD Energy:                  -416.3021623027 H       -11328.1582 eV
+MD Temperature:                      0.0018007897 au         568.6437 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.34605819    0.05425556   -0.25454813 au
+Dipole moment:    0.87959224    0.13790388   -0.64699687 Debye
+MD step: 1700
+ Nose-Hoover chain variables
+ x:
+    0.1857920287E+01    0.7778527122E+01    0.3915483360E+03
+ v:
+   -0.7795569803E-04   -0.1775325090E-02   -0.1556865720E-02
+ g:
+    0.1304368671E-06    0.2121752774E-06   -0.2233046225E-05
+Lattice vectors (A)
+          0.13039133E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895278E+02          0.00000000E+00
+         -0.28687250E+01          0.00000000E+00          0.10436179E+02
+Volume:                              0.237798E+05 au^3   0.352380E+04 A^3
+Pressure:                            0.193257E-04 au     0.568582E+09 Pa
+Gibbs free energy:                -417.2654115220 H       -11354.3696 eV
+Gibbs free energy including KE:   -416.4069491738 H       -11331.0096 eV
+Potential Energy:                 -417.2654923477 H       -11354.3718 eV
+MD Kinetic Energy:                   0.8584623482 H           23.3599 eV
+Total MD Energy:                  -416.4070299995 H       -11331.0118 eV
+MD Temperature:                      0.0018641962 au         588.6659 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.91785524   -0.64186661    0.69326718 au
+Dipole moment:    2.33295549   -1.63146233    1.76210956 Debye
+MD step: 1800
+ Nose-Hoover chain variables
+ x:
+    0.1881053922E+01    0.5424508807E+01    0.3934106625E+03
+ v:
+   -0.1465353160E-04   -0.7736807337E-03    0.1849573180E-02
+ g:
+   -0.1602363111E-06   -0.5187062765E-05   -0.4786243523E-05
+Lattice vectors (A)
+          0.13039056E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895125E+02          0.00000000E+00
+         -0.28687081E+01          0.00000000E+00          0.10436117E+02
+Volume:                              0.237793E+05 au^3   0.352373E+04 A^3
+Pressure:                            0.149937E-04 au     0.441130E+09 Pa
+Gibbs free energy:                -417.2513585586 H       -11353.9872 eV
+Gibbs free energy including KE:   -416.4429205125 H       -11331.9884 eV
+Potential Energy:                 -417.2514393829 H       -11353.9894 eV
+MD Kinetic Energy:                   0.8084380461 H           21.9987 eV
+Total MD Energy:                  -416.4430013369 H       -11331.9906 eV
+MD Temperature:                      0.0017555658 au         554.3632 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    2.30414416   -0.03998527   -1.12607153 au
+Dipole moment:    5.85655075   -0.10163243   -2.86218858 Debye
+MD step: 1900
+ Nose-Hoover chain variables
+ x:
+    0.1869928588E+01    0.2132197748E+01    0.3936287205E+03
+ v:
+    0.1391618204E-03    0.3967501326E-02   -0.1339452497E-03
+ g:
+    0.3091972993E-06    0.1245127189E-04    0.1035624137E-04
+Lattice vectors (A)
+          0.13039029E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25895071E+02          0.00000000E+00
+         -0.28687021E+01          0.00000000E+00          0.10436095E+02
+Volume:                              0.237792E+05 au^3   0.352371E+04 A^3
+Pressure:                           -0.267888E-04 au    -0.788154E+09 Pa
+Gibbs free energy:                -417.3198396691 H       -11355.8506 eV
+Gibbs free energy including KE:   -416.4265525664 H       -11331.5430 eV
+Potential Energy:                 -417.3199204930 H       -11355.8528 eV
+MD Kinetic Energy:                   0.8932871027 H           24.3076 eV
+Total MD Energy:                  -416.4266333903 H       -11331.5452 eV
+MD Temperature:                      0.0019398200 au         612.5460 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.34921557    1.45778410    0.31656520 au
+Dipole moment:    0.88761752    3.70531790    0.80462855 Debye
+MD step: 2000
+ Nose-Hoover chain variables
+ x:
+    0.1834818344E+01    0.5146051613E+00    0.3950387606E+03
+ v:
+    0.1562414679E-04   -0.3755344592E-02    0.2462756279E-02
+ g:
+   -0.3057740215E-07   -0.5159996440E-05    0.8717787602E-05
+Lattice vectors (A)
+          0.13038918E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894851E+02          0.00000000E+00
+         -0.28686777E+01          0.00000000E+00          0.10436007E+02
+Volume:                              0.237786E+05 au^3   0.352362E+04 A^3
+Pressure:                            0.595399E-05 au     0.175172E+09 Pa
+Gibbs free energy:                -417.2075075098 H       -11352.7939 eV
+Gibbs free energy including KE:   -416.3611881043 H       -11329.7644 eV
+Potential Energy:                 -417.2075883315 H       -11352.7961 eV
+MD Kinetic Energy:                   0.8463194055 H           23.0295 eV
+Total MD Energy:                  -416.3612689261 H       -11329.7666 eV
+MD Temperature:                      0.0018378272 au         580.3392 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.16489853   -2.44146515   -0.19383045 au
+Dipole moment:   -0.41913030   -6.20558593   -0.49266789 Debye
+MD step: 2100
+ Nose-Hoover chain variables
+ x:
+    0.1823526773E+01   -0.2258809438E+01    0.3966889673E+03
+ v:
+   -0.2222381955E-04   -0.4905328314E-03   -0.2618168296E-02
+ g:
+    0.2389975748E-06   -0.4929945199E-05   -0.5144202942E-05
+Lattice vectors (A)
+          0.13038842E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894699E+02          0.00000000E+00
+         -0.28686609E+01          0.00000000E+00          0.10435946E+02
+Volume:                              0.237782E+05 au^3   0.352356E+04 A^3
+Pressure:                           -0.210905E-04 au    -0.620504E+09 Pa
+Gibbs free energy:                -417.2123226616 H       -11352.9249 eV
+Gibbs free energy including KE:   -416.3361289648 H       -11329.0825 eV
+Potential Energy:                 -417.2124034819 H       -11352.9271 eV
+MD Kinetic Energy:                   0.8761936967 H           23.8424 eV
+Total MD Energy:                  -416.3362097852 H       -11329.0847 eV
+MD Temperature:                      0.0019027008 au         600.8247 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.35363947    0.91279384   -0.65136260 au
+Dipole moment:    0.89886195    2.32009070   -1.65559873 Debye
+MD step: 2200
+ Nose-Hoover chain variables
+ x:
+    0.1859017792E+01   -0.1392970005E+01    0.3959817017E+03
+ v:
+   -0.5429189198E-05   -0.3653710858E-04   -0.2074313055E-02
+ g:
+    0.1994830242E-06   -0.5357677916E-05   -0.5383490440E-05
+Lattice vectors (A)
+          0.13038775E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894567E+02          0.00000000E+00
+         -0.28686462E+01          0.00000000E+00          0.10435892E+02
+Volume:                              0.237778E+05 au^3   0.352351E+04 A^3
+Pressure:                           -0.165084E-04 au    -0.485693E+09 Pa
+Gibbs free energy:                -417.2722617781 H       -11354.5560 eV
+Gibbs free energy including KE:   -416.3971590743 H       -11330.7432 eV
+Potential Energy:                 -417.2723425972 H       -11354.5582 eV
+MD Kinetic Energy:                   0.8751027038 H           23.8128 eV
+Total MD Energy:                  -416.3972398934 H       -11330.7454 eV
+MD Temperature:                      0.0019003316 au         600.0765 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.40719820   -1.37635431   -0.21113782 au
+Dipole moment:   -3.57674135   -3.49834400   -0.53665884 Debye
+MD step: 2300
+ Nose-Hoover chain variables
+ x:
+    0.1853932072E+01   -0.8201896384E+00    0.3907802943E+03
+ v:
+    0.2709632568E-04    0.3231009699E-03    0.7391014080E-02
+ g:
+    0.3560840943E-06   -0.4708617193E-05   -0.5280431164E-05
+Lattice vectors (A)
+          0.13038682E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894382E+02          0.00000000E+00
+         -0.28686257E+01          0.00000000E+00          0.10435818E+02
+Volume:                              0.237773E+05 au^3   0.352343E+04 A^3
+Pressure:                           -0.100826E-04 au    -0.296641E+09 Pa
+Gibbs free energy:                -417.2835728990 H       -11354.8637 eV
+Gibbs free energy including KE:   -416.3925097777 H       -11330.6167 eV
+Potential Energy:                 -417.2836537164 H       -11354.8659 eV
+MD Kinetic Energy:                   0.8910631213 H           24.2471 eV
+Total MD Energy:                  -416.3925905951 H       -11330.6189 eV
+MD Temperature:                      0.0019349905 au         611.0209 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.51765292    0.62406761   -0.02918825 au
+Dipole moment:   -1.31574258    1.58622177   -0.07418913 Debye
+MD step: 2400
+ Nose-Hoover chain variables
+ x:
+    0.1829481374E+01   -0.2543965018E+01    0.3957492362E+03
+ v:
+    0.2085571367E-05   -0.2399184697E-02   -0.1817066896E-02
+ g:
+    0.2875884042E-06   -0.5380819411E-05    0.3712618085E-06
+Lattice vectors (A)
+          0.13038665E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894349E+02          0.00000000E+00
+         -0.28686220E+01          0.00000000E+00          0.10435804E+02
+Volume:                              0.237772E+05 au^3   0.352342E+04 A^3
+Pressure:                           -0.167098E-04 au    -0.491618E+09 Pa
+Gibbs free energy:                -417.2262831726 H       -11353.3048 eV
+Gibbs free energy including KE:   -416.3442020369 H       -11329.3022 eV
+Potential Energy:                 -417.2263639897 H       -11353.3070 eV
+MD Kinetic Energy:                   0.8820811357 H           24.0026 eV
+Total MD Energy:                  -416.3442828540 H       -11329.3044 eV
+MD Temperature:                      0.0019154856 au         604.8618 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.61563172    1.18383279    1.90438080 au
+Dipole moment:    1.56477988    3.00900306    4.84045357 Debye
+MD step: 2500
+ Nose-Hoover chain variables
+ x:
+    0.1841762766E+01   -0.3654709286E+01    0.3941616040E+03
+ v:
+   -0.1093243141E-03   -0.4227523880E-03   -0.3828020990E-02
+ g:
+    0.4300333373E-06    0.5622787603E-05   -0.5206105819E-05
+Lattice vectors (A)
+          0.13038530E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894081E+02          0.00000000E+00
+         -0.28685924E+01          0.00000000E+00          0.10435696E+02
+Volume:                              0.237765E+05 au^3   0.352331E+04 A^3
+Pressure:                           -0.316415E-05 au    -0.930925E+08 Pa
+Gibbs free energy:                -417.2554514010 H       -11354.0985 eV
+Gibbs free energy including KE:   -416.3637203900 H       -11329.8333 eV
+Potential Energy:                 -417.2555322156 H       -11354.1007 eV
+MD Kinetic Energy:                   0.8917310110 H           24.2652 eV
+Total MD Energy:                  -416.3638012046 H       -11329.8355 eV
+MD Temperature:                      0.0019364408 au         611.4789 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.11797270    0.66303403    1.68888399 au
+Dipole moment:   -0.29985672    1.68526453    4.29271525 Debye
+MD step: 2600
+ Nose-Hoover chain variables
+ x:
+    0.1883997941E+01   -0.4841186381E+01    0.3952832853E+03
+ v:
+   -0.7382413877E-04   -0.5919527042E-03    0.1331172364E-02
+ g:
+    0.9220005340E-07   -0.3653722093E-06   -0.5034417396E-05
+Lattice vectors (A)
+          0.13038493E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25894008E+02          0.00000000E+00
+         -0.28685842E+01          0.00000000E+00          0.10435667E+02
+Volume:                              0.237763E+05 au^3   0.352328E+04 A^3
+Pressure:                            0.145364E-05 au     0.427674E+08 Pa
+Gibbs free energy:                -417.2759637971 H       -11354.6567 eV
+Gibbs free energy including KE:   -416.4321939928 H       -11331.6965 eV
+Potential Energy:                 -417.2760446110 H       -11354.6589 eV
+MD Kinetic Energy:                   0.8437698043 H           22.9601 eV
+Total MD Energy:                  -416.4322748066 H       -11331.6987 eV
+MD Temperature:                      0.0018322906 au         578.5909 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.77293696   -2.92097718   -1.22191934 au
+Dipole moment:   -1.96460995   -7.42438403   -3.10580942 Debye
+MD step: 2700
+ Nose-Hoover chain variables
+ x:
+    0.1916367865E+01   -0.6240856758E+01    0.3954074584E+03
+ v:
+   -0.9957145249E-04   -0.6779679423E-04   -0.1998908851E-02
+ g:
+   -0.4328708771E-06    0.3746405292E-05   -0.5380228995E-05
+Lattice vectors (A)
+          0.13038416E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893854E+02          0.00000000E+00
+         -0.28685672E+01          0.00000000E+00          0.10435605E+02
+Volume:                              0.237758E+05 au^3   0.352322E+04 A^3
+Pressure:                            0.493903E-05 au     0.145311E+09 Pa
+Gibbs free energy:                -417.2726607877 H       -11354.5668 eV
+Gibbs free energy including KE:   -416.4871926405 H       -11333.1931 eV
+Potential Energy:                 -417.2727416001 H       -11354.5690 eV
+MD Kinetic Energy:                   0.7854681472 H           21.3737 eV
+Total MD Energy:                  -416.4872734529 H       -11333.1953 eV
+MD Temperature:                      0.0017056854 au         538.6122 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.48176601   -0.05001717   -0.37526859 au
+Dipole moment:   -1.22452716   -0.12713099   -0.95383769 Debye
+MD step: 2800
+ Nose-Hoover chain variables
+ x:
+    0.1853193471E+01   -0.5665039342E+01    0.3943335343E+03
+ v:
+   -0.5469986327E-04   -0.3541369392E-02    0.2756418581E-02
+ g:
+    0.1479235716E-06   -0.2629124287E-05    0.7156471771E-05
+Lattice vectors (A)
+          0.13038285E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893593E+02          0.00000000E+00
+         -0.28685383E+01          0.00000000E+00          0.10435500E+02
+Volume:                              0.237751E+05 au^3   0.352311E+04 A^3
+Pressure:                           -0.271055E-04 au    -0.797471E+09 Pa
+Gibbs free energy:                -417.2337367468 H       -11353.5076 eV
+Gibbs free energy including KE:   -416.3792356050 H       -11330.2555 eV
+Potential Energy:                 -417.2338175568 H       -11353.5098 eV
+MD Kinetic Energy:                   0.8545011417 H           23.2522 eV
+Total MD Energy:                  -416.3793164150 H       -11330.2577 eV
+MD Temperature:                      0.0018555942 au         585.9496 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.07750588   -2.05169295    0.51372763 au
+Dipole moment:    0.19700032   -5.21488374    1.30576550 Debye
+MD step: 2900
+ Nose-Hoover chain variables
+ x:
+    0.1899008560E+01   -0.6190202191E+01    0.3965751697E+03
+ v:
+   -0.3970650910E-04   -0.1981103363E-02   -0.1849982982E-02
+ g:
+   -0.8795074193E-07   -0.3932770478E-05   -0.1460054866E-05
+Lattice vectors (A)
+          0.13038267E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893558E+02          0.00000000E+00
+         -0.28685344E+01          0.00000000E+00          0.10435485E+02
+Volume:                              0.237750E+05 au^3   0.352309E+04 A^3
+Pressure:                           -0.126728E-04 au    -0.372847E+09 Pa
+Gibbs free energy:                -417.2938336172 H       -11355.1430 eV
+Gibbs free energy including KE:   -416.4599987565 H       -11332.4532 eV
+Potential Energy:                 -417.2939144268 H       -11355.1452 eV
+MD Kinetic Energy:                   0.8338348607 H           22.6898 eV
+Total MD Energy:                  -416.4600795661 H       -11332.4554 eV
+MD Temperature:                      0.0018107163 au         571.7783 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.42744687    1.09345904   -0.25038806 au
+Dipole moment:   -3.62820832    2.77929588   -0.63642302 Debye
+MD step: 3000
+ Nose-Hoover chain variables
+ x:
+    0.1876442074E+01   -0.3704166349E+01    0.3954264730E+03
+ v:
+   -0.1704790772E-04    0.2758766465E-03   -0.8702535162E-03
+ g:
+   -0.1847131563E-06   -0.5117154104E-05   -0.5308717476E-05
+Lattice vectors (A)
+          0.13038168E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893361E+02          0.00000000E+00
+         -0.28685126E+01          0.00000000E+00          0.10435406E+02
+Volume:                              0.237745E+05 au^3   0.352301E+04 A^3
+Pressure:                            0.896064E-05 au     0.263631E+09 Pa
+Gibbs free energy:                -417.2278514021 H       -11353.3475 eV
+Gibbs free energy including KE:   -416.4208123717 H       -11331.3868 eV
+Potential Energy:                 -417.2279322099 H       -11353.3497 eV
+MD Kinetic Energy:                   0.8070390303 H           21.9606 eV
+Total MD Energy:                  -416.4208931796 H       -11331.3890 eV
+MD Temperature:                      0.0017525278 au         553.4038 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.05697127    2.49929642   -1.29531166 au
+Dipole moment:   -2.68655321    6.35257836   -3.29235410 Debye
+MD step: 3100
+ Nose-Hoover chain variables
+ x:
+    0.1889137948E+01   -0.5885748854E+01    0.3962983367E+03
+ v:
+    0.2559185723E-04    0.1768193186E-02    0.1525357492E-02
+ g:
+   -0.5258177825E-06   -0.4781622753E-05   -0.2258318259E-05
+Lattice vectors (A)
+          0.13038070E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893167E+02          0.00000000E+00
+         -0.28684911E+01          0.00000000E+00          0.10435328E+02
+Volume:                              0.237739E+05 au^3   0.352293E+04 A^3
+Pressure:                           -0.633722E-04 au    -0.186447E+10 Pa
+Gibbs free energy:                -417.2064074700 H       -11352.7640 eV
+Gibbs free energy including KE:   -416.4397272301 H       -11331.9015 eV
+Potential Energy:                 -417.2064882760 H       -11352.7662 eV
+MD Kinetic Energy:                   0.7666802398 H           20.8624 eV
+Total MD Energy:                  -416.4398080362 H       -11331.9037 eV
+MD Temperature:                      0.0016648865 au         525.7290 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.73282783    2.43865555    0.09453144 au
+Dipole moment:   -1.86266271    6.19844463    0.24027498 Debye
+MD step: 3200
+ Nose-Hoover chain variables
+ x:
+    0.1870413365E+01   -0.9527846542E+01    0.3981116459E+03
+ v:
+    0.1481284600E-03    0.1828887936E-05    0.8643194049E-03
+ g:
+    0.1534304533E-06    0.1482379405E-04   -0.5384822055E-05
+Lattice vectors (A)
+          0.13038016E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25893060E+02          0.00000000E+00
+         -0.28684792E+01          0.00000000E+00          0.10435285E+02
+Volume:                              0.237736E+05 au^3   0.352289E+04 A^3
+Pressure:                            0.199853E-04 au     0.587988E+09 Pa
+Gibbs free energy:                -417.2782354304 H       -11354.7185 eV
+Gibbs free energy including KE:   -416.4092476374 H       -11331.0721 eV
+Potential Energy:                 -417.2783162354 H       -11354.7207 eV
+MD Kinetic Energy:                   0.8689877931 H           23.6464 eV
+Total MD Energy:                  -416.4093284423 H       -11331.0743 eV
+MD Temperature:                      0.0018870528 au         595.8834 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.39964581    0.36931568    0.84758835 au
+Dipole moment:    1.01579841    0.93870689    2.15435486 Debye
+MD step: 3300
+ Nose-Hoover chain variables
+ x:
+    0.1866440816E+01   -0.5341096908E+01    0.3952223531E+03
+ v:
+    0.3153956740E-04    0.2949517757E-02    0.9751797662E-03
+ g:
+   -0.6467145194E-07   -0.4468665889E-05    0.3314829599E-05
+Lattice vectors (A)
+          0.13037889E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892807E+02          0.00000000E+00
+         -0.28684513E+01          0.00000000E+00          0.10435183E+02
+Volume:                              0.237729E+05 au^3   0.352279E+04 A^3
+Pressure:                           -0.286683E-04 au    -0.843452E+09 Pa
+Gibbs free energy:                -417.2330503381 H       -11353.4890 eV
+Gibbs free energy including KE:   -416.4031042195 H       -11330.9050 eV
+Potential Energy:                 -417.2331311408 H       -11353.4912 eV
+MD Kinetic Energy:                   0.8299461186 H           22.5840 eV
+Total MD Energy:                  -416.4031850222 H       -11330.9072 eV
+MD Temperature:                      0.0018022717 au         569.1117 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    1.06645023    3.23800123    0.97015651 au
+Dipole moment:    2.71064632    8.23017886    2.46589209 Debye
+MD step: 3400
+ Nose-Hoover chain variables
+ x:
+    0.1910086458E+01   -0.8436715766E+01    0.3974312478E+03
+ v:
+   -0.8704993247E-04   -0.1342906552E-02    0.2338932831E-02
+ g:
+   -0.3683113318E-06    0.1594227774E-05   -0.3581427392E-05
+Lattice vectors (A)
+          0.13037809E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892648E+02          0.00000000E+00
+         -0.28684336E+01          0.00000000E+00          0.10435119E+02
+Volume:                              0.237725E+05 au^3   0.352272E+04 A^3
+Pressure:                           -0.342285E-04 au    -0.100704E+10 Pa
+Gibbs free energy:                -417.2733171095 H       -11354.5847 eV
+Gibbs free energy including KE:   -416.4755299354 H       -11332.8758 eV
+Potential Energy:                 -417.2733979107 H       -11354.5869 eV
+MD Kinetic Energy:                   0.7977871740 H           21.7089 eV
+Total MD Energy:                  -416.4756107366 H       -11332.8780 eV
+MD Temperature:                      0.0017324369 au         547.0596 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.52571408   -1.56700270    1.90271994 au
+Dipole moment:    1.33623200   -3.98292390    4.83623207 Debye
+MD step: 3500
+ Nose-Hoover chain variables
+ x:
+    0.1934706917E+01   -0.8851929704E+01    0.3971840465E+03
+ v:
+    0.3219546386E-05    0.1554675282E-02    0.2572838245E-02
+ g:
+   -0.2023707013E-06   -0.5375278794E-05   -0.2967810167E-05
+Lattice vectors (A)
+          0.13037724E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892480E+02          0.00000000E+00
+         -0.28684150E+01          0.00000000E+00          0.10435051E+02
+Volume:                              0.237720E+05 au^3   0.352265E+04 A^3
+Pressure:                            0.377663E-04 au     0.111112E+10 Pa
+Gibbs free energy:                -417.3225838227 H       -11355.9253 eV
+Gibbs free energy including KE:   -416.5173586309 H       -11334.0140 eV
+Potential Energy:                 -417.3226646223 H       -11355.9275 eV
+MD Kinetic Energy:                   0.8052251918 H           21.9113 eV
+Total MD Energy:                  -416.5174394304 H       -11334.0162 eV
+MD Temperature:                      0.0017485889 au         552.1600 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.64444784   -1.31772616   -0.18640678 au
+Dipole moment:   -4.17976984   -3.34932610   -0.47379880 Debye
+MD step: 3600
+ Nose-Hoover chain variables
+ x:
+    0.1879009154E+01   -0.7706427809E+01    0.3968696389E+03
+ v:
+    0.1129896194E-03   -0.2966263623E-02   -0.1762345124E-02
+ g:
+   -0.3285597356E-06    0.6373263009E-05    0.3413894481E-05
+Lattice vectors (A)
+          0.13037718E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892467E+02          0.00000000E+00
+         -0.28684136E+01          0.00000000E+00          0.10435046E+02
+Volume:                              0.237720E+05 au^3   0.352265E+04 A^3
+Pressure:                           -0.328423E-05 au    -0.966255E+08 Pa
+Gibbs free energy:                -417.2157817837 H       -11353.0191 eV
+Gibbs free energy including KE:   -416.4242281699 H       -11331.4798 eV
+Potential Energy:                 -417.2158625832 H       -11353.0213 eV
+MD Kinetic Energy:                   0.7915536138 H           21.5393 eV
+Total MD Energy:                  -416.4243089694 H       -11331.4820 eV
+MD Temperature:                      0.0017189004 au         542.7852 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.77584213    0.73167196   -0.28247570 au
+Dipole moment:    1.97199416    1.85972478   -0.71798166 Debye
+MD step: 3700
+ Nose-Hoover chain variables
+ x:
+    0.1869303876E+01   -0.6629618729E+01    0.3945774849E+03
+ v:
+   -0.7646348734E-07   -0.4380500111E-03    0.4432598343E-02
+ g:
+    0.4221829138E-06   -0.5384820015E-05   -0.5192937588E-05
+Lattice vectors (A)
+          0.13037630E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892293E+02          0.00000000E+00
+         -0.28683943E+01          0.00000000E+00          0.10434976E+02
+Volume:                              0.237715E+05 au^3   0.352258E+04 A^3
+Pressure:                           -0.240943E-04 au    -0.708880E+09 Pa
+Gibbs free energy:                -417.3367361107 H       -11356.3104 eV
+Gibbs free energy including KE:   -416.4065722454 H       -11330.9993 eV
+Potential Energy:                 -417.3368169085 H       -11356.3126 eV
+MD Kinetic Energy:                   0.9301638652 H           25.3110 eV
+Total MD Energy:                  -416.4066530433 H       -11331.0015 eV
+MD Temperature:                      0.0020198998 au         637.8332 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.07246850    1.84766135    0.29821746 au
+Dipole moment:    0.18419657    4.69628710    0.75799323 Debye
+MD step: 3800
+ Nose-Hoover chain variables
+ x:
+    0.1897037332E+01   -0.1055512096E+02    0.3991903847E+03
+ v:
+    0.4873290967E-04   -0.1556280792E-02    0.1646846887E-02
+ g:
+   -0.1899161966E-06   -0.3197545737E-05   -0.2962815496E-05
+Lattice vectors (A)
+          0.13037545E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892125E+02          0.00000000E+00
+         -0.28683756E+01          0.00000000E+00          0.10434908E+02
+Volume:                              0.237711E+05 au^3   0.352251E+04 A^3
+Pressure:                           -0.187504E-04 au    -0.551656E+09 Pa
+Gibbs free energy:                -417.2758830306 H       -11354.6545 eV
+Gibbs free energy including KE:   -416.4528165940 H       -11332.2577 eV
+Potential Energy:                 -417.2759638268 H       -11354.6567 eV
+MD Kinetic Energy:                   0.8230664366 H           22.3968 eV
+Total MD Energy:                  -416.4528973902 H       -11332.2599 eV
+MD Temperature:                      0.0017873321 au         564.3942 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.55414717   -0.56210866    0.53498086 au
+Dipole moment:   -1.40850172   -1.42873782    1.35978583 Debye
+MD step: 3900
+ Nose-Hoover chain variables
+ x:
+    0.1851768157E+01   -0.1184859002E+02    0.3991396168E+03
+ v:
+    0.9290133777E-04    0.5890464012E-03   -0.3408607608E-02
+ g:
+    0.2199378485E-06    0.2564011132E-05   -0.5037849738E-05
+Lattice vectors (A)
+          0.13037496E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25892027E+02          0.00000000E+00
+         -0.28683648E+01          0.00000000E+00          0.10434869E+02
+Volume:                              0.237708E+05 au^3   0.352247E+04 A^3
+Pressure:                           -0.161079E-04 au    -0.473910E+09 Pa
+Gibbs free energy:                -417.2474890997 H       -11353.8819 eV
+Gibbs free energy including KE:   -416.3743357312 H       -11330.1221 eV
+Potential Energy:                 -417.2475698950 H       -11353.8841 eV
+MD Kinetic Energy:                   0.8731533684 H           23.7597 eV
+Total MD Energy:                  -416.3744165266 H       -11330.1243 eV
+MD Temperature:                      0.0018960985 au         598.7398 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.18998438    0.50960524   -0.41661292 au
+Dipole moment:    0.48289218    1.29528742   -1.05892450 Debye
+MD step: 4000
+ Nose-Hoover chain variables
+ x:
+    0.1841698877E+01   -0.1078210173E+02    0.3980088027E+03
+ v:
+   -0.7001383015E-04   -0.2960079988E-02    0.1270063946E-02
+ g:
+    0.4408470379E-06   -0.8701419644E-06    0.3377248135E-05
+Lattice vectors (A)
+          0.13037371E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891779E+02          0.00000000E+00
+         -0.28683373E+01          0.00000000E+00          0.10434769E+02
+Volume:                              0.237701E+05 au^3   0.352237E+04 A^3
+Pressure:                           -0.187329E-04 au    -0.551141E+09 Pa
+Gibbs free energy:                -417.2619682735 H       -11354.2759 eV
+Gibbs free energy including KE:   -416.3554896393 H       -11329.6093 eV
+Potential Energy:                 -417.2620490665 H       -11354.2781 eV
+MD Kinetic Energy:                   0.9064786342 H           24.6665 eV
+Total MD Energy:                  -416.3555704323 H       -11329.6115 eV
+MD Temperature:                      0.0019684661 au         621.5917 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.14041718   -1.06590029    0.99139465 au
+Dipole moment:   -2.89865157   -2.70924852    2.51987405 Debye
+MD step: 4100
+ Nose-Hoover chain variables
+ x:
+    0.1904467929E+01   -0.1165546723E+02    0.3999988088E+03
+ v:
+   -0.5732004543E-04   -0.1597052186E-02   -0.1604284788E-02
+ g:
+   -0.1914846226E-06   -0.2358799214E-05   -0.2834249716E-05
+Lattice vectors (A)
+          0.13037297E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891632E+02          0.00000000E+00
+         -0.28683211E+01          0.00000000E+00          0.10434709E+02
+Volume:                              0.237697E+05 au^3   0.352231E+04 A^3
+Pressure:                           -0.733871E-06 au    -0.215912E+08 Pa
+Gibbs free energy:                -417.2846824742 H       -11354.8939 eV
+Gibbs free energy including KE:   -416.4653880915 H       -11332.5998 eV
+Potential Energy:                 -417.2847632658 H       -11354.8961 eV
+MD Kinetic Energy:                   0.8192943827 H           22.2941 eV
+Total MD Energy:                  -416.4654688832 H       -11332.6020 eV
+MD Temperature:                      0.0017791409 au         561.8076 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.11885899    2.09992295    0.57673277 au
+Dipole moment:   -2.84385612    5.33747219    1.46590861 Debye
+MD step: 4200
+ Nose-Hoover chain variables
+ x:
+    0.1888714898E+01   -0.9423680340E+01    0.3975120335E+03
+ v:
+    0.5897550124E-04   -0.6736160404E-03   -0.3184512093E-02
+ g:
+   -0.2491889357E-06   -0.2181486324E-05   -0.4931066830E-05
+Lattice vectors (A)
+          0.13037211E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891461E+02          0.00000000E+00
+         -0.28683021E+01          0.00000000E+00          0.10434640E+02
+Volume:                              0.237692E+05 au^3   0.352224E+04 A^3
+Pressure:                           -0.236597E-04 au    -0.696092E+09 Pa
+Gibbs free energy:                -417.2393208176 H       -11353.6596 eV
+Gibbs free energy including KE:   -416.4359702161 H       -11331.7993 eV
+Potential Energy:                 -417.2394016077 H       -11353.6618 eV
+MD Kinetic Energy:                   0.8033506015 H           21.8603 eV
+Total MD Energy:                  -416.4360510061 H       -11331.8015 eV
+MD Temperature:                      0.0017445181 au         550.8746 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    1.34216700   -2.05314196    1.34455780 au
+Dipole moment:    3.41144850   -5.21856676    3.41752531 Debye
+MD step: 4300
+ Nose-Hoover chain variables
+ x:
+    0.1844894402E+01   -0.1254078555E+02    0.4005152233E+03
+ v:
+    0.1381551671E-04   -0.4273281872E-03   -0.2597347834E-03
+ g:
+    0.7997627212E-07   -0.5209035510E-05   -0.5202216021E-05
+Lattice vectors (A)
+          0.13037112E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891264E+02          0.00000000E+00
+         -0.28682803E+01          0.00000000E+00          0.10434561E+02
+Volume:                              0.237687E+05 au^3   0.352216E+04 A^3
+Pressure:                           -0.534856E-04 au    -0.157360E+10 Pa
+Gibbs free energy:                -417.2282371477 H       -11353.3580 eV
+Gibbs free energy including KE:   -416.3580940448 H       -11329.6802 eV
+Potential Energy:                 -417.2283179358 H       -11353.3602 eV
+MD Kinetic Energy:                   0.8701431028 H           23.6778 eV
+Total MD Energy:                  -416.3581748330 H       -11329.6824 eV
+MD Temperature:                      0.0018895616 au         596.6756 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.08228170    4.17188015    0.14250218 au
+Dipole moment:    0.20913923   10.60386249    0.36220445 Debye
+MD step: 4400
+ Nose-Hoover chain variables
+ x:
+    0.1855621545E+01   -0.9900827598E+01    0.3979559366E+03
+ v:
+   -0.7045852970E-04   -0.1023623581E-03   -0.4190460716E-02
+ g:
+   -0.3319428596E-06   -0.8126089407E-06   -0.5374347348E-05
+Lattice vectors (A)
+          0.13037049E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891138E+02          0.00000000E+00
+         -0.28682664E+01          0.00000000E+00          0.10434510E+02
+Volume:                              0.237683E+05 au^3   0.352211E+04 A^3
+Pressure:                            0.194070E-04 au     0.570972E+09 Pa
+Gibbs free energy:                -417.1842639261 H       -11352.1614 eV
+Gibbs free energy including KE:   -416.3813849692 H       -11330.3140 eV
+Potential Energy:                 -417.1843447131 H       -11352.1636 eV
+MD Kinetic Energy:                   0.8028789569 H           21.8474 eV
+Total MD Energy:                  -416.3814657562 H       -11330.3162 eV
+MD Temperature:                      0.0017434939 au         550.5512 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.28283621   -1.89445769   -0.93607050 au
+Dipole moment:    0.71889800   -4.81523152   -2.37925408 Debye
+MD step: 4500
+ Nose-Hoover chain variables
+ x:
+    0.1864547430E+01   -0.1108050931E+02    0.4010324613E+03
+ v:
+   -0.8168477253E-04    0.1451818848E-02    0.9919943107E-03
+ g:
+   -0.1917246524E-07    0.7604568995E-06   -0.3277047434E-05
+Lattice vectors (A)
+          0.13036996E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25891034E+02          0.00000000E+00
+         -0.28682548E+01          0.00000000E+00          0.10434468E+02
+Volume:                              0.237681E+05 au^3   0.352206E+04 A^3
+Pressure:                            0.712397E-05 au     0.209594E+09 Pa
+Gibbs free energy:                -417.2494602523 H       -11353.9355 eV
+Gibbs free energy including KE:   -416.3994612058 H       -11330.8058 eV
+Potential Energy:                 -417.2495410384 H       -11353.9377 eV
+MD Kinetic Energy:                   0.8499990465 H           23.1297 eV
+Total MD Energy:                  -416.3995419918 H       -11330.8080 eV
+MD Temperature:                      0.0018458177 au         582.8624 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.79229316    1.70230960   -0.48101306 au
+Dipole moment:    2.01380850    4.32683975   -1.22261336 Debye
+MD step: 4600
+ Nose-Hoover chain variables
+ x:
+    0.1909928481E+01   -0.8952854791E+01    0.3979178324E+03
+ v:
+   -0.3767986657E-04    0.2132487902E-02    0.2356942011E-02
+ g:
+   -0.1570816308E-06   -0.4077215071E-05   -0.8373207471E-06
+Lattice vectors (A)
+          0.13036928E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890898E+02          0.00000000E+00
+         -0.28682397E+01          0.00000000E+00          0.10434413E+02
+Volume:                              0.237677E+05 au^3   0.352201E+04 A^3
+Pressure:                           -0.651759E-04 au    -0.191754E+10 Pa
+Gibbs free energy:                -417.2994138366 H       -11355.2948 eV
+Gibbs free energy including KE:   -416.4733963340 H       -11332.8177 eV
+Potential Energy:                 -417.2994946214 H       -11355.2970 eV
+MD Kinetic Energy:                   0.8260175026 H           22.4771 eV
+Total MD Energy:                  -416.4734771188 H       -11332.8199 eV
+MD Temperature:                      0.0017937405 au         566.4178 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.97414545   -1.35453403    1.62024160 au
+Dipole moment:   -5.01777764   -3.44288237    4.11824370 Debye
+MD step: 4700
+ Nose-Hoover chain variables
+ x:
+    0.1922744466E+01   -0.1066670507E+02    0.3986845437E+03
+ v:
+    0.6057162761E-04    0.1722797213E-02    0.2384272698E-02
+ g:
+   -0.4762245297E-06   -0.2005748172E-05   -0.2416795164E-05
+Lattice vectors (A)
+          0.13036851E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890746E+02          0.00000000E+00
+         -0.28682229E+01          0.00000000E+00          0.10434352E+02
+Volume:                              0.237673E+05 au^3   0.352195E+04 A^3
+Pressure:                            0.322561E-04 au     0.949006E+09 Pa
+Gibbs free energy:                -417.2706376095 H       -11354.5118 eV
+Gibbs free energy including KE:   -416.4955580095 H       -11333.4208 eV
+Potential Energy:                 -417.2707183928 H       -11354.5140 eV
+MD Kinetic Energy:                   0.7750796000 H           21.0910 eV
+Total MD Energy:                  -416.4956387928 H       -11333.4230 eV
+MD Temperature:                      0.0016831262 au         531.4886 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.20288016   -1.13013678    0.94192251 au
+Dipole moment:   -3.05741666   -2.87252140    2.39412842 Debye
+MD step: 4800
+ Nose-Hoover chain variables
+ x:
+    0.1868708655E+01   -0.8074472697E+01    0.3979837837E+03
+ v:
+    0.3094623181E-04    0.7016450193E-04   -0.2107809395E-02
+ g:
+    0.2846593476E-06   -0.4502812009E-05   -0.5379902343E-05
+Lattice vectors (A)
+          0.13036807E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890659E+02          0.00000000E+00
+         -0.28682133E+01          0.00000000E+00          0.10434317E+02
+Volume:                              0.237670E+05 au^3   0.352191E+04 A^3
+Pressure:                           -0.245610E-04 au    -0.722610E+09 Pa
+Gibbs free energy:                -417.3095364402 H       -11355.5703 eV
+Gibbs free energy including KE:   -416.4065017625 H       -11330.9974 eV
+Potential Energy:                 -417.3096172227 H       -11355.5724 eV
+MD Kinetic Energy:                   0.9030346777 H           24.5728 eV
+Total MD Energy:                  -416.4065825451 H       -11330.9996 eV
+MD Temperature:                      0.0019609874 au         619.2301 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.35322398    3.25187296   -0.18001518 au
+Dipole moment:   -0.89780588    8.26543728   -0.45755298 Debye
+MD step: 4900
+ Nose-Hoover chain variables
+ x:
+    0.1918607723E+01   -0.7494453480E+01    0.3945954640E+03
+ v:
+   -0.4532043541E-04    0.2498017098E-02    0.4985613208E-02
+ g:
+   -0.5077248688E-07   -0.3493144942E-05    0.8552640212E-06
+Lattice vectors (A)
+          0.13036720E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890486E+02          0.00000000E+00
+         -0.28681941E+01          0.00000000E+00          0.10434247E+02
+Volume:                              0.237666E+05 au^3   0.352184E+04 A^3
+Pressure:                           -0.821456E-05 au    -0.241681E+09 Pa
+Gibbs free energy:                -417.3231285189 H       -11355.9401 eV
+Gibbs free energy including KE:   -416.4904723036 H       -11333.2824 eV
+Potential Energy:                 -417.3232092998 H       -11355.9423 eV
+MD Kinetic Energy:                   0.8326562152 H           22.6577 eV
+Total MD Energy:                  -416.4905530845 H       -11333.2846 eV
+MD Temperature:                      0.0018081568 au         570.9701 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.49170624   -0.26078624   -1.63058980 au
+Dipole moment:   -3.79153937   -0.66285255   -4.14454621 Debye
+MD step: 5000
+ Nose-Hoover chain variables
+ x:
+    0.1912049351E+01   -0.6831060412E+01    0.3957902656E+03
+ v:
+    0.4729590351E-04    0.3361724080E-02   -0.2511805407E-02
+ g:
+   -0.1206368198E-06   -0.3324638208E-05    0.5916363390E-05
+Lattice vectors (A)
+          0.13036680E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890405E+02          0.00000000E+00
+         -0.28681852E+01          0.00000000E+00          0.10434215E+02
+Volume:                              0.237663E+05 au^3   0.352181E+04 A^3
+Pressure:                            0.222395E-04 au     0.654309E+09 Pa
+Gibbs free energy:                -417.3098601602 H       -11355.5791 eV
+Gibbs free energy including KE:   -416.4814800496 H       -11333.0377 eV
+Potential Energy:                 -417.3099409404 H       -11355.5813 eV
+MD Kinetic Energy:                   0.8283801107 H           22.5414 eV
+Total MD Energy:                  -416.4815608297 H       -11333.0399 eV
+MD Temperature:                      0.0017988710 au         568.0379 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.09706761   -1.20259127   -1.97064607 au
+Dipole moment:   -0.24672127   -3.05668237   -5.00888310 Debye
+MD step: 5100
+ Nose-Hoover chain variables
+ x:
+    0.1871861083E+01   -0.4125554109E+01    0.3906111877E+03
+ v:
+    0.5668355837E-04   -0.7531433120E-03   -0.6954547164E-02
+ g:
+    0.4340476414E-06   -0.2425628648E-05   -0.4817600552E-05
+Lattice vectors (A)
+          0.13036600E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890248E+02          0.00000000E+00
+         -0.28681677E+01          0.00000000E+00          0.10434151E+02
+Volume:                              0.237659E+05 au^3   0.352174E+04 A^3
+Pressure:                           -0.541222E-04 au    -0.159233E+10 Pa
+Gibbs free energy:                -417.3343595942 H       -11356.2457 eV
+Gibbs free energy including KE:   -416.4134074797 H       -11331.1853 eV
+Potential Energy:                 -417.3344403728 H       -11356.2479 eV
+MD Kinetic Energy:                   0.9209521144 H           25.0604 eV
+Total MD Energy:                  -416.4134882584 H       -11331.1875 eV
+MD Temperature:                      0.0019998960 au         631.5165 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -0.29754663    0.58788198   -0.41355893 au
+Dipole moment:   -0.75628815    1.49424707   -1.05116204 Debye
+MD step: 5200
+ Nose-Hoover chain variables
+ x:
+    0.1851579672E+01   -0.2310402780E+01    0.3936740234E+03
+ v:
+   -0.1129809301E-03    0.1284009862E-02    0.2459265555E-02
+ g:
+   -0.1245261526E-06    0.6371454621E-05   -0.3736144074E-05
+Lattice vectors (A)
+          0.13036518E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25890085E+02          0.00000000E+00
+         -0.28681496E+01          0.00000000E+00          0.10434086E+02
+Volume:                              0.237654E+05 au^3   0.352168E+04 A^3
+Pressure:                           -0.162085E-04 au    -0.476870E+09 Pa
+Gibbs free energy:                -417.2300791357 H       -11353.4081 eV
+Gibbs free energy including KE:   -416.3835814576 H       -11330.3737 eV
+Potential Energy:                 -417.2301599129 H       -11353.4103 eV
+MD Kinetic Energy:                   0.8464976781 H           23.0344 eV
+Total MD Energy:                  -416.3836622348 H       -11330.3759 eV
+MD Temperature:                      0.0018382143 au         580.4615 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.57960725    0.92737560    0.21156984 au
+Dipole moment:    1.47321480    2.35715385    0.53775693 Debye
+MD step: 5300
+ Nose-Hoover chain variables
+ x:
+    0.1869554750E+01    0.6888046342E+00    0.3906703195E+03
+ v:
+   -0.1168784602E-04    0.4332853425E-02    0.6262873610E-03
+ g:
+    0.2377451953E-07   -0.5259011510E-05    0.1338879341E-04
+Lattice vectors (A)
+          0.13036458E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889964E+02          0.00000000E+00
+         -0.28681363E+01          0.00000000E+00          0.10434037E+02
+Volume:                              0.237651E+05 au^3   0.352163E+04 A^3
+Pressure:                            0.224528E-04 au     0.660584E+09 Pa
+Gibbs free energy:                -417.2564330380 H       -11354.1252 eV
+Gibbs free energy including KE:   -416.4113088461 H       -11331.1282 eV
+Potential Energy:                 -417.2565138141 H       -11354.1274 eV
+MD Kinetic Energy:                   0.8451241920 H           22.9970 eV
+Total MD Energy:                  -416.4113896221 H       -11331.1304 eV
+MD Temperature:                      0.0018352317 au         579.5196 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.72950939   -0.50983280    1.87873562 au
+Dipole moment:    1.85422806   -1.29586582    4.77527001 Debye
+MD step: 5400
+ Nose-Hoover chain variables
+ x:
+    0.1944473587E+01   -0.8918636058E+00    0.3910594067E+03
+ v:
+   -0.7274963983E-04   -0.2302482333E-02   -0.1481968096E-02
+ g:
+   -0.6558205855E-06   -0.5104236020E-06   -0.8340050737E-07
+Lattice vectors (A)
+          0.13036400E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889851E+02          0.00000000E+00
+         -0.28681237E+01          0.00000000E+00          0.10433991E+02
+Volume:                              0.237648E+05 au^3   0.352158E+04 A^3
+Pressure:                            0.107039E-04 au     0.314918E+09 Pa
+Gibbs free energy:                -417.2683641234 H       -11354.4499 eV
+Gibbs free energy including KE:   -416.5357831234 H       -11334.5154 eV
+Potential Energy:                 -417.2684448984 H       -11354.4521 eV
+MD Kinetic Energy:                   0.7325810000 H           19.9345 eV
+Total MD Energy:                  -416.5358638984 H       -11334.5176 eV
+MD Temperature:                      0.0015908382 au         502.3464 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.97610990   -1.25343050   -0.33210503 au
+Dipole moment:    2.48102409   -3.18590282   -0.84412685 Debye
+MD step: 5500
+ Nose-Hoover chain variables
+ x:
+    0.1866324576E+01   -0.9053272139E+00    0.3937618565E+03
+ v:
+    0.8187447713E-04   -0.2510175891E-02    0.1594478948E-02
+ g:
+    0.3072646826E-06    0.7890336344E-06    0.9161576060E-06
+Lattice vectors (A)
+          0.13036316E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889683E+02          0.00000000E+00
+         -0.28681051E+01          0.00000000E+00          0.10433924E+02
+Volume:                              0.237643E+05 au^3   0.352151E+04 A^3
+Pressure:                           -0.327663E-04 au    -0.964018E+09 Pa
+Gibbs free energy:                -417.2999044667 H       -11355.3082 eV
+Gibbs free energy including KE:   -416.4107960924 H       -11331.1143 eV
+Potential Energy:                 -417.2999852401 H       -11355.3104 eV
+MD Kinetic Energy:                   0.8891083743 H           24.1939 eV
+Total MD Energy:                  -416.4108768658 H       -11331.1165 eV
+MD Temperature:                      0.0019307457 au         609.6805 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.76418597    1.33108223    0.70989136 au
+Dipole moment:   -4.48411384    3.38327383    1.80436400 Debye
+MD step: 5600
+ Nose-Hoover chain variables
+ x:
+    0.1850400666E+01   -0.1489131512E+01    0.3933109580E+03
+ v:
+    0.4332789088E-04    0.8208100393E-03   -0.2178816744E-02
+ g:
+    0.9539438522E-07   -0.3655826456E-05   -0.4711096280E-05
+Lattice vectors (A)
+          0.13036215E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889483E+02          0.00000000E+00
+         -0.28680830E+01          0.00000000E+00          0.10433843E+02
+Volume:                              0.237638E+05 au^3   0.352143E+04 A^3
+Pressure:                            0.142314E-04 au     0.418703E+09 Pa
+Gibbs free energy:                -417.2542781531 H       -11354.0666 eV
+Gibbs free energy including KE:   -416.3781784907 H       -11330.2267 eV
+Potential Energy:                 -417.2543589247 H       -11354.0688 eV
+MD Kinetic Energy:                   0.8760996625 H           23.8399 eV
+Total MD Energy:                  -416.3782592621 H       -11330.2289 eV
+MD Temperature:                      0.0019024966 au         600.7602 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:    0.03397330    2.48550327   -0.62639914 au
+Dipole moment:    0.08635153    6.31751966   -1.59214793 Debye
+MD step: 5700
+ Nose-Hoover chain variables
+ x:
+    0.1816610904E+01   -0.2577929761E+01    0.3910468698E+03
+ v:
+    0.1033400263E-03   -0.4678453607E-04    0.4040764504E-02
+ g:
+    0.3896554202E-06    0.4450681907E-05   -0.5382636607E-05
+Lattice vectors (A)
+          0.13036194E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889441E+02          0.00000000E+00
+         -0.28680784E+01          0.00000000E+00          0.10433826E+02
+Volume:                              0.237637E+05 au^3   0.352141E+04 A^3
+Pressure:                            0.566999E-07 au     0.166817E+07 Pa
+Gibbs free energy:                -417.2266274027 H       -11353.3142 eV
+Gibbs free energy including KE:   -416.3165477926 H       -11328.5497 eV
+Potential Energy:                 -417.2267081738 H       -11353.3164 eV
+MD Kinetic Energy:                   0.9100796101 H           24.7645 eV
+Total MD Energy:                  -416.3166285637 H       -11328.5519 eV
+MD Temperature:                      0.0019762858 au         624.0610 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.17351993   -3.51635311    0.32575485 au
+Dipole moment:   -2.98279038   -8.93767883    0.82798631 Debye
+MD step: 5800
+ Nose-Hoover chain variables
+ x:
+    0.1829626588E+01   -0.1466774965E+01    0.3920261941E+03
+ v:
+   -0.2891684486E-04    0.3603563944E-02   -0.9324750341E-03
+ g:
+    0.3508178287E-06   -0.4614700013E-05    0.7600847699E-05
+Lattice vectors (A)
+          0.13036083E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889221E+02          0.00000000E+00
+         -0.28680539E+01          0.00000000E+00          0.10433738E+02
+Volume:                              0.237631E+05 au^3   0.352132E+04 A^3
+Pressure:                           -0.117165E-05 au    -0.344711E+08 Pa
+Gibbs free energy:                -417.2443399633 H       -11353.7962 eV
+Gibbs free energy including KE:   -416.3411477129 H       -11329.2191 eV
+Potential Energy:                 -417.2444207323 H       -11353.7984 eV
+MD Kinetic Energy:                   0.9031922504 H           24.5771 eV
+Total MD Energy:                  -416.3412284819 H       -11329.2213 eV
+MD Temperature:                      0.0019613295 au         619.3381 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.01936868    1.09669825    1.55812489 au
+Dipole moment:   -2.59097695    2.78752913    3.96035875 Debye
+MD step: 5900
+ Nose-Hoover chain variables
+ x:
+    0.1891864664E+01    0.2567184496E+01    0.3873847057E+03
+ v:
+   -0.2271871612E-04    0.5379415656E-02   -0.8318624844E-03
+ g:
+   -0.3131453701E-06   -0.4909460403E-05    0.2355328740E-04
+Lattice vectors (A)
+          0.13036045E+02          0.00000000E+00          0.00000000E+00
+          0.00000000E+00          0.25889145E+02          0.00000000E+00
+         -0.28680455E+01          0.00000000E+00          0.10433707E+02
+Volume:                              0.237629E+05 au^3   0.352129E+04 A^3
+Pressure:                           -0.858819E-05 au    -0.252673E+09 Pa
+Gibbs free energy:                -417.2298107789 H       -11353.4008 eV
+Gibbs free energy including KE:   -416.4488729864 H       -11332.1504 eV
+Potential Energy:                 -417.2298915472 H       -11353.4030 eV
+MD Kinetic Energy:                   0.7809377924 H           21.2504 eV
+Total MD Energy:                  -416.4489537548 H       -11332.1526 eV
+MD Temperature:                      0.0016958475 au         535.5057 K
+Warning: dipole moment is not defined absolutely!
+Dipole moment:   -1.73579227   -1.25798934    1.27156629 au
+Dipole moment:   -4.41194424   -3.19749023    3.23199939 Debye
+MD step: 6000
+ Nose-Hoover chain variables
+ x:
+    0.1812478843E+01    0.2062311164E+01    0.3875195433E+03
+ v:
+    0.1157126784E-03   -0.2256679595E-02   -0.2888312484E-02
+ g:
+    0.2221696615E-06    0.6946834060E-05   -0.2922226061E-06
+Lattice vectors (A)
+          0.13036014E+02          0.00000000E+00          0.00000000E+00

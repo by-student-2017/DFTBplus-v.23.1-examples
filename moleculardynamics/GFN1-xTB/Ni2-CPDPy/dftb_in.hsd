@@ -65,6 +65,7 @@ Hamiltonian = xTB {
   #}
   
   # SimpleDftD3: DFTB+ internal implementation of the D3-dispersion model.
+  # Becke-Johnson damping, old default values
   Dispersion = SimpleDftD3 {
     a1 = 0.5719
     a2 = 3.6017
