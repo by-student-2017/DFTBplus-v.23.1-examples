@@ -1,0 +1,12 @@
+#-----------------------------------------------------
+TEST: v.23.1
+1. Prepare the molecular structure file (in.xyz or in.gen)
+2. In dftb_in.hsd, set the NrOfExcitations, StateOfInterest, and Symmetry settings to suit your purposes.
+3. dftb+ < dftb_in.hsd
+4. waveplot < waveplot_in.hsd
+5. Kohn-Sham state 37 (the HOMO): wp-1-1-37-real.cube -> VESTA (Simply drag and drop it into VESTA.)
+6. Kohn-Sham state 38 (the LUMO): wp-1-1-38-real.cube -> VESTA (Simply drag and drop it into VESTA.)
+#-----------------------------------------------------
+you can get slater-koster parameters and wfc from
+  https://dftb.org/parameters/download
+#-----------------------------------------------------
