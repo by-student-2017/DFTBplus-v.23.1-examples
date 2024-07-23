@@ -10,7 +10,7 @@ TEST: v.23.1
 you can get slater-koster parameters and wfc from
   https://dftb.org/parameters/download
 #-----------------------------------------------------
-other codes
+other codes for the Natural_transition_orbitals (NTO)
 PySCF (free): https://pyscf.org/user/tddft.html
 ORCA (academic): https://sites.google.com/site/orcainputlibrary/excited-state-calculations/tddft
 PC GAMESS/Firefly NTO generation (free): http://classic.chem.msu.su/gran/gamess/nto.html
