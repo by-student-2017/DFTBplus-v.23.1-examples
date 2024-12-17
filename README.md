@@ -126,7 +126,3 @@
   + [VaspBandUnfolding](https://github.com/QijingZheng/VaspBandUnfolding)
   + [easyunfold](https://github.com/SMTG-Bham/easyunfold)
 - [C.-C. Lee, et al., J. Phys.: Condens. Matter 25 (2013) 345501.](10.1088/0953-8984/25/34/345501)
-
-## Acknowledgment ######################################
-- This project (modified version) is/was partially supported by the following :
-  + ATSUMITEC Co., Ltd.
