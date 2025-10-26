@@ -7,7 +7,7 @@ NCPU=1
 
 #--------------------------------------------------------------------------
 
-rm -f band.out charges.bin detailed.out dftb_out.hsd dftb_pin.hsd POSCAR
+rm -f band.out charges.bin detailed.out dftb_out.hsd dftb_pin.hsd POSCAR
 
 #--------------------------------------------------------------------------
 
