@@ -22,7 +22,7 @@ Hamiltonian = DFTB {
   }
   SlaterKosterFiles = Type2FileNames {
     # https://dftb.org/parameters/download.html
-    Prefix = "./../complete_set/"
+    Prefix = "./complete_set/"
     Separator = "-"
     Suffix = ".skf"
     #LowerCaseTypeName = No
